@@ -1,0 +1,18 @@
+{
+    "GS_G_NC5": {
+        "Mnemonic": "GS_G_NC5",
+        "Description": "n-Penthane",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/00001_demo"
+    },
+    "GS_ROP": {
+        "Mnemonic": "GS_ROP",
+        "Description": "Rate of penetration",
+        "DataType": "double",
+        "Unit": "m/h",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/00001_demo"
+    }
+}

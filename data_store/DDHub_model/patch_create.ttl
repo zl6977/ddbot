@@ -1,0 +1,200 @@
+@prefix : <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ddhub: <http://ddhub.no/> .
+@base <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix zzz: <http://ddhub.demo/zzz#> .
+
+###  http://ddhub.demo/zzz#commonlyUsedMnemonics
+zzz:commonMnemonics rdf:type owl:AnnotationProperty ;
+                            rdfs:range xsd:string .
+
+###  http://ddhub.no/ElectricPotentialQuantity
+ddhub:ElectricPotentialQuantity a owl:Class ;
+    rdfs:comment """The electric potential energy per unit charge. This value can be calculated in either a static (time-invariant) or a dynamic (time-varying) electric field at a specific time with the unit joules per coulomb (J⋅C-1) or volt (V).
+"""@EN ;
+    rdfs:subClassOf ddhub:Quantity .
+
+###  http://ddhub.no/ConcentrationQuantity
+ddhub:ConcentrationQuantity a owl:Class ;
+    rdfs:comment """Concentration is the abundance of a constituent divided by the total volume of a mixture. Several types of mathematical description can be distinguished: mass concentration, molar concentration, number concentration, and volume concentration.
+"""@EN ;
+    rdfs:subClassOf ddhub:Quantity .
+
+###  http://ddhub.no/ConcentrationGasDrillingQuantity
+ddhub:ConcentrationGasDrillingQuantity a owl:Class ;
+    rdfs:comment """For gas, the molar concentration or volume concentration are commonly used.
+"""@EN ;
+    rdfs:subClassOf ddhub:MeasurableQuantity .
+
+###  http://ddhub.no/ParticleFluxIntensityQuantity
+ddhub:ParticleFluxIntensityQuantity a owl:Class ;
+    rdfs:comment """The rate at which particles (such as photons, neutrons, alpha particles, beta particles, or other quanta) pass through a unit area per unit time. It represents the particle flux density, commonly used in radiation physics, nuclear engineering, and geophysics. Dimension is L^{-2}T^{-1}.
+"""@EN ;
+    rdfs:subClassOf ddhub:Quantity .
+
+###  http://ddhub.no/GammaRadiationIntensityDrillingQuantity
+ddhub:GammaRadiationIntensityDrillingQuantity a owl:Class ;
+    rdfs:comment """A measurable quantity representing the intensity of natural gamma radiation detected in the drilling environment, typically during Measurement-While-Drilling (MWD) or Logging-While-Drilling (LWD) operations. It expresses the particle flux density of gamma photons originating from naturally occurring radioactive isotopes in the formation (primarily potassium-40, uranium, and thorium). The meaningful precision in the drilling context is typically: 1 gAPI, or count per second.
+"""@EN ;
+    rdfs:subClassOf ddhub:MeasurableQuantity .
+
+###  http://ddhub.no/SlownessQuantity
+ddhub:SlownessQuantity a owl:Class ;
+    rdfs:comment """The reciprocal of velocity, representing the time required for a wave, signal, or physical process to propagate through a unit length of medium. Dimension is L^{-1}T.
+"""@EN ;
+    rdfs:subClassOf ddhub:Quantity .
+
+###  http://ddhub.no/SlownessDrillingQuantity
+ddhub:SlownessDrillingQuantity a owl:Class ;
+    rdfs:comment """The Inverse Rate of Penetration (ROPI) is a form of slowness describing drilling time per unit depth. The meaningful precision in the drilling context is typically: 0.1 s/m.
+"""@EN ;
+    rdfs:subClassOf ddhub:MeasurableQuantity .
+
+###  http://ddhub.no/ElectricalConductivityQuantity
+ddhub:ElectricalConductivityQuantity a owl:Class ;
+    rdfs:comment """A measurable quantity that characterizes the ability of a material to conduct electric current. Electrical conductivity is the reciprocal of resistivity and expresses how strongly a given material allows the flow of electric charge under an applied electric field. Dimension is M^{-1}L^{-3}T^{3}I^{2}.
+"""@EN ;
+    rdfs:subClassOf ddhub:Quantity .
+
+###  http://ddhub.no/ElectricalConductivityDrillingQuantity
+ddhub:ElectricalConductivityDrillingQuantity a owl:Class ;
+    rdfs:comment """A measurable quantity representing the electrical conductivity of the subsurface formation as determined from resistivity logging tools in the drilling environment (e.g., IMP, ARC, AIT). It expresses the ability of the formation to conduct electrical current, derived as the reciprocal of resistivity. The meaningful precision in the drilling context is typically: 1 mS/m.
+"""@EN ;
+    rdfs:subClassOf ddhub:MeasurableQuantity .
+
+###  http://ddhub.no/CountDrillingQuantity
+ddhub:CountDrillingQuantity a owl:Class ;
+    rdfs:comment """The number of discrete events, particles, or objects counted in the drilling environment. It is used for measurements such as pump strokes, detector counts, or other drilling-related countable signals. It is dimensionless. The meaningful precision in the drilling context is typically: 1.
+"""@EN ;
+    rdfs:subClassOf ddhub:MeasurableQuantity .
+
+###  http://ddhub.no/ThousandKilogramForce
+ddhub:ThousandKilogramForce rdf:type owl:Class ;
+                            rdfs:subClassOf ddhub:Unit ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty ddhub:IsUnitForQuantity ;
+                                              owl:allValuesFrom [ a owl:Class ;
+                                                        owl:unionOf ( ddhub:TensionQuantity ddhub:ForceQuantity ddhub:GravitationalLoadQuantity ) ]
+                                            ] ;
+                            zzz:commonMnemonics "kkgf"@en ;
+                            rdfs:comment "1 ThousandKilogramForce = 1000 KilogramForce." .
+
+###  http://ddhub.no/TonForce
+ddhub:TonForce rdf:type owl:Class ;
+                            rdfs:subClassOf ddhub:Unit ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty ddhub:IsUnitForQuantity ;
+                                              owl:allValuesFrom [ a owl:Class ;
+                                                        owl:unionOf (ddhub:TensionQuantity ddhub:ForceQuantity ddhub:GravitationalLoadQuantity) ]
+                                            ] ;
+                            zzz:commonMnemonics "tonf"@en ;
+                            rdfs:comment "1 TonForce = 1000 KilogramForce. It is equivalent to kkgf. It represents the force of gravity produced by a mass of 1 ton." .
+
+###  http://ddhub.no/GammaRayAPI
+ddhub:GammaRayAPI rdf:type owl:Class ;
+                            rdfs:subClassOf ddhub:Unit ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty ddhub:IsUnitForQuantity ;
+                                              owl:allValuesFrom [ a owl:Class ;
+                                                        owl:unionOf (ddhub:ParticleFluxIntensityQuantity ) ]
+                                            ] ;
+                            zzz:commonMnemonics "gAPI"@en ;
+                            rdfs:comment "A standardized unit of gamma radiation intensity used in well logging, defined by the American Petroleum Institute (API). It is based on calibration against the API gamma ray test pit, where 200 counts per second corresponds to 100 API units." .
+
+###  http://ddhub.no/SecondPerMeter
+ddhub:SecondPerMeter rdf:type owl:Class ;
+                            rdfs:subClassOf ddhub:Unit ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty ddhub:IsUnitForQuantity ;
+                                              owl:allValuesFrom [ a owl:Class ;
+                                                        owl:unionOf (ddhub:SlownessQuantity ) ]
+                                            ] ;
+                            zzz:commonMnemonics "s/m"@en ;
+                            rdfs:comment "The SI coherent derived unit of slowness, representing the time taken for a wave, particle, or process to travel one meter of distance. It is the reciprocal of velocity." .
+
+###  http://ddhub.no/SiemensPerMeter
+ddhub:SiemensPerMeter rdf:type owl:Class ;
+                            rdfs:subClassOf ddhub:Unit ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty ddhub:IsUnitForQuantity ;
+                                              owl:allValuesFrom [ a owl:Class ;
+                                                        owl:unionOf (ddhub:ElectricalConductivityQuantity ) ]
+                                            ] ;
+                            zzz:commonMnemonics "S/m"@en ;
+                            rdfs:comment "The SI coherent derived unit of electrical conductivity, defined as one siemens of conductance per meter of length. It represents the ability of a material to conduct electric current through a unit length." .
+
+###  http://ddhub.no/MicroSiemensPerMeter
+ddhub:MicroSiemensPerMeter rdf:type owl:Class ;
+                            rdfs:subClassOf ddhub:Unit ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty ddhub:IsUnitForQuantity ;
+                                              owl:allValuesFrom [ a owl:Class ;
+                                                        owl:unionOf (ddhub:ElectricalConductivityQuantity ) ]
+                                            ] ;
+                            zzz:commonMnemonics "mS/m"@en ;
+                            rdfs:comment "A decimal submultiple of the SI unit of electrical conductivity, representing one millionth of a siemens per meter. 1 MicroSiemensPerMeter = 0.001 SiemensPerMeter" .
+
+###  http://ddhub.no/Siemens
+ddhub:Siemens rdf:type owl:Class ;
+                            rdfs:subClassOf ddhub:Unit ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty ddhub:IsUnitForQuantity ;
+                                              owl:allValuesFrom [ a owl:Class ;
+                                                        owl:unionOf (ddhub:ElectricalConductanceQuantity ) ]
+                                            ] ;
+                            zzz:commonMnemonics "S"@en ;
+                            rdfs:comment "The SI derived unit of electrical conductance, equal to the reciprocal of one ohm. It quantifies the ease with which electric current flows through a conductor when a potential difference is applied." .
+
+ddhub:OutOfSetQuantity a owl:Class ;
+    rdfs:comment """Represents a quantity that is not defined, This class is used to handle cases where the general concept of the quantity is understood but no representative instance is available.
+"""@EN ;
+   rdfs:subClassOf ddhub:Quantity .
+
+ddhub:OutOfSetMeasurableQuantity a owl:Class ;
+    rdfs:comment """Represents a measurable quantity that is not defined, This class is used to handle cases where the general concept of the measurable quantity is understood but no representative instance is available.
+"""@EN ;
+    rdfs:subClassOf ddhub:MeasurableQuantity .
+
+ddhub:OutOfSetPrototypeData a owl:Class ;
+    rdfs:comment """Represents prototype data that is not defined, This class is used to handle cases where the general concept of the prototype data is understood but no representative instance is available.
+"""@EN ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom ddhub:OutOfSetMeasurableQuantity ;
+            owl:onProperty ddhub:IsOfMeasurableQuantity ],
+        ddhub:PrototypeData .
+
+ddhub:OutOfSetUnit a owl:Class ;
+    rdfs:comment """Represents a unit that is not defined, This class is used to handle cases where the general concept of the unit is understood but no representative instance is available.
+"""@EN ;
+    rdfs:subClassOf ddhub:Unit .
+
+ddhub:UncertainQuantity a owl:Class ;
+    rdfs:comment """Represents a quantity that is uncertain, This class is used to handle cases where we can't determine the exact value of a quantity,
+for example because of no description, badly defined mnemonic, or no unit description.
+"""@EN ;
+    rdfs:subClassOf ddhub:Quantity .
+
+ddhub:UncertainMeasurableQuantity a owl:Class ;
+    rdfs:comment """Represents a measurable quantity that is uncertain, This class is used to handle cases where we can't determine the exact value of a measurable quantity,
+for example because of no description, badly defined mnemonic, or no unit description.
+"""@EN ;
+    rdfs:subClassOf ddhub:MeasurableQuantity .
+
+ddhub:UncertainPrototypeData a owl:Class ;
+    rdfs:comment """Represents prototype data that is uncertain, This class is used to handle cases where we can't determine the exact value of the prototype data,
+for example because of no description, badly defined mnemonic, or no unit description.
+"""@EN ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom ddhub:UncertainMeasurableQuantity ;
+            owl:onProperty ddhub:IsOfMeasurableQuantity ],
+        ddhub:PrototypeData .
+
+ddhub:UncertainUnit a owl:Class ;
+    rdfs:comment """Represents a unit that is uncertain, This class is used to handle cases where we can't determine the exact value of a unit,
+for example because of no description, badly defined mnemonic, or no unit description.
+"""@EN ;
+    rdfs:subClassOf ddhub:Unit .

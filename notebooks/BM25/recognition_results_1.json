@@ -1,0 +1,5105 @@
+{
+  "SPM2": {
+    "Raw_content": "{'Mnemonic': 'SPM2', 'Description in data log': 'Pump 2 Stroke Rate', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV05": {
+    "Raw_content": "{'Mnemonic': 'GS_TV05', 'Description in data log': 'MudPit Volume Average 5', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TOFB": {
+    "Raw_content": "{'Mnemonic': 'TOFB', 'Description in data log': 'zzz:undefined', 'Unit': 's', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DynamicViscosityQuantity",
+    "Quantity_class_candidates": {
+      "DynamicViscosityQuantity": 0.21996516262555835,
+      "GravitationalLoadQuantity": 0.2171949206819566,
+      "MassQuantity": 0.20175726938078722,
+      "RandomWalkQuantity": 0.1970260698203644,
+      "PressureRateOfChangeQuantity": 0.16405657749133354
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.9990122929213293,
+      "SurveyorSChain": 0.00098770704237309,
+      "Aangstroem": 1.2099175292176787e-11,
+      "Abampere": 1.2099175292176787e-11,
+      "Acre": 1.2099175292176787e-11
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.41121275535386353,
+      "OverburdenPressure": 0.31459404959849663,
+      "DownholeECD": 0.27388681950160304,
+      "ActiveVolume": 0.00015318777301839723,
+      "Azimuth": 0.00015318777301839723
+    }
+  },
+  "BVEL": {
+    "Raw_content": "{'Mnemonic': 'BVEL', 'Description in data log': 'Block Velocity', 'Unit': 'm/s', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MAG_DEC": {
+    "Raw_content": "{'Mnemonic': 'MAG_DEC', 'Description in data log': 'zzz:undefined', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_MDOA": {
+    "Raw_content": "{'Mnemonic': 'GS_MDOA', 'Description in data log': 'Mud Density Out', 'Unit': 'g/cm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "RPM30s": {
+    "Raw_content": "{'Mnemonic': 'RPM30s', 'Description in data log': 'zzz:undefined', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9999760038662098,
+      "ForceRateOfChangeQuantity": 5.999033447459637e-06,
+      "PressureRateOfChangeQuantity": 5.999033447459637e-06,
+      "TorqueRateOfChangeQuantity": 5.999033447459637e-06,
+      "RotationalFrequencyRateOfChangeQuantity": 5.999033447459637e-06
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.9999999997795532,
+      "Aangstroem": 5.511174383521048e-11,
+      "Abampere": 5.511174383521048e-11,
+      "Acre": 5.511174383521048e-11,
+      "Ampere": 5.511174383521048e-11
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.5184099404047643,
+      "SurfaceRPM": 0.4667118156731065,
+      "MechanicalSpecificEnergy": 0.01478889572011116,
+      "ActiveVolume": 4.467410100901236e-05,
+      "Azimuth": 4.467410100901236e-05
+    }
+  },
+  "GS_TV09": {
+    "Raw_content": "{'Mnemonic': 'GS_TV09', 'Description in data log': 'MudPit Volume Average 9', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TTV1": {
+    "Raw_content": "{'Mnemonic': 'GS_TTV1', 'Description in data log': 'TripTank Volume 1', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GTF_RT": {
+    "Raw_content": "{'Mnemonic': 'GTF_RT', 'Description in data log': 'MWD Gravity Toolface', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_CHKP": {
+    "Raw_content": "{'Mnemonic': 'GS_CHKP', 'Description in data log': 'Casing (choke) pressure', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Kilopascal",
+    "Unit_class_candidates": {
+      "Kilopascal": 0.9999999999348184,
+      "Aangstroem": 1.6295347875386676e-11,
+      "Abampere": 1.6295347875386676e-11,
+      "Acre": 1.6295347875386676e-11,
+      "Ampere": 1.6295347875386676e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "INCL_CONT_RT": {
+    "Raw_content": "{'Mnemonic': 'INCL_CONT_RT', 'Description in data log': 'MWD Continuous Inclination', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHYC_USL": {
+    "Raw_content": "{'Mnemonic': 'SHYC_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "AZIM_CONT_RT": {
+    "Raw_content": "{'Mnemonic': 'AZIM_CONT_RT', 'Description in data log': 'MWD Continuous Azimuth', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "BITRUN": {
+    "Raw_content": "{'Mnemonic': 'BITRUN', 'Description in data log': 'Bit run number', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_G_NC5": {
+    "Raw_content": "{'Mnemonic': 'GS_G_NC5', 'Description in data log': 'n-Penthane', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "PartPerMillion",
+    "Unit_class_candidates": {
+      "PartPerMillion": 0.9931263945752485,
+      "KilogramForcePerSecond": 0.0018026667966720951,
+      "KilogramForce": 0.001763604091768584,
+      "KilogramForceMetre": 0.0017254777669947871,
+      "KilogramForceMetrePerSecond": 0.0015818567693158074
+    },
+    "PrototypeData_class": "FlowRateIn",
+    "PrototypeData_class_candidates": {
+      "FlowRateIn": 0.4999999991671755,
+      "FlowRateOut": 0.4999999991671755,
+      "ActiveVolume": 5.5521624248465e-10,
+      "Azimuth": 5.5521624248465e-10,
+      "BOPOpening": 5.5521624248465e-10
+    }
+  },
+  "TTONB": {
+    "Raw_content": "{'Mnemonic': 'TTONB', 'Description in data log': 'zzz:undefined', 'Unit': 's', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DynamicViscosityQuantity",
+    "Quantity_class_candidates": {
+      "DynamicViscosityQuantity": 0.21996516262555835,
+      "GravitationalLoadQuantity": 0.2171949206819566,
+      "MassQuantity": 0.20175726938078722,
+      "RandomWalkQuantity": 0.1970260698203644,
+      "PressureRateOfChangeQuantity": 0.16405657749133354
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.9990122929213293,
+      "SurveyorSChain": 0.00098770704237309,
+      "Aangstroem": 1.2099175292176787e-11,
+      "Abampere": 1.2099175292176787e-11,
+      "Acre": 1.2099175292176787e-11
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.41121275535386353,
+      "OverburdenPressure": 0.31459404959849663,
+      "DownholeECD": 0.27388681950160304,
+      "ActiveVolume": 0.00015318777301839723,
+      "Azimuth": 0.00015318777301839723
+    }
+  },
+  "FVOC": {
+    "Raw_content": "{'Mnemonic': 'FVOC', 'Description in data log': 'Fill/gain volume obs. (cum)', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'Hydraulics'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHKTOT_RT": {
+    "Raw_content": "{'Mnemonic': 'SHKTOT_RT', 'Description in data log': 'MWD Total Shocks', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "STWT": {
+    "Raw_content": "{'Mnemonic': 'STWT', 'Description in data log': 'String weight (rot,avg)', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ROP2M": {
+    "Raw_content": "{'Mnemonic': 'ROP2M', 'Description in data log': 'Rate of Penetration 2 minute average', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TFLO": {
+    "Raw_content": "{'Mnemonic': 'GS_TFLO', 'Description in data log': 'Flow Pumps', 'Unit': 'L/min', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "CUREDT_RT": {
+    "Raw_content": "{'Mnemonic': 'CUREDT_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRV_GZ": {
+    "Raw_content": "{'Mnemonic': 'SRV_GZ', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "THKD": {
+    "Raw_content": "{'Mnemonic': 'THKD', 'Description in data log': 'Total Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MBOT": {
+    "Raw_content": "{'Mnemonic': 'MBOT', 'Description in data log': 'On Bottom Status', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "HKLD30s": {
+    "Raw_content": "{'Mnemonic': 'HKLD30s', 'Description in data log': 'zzz:undefined', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV07": {
+    "Raw_content": "{'Mnemonic': 'GS_TV07', 'Description in data log': 'MudPit Volume Average 7', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TVA": {
+    "Raw_content": "{'Mnemonic': 'GS_TVA', 'Description in data log': 'Tank volume (active)', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV12": {
+    "Raw_content": "{'Mnemonic': 'GS_TV12', 'Description in data log': 'MudPit Volume Average 12', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SGZC_USL": {
+    "Raw_content": "{'Mnemonic': 'SGZC_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MWD_POS": {
+    "Raw_content": "{'Mnemonic': 'MWD_POS', 'Description in data log': 'MWD Frame Position', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_RPM": {
+    "Raw_content": "{'Mnemonic': 'GS_RPM', 'Description in data log': 'Averaged RPM', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9999999999999991,
+      "ForceRateOfChangeQuantity": 2.159111718678962e-16,
+      "PressureRateOfChangeQuantity": 2.159111718678962e-16,
+      "TorqueRateOfChangeQuantity": 2.159111718678962e-16,
+      "RotationalFrequencyRateOfChangeQuantity": 2.159111718678962e-16
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 1.0,
+      "Aangstroem": 1.67391137113525e-31,
+      "Abampere": 1.67391137113525e-31,
+      "Acre": 1.67391137113525e-31,
+      "Ampere": 1.67391137113525e-31
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.578137240243288,
+      "SurfaceRPM": 0.42184933772540345,
+      "MechanicalSpecificEnergy": 1.3422030568504823e-05,
+      "ActiveVolume": 3.699801712864038e-13,
+      "Azimuth": 3.699801712864038e-13
+    }
+  },
+  "RGX_RT": {
+    "Raw_content": "{'Mnemonic': 'RGX_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TVDE": {
+    "Raw_content": "{'Mnemonic': 'TVDE', 'Description in data log': 'Extrapolated Hole TVD', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GRM1": {
+    "Raw_content": "{'Mnemonic': 'GRM1', 'Description in data log': 'MWD Gamma Ray (API BH corrected)', 'Unit': 'gAPI', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DRET": {
+    "Raw_content": "{'Mnemonic': 'DRET', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "CPOF": {
+    "Raw_content": "{'Mnemonic': 'CPOF', 'Description in data log': 'Trip/Ream/Drill On Bottom Stat', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_G_IC4": {
+    "Raw_content": "{'Mnemonic': 'GS_G_IC4', 'Description in data log': 'Iso-butane (IC4)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "PartPerMillion",
+    "Unit_class_candidates": {
+      "PartPerMillion": 0.9931263945752485,
+      "KilogramForcePerSecond": 0.0018026667966720951,
+      "KilogramForce": 0.001763604091768584,
+      "KilogramForceMetre": 0.0017254777669947871,
+      "KilogramForceMetrePerSecond": 0.0015818567693158074
+    },
+    "PrototypeData_class": "FlowRateIn",
+    "PrototypeData_class_candidates": {
+      "FlowRateIn": 0.4999999991671755,
+      "FlowRateOut": 0.4999999991671755,
+      "ActiveVolume": 5.5521624248465e-10,
+      "Azimuth": 5.5521624248465e-10,
+      "BOPOpening": 5.5521624248465e-10
+    }
+  },
+  "SRVAZI": {
+    "Raw_content": "{'Mnemonic': 'SRVAZI', 'Description in data log': 'zzz:undefined', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SPPA": {
+    "Raw_content": "{'Mnemonic': 'SPPA', 'Description in data log': 'Average Standpipe Pressure', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Kilopascal",
+    "Unit_class_candidates": {
+      "Kilopascal": 0.9999999999348184,
+      "Aangstroem": 1.6295347875386676e-11,
+      "Abampere": 1.6295347875386676e-11,
+      "Acre": 1.6295347875386676e-11,
+      "Ampere": 1.6295347875386676e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MWD_VAL": {
+    "Raw_content": "{'Mnemonic': 'MWD_VAL', 'Description in data log': 'MWD Transmitted Counts', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TOTAL_CORR": {
+    "Raw_content": "{'Mnemonic': 'TOTAL_CORR', 'Description in data log': 'zzz:undefined', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ConcentrationQuantity",
+    "Quantity_class_candidates": {
+      "ConcentrationQuantity": 0.9437056570335063,
+      "MagneticFluxQuantity": 0.05629434293189372,
+      "ForceRateOfChangeQuantity": 1.1533402156289048e-11,
+      "PressureRateOfChangeQuantity": 1.1533402156289048e-11,
+      "TorqueRateOfChangeQuantity": 1.1533402156289048e-11
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "HoleDepth",
+    "PrototypeData_class_candidates": {
+      "HoleDepth": 0.9966582028453826,
+      "HookLoad": 0.003341796965938132,
+      "ActiveVolume": 6.289301050449909e-11,
+      "Azimuth": 6.289301050449909e-11,
+      "BOPOpening": 6.289301050449909e-11
+    }
+  },
+  "TCHR": {
+    "Raw_content": "{'Mnemonic': 'TCHR', 'Description in data log': 'Time chrom sample', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TFLO": {
+    "Raw_content": "{'Mnemonic': 'TFLO', 'Description in data log': 'Mud Flow In', 'Unit': 'L/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TOFF": {
+    "Raw_content": "{'Mnemonic': 'TOFF', 'Description in data log': 'zzz:undefined', 'Unit': 's', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DynamicViscosityQuantity",
+    "Quantity_class_candidates": {
+      "DynamicViscosityQuantity": 0.21996516262555835,
+      "GravitationalLoadQuantity": 0.2171949206819566,
+      "MassQuantity": 0.20175726938078722,
+      "RandomWalkQuantity": 0.1970260698203644,
+      "PressureRateOfChangeQuantity": 0.16405657749133354
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.9990122929213293,
+      "SurveyorSChain": 0.00098770704237309,
+      "Aangstroem": 1.2099175292176787e-11,
+      "Abampere": 1.2099175292176787e-11,
+      "Acre": 1.2099175292176787e-11
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.41121275535386353,
+      "OverburdenPressure": 0.31459404959849663,
+      "DownholeECD": 0.27388681950160304,
+      "ActiveVolume": 0.00015318777301839723,
+      "Azimuth": 0.00015318777301839723
+    }
+  },
+  "MWD_SLIDE": {
+    "Raw_content": "{'Mnemonic': 'MWD_SLIDE', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "RPM": {
+    "Raw_content": "{'Mnemonic': 'RPM', 'Description in data log': 'Average Rotary Speed', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9999999999999991,
+      "ForceRateOfChangeQuantity": 2.159111718678962e-16,
+      "PressureRateOfChangeQuantity": 2.159111718678962e-16,
+      "TorqueRateOfChangeQuantity": 2.159111718678962e-16,
+      "RotationalFrequencyRateOfChangeQuantity": 2.159111718678962e-16
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 1.0,
+      "Aangstroem": 1.67391137113525e-31,
+      "Abampere": 1.67391137113525e-31,
+      "Acre": 1.67391137113525e-31,
+      "Ampere": 1.67391137113525e-31
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.578137240243288,
+      "SurfaceRPM": 0.42184933772540345,
+      "MechanicalSpecificEnergy": 1.3422030568504823e-05,
+      "ActiveVolume": 3.699801712864038e-13,
+      "Azimuth": 3.699801712864038e-13
+    }
+  },
+  "HKLD": {
+    "Raw_content": "{'Mnemonic': 'HKLD', 'Description in data log': 'Average Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.9999999996554427,
+      "ActiveVolume": 8.613922002826704e-11,
+      "Azimuth": 8.613922002826704e-11,
+      "BOPOpening": 8.613922002826704e-11,
+      "BOPPressure": 8.613922002826704e-11
+    }
+  },
+  "GS_TV08": {
+    "Raw_content": "{'Mnemonic': 'GS_TV08', 'Description in data log': 'MudPit Volume Average 8', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "HKLI": {
+    "Raw_content": "{'Mnemonic': 'HKLI', 'Description in data log': 'zzz:undefined', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_SPM3": {
+    "Raw_content": "{'Mnemonic': 'GS_SPM3', 'Description in data log': 'Pump Speed 3', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_G_C2": {
+    "Raw_content": "{'Mnemonic': 'GS_G_C2', 'Description in data log': 'Ethane (C2)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "PartPerMillion",
+    "Unit_class_candidates": {
+      "PartPerMillion": 0.9931263945752485,
+      "KilogramForcePerSecond": 0.0018026667966720951,
+      "KilogramForce": 0.001763604091768584,
+      "KilogramForceMetre": 0.0017254777669947871,
+      "KilogramForceMetrePerSecond": 0.0015818567693158074
+    },
+    "PrototypeData_class": "FlowRateIn",
+    "PrototypeData_class_candidates": {
+      "FlowRateIn": 0.4999999991671755,
+      "FlowRateOut": 0.4999999991671755,
+      "ActiveVolume": 5.5521624248465e-10,
+      "Azimuth": 5.5521624248465e-10,
+      "BOPOpening": 5.5521624248465e-10
+    }
+  },
+  "SHK3TM_RT": {
+    "Raw_content": "{'Mnemonic': 'SHK3TM_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'min', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Minute",
+    "Unit_class_candidates": {
+      "Minute": 0.9999999999376135,
+      "Aangstroem": 1.5596650653397086e-11,
+      "Abampere": 1.5596650653397086e-11,
+      "Acre": 1.5596650653397086e-11,
+      "Ampere": 1.5596650653397086e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ECD_MW_IN": {
+    "Raw_content": "{'Mnemonic': 'ECD_MW_IN', 'Description in data log': 'zzz:undefined', 'Unit': 'g/cm3', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "PressureLossConstantQuantity",
+    "Quantity_class_candidates": {
+      "PressureLossConstantQuantity": 0.34788139237327254,
+      "AngleMagneticFluxDensityQuantity": 0.23241174358899344,
+      "EnergyQuantity": 0.19421638745195988,
+      "CompressibilityQuantity": 0.13672558489712294,
+      "ProportionQuantity": 0.08876489168865107
+    },
+    "Unit_class": "Megawatt",
+    "Unit_class_candidates": {
+      "Megawatt": 0.5,
+      "Microwatt": 0.5,
+      "Octant": 4.894948035013908e-21,
+      "Quadrant": 4.894948035013908e-21,
+      "Sextant": 4.894948035013908e-21
+    },
+    "PrototypeData_class": "DownholeECD",
+    "PrototypeData_class_candidates": {
+      "DownholeECD": 0.9999999999213616,
+      "BitDepth": 2.9875737307977513e-11,
+      "MinimumHorizontalStress": 1.8648695664149677e-11,
+      "ActiveVolume": 1.5298463648953515e-11,
+      "SPP": 1.4815631020247435e-11
+    }
+  },
+  "GS_TV11": {
+    "Raw_content": "{'Mnemonic': 'GS_TV11', 'Description in data log': 'Tank 11 Volume', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_ROP": {
+    "Raw_content": "{'Mnemonic': 'GS_ROP', 'Description in data log': 'Rate of penetration', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "VelocityQuantity",
+    "Quantity_class_candidates": {
+      "VelocityQuantity": 0.9999983407016043,
+      "ForceRateOfChangeQuantity": 4.148245988071736e-07,
+      "PressureRateOfChangeQuantity": 4.148245988071736e-07,
+      "TorqueRateOfChangeQuantity": 4.148245988071736e-07,
+      "RotationalFrequencyRateOfChangeQuantity": 4.148245988071736e-07
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.9999980894987199,
+      "MechanicalSpecificEnergy": 1.9104892343240205e-06,
+      "ActiveVolume": 4.015238902698387e-12,
+      "Azimuth": 4.015238902698387e-12,
+      "BOPOpening": 4.015238902698387e-12
+    }
+  },
+  "DNI_MP": {
+    "Raw_content": "{'Mnemonic': 'DNI_MP', 'Description in data log': 'zzz:undefined', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRVTVD": {
+    "Raw_content": "{'Mnemonic': 'SRVTVD', 'Description in data log': 'zzz:undefined', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "RSDX": {
+    "Raw_content": "{'Mnemonic': 'RSDX', 'Description in data log': 'Running speed-down (max)', 'Unit': 'm/s', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_SWOB": {
+    "Raw_content": "{'Mnemonic': 'GS_SWOB', 'Description in data log': 'Averaged WOB', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ETSL": {
+    "Raw_content": "{'Mnemonic': 'ETSL', 'Description in data log': 'Elapsed time in-slips', 'Unit': 's', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "DynamicViscosityQuantity",
+    "Quantity_class_candidates": {
+      "DynamicViscosityQuantity": 0.21996516262555835,
+      "GravitationalLoadQuantity": 0.2171949206819566,
+      "MassQuantity": 0.20175726938078722,
+      "RandomWalkQuantity": 0.1970260698203644,
+      "PressureRateOfChangeQuantity": 0.16405657749133354
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.9990122929213293,
+      "SurveyorSChain": 0.00098770704237309,
+      "Aangstroem": 1.2099175292176787e-11,
+      "Abampere": 1.2099175292176787e-11,
+      "Acre": 1.2099175292176787e-11
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.41121275535386353,
+      "OverburdenPressure": 0.31459404959849663,
+      "DownholeECD": 0.27388681950160304,
+      "ActiveVolume": 0.00015318777301839723,
+      "Azimuth": 0.00015318777301839723
+    }
+  },
+  "SWOB": {
+    "Raw_content": "{'Mnemonic': 'SWOB', 'Description in data log': 'Weight on Bit', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SWOB30s": {
+    "Raw_content": "{'Mnemonic': 'SWOB30s', 'Description in data log': 'zzz:undefined', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ROPI": {
+    "Raw_content": "{'Mnemonic': 'ROPI', 'Description in data log': 'Inverse ROP', 'Unit': 's/m', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_GASA": {
+    "Raw_content": "{'Mnemonic': 'GS_GASA', 'Description in data log': 'Gas (avg)', 'Unit': '%', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Percent",
+    "Unit_class_candidates": {
+      "Percent": 0.999999999942875,
+      "Aangstroem": 1.4281196174983438e-11,
+      "Abampere": 1.4281196174983438e-11,
+      "Acre": 1.4281196174983438e-11,
+      "Ampere": 1.4281196174983438e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TRPOUT_CT": {
+    "Raw_content": "{'Mnemonic': 'TRPOUT_CT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV14": {
+    "Raw_content": "{'Mnemonic': 'GS_TV14', 'Description in data log': 'MudPit Volume Average 14', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ROPH": {
+    "Raw_content": "{'Mnemonic': 'ROPH', 'Description in data log': '1/2ft ROP', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SPM1": {
+    "Raw_content": "{'Mnemonic': 'SPM1', 'Description in data log': 'Pump 1 Stroke Rate', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRVEW": {
+    "Raw_content": "{'Mnemonic': 'SRVEW', 'Description in data log': 'zzz:undefined', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SGYC_USL": {
+    "Raw_content": "{'Mnemonic': 'SGYC_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TQA": {
+    "Raw_content": "{'Mnemonic': 'GS_TQA', 'Description in data log': 'Averaged TRQ', 'Unit': 'kN.m', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "KilonewtonMetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetre": 0.9999999844547904,
+      "Kilonewton": 1.2131486781122381e-08,
+      "Metre": 1.3230198264006819e-09,
+      "NewtonMetre": 1.1274870467940404e-09,
+      "CubicMetre": 9.63215842629917e-10
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "CWOB": {
+    "Raw_content": "{'Mnemonic': 'CWOB', 'Description in data log': 'Corrected Surface Weight on Bit', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DBTM": {
+    "Raw_content": "{'Mnemonic': 'DBTM', 'Description in data log': 'Bit Depth (MD)', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_DRTM": {
+    "Raw_content": "{'Mnemonic': 'GS_DRTM', 'Description in data log': 'Lagged Total Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_DMEA": {
+    "Raw_content": "{'Mnemonic': 'GS_DMEA', 'Description in data log': 'Total Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV06": {
+    "Raw_content": "{'Mnemonic': 'GS_TV06', 'Description in data log': 'MudPit Volume Average 6', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "FRIC": {
+    "Raw_content": "{'Mnemonic': 'FRIC', 'Description in data log': 'Rotating friction factor', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "RSUX": {
+    "Raw_content": "{'Mnemonic': 'RSUX', 'Description in data log': 'Running speed-up (max)', 'Unit': 'm/s', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_G_NC4": {
+    "Raw_content": "{'Mnemonic': 'GS_G_NC4', 'Description in data log': 'Nor-butane (NC4)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "PartPerMillion",
+    "Unit_class_candidates": {
+      "PartPerMillion": 0.9931263945752485,
+      "KilogramForcePerSecond": 0.0018026667966720951,
+      "KilogramForce": 0.001763604091768584,
+      "KilogramForceMetre": 0.0017254777669947871,
+      "KilogramForceMetrePerSecond": 0.0015818567693158074
+    },
+    "PrototypeData_class": "FlowRateIn",
+    "PrototypeData_class_candidates": {
+      "FlowRateIn": 0.4999999991671755,
+      "FlowRateOut": 0.4999999991671755,
+      "ActiveVolume": 5.5521624248465e-10,
+      "Azimuth": 5.5521624248465e-10,
+      "BOPOpening": 5.5521624248465e-10
+    }
+  },
+  "TFLO30s": {
+    "Raw_content": "{'Mnemonic': 'TFLO30s', 'Description in data log': 'zzz:undefined', 'Unit': 'L/min', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_MWTI": {
+    "Raw_content": "{'Mnemonic': 'GS_MWTI', 'Description in data log': 'Mud Density In', 'Unit': 'g/cm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GRR": {
+    "Raw_content": "{'Mnemonic': 'GRR', 'Description in data log': 'MWD Raw Gamma Ray', 'Unit': '1/s', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GRID_CORR": {
+    "Raw_content": "{'Mnemonic': 'GRID_CORR', 'Description in data log': 'zzz:undefined', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MWD_TS": {
+    "Raw_content": "{'Mnemonic': 'MWD_TS', 'Description in data log': 'MWD Time Stamp', 'Unit': 's', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "DynamicViscosityQuantity",
+    "Quantity_class_candidates": {
+      "DynamicViscosityQuantity": 0.21996516262555835,
+      "GravitationalLoadQuantity": 0.2171949206819566,
+      "MassQuantity": 0.20175726938078722,
+      "RandomWalkQuantity": 0.1970260698203644,
+      "PressureRateOfChangeQuantity": 0.16405657749133354
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.9990122929213293,
+      "SurveyorSChain": 0.00098770704237309,
+      "Aangstroem": 1.2099175292176787e-11,
+      "Abampere": 1.2099175292176787e-11,
+      "Acre": 1.2099175292176787e-11
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.41121275535386353,
+      "OverburdenPressure": 0.31459404959849663,
+      "DownholeECD": 0.27388681950160304,
+      "ActiveVolume": 0.00015318777301839723,
+      "Azimuth": 0.00015318777301839723
+    }
+  },
+  "TCNF": {
+    "Raw_content": "{'Mnemonic': 'TCNF', 'Description in data log': 'MWD TF Bit Confidence Flag', 'Unit': '%', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Percent",
+    "Unit_class_candidates": {
+      "Percent": 0.999999999942875,
+      "Aangstroem": 1.4281196174983438e-11,
+      "Abampere": 1.4281196174983438e-11,
+      "Acre": 1.4281196174983438e-11,
+      "Ampere": 1.4281196174983438e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MWD_SYNC": {
+    "Raw_content": "{'Mnemonic': 'MWD_SYNC', 'Description in data log': 'MWD Sync Status', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SPM4": {
+    "Raw_content": "{'Mnemonic': 'SPM4', 'Description in data log': 'Pump 4 Stroke Rate', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MWD_ID": {
+    "Raw_content": "{'Mnemonic': 'MWD_ID', 'Description in data log': 'MWD DATP ID', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_SPM1": {
+    "Raw_content": "{'Mnemonic': 'GS_SPM1', 'Description in data log': 'Pump Speed 1', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MSP4": {
+    "Raw_content": "{'Mnemonic': 'MSP4', 'Description in data log': 'SPR MWD_04 mwd', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'UserDefined'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV13": {
+    "Raw_content": "{'Mnemonic': 'GS_TV13', 'Description in data log': 'MudPit Volume Average13', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV10": {
+    "Raw_content": "{'Mnemonic': 'GS_TV10', 'Description in data log': 'MudPit Volume Average 10', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHY_USL": {
+    "Raw_content": "{'Mnemonic': 'SHY_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SGX_USL": {
+    "Raw_content": "{'Mnemonic': 'SGX_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "PMPT": {
+    "Raw_content": "{'Mnemonic': 'PMPT', 'Description in data log': 'Pump Time', 'Unit': 'h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Hour",
+    "Unit_class_candidates": {
+      "Hour": 0.9999999998954943,
+      "Aangstroem": 2.612633844190551e-11,
+      "Abampere": 2.612633844190551e-11,
+      "Acre": 2.612633844190551e-11,
+      "Ampere": 2.612633844190551e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHKRSK_RT": {
+    "Raw_content": "{'Mnemonic': 'SHKRSK_RT', 'Description in data log': 'MWD Shock Risk', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DCHV": {
+    "Raw_content": "{'Mnemonic': 'DCHV', 'Description in data log': 'Chromatograph Sample (TVD)', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SGZ_USL": {
+    "Raw_content": "{'Mnemonic': 'SGZ_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRV_HZ": {
+    "Raw_content": "{'Mnemonic': 'SRV_HZ', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7874349572908771,
+      "FrequencyRateOfChangeQuantity": 0.1430338030236007,
+      "RotationalFrequencyRateOfChangeQuantity": 0.06953123889906573,
+      "ForceRateOfChangeQuantity": 3.932282230844276e-10,
+      "PressureRateOfChangeQuantity": 3.932282230844276e-10
+    },
+    "Unit_class": "Hertz",
+    "Unit_class_candidates": {
+      "Hertz": 1.0,
+      "Aangstroem": 1.2886207552669147e-24,
+      "Abampere": 1.2886207552669147e-24,
+      "Acre": 1.2886207552669147e-24,
+      "Ampere": 1.2886207552669147e-24
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TSPM": {
+    "Raw_content": "{'Mnemonic': 'TSPM', 'Description in data log': 'Total SPM', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "STUCK_RT": {
+    "Raw_content": "{'Mnemonic': 'STUCK_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "HKLN": {
+    "Raw_content": "{'Mnemonic': 'HKLN', 'Description in data log': 'Hookload (min)', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TF_CORR": {
+    "Raw_content": "{'Mnemonic': 'TF_CORR', 'Description in data log': 'zzz:undefined', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "CHK": {
+    "Raw_content": "{'Mnemonic': 'CHK', 'Description in data log': 'Corrected Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHKPK_RT": {
+    "Raw_content": "{'Mnemonic': 'SHKPK_RT', 'Description in data log': 'MWD Shock Peak', 'Unit': 'm/s2', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRVDEPTH": {
+    "Raw_content": "{'Mnemonic': 'SRVDEPTH', 'Description in data log': 'zzz:undefined', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MWD_DEL": {
+    "Raw_content": "{'Mnemonic': 'MWD_DEL', 'Description in data log': 'MWD Delay Time', 'Unit': 's', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "DynamicViscosityQuantity",
+    "Quantity_class_candidates": {
+      "DynamicViscosityQuantity": 0.21996516262555835,
+      "GravitationalLoadQuantity": 0.2171949206819566,
+      "MassQuantity": 0.20175726938078722,
+      "RandomWalkQuantity": 0.1970260698203644,
+      "PressureRateOfChangeQuantity": 0.16405657749133354
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.9990122929213293,
+      "SurveyorSChain": 0.00098770704237309,
+      "Aangstroem": 1.2099175292176787e-11,
+      "Abampere": 1.2099175292176787e-11,
+      "Acre": 1.2099175292176787e-11
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.41121275535386353,
+      "OverburdenPressure": 0.31459404959849663,
+      "DownholeECD": 0.27388681950160304,
+      "ActiveVolume": 0.00015318777301839723,
+      "Azimuth": 0.00015318777301839723
+    }
+  },
+  "SHX_USL": {
+    "Raw_content": "{'Mnemonic': 'SHX_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SIG_TQ30s": {
+    "Raw_content": "{'Mnemonic': 'SIG_TQ30s', 'Description in data log': 'zzz:undefined', 'Unit': 'kN.m', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "KilonewtonMetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetre": 0.9999999844547904,
+      "Kilonewton": 1.2131486781122381e-08,
+      "Metre": 1.3230198264006819e-09,
+      "NewtonMetre": 1.1274870467940404e-09,
+      "CubicMetre": 9.63215842629917e-10
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TOJ": {
+    "Raw_content": "{'Mnemonic': 'TOJ', 'Description in data log': 'zzz:undefined', 'Unit': 's', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DynamicViscosityQuantity",
+    "Quantity_class_candidates": {
+      "DynamicViscosityQuantity": 0.21996516262555835,
+      "GravitationalLoadQuantity": 0.2171949206819566,
+      "MassQuantity": 0.20175726938078722,
+      "RandomWalkQuantity": 0.1970260698203644,
+      "PressureRateOfChangeQuantity": 0.16405657749133354
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.9990122929213293,
+      "SurveyorSChain": 0.00098770704237309,
+      "Aangstroem": 1.2099175292176787e-11,
+      "Abampere": 1.2099175292176787e-11,
+      "Acre": 1.2099175292176787e-11
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.41121275535386353,
+      "OverburdenPressure": 0.31459404959849663,
+      "DownholeECD": 0.27388681950160304,
+      "ActiveVolume": 0.00015318777301839723,
+      "Azimuth": 0.00015318777301839723
+    }
+  },
+  "GS_DVER": {
+    "Raw_content": "{'Mnemonic': 'GS_DVER', 'Description in data log': 'Total Vertical Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHZ_USL": {
+    "Raw_content": "{'Mnemonic': 'SHZ_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "BDTI": {
+    "Raw_content": "{'Mnemonic': 'BDTI', 'Description in data log': 'Bit Drill Time', 'Unit': 'h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Hour",
+    "Unit_class_candidates": {
+      "Hour": 0.9999999998954943,
+      "Aangstroem": 2.612633844190551e-11,
+      "Abampere": 2.612633844190551e-11,
+      "Acre": 2.612633844190551e-11,
+      "Ampere": 2.612633844190551e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SGY_USL": {
+    "Raw_content": "{'Mnemonic': 'SGY_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TEMP_DNI_RT": {
+    "Raw_content": "{'Mnemonic': 'TEMP_DNI_RT', 'Description in data log': 'MWD DNI Temperature', 'Unit': 'degC', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Celsius",
+    "Unit_class_candidates": {
+      "Celsius": 0.9999999996109983,
+      "Aangstroem": 9.72504396264435e-11,
+      "Abampere": 9.72504396264435e-11,
+      "Acre": 9.72504396264435e-11,
+      "Ampere": 9.72504396264435e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_CFIA": {
+    "Raw_content": "{'Mnemonic': 'GS_CFIA', 'Description in data log': 'Cement flowrate In (avg)', 'Unit': 'm3/min', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "HKLX": {
+    "Raw_content": "{'Mnemonic': 'HKLX', 'Description in data log': 'Maximum Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MWD_BOT": {
+    "Raw_content": "{'Mnemonic': 'MWD_BOT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DRGF": {
+    "Raw_content": "{'Mnemonic': 'DRGF', 'Description in data log': 'DRAG sliding friction factor', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MTF_RT": {
+    "Raw_content": "{'Mnemonic': 'MTF_RT', 'Description in data log': 'MWD Magnetic Toolface', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TQLS": {
+    "Raw_content": "{'Mnemonic': 'TQLS', 'Description in data log': 'Torque loss', 'Unit': 'kN.m', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "KilonewtonMetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetre": 0.9999999844547904,
+      "Kilonewton": 1.2131486781122381e-08,
+      "Metre": 1.3230198264006819e-09,
+      "NewtonMetre": 1.1274870467940404e-09,
+      "CubicMetre": 9.63215842629917e-10
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_SPM2": {
+    "Raw_content": "{'Mnemonic': 'GS_SPM2', 'Description in data log': 'Pump Speed 2', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ROP30s": {
+    "Raw_content": "{'Mnemonic': 'ROP30s', 'Description in data log': 'zzz:undefined', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TTV2": {
+    "Raw_content": "{'Mnemonic': 'TTV2', 'Description in data log': 'Trip tank 2 volume', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'Hydraulics'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "BHFG": {
+    "Raw_content": "{'Mnemonic': 'BHFG', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "AJAM_MWD": {
+    "Raw_content": "{'Mnemonic': 'AJAM_MWD', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ROP5": {
+    "Raw_content": "{'Mnemonic': 'ROP5', 'Description in data log': 'Rate of Penetration (5ft avg)', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV01": {
+    "Raw_content": "{'Mnemonic': 'GS_TV01', 'Description in data log': 'MudPit Volume Average 1', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_DBTM": {
+    "Raw_content": "{'Mnemonic': 'GS_DBTM', 'Description in data log': 'Bit Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SPP5s": {
+    "Raw_content": "{'Mnemonic': 'SPP5s', 'Description in data log': 'zzz:undefined', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Kilopascal",
+    "Unit_class_candidates": {
+      "Kilopascal": 0.9999999999348184,
+      "Aangstroem": 1.6295347875386676e-11,
+      "Abampere": 1.6295347875386676e-11,
+      "Acre": 1.6295347875386676e-11,
+      "Ampere": 1.6295347875386676e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SPM3": {
+    "Raw_content": "{'Mnemonic': 'SPM3', 'Description in data log': 'Pump 3 Stroke Rate', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DEPT": {
+    "Raw_content": "{'Mnemonic': 'DEPT', 'Description in data log': 'Bit Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ATBT": {
+    "Raw_content": "{'Mnemonic': 'ATBT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV04": {
+    "Raw_content": "{'Mnemonic': 'GS_TV04', 'Description in data log': 'MudPit Volume Average 4', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DRPM": {
+    "Raw_content": "{'Mnemonic': 'DRPM', 'Description in data log': 'Total Downhole RPM', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9999760038662098,
+      "ForceRateOfChangeQuantity": 5.999033447459637e-06,
+      "PressureRateOfChangeQuantity": 5.999033447459637e-06,
+      "TorqueRateOfChangeQuantity": 5.999033447459637e-06,
+      "RotationalFrequencyRateOfChangeQuantity": 5.999033447459637e-06
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.9999999997795532,
+      "Aangstroem": 5.511174383521048e-11,
+      "Abampere": 5.511174383521048e-11,
+      "Acre": 5.511174383521048e-11,
+      "Ampere": 5.511174383521048e-11
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.5184099404047643,
+      "SurfaceRPM": 0.4667118156731065,
+      "MechanicalSpecificEnergy": 0.01478889572011116,
+      "ActiveVolume": 4.467410100901236e-05,
+      "Azimuth": 4.467410100901236e-05
+    }
+  },
+  "DCHR": {
+    "Raw_content": "{'Mnemonic': 'DCHR', 'Description in data log': 'Date of Chromatograph Sample', 'Unit': 'unitless', 'DataType': 'date time', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHKRATE_RT": {
+    "Raw_content": "{'Mnemonic': 'SHKRATE_RT', 'Description in data log': 'PowerUP Shock Rate', 'Unit': '1/s', 'DataType': 'double', 'dataSource': 'PowerUp'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "MWD_FRM": {
+    "Raw_content": "{'Mnemonic': 'MWD_FRM', 'Description in data log': 'MWD Frame ID', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "BACC": {
+    "Raw_content": "{'Mnemonic': 'BACC', 'Description in data log': 'zzz:undefined', 'Unit': 'm/s2', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_DCHM": {
+    "Raw_content": "{'Mnemonic': 'GS_DCHM', 'Description in data log': 'Depth chrom sample (meas)', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRV_GY": {
+    "Raw_content": "{'Mnemonic': 'SRV_GY', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "RS_DSPM": {
+    "Raw_content": "{'Mnemonic': 'RS_DSPM', 'Description in data log': 'zzz:undefined', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TDH": {
+    "Raw_content": "{'Mnemonic': 'GS_TDH', 'Description in data log': 'TMP In', 'Unit': 'degC', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Celsius",
+    "Unit_class_candidates": {
+      "Celsius": 0.9999999996109983,
+      "Aangstroem": 9.72504396264435e-11,
+      "Abampere": 9.72504396264435e-11,
+      "Acre": 9.72504396264435e-11,
+      "Ampere": 9.72504396264435e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TQ30s": {
+    "Raw_content": "{'Mnemonic': 'TQ30s', 'Description in data log': 'zzz:undefined', 'Unit': 'kN.m', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "KilonewtonMetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetre": 0.9999999844547904,
+      "Kilonewton": 1.2131486781122381e-08,
+      "Metre": 1.3230198264006819e-09,
+      "NewtonMetre": 1.1274870467940404e-09,
+      "CubicMetre": 9.63215842629917e-10
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV03": {
+    "Raw_content": "{'Mnemonic': 'GS_TV03', 'Description in data log': 'MudPit Volume Average3', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRV_GX": {
+    "Raw_content": "{'Mnemonic': 'SRV_GX', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "BTVD": {
+    "Raw_content": "{'Mnemonic': 'BTVD', 'Description in data log': 'zzz:undefined', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TQA": {
+    "Raw_content": "{'Mnemonic': 'TQA', 'Description in data log': 'Average Surface Torque', 'Unit': 'kN.m', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "KilonewtonMetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetre": 0.9999999844547904,
+      "Kilonewton": 1.2131486781122381e-08,
+      "Metre": 1.3230198264006819e-09,
+      "NewtonMetre": 1.1274870467940404e-09,
+      "CubicMetre": 9.63215842629917e-10
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_BPOS": {
+    "Raw_content": "{'Mnemonic': 'GS_BPOS', 'Description in data log': 'Hook Height', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TRPM_RT": {
+    "Raw_content": "{'Mnemonic': 'TRPM_RT', 'Description in data log': 'MWD Turbine RPM', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9999760038662098,
+      "ForceRateOfChangeQuantity": 5.999033447459637e-06,
+      "PressureRateOfChangeQuantity": 5.999033447459637e-06,
+      "TorqueRateOfChangeQuantity": 5.999033447459637e-06,
+      "RotationalFrequencyRateOfChangeQuantity": 5.999033447459637e-06
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.9999999997795532,
+      "Aangstroem": 5.511174383521048e-11,
+      "Abampere": 5.511174383521048e-11,
+      "Acre": 5.511174383521048e-11,
+      "Ampere": 5.511174383521048e-11
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.5184099404047643,
+      "SurfaceRPM": 0.4667118156731065,
+      "MechanicalSpecificEnergy": 0.01478889572011116,
+      "ActiveVolume": 4.467410100901236e-05,
+      "Azimuth": 4.467410100901236e-05
+    }
+  },
+  "TSTK": {
+    "Raw_content": "{'Mnemonic': 'TSTK', 'Description in data log': 'Total Strokes', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "EDRT": {
+    "Raw_content": "{'Mnemonic': 'EDRT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TREV": {
+    "Raw_content": "{'Mnemonic': 'TREV', 'Description in data log': 'Total Bit Revolutions', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "TRPIN_CT": {
+    "Raw_content": "{'Mnemonic': 'TRPIN_CT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHZC_USL": {
+    "Raw_content": "{'Mnemonic': 'SHZC_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "BPOS": {
+    "Raw_content": "{'Mnemonic': 'BPOS', 'Description in data log': 'Block Position', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "STIS": {
+    "Raw_content": "{'Mnemonic': 'STIS', 'Description in data log': 'Slips stat (1=Out,0=In)', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SIG_SPP5s": {
+    "Raw_content": "{'Mnemonic': 'SIG_SPP5s', 'Description in data log': 'zzz:undefined', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Kilopascal",
+    "Unit_class_candidates": {
+      "Kilopascal": 0.9999999999348184,
+      "Aangstroem": 1.6295347875386676e-11,
+      "Abampere": 1.6295347875386676e-11,
+      "Acre": 1.6295347875386676e-11,
+      "Ampere": 1.6295347875386676e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_SPPA": {
+    "Raw_content": "{'Mnemonic': 'GS_SPPA', 'Description in data log': 'Stand Pipe Pressure', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Kilopascal",
+    "Unit_class_candidates": {
+      "Kilopascal": 0.9999999999348184,
+      "Aangstroem": 1.6295347875386676e-11,
+      "Abampere": 1.6295347875386676e-11,
+      "Acre": 1.6295347875386676e-11,
+      "Ampere": 1.6295347875386676e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "HKLO": {
+    "Raw_content": "{'Mnemonic': 'HKLO', 'Description in data log': 'zzz:undefined', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SHXC_USL": {
+    "Raw_content": "{'Mnemonic': 'SHXC_USL', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DPT_CONF": {
+    "Raw_content": "{'Mnemonic': 'DPT_CONF', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_G_C3": {
+    "Raw_content": "{'Mnemonic': 'GS_G_C3', 'Description in data log': 'Propane (C3)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "PartPerMillion",
+    "Unit_class_candidates": {
+      "PartPerMillion": 0.9931263945752485,
+      "KilogramForcePerSecond": 0.0018026667966720951,
+      "KilogramForce": 0.001763604091768584,
+      "KilogramForceMetre": 0.0017254777669947871,
+      "KilogramForceMetrePerSecond": 0.0015818567693158074
+    },
+    "PrototypeData_class": "FlowRateIn",
+    "PrototypeData_class_candidates": {
+      "FlowRateIn": 0.4999999991671755,
+      "FlowRateOut": 0.4999999991671755,
+      "ActiveVolume": 5.5521624248465e-10,
+      "Azimuth": 5.5521624248465e-10,
+      "BOPOpening": 5.5521624248465e-10
+    }
+  },
+  "GS_HKLD": {
+    "Raw_content": "{'Mnemonic': 'GS_HKLD', 'Description in data log': 'Weight On Hook', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.9999999996554427,
+      "ActiveVolume": 8.613922002826704e-11,
+      "Azimuth": 8.613922002826704e-11,
+      "BOPOpening": 8.613922002826704e-11,
+      "BOPPressure": 8.613922002826704e-11
+    }
+  },
+  "CTH": {
+    "Raw_content": "{'Mnemonic': 'CTH', 'Description in data log': 'Corrected Total Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "ThousandKilogramForce",
+    "Unit_class_candidates": {
+      "ThousandKilogramForce": 0.9999999999980176,
+      "Aangstroem": 4.956181509824142e-13,
+      "Abampere": 4.956181509824142e-13,
+      "Acre": 4.956181509824142e-13,
+      "Ampere": 4.956181509824142e-13
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "BONB": {
+    "Raw_content": "{'Mnemonic': 'BONB', 'Description in data log': 'Bit on Bottom', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TV02": {
+    "Raw_content": "{'Mnemonic': 'GS_TV02', 'Description in data log': 'MudPit Volume Average 2', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DRPM30s": {
+    "Raw_content": "{'Mnemonic': 'DRPM30s', 'Description in data log': 'zzz:undefined', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9999760038662098,
+      "ForceRateOfChangeQuantity": 5.999033447459637e-06,
+      "PressureRateOfChangeQuantity": 5.999033447459637e-06,
+      "TorqueRateOfChangeQuantity": 5.999033447459637e-06,
+      "RotationalFrequencyRateOfChangeQuantity": 5.999033447459637e-06
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.9999999997795532,
+      "Aangstroem": 5.511174383521048e-11,
+      "Abampere": 5.511174383521048e-11,
+      "Acre": 5.511174383521048e-11,
+      "Ampere": 5.511174383521048e-11
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.5184099404047643,
+      "SurfaceRPM": 0.4667118156731065,
+      "MechanicalSpecificEnergy": 0.01478889572011116,
+      "ActiveVolume": 4.467410100901236e-05,
+      "Azimuth": 4.467410100901236e-05
+    }
+  },
+  "GS_G_C1": {
+    "Raw_content": "{'Mnemonic': 'GS_G_C1', 'Description in data log': 'Methane (C1)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "PartPerMillion",
+    "Unit_class_candidates": {
+      "PartPerMillion": 0.9931263945752485,
+      "KilogramForcePerSecond": 0.0018026667966720951,
+      "KilogramForce": 0.001763604091768584,
+      "KilogramForceMetre": 0.0017254777669947871,
+      "KilogramForceMetrePerSecond": 0.0015818567693158074
+    },
+    "PrototypeData_class": "FlowRateIn",
+    "PrototypeData_class_candidates": {
+      "FlowRateIn": 0.4999999991671755,
+      "FlowRateOut": 0.4999999991671755,
+      "ActiveVolume": 5.5521624248465e-10,
+      "Azimuth": 5.5521624248465e-10,
+      "BOPOpening": 5.5521624248465e-10
+    }
+  },
+  "SRV_HY": {
+    "Raw_content": "{'Mnemonic': 'SRV_HY', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ACTC": {
+    "Raw_content": "{'Mnemonic': 'ACTC', 'Description in data log': 'Rig Mode', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DMEA": {
+    "Raw_content": "{'Mnemonic': 'DMEA', 'Description in data log': 'Hole depth (MD)', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRVTYPE": {
+    "Raw_content": "{'Mnemonic': 'SRVTYPE', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRVNS": {
+    "Raw_content": "{'Mnemonic': 'SRVNS', 'Description in data log': 'zzz:undefined', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "ROP": {
+    "Raw_content": "{'Mnemonic': 'ROP', 'Description in data log': 'Rate of Penetration', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "VelocityQuantity",
+    "Quantity_class_candidates": {
+      "VelocityQuantity": 0.9999983407016043,
+      "ForceRateOfChangeQuantity": 4.148245988071736e-07,
+      "PressureRateOfChangeQuantity": 4.148245988071736e-07,
+      "TorqueRateOfChangeQuantity": 4.148245988071736e-07,
+      "RotationalFrequencyRateOfChangeQuantity": 4.148245988071736e-07
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.9999980894987199,
+      "MechanicalSpecificEnergy": 1.9104892343240205e-06,
+      "ActiveVolume": 4.015238902698387e-12,
+      "Azimuth": 4.015238902698387e-12,
+      "BOPOpening": 4.015238902698387e-12
+    }
+  },
+  "TIME": {
+    "Raw_content": "{'Mnemonic': 'TIME', 'Description in data log': 'Time', 'Unit': 's', 'DataType': 'date time', 'dataSource': \"['none']\"}",
+    "Quantity_class": "TimeQuantity",
+    "Quantity_class_candidates": {
+      "TimeQuantity": 0.28567413847919204,
+      "AccelerationQuantity": 0.2798234682465273,
+      "RotationalFrequencyRateOfChangeQuantity": 0.15163838776338973,
+      "MassRateQuantity": 0.14466789764882668,
+      "HydraulicConductivityQuantity": 0.13819610786206404
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.9990122929213293,
+      "SurveyorSChain": 0.00098770704237309,
+      "Aangstroem": 1.2099175292176787e-11,
+      "Abampere": 1.2099175292176787e-11,
+      "Acre": 1.2099175292176787e-11
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.41121275535386353,
+      "OverburdenPressure": 0.31459404959849663,
+      "DownholeECD": 0.27388681950160304,
+      "ActiveVolume": 0.00015318777301839723,
+      "Azimuth": 0.00015318777301839723
+    }
+  },
+  "GR_CONF": {
+    "Raw_content": "{'Mnemonic': 'GR_CONF', 'Description in data log': 'MWD GR Bit Confidence Flag', 'Unit': '%', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Percent",
+    "Unit_class_candidates": {
+      "Percent": 0.999999999942875,
+      "Aangstroem": 1.4281196174983438e-11,
+      "Abampere": 1.4281196174983438e-11,
+      "Acre": 1.4281196174983438e-11,
+      "Ampere": 1.4281196174983438e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_MTOA": {
+    "Raw_content": "{'Mnemonic': 'GS_MTOA', 'Description in data log': 'Temperature Out', 'Unit': 'degC', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Celsius",
+    "Unit_class_candidates": {
+      "Celsius": 0.9999999996109983,
+      "Aangstroem": 9.72504396264435e-11,
+      "Abampere": 9.72504396264435e-11,
+      "Acre": 9.72504396264435e-11,
+      "Ampere": 9.72504396264435e-11
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRVINC": {
+    "Raw_content": "{'Mnemonic': 'SRVINC', 'Description in data log': 'zzz:undefined', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "DNISTAT": {
+    "Raw_content": "{'Mnemonic': 'DNISTAT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_TVCA": {
+    "Raw_content": "{'Mnemonic': 'GS_TVCA', 'Description in data log': 'Tank volume change (active)', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.9999999999930722,
+      "Aangstroem": 1.7319706181447866e-12,
+      "Abampere": 1.7319706181447866e-12,
+      "Acre": 1.7319706181447866e-12,
+      "Ampere": 1.7319706181447866e-12
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SDEP_CONT_RT": {
+    "Raw_content": "{'Mnemonic': 'SDEP_CONT_RT', 'Description in data log': 'Continuous Survey Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "SRV_HX": {
+    "Raw_content": "{'Mnemonic': 'SRV_HX', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_ACTC": {
+    "Raw_content": "{'Mnemonic': 'GS_ACTC', 'Description in data log': 'Rig Mode', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "GS_G_IC5": {
+    "Raw_content": "{'Mnemonic': 'GS_G_IC5', 'Description in data log': 'Iso-pentane (IC5)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "PartPerMillion",
+    "Unit_class_candidates": {
+      "PartPerMillion": 0.9931263945752485,
+      "KilogramForcePerSecond": 0.0018026667966720951,
+      "KilogramForce": 0.001763604091768584,
+      "KilogramForceMetre": 0.0017254777669947871,
+      "KilogramForceMetrePerSecond": 0.0015818567693158074
+    },
+    "PrototypeData_class": "FlowRateIn",
+    "PrototypeData_class_candidates": {
+      "FlowRateIn": 0.4999999991671755,
+      "FlowRateOut": 0.4999999991671755,
+      "ActiveVolume": 5.5521624248465e-10,
+      "Azimuth": 5.5521624248465e-10,
+      "BOPOpening": 5.5521624248465e-10
+    }
+  },
+  "GS_DRTV": {
+    "Raw_content": "{'Mnemonic': 'GS_DRTV', 'Description in data log': 'Lag Depth (TVD)', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "MassGradientPerLengthQuantity",
+    "Quantity_class_candidates": {
+      "MassGradientPerLengthQuantity": 0.22378061095244017,
+      "ElongationGradientPerLengthQuantity": 0.21751921181184233,
+      "PressureLossConstantQuantity": 0.19068269674427832,
+      "MassDensityGradientPerLengthQuantity": 0.19033708110264333,
+      "TorqueGradientPerLengthQuantity": 0.1776803993887958
+    },
+    "Unit_class": "Metre",
+    "Unit_class_candidates": {
+      "Metre": 0.294843134487106,
+      "NewtonMetre": 0.2512674476502417,
+      "CubicMetre": 0.21465859585889072,
+      "SquareMetre": 0.20645010972442845,
+      "KilonewtonMetre": 0.032780712279333206
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  },
+  "RHX_RT": {
+    "Raw_content": "{'Mnemonic': 'RHX_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "ForceRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "ForceRateOfChangeQuantity": 0.2,
+      "PressureRateOfChangeQuantity": 0.2,
+      "TorqueRateOfChangeQuantity": 0.2,
+      "RotationalFrequencyRateOfChangeQuantity": 0.2,
+      "ConcentrationQuantity": 0.2
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.2,
+      "Abampere": 0.2,
+      "Acre": 0.2,
+      "Ampere": 0.2,
+      "ArcMinute": 0.2
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.2,
+      "Azimuth": 0.2,
+      "BOPOpening": 0.2,
+      "BOPPressure": 0.2,
+      "BackPressurePumpPressure": 0.2
+    }
+  }
+}

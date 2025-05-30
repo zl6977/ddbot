@@ -1,0 +1,508 @@
+prefix : <http://www.semanticweb.org/owl/owlapi/turtle#>
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xml: <http://www.w3.org/XML/1998/namespace> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix ddhub: <http://ddhub.no/> 
+prefix zzz: <http://ddhub.demo/zzz#> 
+base <http://www.semanticweb.org/owl/owlapi/turtle#> 
+
+INSERT DATA {
+ddhub:ActiveVolume rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:VolumeDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The volume of fluid actively circulating in the wellbore."@en .
+    
+ddhub:Azimuth rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PlaneAngleDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The angle between the horizontal component of the wellbore direction at a particular point, representing the compass direction of a directional survey or of the wellbore as planned or measured by a directional survey. It is usually specified in degrees with respect to the geographic or magnetic north pole, measured clockwise from a reference direction (usually North)"@en .
+    
+ddhub:BitDepth rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:DepthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The depth of the drill bit in the wellbore, measured along the well path."@en .
+    
+ddhub:DensityIn rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:MassDensityDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The density of the drilling fluid entering (going in to) the wellbore."@en .
+    
+ddhub:DensityOut rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:MassDensityDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The density of the drilling fluid exiting (going out of) the wellbore."@en .
+    
+ddhub:DownholeECD rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:MassDensityDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The equivalent circulating density (ECD) measured downhole. ECD is a crucial parameter in drilling operations, representing the effective density of the drilling fluid in the wellbore, taking into account the pressure exerted by the fluid’s circulation."@en .
+    
+ddhub:DownholePressure rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The pressure measured at a specific point downhole."@en .
+    
+ddhub:DownholeRPM rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:RotationalFrequencyQuantity
+                          ] ;
+          
+          rdfs:comment "The rotational speed of the drill string measured downhole, measured in revolutions per minute (RPM)."@en .
+    
+ddhub:DownholeTemperature rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:TemperatureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The temperature measured at a specific point downhole."@en .
+    
+ddhub:DownholeTorque rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:TorqueDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The torque measured at a specific point downhole."@en .
+    
+ddhub:FlowRateIn rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:VolumetricFlowrateDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The volumetric flow rate (flowrate) at which fluid (e.g., cement) is pumped in to the wellbore."@en .
+    
+ddhub:FlowRateOut rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:VolumetricFlowrateDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The volumetric flow rate (flowrate) at which fluid (e.g., cement) is pumped out from the wellbore."@en .
+    
+ddhub:HoleDepth rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:DepthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The total depth of the wellbore."@en .
+    
+ddhub:HookLoad rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:HookLoadDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "HKLD"@en ;
+          rdfs:comment "The total gravitational force exerted on the derrick's hook or traveling block due to the weight of the drill string, casing, and any other equipment suspended in the wellbore."@en .
+    
+ddhub:HookPosition rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PositionDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The vertical position of the hook or traveling block. Some times it is also called block position"@en .
+    
+ddhub:HookVelocity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:BlockVelocityDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The speed at which the hook (or traveling block) is moving. Sometimes, it is also called block velocity."@en .
+    
+ddhub:Inclination rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PlaneAngleDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The angle of the wellbore relative to vertical."@en .
+    
+ddhub:MeasuredDepth rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:DepthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The length of the wellbore measured along the well path."@en .
+    
+ddhub:PumpRate rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:StrokeFrequencyQuantity
+                          ] ;
+          zzz:commonMnemonics "SPM"@en ;
+          rdfs:comment "The stroke rate (frequency) at which the drilling fluid is pumped into the well."@en .
+    
+ddhub:ROP rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:RateOfPenetrationDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "ROP"@en ;
+          rdfs:comment "Rate of penetration, the speed at which the drill bit advances."@en .
+    
+ddhub:SPP rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "SPP"@en ;
+          rdfs:comment "Standpipe pressure, the pressure in the drill pipe."@en .
+    
+ddhub:SurfaceRPM rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:RotationalFrequencyQuantity
+                          ] ;
+          
+          rdfs:comment "The rotational speed of the drill string at the surface, measured in revolutions per minute (RPM)."@en .
+    
+ddhub:SurfaceTorque rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:TorqueDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The torque applied to the drill string at the surface."@en .
+    
+ddhub:TemperatureIn rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:TemperatureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The temperature of the drilling fluid entering the wellbore."@en .
+    
+ddhub:TemperatureOut rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:TemperatureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The temperature of the drilling fluid exiting the wellbore."@en .
+    
+ddhub:TopOfStringPosition rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PositionDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The position of the top of the drill string."@en .
+    
+ddhub:WOB rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:WeightOnBitDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "WOB"@en ;
+          rdfs:comment "Weight on Bit (WOB) is the amount of downward force applied on the drill bit during drilling operations. This force is provided by the weight of the drill collars, which are thick-walled tubular pieces in the drilling assembly."@en .
+    
+ddhub:PorePressure rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The pressure exerted by fluids (such as water, oil, or gas) within the pore spaces of a rock formation. In drilling, it is a critical parameter as it influences the stability of the wellbore and the design of drilling fluids."@en .
+    
+ddhub:PorePressureGradient rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureGradientPerLengthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The rate of change of pore pressure with depth."@en .
+    
+ddhub:FracturingPressure rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The hydraulic pressure required to fracture the formation. It is applied at the wellhead to inject fluid and proppant into a formation during a hydraulic fracturing treatment. This pressure is necessary to create and propagate fractures in the rock, allowing for the extraction of oil or gas."@en .
+    
+ddhub:FracturingPressureGradient rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureGradientPerLengthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The rate of change of fracturing pressure with depth."@en .
+    
+ddhub:CollapsePressure rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The externally applied pressure at which a casing or tubing will undergo permanent deformation or collapse. This pressure is critical in well design to ensure the structural integrity of the casing under various downhole conditions. It is influenced by factors such as the material properties, wall thickness, and diameter of the casing."@en .
+    
+ddhub:CollapsePressureGradient rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureGradientPerLengthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The rate of change of collapse pressure with depth."@en .
+    
+ddhub:ShearRate rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:FluidShearRateQuantity
+                          ] ;
+          
+          rdfs:comment "The rate of change of velocity at which one layer of fluid passes over an adjacent layer. The velocity gradient measured across the diameter of a fluid-flow channel, be it a pipe, annulus or other shape."@en .
+    
+ddhub:ShearStress rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:FluidShearStressQuantity
+                          ] ;
+          
+          rdfs:comment "The stress required to shear the fluid. The force per unit area required to sustain a constant rate of fluid movement."@en .
+    
+ddhub:MinimumHorizontalStress rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:FluidShearStressQuantity
+                          ] ;
+          
+          rdfs:comment "The minimum stress in the horizontal plane."@en .
+    
+ddhub:MinimumHorizontalStressGradient rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureGradientPerLengthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The rate of change of minimum horizontal stress with depth."@en .
+    
+ddhub:OverburdenPressure rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:FormationStrengthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The pressure exerted by the weight of overlying formations, i.e., the overlying rock and soil layers at a specific depth below the Earth's surface. It is also known as lithostatic or geostatic pressure."@en .
+    
+ddhub:OverburdenPressureGradient rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureGradientPerLengthDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The rate of change of overburden pressure with depth."@en .
+    
+ddhub:BOPOpening rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:ProportionStandardQuantity
+                          ] ;
+          
+          rdfs:comment "The opening status of the blowout preventer (BOP)."@en .
+    
+ddhub:BOPPressure rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The pressure within the blowout preventer (BOP)."@en .
+    
+ddhub:MPDChokeOpening rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:ProportionStandardQuantity
+                          ] ;
+          
+          rdfs:comment "The opening status of the managed pressure drilling (MPD) choke."@en .
+    
+ddhub:MPDChokePressure rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The pressure within the managed pressure drilling (MPD) choke."@en .
+    
+ddhub:MPDPumpRate rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:StrokeFrequencyQuantity
+                          ] ;
+          
+          rdfs:comment "The stroke rate (frequency) at which drilling fluid (mud) is pumped into the well during MPD (managed pressure drilling) operations."@en .
+    
+ddhub:MPDPumpFlowRate rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:VolumetricFlowrateDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The volumetric flow rate (flowrate) of the pump in managed pressure drilling (MPD)."@en .
+    
+ddhub:GasFlowRate rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:VolumetricFlowrateDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The volumetric flow rate (flowrate) at which gas flows."@en .
+    
+ddhub:BackPressurePumpPressure rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:PressureDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "The pressure that opposes the flow of fluid being discharged by the pump. This back pressure builds up on the discharge side of the pump when it is working against high resistance, such as a partially closed valve, long narrow pipes, or other obstructions. It is crucial to monitor and manage back pressure to ensure the efficient operation of the pump and to prevent potential damage to the pump components."@en .
+    
+ddhub:MechanicalSpecificEnergy rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:EnergyDensityDrillingQuantity
+                          ] ;
+          
+          rdfs:comment "Mechanical Specific Energy (MSE) is a measure of drilling efficiency, defined as the amount of energy required to remove a unit volume of rock. It is used to evaluate the performance of the drilling process and optimize drilling parameters. Lower MSE values indicate more efficient drilling. MSE is influenced by factors such as weight on bit (WOB), torque, rate of penetration (ROP), and drill bit revolutions per minute (RPM)."@en .
+    
+ddhub:TrueVerticalDepth rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:DepthDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "TVD"@en ;
+          rdfs:comment "The depth from the surface to the bottom of the borehole (or anywhere along its length) in a straight perpendicular line. Abbreviated as TVD."@en .
+    
+ddhub:GammaRay rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:GammaRadiationIntensityDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "GR"@en ;
+          rdfs:comment "It measures natural gamma radiation intensity from the formation. The detector counts how many photons of gamma radiation hit per unit time.It is essentially a radiation intensity (particle flux)."@en .
+    
+ddhub:ROPI rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:SlownessDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "ROPI"@en ;
+          rdfs:comment "The reciprocal of ROP (Rate of Penetration). It is used to compare efficiency across wells or sections. ROP often fluctuates wildly; ROPI behaves more linearly."@en .
+    
+ddhub:AttenuationConductivity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:ElectricalConductivityDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "A_COND"@en ;
+          rdfs:comment "Attenuation electrical conductivity "@en .
+    
+ddhub:PhaseConductivity  rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:ElectricalConductivityDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "P_COND"@en ;
+          rdfs:comment "Phase-Shift electrical conductivity "@en .
+    
+ddhub:TankVolume  rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:VolumeDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "TV"@en ;
+          rdfs:comment "The total physical capacity of the mud tank system, often expressed in cubic meters. Includes all compartments, buffer zones, suction pits, and reserve pits, measured as if filled to the brim. The value represents gross capacity, but actually not all of the volume is used during drilling operations."@en .
+    
+ddhub:PumpStrokeCount rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:PrototypeData ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfMeasurableQuantity ;
+                            owl:allValuesFrom ddhub:CountDrillingQuantity
+                          ] ;
+          zzz:commonMnemonics "STK"@en ;
+          rdfs:comment "The number of individual strokes executed by a reciprocating mud pump piston or plunger. Each stroke corresponds to a defined displacement of drilling fluid, and the cumulative stroke count is used to calculate total fluid volume pumped."@en .
+    
+
+}

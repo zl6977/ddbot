@@ -1,0 +1,1602 @@
+{
+  "does mcdonald's have good reviews": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "are the review for mcdonald's good or bad": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "how are the reviews for mcdonald's": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "what are the review for mcdonald's": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "how are those mcdonald's reviews looking": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "what are the ratings for yardhouse": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "do you know how the ratings are for yardhouse": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "are the ratings for yardhouse good": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "can you tell me the ratings for yardhouse": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "how good are the review for yardhouse": {
+    "true_label": "restaurant_reviews",
+    "candidates": "restaurant_reviews"
+  },
+  "how healthy is shepard's pie": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "how healthy is pecan pie": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "how healthy is hummus": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "how healthy is salad": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "how healthy is pumpkin pie": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "is chocolate good for you": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "tell me how health chocolate is": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "what is the nutritional info for kraft mac 'n' cheese": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "is chocolate bad for you or good for you": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "can you tell me the nutrional info of a big mac": {
+    "true_label": "nutrition_info",
+    "candidates": "nutrition_info"
+  },
+  "my account looks to be blocked and i have no idea why": {
+    "true_label": "account_blocked",
+    "candidates": "account_blocked"
+  },
+  "it seems that my account is blocked and i'm not sure why": {
+    "true_label": "account_blocked",
+    "candidates": "account_blocked"
+  },
+  "my account appears to be blocked and i don't know why": {
+    "true_label": "account_blocked",
+    "candidates": "account_blocked"
+  },
+  "it looks like my account is blocked but i have no clue why": {
+    "true_label": "account_blocked",
+    "candidates": "account_blocked"
+  },
+  "my account appears to be blocked but i have no idea why that could be": {
+    "true_label": "account_blocked",
+    "candidates": "account_blocked"
+  },
+  "why did you freeze my bank account": {
+    "true_label": "account_blocked",
+    "candidates": "freeze_account"
+  },
+  "how did my bank account is frozen": {
+    "true_label": "account_blocked",
+    "candidates": "freeze_account"
+  },
+  "can anyone let me know the reason behind my frozen bank account": {
+    "true_label": "account_blocked",
+    "candidates": "freeze_account"
+  },
+  "what are the possible reasons behind frozen bank account": {
+    "true_label": "account_blocked",
+    "candidates": "freeze_account"
+  },
+  "need help with frozen bank account": {
+    "true_label": "account_blocked",
+    "candidates": "freeze_account"
+  },
+  "procedure to change oil in car": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "way to change car oil": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "how to change oil of a car": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "how can i change car oil": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "i want to know how to change oil, tell me the steps one at a time while i work through it": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "find step by step instructions on how to change my oil": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "how do i change oil on a car": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "where can i find a page showing my how to change my oil": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "what weight oil do i need and how do i change the oil for my chevy truck": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "what kind of oil do i need for my ford truck and how can i change it": {
+    "true_label": "oil_change_how",
+    "candidates": "oil_change_how"
+  },
+  "what time is it in france": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "what's the time in london right now": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "what hour is it in london": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "what's the time": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "what is the time in london": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "i need to know what time it is": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "what time of day is it in london": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "tell me what time it is": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "what time of day is it": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "what time is it in the pacific timezone": {
+    "true_label": "time",
+    "candidates": "time"
+  },
+  "what's is the current weather forecast": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "tell me the forecast": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "what's the weather like": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "what's the forecast for the day": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "i need to know the weather": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "weather forecast please": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "what's today's weather": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "i need to know today's forecast": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "is it going to rain tomorrow": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "what is the weather outside": {
+    "true_label": "weather",
+    "candidates": "weather"
+  },
+  "cash in my credit card rewards": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "convert my credit card points to cash": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "cash in my credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "where i can use credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "redeem credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "how to use credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "what can i buy with credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "please redeem my credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "redeem my credit card rewards into my account": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "help with credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": "redeem_rewards"
+  },
+  "what kind of interest can i expect with my chase account": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "how much interest am i getting in my citibank savings": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "how much interest do i get on my citizen's savings account": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "what kind of interest am i getting from my bank of america checking": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "what's my interest rate with my capital one account": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "what is walker bank paying me in interest on my account": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "where do i go to get private client account's interest rate": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "what interest rate am i getting currently from oak bank": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "how much interest am i getting percentage wise from chase": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "what is my interest rate for my scotiabank account": {
+    "true_label": "interest_rate",
+    "candidates": "interest_rate"
+  },
+  "what is the best type of gas for this car": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "for this car, what kind of gas should i use": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "what kind of gas is required for this car": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "gas type needed for this car": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "please tell me what kind of gas this car needs": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "what gas does this car take": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "can you tell me what kind of gas this car uses": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "what kind of fuel should i put in my car": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "what kind of fuel does my car use": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "my car takes what kind of fuel": {
+    "true_label": "gas_type",
+    "candidates": "gas_type"
+  },
+  "does spago in beverly hills allow customers to make reservations": {
+    "true_label": "accept_reservations",
+    "candidates": "accept_reservations"
+  },
+  "what is the reservation policy for spago in beverly hills": {
+    "true_label": "accept_reservations",
+    "candidates": "restaurant_reservation"
+  },
+  "are reservations taken at spago in beverly hills": {
+    "true_label": "accept_reservations",
+    "candidates": "restaurant_reservation"
+  },
+  "am i able to make reservations at spago in beverly hills": {
+    "true_label": "accept_reservations",
+    "candidates": "restaurant_reservation"
+  },
+  "can i make reservations at spago in beverly hills": {
+    "true_label": "accept_reservations",
+    "candidates": "restaurant_reservation"
+  },
+  "let me know if grub burger takes reservations": {
+    "true_label": "accept_reservations",
+    "candidates": "accept_reservations"
+  },
+  "give me information on grub burger reservations": {
+    "true_label": "accept_reservations",
+    "candidates": "restaurant_reservation"
+  },
+  "is grub burger taking reservations": {
+    "true_label": "accept_reservations",
+    "candidates": "restaurant_reservation"
+  },
+  "find out of grub burger takes reservations": {
+    "true_label": "accept_reservations",
+    "candidates": "restaurant_reservation"
+  },
+  "can i make reservations at grub burger": {
+    "true_label": "accept_reservations",
+    "candidates": "restaurant_reservation"
+  },
+  "could you tell me the temperature of the ac": {
+    "true_label": "smart_home",
+    "candidates": "oos"
+  },
+  "the temperature of the ac, what is it at": {
+    "true_label": "smart_home",
+    "candidates": "smart_home"
+  },
+  "the ac, could you tell me the temperature": {
+    "true_label": "smart_home",
+    "candidates": "weather"
+  },
+  "do you know the temperature of the ac": {
+    "true_label": "smart_home",
+    "candidates": "oos"
+  },
+  "what is it at, the ac temperature": {
+    "true_label": "smart_home",
+    "candidates": "oos"
+  },
+  "i want you to turn the tv on": {
+    "true_label": "smart_home",
+    "candidates": "smart_home"
+  },
+  "i need you to turn the tv on now": {
+    "true_label": "smart_home",
+    "candidates": "smart_home"
+  },
+  "will you please turn the tv on": {
+    "true_label": "smart_home",
+    "candidates": "smart_home"
+  },
+  "turn on the tv please": {
+    "true_label": "smart_home",
+    "candidates": "smart_home"
+  },
+  "please turn the tv on": {
+    "true_label": "smart_home",
+    "candidates": "smart_home"
+  },
+  "do you know who i am": {
+    "true_label": "user_name",
+    "candidates": "oos"
+  },
+  "do you have my name programmed": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "do you think my name is jeff": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "is joey my name": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "tell me my name": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "say my name in a sentence": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "what is my name": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "tell me my name the way its saved": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "tell me what my name is": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "how is my name saved": {
+    "true_label": "user_name",
+    "candidates": "user_name"
+  },
+  "i want to report a stolen card": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "my card is lost, i would like to report it": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "my card was stolen, how do i report this": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "i need to report a stolen card": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "if i lost my card how do i report it": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "how do i report a stolen card": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "what is the process of reporting a lost card": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "if my card was stolen, where do i report it": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "i lost my card, how do i report it": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "report a card lost for me": {
+    "true_label": "report_lost_card",
+    "candidates": "report_lost_card"
+  },
+  "i want to hear that again": {
+    "true_label": "repeat",
+    "candidates": "repeat"
+  },
+  "repeat that for me": {
+    "true_label": "repeat",
+    "candidates": "repeat"
+  },
+  "could that be repeated": {
+    "true_label": "repeat",
+    "candidates": "repeat"
+  },
+  "can you repeat what you said": {
+    "true_label": "repeat",
+    "candidates": "repeat"
+  },
+  "i did not hear what you said": {
+    "true_label": "repeat",
+    "candidates": "repeat"
+  },
+  "what did you just ask": {
+    "true_label": "repeat",
+    "candidates": "oos"
+  },
+  "can you ask me that again": {
+    "true_label": "repeat",
+    "candidates": "repeat"
+  },
+  "what question did you just ask me": {
+    "true_label": "repeat",
+    "candidates": "oos"
+  },
+  "can you repeat that question": {
+    "true_label": "repeat",
+    "candidates": "repeat"
+  },
+  "what was said": {
+    "true_label": "repeat",
+    "candidates": "oos"
+  },
+  "set up whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "how do i go to whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "change over to whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "i need to be out of whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "i'd like to be out of whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "take me out of whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "i want to be out of whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "please use your whispering voice; i need quiet": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "let's try whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "use your whisper voice": {
+    "true_label": "whisper_mode",
+    "candidates": "whisper_mode"
+  },
+  "do you have hobbies": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "tell me about your hobbies": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "are you involved in hobbies": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "what recreational activities do you enjoy": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "what do you do as a hobby": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "what do you like to do in your free time": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "what are your hobbies": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "what hobbies do you have": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "when you have free time, what do you do": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "what do you do in your spare time siri": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": "what_are_your_hobbies"
+  },
+  "order more bread please": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "i ran out of bread, order more": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "since i ran out , order more bread": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "place an order for bread": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "make an order of bread because i am out": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "order an amazon gift card from amazon in the amount of twenty dollars": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "order a case of coke from amazon": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "order dog food from walmart": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "order more paper towels from amazon": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "order a disney gift card in the amount of five hundred dollars from costco": {
+    "true_label": "order",
+    "candidates": "order"
+  },
+  "how can i jump start my car if my battery is dead": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "will a jump start work if my batter is dead": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "how to jump start a car": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "what do i need to jump start a battery": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "how do i jump start a bad battery": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "what steps do i need to take to jump start my car": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "i'm not sure how to jump start a car; can you help me": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "how do i do a jump start on my car": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "how might i go about jump starting a car": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "how can i jump start a car": {
+    "true_label": "jump_start",
+    "candidates": "jump_start"
+  },
+  "how do i set up a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "what is the process to set up a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "how can i set up a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "what is the process to schedule a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "what do i do to schedule a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "i want you to set a meeting with john at 5 pm": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "schedule a monday meeting with sam at 1 pm": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "please schedule a meeting with kim at 10 am": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "please set a meeting with nancy at 4 pm": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "schedule my meeting with jim at 3pm": {
+    "true_label": "schedule_meeting",
+    "candidates": "schedule_meeting"
+  },
+  "what if any meetings do i have today": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "do i have meetings with anyone today": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "do i have any meetings on my calendar today": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "do i have any meetings on my schedule today": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "do i have any meetings today between 9:30 and 10:30": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "do i have any meetings today between 9 and 10:30": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "do i have any meetings today between 9:20 and 10:30": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "do i have any meetings today between 9 and 10:15": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "do i have any meetings today between 9 and 10": {
+    "true_label": "meeting_schedule",
+    "candidates": "meeting_schedule"
+  },
+  "what time am i meeting with john": {
+    "true_label": "meeting_schedule",
+    "candidates": "schedule_meeting"
+  },
+  "may you stop a paymet on my account": {
+    "true_label": "freeze_account",
+    "candidates": "freeze_account"
+  },
+  "how we stop my account": {
+    "true_label": "freeze_account",
+    "candidates": "freeze_account"
+  },
+  "can you place a stop on my account": {
+    "true_label": "freeze_account",
+    "candidates": "freeze_account"
+  },
+  "can we stop my bank account": {
+    "true_label": "freeze_account",
+    "candidates": "freeze_account"
+  },
+  "please put a block on my capital one account immediately": {
+    "true_label": "freeze_account",
+    "candidates": "account_blocked"
+  },
+  "please put a block on my discover account immediately": {
+    "true_label": "freeze_account",
+    "candidates": "account_blocked"
+  },
+  "please put a block on my regions account immediately": {
+    "true_label": "freeze_account",
+    "candidates": "account_blocked"
+  },
+  "please put a block on my wells fargo account immediately": {
+    "true_label": "freeze_account",
+    "candidates": "account_blocked"
+  },
+  "please put a block on my us bank account immediately": {
+    "true_label": "freeze_account",
+    "candidates": "account_blocked"
+  },
+  "i need you to act swiftly and freeze all activity on my capital one checking": {
+    "true_label": "freeze_account",
+    "candidates": "freeze_account"
+  },
+  "whats this song": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "nice song what is it": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "cool song, what is it": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "what music is this": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "is this a song that i dont know": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "what’s the name of this song": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "what is the current tune": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "what am i listening to right now": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "what is the name of the song playing right now": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "what is that song called": {
+    "true_label": "what_song",
+    "candidates": "what_song"
+  },
+  "i want to know what the purpose of life is": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "i want to hear what you think life's purpose is about": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "what do you think the purpose of life is": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "what is the purpose of existence": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "what do you think our purpose is in life": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "i'd like to know the meaning of life": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "what's your opinion on the meaning of life": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "what is life's purpose": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "tell me all about the meaning of life": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "tell me your thoughts about the meaning of life": {
+    "true_label": "meaning_of_life",
+    "candidates": "meaning_of_life"
+  },
+  "please reserve a table for 2 at lucky's under the name melissa at 7 pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "i would like to reserve a table for 2 at sam's steakhouse under the name jessie at 6:30 pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "help me reserve a table for 3 at lucky's under the name crystal at 8 pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "would you please schedule a reservation for 2 at lucky's under the name sam at 7:30pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "could you please reserve a table for 6 at lucille's under the name tom at 5pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "is there a reservation available at ruth chris today": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "are there 8pm tables available at texas roadhouse": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "book a reservation for 3 at xenophobe under the name zebee": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "i need to book a reservation for 3 at xenophobe under the name zebee": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "book 3 under the name zebee at xenophobe": {
+    "true_label": "restaurant_reservation",
+    "candidates": "restaurant_reservation"
+  },
+  "is there much traffic between here and work right now": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "what's the traffic like right now for my route to work": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "is the traffic bad going downtown right now": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "how's the traffic this morning": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "how bad is the traffic on the way to downtown": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "what's the traffic like going to central park": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "is there heavy traffic on the way to the city": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "how bad is traffic on the way into oakville right now": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "how does the traffic look on my way to work right now": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "what does my commute look like": {
+    "true_label": "traffic",
+    "candidates": "traffic"
+  },
+  "call alex": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "please call mark": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "i want to call mark": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "let me call mark": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "can we call mark": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "call back my mom please": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "start a call to cynthia": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "i want to call up jan": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "can you get a call started to martha": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "please call felicity": {
+    "true_label": "make_call",
+    "candidates": "make_call"
+  },
+  "send a text to joe": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "i need to text joe": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "text joe": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "send joe a text": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "text john with the message 'where are you": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "please send a text to danny saying that i'm running late": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "text mom saying happy birthday": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "text mollie saying 'i am on my way": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "i need you to text mickey saying 'can we reschedule": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "send message to carl, you suck": {
+    "true_label": "text",
+    "candidates": "text"
+  },
+  "how much is my kill bill bill for": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "what is the amount i owe on my phone": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "what is the total of my repair bill": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "how much is due on the gas bill": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "what do i owe on telephone and cable bill": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "how much do i have left to pay on my server and domain": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "what's the amount due on my vet and vehicle registration bills": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "what do my bills look like for amazon and netflix": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "how much do i have to pay on taxes and cable": {
+    "true_label": "bill_balance",
+    "candidates": "oos"
+  },
+  "how much do i owe on all of my bills": {
+    "true_label": "bill_balance",
+    "candidates": "bill_balance"
+  },
+  "what are some ways to raise my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "what will help my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "are there any videos on how to repair my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "what can i do to get a better credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "will getting a credit card help my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "what are the top 10 ways to build my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "how can i build up my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "how can i build my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "what are some easy ways to make my credit score better": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "how do i prevent my credit score from dropping": {
+    "true_label": "improve_credit_score",
+    "candidates": "improve_credit_score"
+  },
+  "i need new language": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "switch language for me": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "please change your language setting to russian": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "you must change your language setting to russian": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "you need to change your language setting to russian please": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "change language please": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "please change your language setting to spanish now": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "change your language setting to spanish": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "i want new language": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "please change the language": {
+    "true_label": "change_language",
+    "candidates": "change_language"
+  },
+  "set a warning for when my bank account starts running low": {
+    "true_label": "oos",
+    "candidates": "freeze_account"
+  },
+  "a show on broadway": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "who has the best record in the nfl": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how do i find the area of a circle": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how many onions do i have on hand": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what is the name of the 13th president": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "show me recent activity in my backyard": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how long will it take me to pay off my card if i pay an extra $50 a month over the minimum": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "does our bank have free notary": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what were the top stories this week": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "can i mix antifreeze with water": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "are any earning reports due": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "show me the channel guide": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is the pnc bank open": {
+    "true_label": "oos",
+    "candidates": "time"
+  },
+  "where does the power steering fluid go": {
+    "true_label": "oos",
+    "candidates": "oil_change_how"
+  },
+  "when was the last time the president visited floridau": {
+    "true_label": "oos",
+    "candidates": "time"
+  },
+  "how can i keep my windshield from fogging up in winter": {
+    "true_label": "oos",
+    "candidates": "weather"
+  },
+  "how do i compute the median of a set of numbers": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what is happening with brexit right nowu": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "are there any new companies to look out for": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "can you tell me how to compute price per ounce": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how to unclog a drain": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "am kind of busy now": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what new reality shows are there for 2019": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what is the purpose or benefit of a cash advance": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how can i root an android phone": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is android better than iphone": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "are androids expensive": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how long does it take to become an architect": {
+    "true_label": "oos",
+    "candidates": "time"
+  },
+  "who are some famous living architects": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "find out for me as to why people get autism": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is autism a genetic disease": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is flu contagious": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is it true that nicotine is harder to kick than heroin": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "please inform me on bad habits and overcoming them": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "are bad habits closely related with addictions": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "does hypnosis work to break bad habits": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "king of acid": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "suo2": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what university in the united states offers the best biomedical engineering program": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what's the definition of nuclear engineering": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "when was electrical engineering created": {
+    "true_label": "oos",
+    "candidates": "time"
+  },
+  "what is naval engineering": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is it possible to survive in a black hole": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "where do black holes come from": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what are black holes": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what was the final vote count in the brexit referendum": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "can you tell me the latest georgia news": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is the brexit finalized yet": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "the birds fly with there wings": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how the birds fly": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "where does cannabis originate from": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how are my cannabis stocks doing": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is marijuana addictive": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "should i hit or stay at 17 in blackjack": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what game has the best odds at a casino": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what's the best opening gambit for a game of chess": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what side in chess has the general advantage": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how do i get better at go": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how high does my sat score need to be to get into harvard": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what'll an education at boulder state college run": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what's the average gpa to get into yale": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what act score is considered good": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what cryptocurrency gained the most in 2018": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what's the best crypto to buy in 2019": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how is crypto legal": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "are there any cybersecurity jobs available in pittsburgh": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how many firewalls should i have and what type": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how can i breach a network": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how does cybersecurity work": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how many countries in the world are democracies": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is the united states a democracy": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "which nations are not democratic": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how does a democracy work": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "please get me my wheelchair": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what's the best dog food to feed my puppy": {
+    "true_label": "oos",
+    "candidates": "nutrition_info"
+  },
+  "how do you know when your dog is ill": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what dog breed sold the most in 2018": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how much food should i feed my cat": {
+    "true_label": "oos",
+    "candidates": "nutrition_info"
+  },
+  "what does it mean if i dream of falling off a building": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is it bad to not remember your dreams": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "why do we dream": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "do ducks eat meat, vegetables, or both": {
+    "true_label": "oos",
+    "candidates": "nutrition_info"
+  },
+  "what is the friendliest breed": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what do geese eat": {
+    "true_label": "oos",
+    "candidates": "nutrition_info"
+  },
+  "do ducks sleep": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "are over the ear headphones better than in ear headphones": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what brand of earphones is the best reviewed of 2019": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "are white and brown eggs any different": {
+    "true_label": "oos",
+    "candidates": "nutrition_info"
+  },
+  "where do eggs come from": {
+    "true_label": "oos",
+    "candidates": "nutrition_info"
+  },
+  "how can i easily replace a string on my guitar": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "how do you learn how to play electric violin": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "can you give me the standard tuning notes": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "what is the cheapest electric guitar": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "you want to know about current time now": {
+    "true_label": "oos",
+    "candidates": "time"
+  },
+  "what does it mean to have equality": {
+    "true_label": "oos",
+    "candidates": "meaning_of_life"
+  },
+  "what site publishes the most fake news": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "can you tell me some fake news": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "is cnn really fake news": {
+    "true_label": "oos",
+    "candidates": "oos"
+  },
+  "why is there fake news": {
+    "true_label": "oos",
+    "candidates": "oos"
+  }
+}

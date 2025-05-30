@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Initializer</title>
+    <link rel="stylesheet" href="css/task_initializer.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Task Initializer</h1>
+
+        <div class="input-section">
+            <h2>Input Configuration</h2>
+            <div class="form-group file-input-group">
+                <label for="fileInput">Upload XML or YAML File:</label>
+                <input type="file" id="fileInput" accept=".xml,.yaml,.yml">
+                <label><br>OR</label>
+                <label for="freeTextInput">Free Text Input:</label>
+                <p>Please describe your signals using natural language, at least include mnemonic, unit and decription.
+                </p>
+                <textarea id="freeTextInput" rows="5">mnemonic: ...
+description: ...
+unit: ...</textarea>
+                <button id="preprocessButton" class="action-button">Preprocess</button>
+            </div>
+            <div class="form-group">
+                <label for="projectId">Project ID:</label>
+                <input type="text" id="projectId" value="test">
+            </div>
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="userInteraction">
+                <label for="userInteraction">User Interaction Required</label>
+            </div>
+            <div class="form-group">
+                <label for="modelsHighLow">Models (High, Low - comma separated):</label>
+                <input type="text" id="modelsHighLow" value="gpt-4o-mini,gpt-4o-mini">
+            </div>
+        </div>
+
+        <div class="preview-section">
+            <h2>Preview</h2>
+            <h3>project_info.json</h3>
+            <div class="json-preview">
+                <pre id="projectInfoPreview">{}</pre>
+            </div>
+            <h3>preprocessed_metadata_batch.json</h3>
+            <div class="json-preview">
+                <pre id="preprocessedMetadataBatchPreview">{}</pre>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button id="downloadButton" class="action-button">Download</button>
+            <button id="sendToServerButton" class="action-button">Send to Server</button>
+        </div>
+    </div>
+
+    <script>
+        try {
+            // This will fail if the template wasn't rendered (e.g. via file:///)
+            serverEndpointPort = int("{{ serverEndpointPort }}");
+        } catch (e) {
+            serverEndpointPort = 5666; // Fallback
+        }
+
+    </script>
+    <script src="js/js-yaml.min.js"></script>
+    <script src="js/task_initializer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1982 @@
+[
+    {
+        "Mnemonic":"SPM2",
+        "Description in data log":"Pump 2 Stroke Rate",
+        "Unit":"1\/min",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"PumpRate",
+        "true label Unit":"Spm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV05",
+        "Description in data log":"MudPit Volume Average 5",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"TOFB",
+        "Description in data log":"zzz:undefined",
+        "Unit":"s",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Second",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"BVEL",
+        "Description in data log":"Block Velocity",
+        "Unit":"m\/s",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookVelocity",
+        "true label Unit":"MetrePerSecond",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"SPP\/SPM2",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"MAG_DEC",
+        "Description in data log":"zzz:undefined",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"GS_MDOA",
+        "Description in data log":"Mud Density Out",
+        "Unit":"g\/cm3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"DensityOut",
+        "true label Unit":"GramPerCubicCentimetre",
+        "true label Quantity":"MassDensityQuantity"
+    },
+    {
+        "Mnemonic":"RPM30s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"rpm",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"SurfaceRPM",
+        "true label Unit":"Rpm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV09",
+        "Description in data log":"MudPit Volume Average 9",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"GS_TTV1",
+        "Description in data log":"TripTank Volume 1",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"GTF_RT",
+        "Description in data log":"MWD Gravity Toolface",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"GS_CHKP",
+        "Description in data log":"Casing (choke) pressure",
+        "Unit":"kPa",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Kilopascal",
+        "true label Quantity":"PressureQuantity"
+    },
+    {
+        "Mnemonic":"INCL_CONT_RT",
+        "Description in data log":"MWD Continuous Inclination",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"Inclination",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"SHYC_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"AZIM_CONT_RT",
+        "Description in data log":"MWD Continuous Azimuth",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"Azimuth",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"BITRUN",
+        "Description in data log":"Bit run number",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_G_NC5",
+        "Description in data log":"n-Penthane",
+        "Unit":"ppm",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"PartPerMillion",
+        "true label Quantity":"ConcentrationQuantity"
+    },
+    {
+        "Mnemonic":"TTONB",
+        "Description in data log":"zzz:undefined",
+        "Unit":"s",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Second",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"FVOC",
+        "Description in data log":"Fill\/gain volume obs. (cum)",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"Hydraulics",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"SHKTOT_RT",
+        "Description in data log":"MWD Total Shocks",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"STWT",
+        "Description in data log":"String weight (rot,avg)",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"ROP2M",
+        "Description in data log":"Rate of Penetration 2 minute average",
+        "Unit":"m\/h",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"ROP",
+        "true label Unit":"MetrePerHour",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"GS_TFLO",
+        "Description in data log":"Flow Pumps",
+        "Unit":"L\/min",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"LitrePerMinute",
+        "true label Quantity":"VolumetricFlowRateQuantity"
+    },
+    {
+        "Mnemonic":"CUREDT_RT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SRV_GZ",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SPP-VPWD",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kPa",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"THKD",
+        "Description in data log":"Total Hookload",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"MBOT",
+        "Description in data log":"On Bottom Status",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"HKLD30s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV07",
+        "Description in data log":"MudPit Volume Average 7",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"GS_TVA",
+        "Description in data log":"Tank volume (active)",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV12",
+        "Description in data log":"MudPit Volume Average 12",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"SGZC_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"MWD_POS",
+        "Description in data log":"MWD Frame Position",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_RPM",
+        "Description in data log":"Averaged RPM",
+        "Unit":"rpm",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"SurfaceRPM",
+        "true label Unit":"Rpm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"RGX_RT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"TVDE",
+        "Description in data log":"Extrapolated Hole TVD",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"TrueVerticalDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"GRM1",
+        "Description in data log":"MWD Gamma Ray (API BH corrected)",
+        "Unit":"gAPI",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"out-of-set",
+        "true label Quantity":"out-of-set"
+    },
+    {
+        "Mnemonic":"DRET",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"CPOF",
+        "Description in data log":"Trip\/Ream\/Drill On Bottom Stat",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_G_IC4",
+        "Description in data log":"Iso-butane (IC4)",
+        "Unit":"ppm",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"PartPerMillion",
+        "true label Quantity":"ConcentrationQuantity"
+    },
+    {
+        "Mnemonic":"SRVAZI",
+        "Description in data log":"zzz:undefined",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"Azimuth",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"SPPA",
+        "Description in data log":"Average Standpipe Pressure",
+        "Unit":"kPa",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"SPP",
+        "true label Unit":"Kilopascal",
+        "true label Quantity":"PressureQuantity"
+    },
+    {
+        "Mnemonic":"MWD_VAL",
+        "Description in data log":"MWD Transmitted Counts",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"TOTAL_CORR",
+        "Description in data log":"zzz:undefined",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"TCHR",
+        "Description in data log":"Time chrom sample",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"TFLO",
+        "Description in data log":"Mud Flow In",
+        "Unit":"L\/min",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"FlowRateIn",
+        "true label Unit":"LitrePerMinute",
+        "true label Quantity":"VolumetricFlowRateQuantity"
+    },
+    {
+        "Mnemonic":"TOFF",
+        "Description in data log":"zzz:undefined",
+        "Unit":"s",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Second",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"MWD_SLIDE",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"RPM",
+        "Description in data log":"Average Rotary Speed",
+        "Unit":"rpm",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"SurfaceRPM",
+        "true label Unit":"Rpm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"HKLD",
+        "Description in data log":"Average Hookload",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV08",
+        "Description in data log":"MudPit Volume Average 8",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"HKLI",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"GS_SPM3",
+        "Description in data log":"Pump Speed 3",
+        "Unit":"1\/min",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"PumpRate",
+        "true label Unit":"Spm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"GS_G_C2",
+        "Description in data log":"Ethane (C2)",
+        "Unit":"ppm",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"PartPerMillion",
+        "true label Quantity":"ConcentrationQuantity"
+    },
+    {
+        "Mnemonic":"SHK3TM_RT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"min",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Minute",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"ECD_MW_IN",
+        "Description in data log":"zzz:undefined",
+        "Unit":"g\/cm3",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"DensityIn",
+        "true label Unit":"GramPerCubicCentimetre",
+        "true label Quantity":"MassDensityQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV11",
+        "Description in data log":"Tank 11 Volume",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"GS_ROP",
+        "Description in data log":"Rate of penetration",
+        "Unit":"m\/h",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"ROP",
+        "true label Unit":"MetrePerHour",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"DNI_MP",
+        "Description in data log":"zzz:undefined",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"SRVTVD",
+        "Description in data log":"zzz:undefined",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"TrueVerticalDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"RSDX",
+        "Description in data log":"Running speed-down (max)",
+        "Unit":"m\/s",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookVelocity",
+        "true label Unit":"MetrePerSecond",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"GS_SWOB",
+        "Description in data log":"Averaged WOB",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"WOB",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"ETSL",
+        "Description in data log":"Elapsed time in-slips",
+        "Unit":"s",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Second",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"SWOB",
+        "Description in data log":"Weight on Bit",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"WOB",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"SWOB30s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"WOB",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"ROPI",
+        "Description in data log":"Inverse ROP",
+        "Unit":"s\/m",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"out-of-set",
+        "true label Quantity":"out-of-set"
+    },
+    {
+        "Mnemonic":"GS_GASA",
+        "Description in data log":"Gas (avg)",
+        "Unit":"%",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Percent",
+        "true label Quantity":"ConcentrationQuantity|ProportionQuantity|DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"TRPOUT_CT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV14",
+        "Description in data log":"MudPit Volume Average 14",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"ROPH",
+        "Description in data log":"1\/2ft ROP",
+        "Unit":"m\/h",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"ROP",
+        "true label Unit":"MetrePerHour",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"SPM1",
+        "Description in data log":"Pump 1 Stroke Rate",
+        "Unit":"1\/min",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"PumpRate",
+        "true label Unit":"Spm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"SRVEW",
+        "Description in data log":"zzz:undefined",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"SGYC_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_TQA",
+        "Description in data log":"Averaged TRQ",
+        "Unit":"kN.m",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"SurfaceTorque",
+        "true label Unit":"KilonewtonMetre",
+        "true label Quantity":"TorqueQuantity"
+    },
+    {
+        "Mnemonic":"CWOB",
+        "Description in data log":"Corrected Surface Weight on Bit",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"WOB",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"DBTM",
+        "Description in data log":"Bit Depth (MD)",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"BitDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"GS_DRTM",
+        "Description in data log":"Lagged Total Depth",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"HoleDepth|MeasuredDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"GS_DMEA",
+        "Description in data log":"Total Depth",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"HoleDepth|MeasuredDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV06",
+        "Description in data log":"MudPit Volume Average 6",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"FRIC",
+        "Description in data log":"Rotating friction factor",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"RSUX",
+        "Description in data log":"Running speed-up (max)",
+        "Unit":"m\/s",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"MetrePerSecond",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"GS_G_NC4",
+        "Description in data log":"Nor-butane (NC4)",
+        "Unit":"ppm",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"PartPerMillion",
+        "true label Quantity":"ConcentrationQuantity"
+    },
+    {
+        "Mnemonic":"TFLO30s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"L\/min",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"LitrePerMinute",
+        "true label Quantity":"VolumetricFlowRateQuantity"
+    },
+    {
+        "Mnemonic":"GS_MWTI",
+        "Description in data log":"Mud Density In",
+        "Unit":"g\/cm3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"DensityIn",
+        "true label Unit":"GramPerCubicCentimetre",
+        "true label Quantity":"MassDensityQuantity"
+    },
+    {
+        "Mnemonic":"GRR",
+        "Description in data log":"MWD Raw Gamma Ray",
+        "Unit":"1\/s",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"ReciprocalSecond|Hertz",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"GRID_CORR",
+        "Description in data log":"zzz:undefined",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"MWD_TS",
+        "Description in data log":"MWD Time Stamp",
+        "Unit":"s",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Second",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"TCNF",
+        "Description in data log":"MWD TF Bit Confidence Flag",
+        "Unit":"%",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Percent",
+        "true label Quantity":"ProportionQuantity|DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"MWD_SYNC",
+        "Description in data log":"MWD Sync Status",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SPM4",
+        "Description in data log":"Pump 4 Stroke Rate",
+        "Unit":"1\/min",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"PumpRate",
+        "true label Unit":"Spm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"MWD_ID",
+        "Description in data log":"MWD DATP ID",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_SPM1",
+        "Description in data log":"Pump Speed 1",
+        "Unit":"1\/min",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"PumpRate",
+        "true label Unit":"Spm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"MSP4",
+        "Description in data log":"SPR MWD_04 mwd",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"UserDefined",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV13",
+        "Description in data log":"MudPit Volume Average13",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV10",
+        "Description in data log":"MudPit Volume Average 10",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"SHY_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SGX_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"PMPT",
+        "Description in data log":"Pump Time",
+        "Unit":"h",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Hour",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"SHKRSK_RT",
+        "Description in data log":"MWD Shock Risk",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"DCHV",
+        "Description in data log":"Chromatograph Sample (TVD)",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"TrueVerticalDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"SGZ_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SRV_HZ",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"TSPM",
+        "Description in data log":"Total SPM",
+        "Unit":"1\/min",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"PumpRate",
+        "true label Unit":"Spm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"STUCK_RT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"HKLN",
+        "Description in data log":"Hookload (min)",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"TF_CORR",
+        "Description in data log":"zzz:undefined",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"CHK",
+        "Description in data log":"Corrected Hookload",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"SHKPK_RT",
+        "Description in data log":"MWD Shock Peak",
+        "Unit":"m\/s2",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"MetrePerSecondSquared",
+        "true label Quantity":"AccelerationQuantity"
+    },
+    {
+        "Mnemonic":"SRVDEPTH",
+        "Description in data log":"zzz:undefined",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"MeasuredDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"MWD_DEL",
+        "Description in data log":"MWD Delay Time",
+        "Unit":"s",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Second",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"TRPM\/SPM",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"SHX_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SIG_TQ30s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kN.m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"KilonewtonMetre",
+        "true label Quantity":"TorqueQuantity"
+    },
+    {
+        "Mnemonic":"TOJ",
+        "Description in data log":"zzz:undefined",
+        "Unit":"s",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Second",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"GS_DVER",
+        "Description in data log":"Total Vertical Depth",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"TrueVerticalDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"PASS_NAME",
+        "Description in data log":"Pass Name",
+        "Unit":"unitless",
+        "DataType":"string",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"SHZ_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"BDTI",
+        "Description in data log":"Bit Drill Time",
+        "Unit":"h",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Hour",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"SGY_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"TEMP_DNI_RT",
+        "Description in data log":"MWD DNI Temperature",
+        "Unit":"degC",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"DownholeTemperature",
+        "true label Unit":"Celsius",
+        "true label Quantity":"TemperatureQuantity"
+    },
+    {
+        "Mnemonic":"GS_CFIA",
+        "Description in data log":"Cement flowrate In (avg)",
+        "Unit":"m3\/min",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"FlowRateIn",
+        "true label Unit":"CubicMetrePerMinute",
+        "true label Quantity":"VolumetricFlowRateQuantity"
+    },
+    {
+        "Mnemonic":"HKLX",
+        "Description in data log":"Maximum Hookload",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"MWD_BOT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"DRGF",
+        "Description in data log":"DRAG sliding friction factor",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"MTF_RT",
+        "Description in data log":"MWD Magnetic Toolface",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"TQLS",
+        "Description in data log":"Torque loss",
+        "Unit":"kN.m",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"KilonewtonMetre",
+        "true label Quantity":"TorqueQuantity"
+    },
+    {
+        "Mnemonic":"GS_SPM2",
+        "Description in data log":"Pump Speed 2",
+        "Unit":"1\/min",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"PumpRate",
+        "true label Unit":"Spm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"ROP30s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"m\/h",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"ROP",
+        "true label Unit":"MetrePerHour",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"TTV2",
+        "Description in data log":"Trip tank 2 volume",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"Hydraulics",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"BHFG",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"AJAM_MWD",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"STOR-DTOR",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kN.m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"FLOW-TRPM",
+        "Description in data log":"zzz:undefined",
+        "Unit":"L\/min",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"ROP5",
+        "Description in data log":"Rate of Penetration (5ft avg)",
+        "Unit":"m\/h",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"ROP",
+        "true label Unit":"MetrePerHour",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV01",
+        "Description in data log":"MudPit Volume Average 1",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"GS_DBTM",
+        "Description in data log":"Bit Depth",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"BitDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"SPP5s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kPa",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"SPP",
+        "true label Unit":"Kilopascal",
+        "true label Quantity":"PressureQuantity"
+    },
+    {
+        "Mnemonic":"SPM3",
+        "Description in data log":"Pump 3 Stroke Rate",
+        "Unit":"1\/min",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"PumpRate",
+        "true label Unit":"Spm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"DEPT",
+        "Description in data log":"Bit Depth",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"BitDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"ATBT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV04",
+        "Description in data log":"MudPit Volume Average 4",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"DRPM",
+        "Description in data log":"Total Downhole RPM",
+        "Unit":"rpm",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"DownholeRPM",
+        "true label Unit":"Rpm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"DCHR",
+        "Description in data log":"Date of Chromatograph Sample",
+        "Unit":"unitless",
+        "DataType":"date time",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SHKRATE_RT",
+        "Description in data log":"PowerUP Shock Rate",
+        "Unit":"1\/s",
+        "DataType":"double",
+        "dataSource":"PowerUp",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"ShockPerSecond|ReciprocalSecond|Hertz",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"SWOB-DWOB",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"MWD_FRM",
+        "Description in data log":"MWD Frame ID",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"BACC",
+        "Description in data log":"zzz:undefined",
+        "Unit":"m\/s2",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"MetrePerSecondSquared",
+        "true label Quantity":"AccelerationQuantity"
+    },
+    {
+        "Mnemonic":"GS_DCHM",
+        "Description in data log":"Depth chrom sample (meas)",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"SRV_GY",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"RS_DSPM",
+        "Description in data log":"zzz:undefined",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"GS_TDH",
+        "Description in data log":"TMP In",
+        "Unit":"degC",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Celsius",
+        "true label Quantity":"TemperatureQuantity"
+    },
+    {
+        "Mnemonic":"TQ30s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kN.m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"SurfaceTorque",
+        "true label Unit":"KilonewtonMetre",
+        "true label Quantity":"TorqueQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV03",
+        "Description in data log":"MudPit Volume Average3",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"SRV_GX",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"BTVD",
+        "Description in data log":"zzz:undefined",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"TrueVerticalDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"TQA",
+        "Description in data log":"Average Surface Torque",
+        "Unit":"kN.m",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"SurfaceTorque",
+        "true label Unit":"KilonewtonMetre",
+        "true label Quantity":"TorqueQuantity"
+    },
+    {
+        "Mnemonic":"GS_BPOS",
+        "Description in data log":"Hook Height",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"HookPosition",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"TRPM_RT",
+        "Description in data log":"MWD Turbine RPM",
+        "Unit":"rpm",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"DownholeRPM",
+        "true label Unit":"Rpm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"SPP-APWD",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kPa",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"TSTK",
+        "Description in data log":"Total Strokes",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"EDRT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"TREV",
+        "Description in data log":"Total Bit Revolutions",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"TRPIN_CT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"DTOR*RPM",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"rejected",
+        "true label Unit":"rejected",
+        "true label Quantity":"rejected"
+    },
+    {
+        "Mnemonic":"SHZC_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"BPOS",
+        "Description in data log":"Block Position",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookPosition",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"STIS",
+        "Description in data log":"Slips stat (1=Out,0=In)",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SIG_SPP5s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kPa",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"SPP",
+        "true label Unit":"Kilopascal",
+        "true label Quantity":"PressureQuantity"
+    },
+    {
+        "Mnemonic":"GS_SPPA",
+        "Description in data log":"Stand Pipe Pressure",
+        "Unit":"kPa",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"SPP",
+        "true label Unit":"Kilopascal",
+        "true label Quantity":"PressureQuantity"
+    },
+    {
+        "Mnemonic":"HKLO",
+        "Description in data log":"zzz:undefined",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"SHXC_USL",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"DPT_CONF",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_G_C3",
+        "Description in data log":"Propane (C3)",
+        "Unit":"ppm",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"PartPerMillion",
+        "true label Quantity":"ConcentrationQuantity"
+    },
+    {
+        "Mnemonic":"GS_HKLD",
+        "Description in data log":"Weight On Hook",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"CTH",
+        "Description in data log":"Corrected Total Hookload",
+        "Unit":"kkgf",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HookLoad",
+        "true label Unit":"ThousandKilogramForce",
+        "true label Quantity":"ForceQuantity"
+    },
+    {
+        "Mnemonic":"BONB",
+        "Description in data log":"Bit on Bottom",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_TV02",
+        "Description in data log":"MudPit Volume Average 2",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"DRPM30s",
+        "Description in data log":"zzz:undefined",
+        "Unit":"rpm",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"DownholeRPM",
+        "true label Unit":"Rpm",
+        "true label Quantity":"FrequencyQuantity"
+    },
+    {
+        "Mnemonic":"GS_G_C1",
+        "Description in data log":"Methane (C1)",
+        "Unit":"ppm",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"PartPerMillion",
+        "true label Quantity":"ConcentrationQuantity"
+    },
+    {
+        "Mnemonic":"SRV_HY",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"ACTC",
+        "Description in data log":"Rig Mode",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"DMEA",
+        "Description in data log":"Hole depth (MD)",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"HoleDepth|MeasuredDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"SRVTYPE",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"SRVNS",
+        "Description in data log":"zzz:undefined",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"ROP",
+        "Description in data log":"Rate of Penetration",
+        "Unit":"m\/h",
+        "DataType":"double",
+        "dataSource":"Drilling",
+        "true label PrototypeData":"ROP",
+        "true label Unit":"MetrePerHour",
+        "true label Quantity":"VelocityQuantity"
+    },
+    {
+        "Mnemonic":"TIME",
+        "Description in data log":"Time",
+        "Unit":"s",
+        "DataType":"date time",
+        "dataSource":"['none']",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"Second",
+        "true label Quantity":"TimeQuantity"
+    },
+    {
+        "Mnemonic":"GR_CONF",
+        "Description in data log":"MWD GR Bit Confidence Flag",
+        "Unit":"%",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Percent",
+        "true label Quantity":"ProportionQuantity|DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_MTOA",
+        "Description in data log":"Temperature Out",
+        "Unit":"degC",
+        "DataType":"double",
+        "dataSource":"MudLog",
+        "true label PrototypeData":"TemperatureOut",
+        "true label Unit":"Celsius",
+        "true label Quantity":"TemperatureQuantity"
+    },
+    {
+        "Mnemonic":"SRVINC",
+        "Description in data log":"zzz:undefined",
+        "Unit":"dega",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"Inclination",
+        "true label Unit":"Degree",
+        "true label Quantity":"PlaneAngleQuantity"
+    },
+    {
+        "Mnemonic":"DNISTAT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_TVCA",
+        "Description in data log":"Tank volume change (active)",
+        "Unit":"m3",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"CubicMetre",
+        "true label Quantity":"VolumeQuantity"
+    },
+    {
+        "Mnemonic":"SDEP_CONT_RT",
+        "Description in data log":"Continuous Survey Depth",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"MWD",
+        "true label PrototypeData":"MeasuredDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"SRV_HX",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_ACTC",
+        "Description in data log":"Rig Mode",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    },
+    {
+        "Mnemonic":"GS_G_IC5",
+        "Description in data log":"Iso-pentane (IC5)",
+        "Unit":"ppm",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"out-of-set",
+        "true label Unit":"PartPerMillion",
+        "true label Quantity":"ConcentrationQuantity"
+    },
+    {
+        "Mnemonic":"GS_DRTV",
+        "Description in data log":"Lag Depth (TVD)",
+        "Unit":"m",
+        "DataType":"double",
+        "dataSource":"GeoService",
+        "true label PrototypeData":"TrueVerticalDepth",
+        "true label Unit":"Metre",
+        "true label Quantity":"LengthQuantity"
+    },
+    {
+        "Mnemonic":"RHX_RT",
+        "Description in data log":"zzz:undefined",
+        "Unit":"unitless",
+        "DataType":"double",
+        "dataSource":"General",
+        "true label PrototypeData":"uncertain",
+        "true label Unit":"Dimensionless",
+        "true label Quantity":"DimensionlessQuantity"
+    }
+]

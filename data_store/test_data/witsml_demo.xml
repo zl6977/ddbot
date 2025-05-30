@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logs xmlns="http://www.witsml.org/schemas/1series"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.4.1.1">
+    <log uidWell="W-986464" uidWellbore="B-986464" uid="L-987279-Time">
+        <nameWell>15/9-F-9 A</nameWell>
+        <nameWellbore>15/9-F-9 A - Main Wellbore</nameWellbore>
+        <name>12.25 in Section - Time Log</name>
+        <serviceCompany>Schlumberger</serviceCompany>
+        <runNumber>1</runNumber>
+        <pass>Drilling</pass>
+        <creationDate>2009-06-24T11:41:18.000Z</creationDate>
+        <indexType>date time</indexType>
+        <startDateTimeIndex>2009-06-27T16:50:29.000Z</startDateTimeIndex>
+        <endDateTimeIndex>2009-06-28T05:54:41.000Z</endDateTimeIndex>
+        <direction>increasing</direction>
+        <indexCurve>TIME</indexCurve>
+        <priv_dTimPriority>2009-06-24T11:41:18.000Z</priv_dTimPriority>
+        <logCurveInfo uid="GS_G_NC5">
+            <mnemonic>GS_G_NC5</mnemonic>
+            <unit>ppm</unit>
+            <minDateTimeIndex>2009-06-27T20:13:03.000Z</minDateTimeIndex>
+            <maxDateTimeIndex>2009-06-28T02:50:24.000Z</maxDateTimeIndex>
+            <curveDescription>n-Penthane</curveDescription>
+            <dataSource>GeoService</dataSource>
+            <typeLogData>double</typeLogData>
+        </logCurveInfo>
+        <logCurveInfo uid="GS_ROP">
+            <mnemonic>GS_ROP</mnemonic>
+            <unit>m/h</unit>
+            <minDateTimeIndex>2009-06-27T16:50:29.000Z</minDateTimeIndex>
+            <maxDateTimeIndex>2009-06-28T05:54:41.000Z</maxDateTimeIndex>
+            <curveDescription>Rate of penetration</curveDescription>
+            <dataSource>GeoService</dataSource>
+            <typeLogData>double</typeLogData>
+        </logCurveInfo>
+        <logCurveInfo uid="HKLD">
+            <mnemonic>HKLD</mnemonic>
+            <unit>kkgf</unit>
+            <minDateTimeIndex>1900-01-01T00:00:00.000Z</minDateTimeIndex>
+            <maxDateTimeIndex>1900-01-01T00:00:00.000Z</maxDateTimeIndex>
+            <curveDescription>Average Hookload</curveDescription>
+            <dataSource>Drilling</dataSource>
+            <typeLogData>double</typeLogData>
+        </logCurveInfo>
+        <logCurveInfo uid="SPPA">
+            <mnemonic>SPPA</mnemonic>
+            <unit>kPa</unit>
+            <minDateTimeIndex>1900-01-01T00:00:00.000Z</minDateTimeIndex>
+            <maxDateTimeIndex>1900-01-01T00:00:00.000Z</maxDateTimeIndex>
+            <curveDescription>Average Standpipe Pressure</curveDescription>
+            <dataSource>Drilling</dataSource>
+            <typeLogData>double</typeLogData>
+        </logCurveInfo>
+        <logCurveInfo uid="SPM2">
+            <mnemonic>SPM2</mnemonic>
+            <unit>1/min</unit>
+            <minDateTimeIndex>1900-01-01T00:00:00.000Z</minDateTimeIndex>
+            <maxDateTimeIndex>1900-01-01T00:00:00.000Z</maxDateTimeIndex>
+            <curveDescription>Pump 2 Stroke Rate</curveDescription>
+            <dataSource>Drilling</dataSource>
+            <typeLogData>double</typeLogData>
+        </logCurveInfo>
+        <logCurveInfo uid="SWOB">
+            <mnemonic>SWOB</mnemonic>
+            <unit>kkgf</unit>
+            <minDateTimeIndex>1900-01-01T00:00:00.000Z</minDateTimeIndex>
+            <maxDateTimeIndex>1900-01-01T00:00:00.000Z</maxDateTimeIndex>
+            <curveDescription>Weight on Bit</curveDescription>
+            <dataSource>Drilling</dataSource>
+            <typeLogData>double</typeLogData>
+        </logCurveInfo>
+        <logData>
+            <mnemonicList>TIME,SPM2,GS_TV05,TOFB,BVEL,SPP/SPM2,MAG_DEC,GS_MDOA,RPM30s,GS_TV09,GS_TTV1,GTF_RT,GS_CHKP,INCL_CONT_RT,SHYC_USL,AZIM_CONT_RT,BITRUN,GS_G_NC5,TTONB,FVOC,SHKTOT_RT,STWT,ROP2M,GS_TFLO,CUREDT_RT,SRV_GZ,SPP-VPWD,THKD,MBOT,HKLD30s,GS_TV07,GS_TVA,GS_TV12,SGZC_USL,MWD_POS,GS_RPM,RGX_RT,TVDE,GRM1,DRET,CPOF,GS_G_IC4,SRVAZI,SPPA,MWD_VAL,TOTAL_CORR,TCHR,TFLO,TOFF,MWD_SLIDE,RPM,HKLD,GS_TV08,HKLI,GS_SPM3,GS_G_C2,SHK3TM_RT,ECD_MW_IN,GS_TV11,GS_ROP,DNI_MP,SRVTVD,RSDX,GS_SWOB,ETSL,SWOB,SWOB30s,ROPI,GS_GASA,TRPOUT_CT,GS_TV14,ROPH,SPM1,SRVEW,SGYC_USL,GS_TQA,CWOB,DBTM,GS_DRTM,GS_DMEA,GS_TV06,FRIC,RSUX,GS_G_NC4,TFLO30s,GS_MWTI,GRR,GRID_CORR,MWD_TS,TCNF,MWD_SYNC,SPM4,MWD_ID,GS_SPM1,MSP4,GS_TV13,GS_TV10,SHY_USL,SGX_USL,PMPT,SHKRSK_RT,DCHV,SGZ_USL,SRV_HZ,TSPM,STUCK_RT,HKLN,TF_CORR,CHK,SHKPK_RT,SRVDEPTH,MWD_DEL,TRPM/SPM,SHX_USL,SIG_TQ30s,TOJ,GS_DVER,PASS_NAME,SHZ_USL,BDTI,SGY_USL,TEMP_DNI_RT,GS_CFIA,HKLX,MWD_BOT,DRGF,MTF_RT,TQLS,GS_SPM2,ROP30s,TTV2,BHFG,AJAM_MWD,STOR-DTOR,FLOW-TRPM,ROP5,GS_TV01,GS_DBTM,SPP5s,SPM3,DEPT,ATBT,GS_TV04,DRPM,DCHR,SHKRATE_RT,SWOB-DWOB,MWD_FRM,BACC,GS_DCHM,SRV_GY,RS_DSPM,GS_TDH,TQ30s,GS_TV03,SRV_GX,BTVD,TQA,GS_BPOS,TRPM_RT,SPP-APWD,TSTK,EDRT,TREV,TRPIN_CT,DTOR*RPM,SHZC_USL,BPOS,STIS,SIG_SPP5s,GS_SPPA,HKLO,SHXC_USL,DPT_CONF,GS_G_C3,GS_HKLD,CTH,BONB,GS_TV02,DRPM30s,GS_G_C1,SRV_HY,ACTC,DMEA,SRVTYPE,SRVNS,ROP,GR_CONF,GS_MTOA,SRVINC,DNISTAT,GS_TVCA,SDEP_CONT_RT,SRV_HX,GS_ACTC,GS_G_IC5,GS_DRTV,RHX_RT</mnemonicList>
+            <unitList>s,1/min,m3,s,m/s,unitless,dega,g/cm3,rpm,m3,m3,dega,kPa,dega,unitless,dega,unitless,ppm,s,m3,unitless,kkgf,m/h,L/min,unitless,unitless,kPa,kkgf,unitless,kkgf,m3,m3,m3,unitless,unitless,rpm,unitless,m,gAPI,unitless,unitless,ppm,dega,kPa,unitless,dega,unitless,L/min,s,unitless,rpm,kkgf,m3,kkgf,1/min,ppm,min,g/cm3,m3,m/h,m,m,m/s,kkgf,s,kkgf,kkgf,s/m,%,unitless,m3,m/h,1/min,m,unitless,kN.m,kkgf,m,m,m,m3,unitless,m/s,ppm,L/min,g/cm3,1/s,dega,s,%,unitless,1/min,unitless,1/min,unitless,m3,m3,unitless,unitless,h,unitless,m,unitless,unitless,1/min,unitless,kkgf,dega,kkgf,m/s2,m,s,unitless,unitless,kN.m,s,m,unitless,unitless,h,unitless,degC,m3/min,kkgf,unitless,unitless,dega,kN.m,1/min,m/h,m3,unitless,unitless,kN.m,L/min,m/h,m3,m,kPa,1/min,m,unitless,m3,rpm,unitless,1/s,kkgf,unitless,m/s2,m,unitless,dega,degC,kN.m,m3,unitless,m,kN.m,m,rpm,kPa,unitless,unitless,unitless,unitless,unitless,unitless,m,unitless,kPa,kPa,kkgf,unitless,unitless,ppm,kkgf,kkgf,unitless,m3,rpm,ppm,unitless,unitless,m,unitless,m,m/h,%,degC,dega,unitless,m3,m,unitless,unitless,ppm,m,unitless</unitList>
+            <data>2009-06-27T16:50:29.000Z,,61.5299987792969,,,,,0.790000021457672,,0.0399999991059303,855.070007324219,,175,,,,,,,147.820007324219,,,,0,,,,,,,66.7600021362305,149.460006713867,23.6399993896484,,,0,,,,,,,,,,,,,,,,,0.540000021457672,,0,,,,28.6900005340576,185.690002441406,,,-2.73451295277372E-18,-2.60441829090673E-16,,,,,0,,0.00999999977648258,,,,,0.0199999995529652,,,855.070007324219,892,-0.389999985694885,,-2.73451295277372E-18,,,1.21000003814697,,,,,,,,0,2.39000010490417,14,0.119999997317791,,,,,,,,,,,,,,,,,,,,852.47998046875,,,,,,-1.78294308609979E-19,,,,,,0,,3.11999988555908,,,,,,76.6699981689453,0.949999988079071,,,,,76.2799987792969,,,,,,,,,,29.8199996948243,,76.6600036621094,,,,22.2900009155273,,,,,,,,,,,,120.000004768372,,,,,69.5446426131678,,,82.0100021362305,,,,,,,,,,21.9899997711182,,,147.820007324219,,,9,,,</data>
+            <data>2009-06-28T05:54:41.000Z,,54.7999992370606,,,,,0.810000002384186,,0.0399999991059303,892,,176.999998092651,,,,,,,104.650001525879,,,,0,,,,,,,66.5999984741211,106.25,2.27999997138977,,,0,,,,,,,,,,,,,,,,,68.4700012207031,,0,,,,66.9599990844727,185.690002441406,,,0.00699999978144964,-2.60441829090673E-16,,,,,0,,0.159999996423721,,,,,0.0199999995529652,,,892,892,50.4599990844727,,0.00699999978144964,,,1.20000004768372,,,,,,,,0,0,5.86000013351441,24.7800006866455,,,,,,,,,,,,,,,,,,,,852.47998046875,,,,,,-1.78294308609979E-19,,,,,,0,,3.11999988555908,,,,,,0.0199999995529652,0.469999998807907,,,,,76.3000030517579,,,,,,,,,,29.8999996185303,,76.6999969482422,,,,42.6599998474121,,,,,,,,,,,,325.999999046326,,,,,66.0980046140366,,,82.0400009155274,,,,,,,,,,20.9799995422364,,,104.650001525879,,,8,,,</data>
+        </logData>
+        <commonData>
+            <sourceName>SLB_DS</sourceName>
+            <dTimCreation>2012-07-25T12:40:02.386Z</dTimCreation>
+            <dTimLastChange>2015-06-10T07:47:37.309Z</dTimLastChange>
+            <priv_userLastChange>scmanager</priv_userLastChange>
+            <priv_ipLastChange>143.97.229.4</priv_ipLastChange>
+            <priv_userOwner>f_sitecom_synchronizer@statoil.net</priv_userOwner>
+            <priv_ipOwner>192.168.157.1</priv_ipOwner>
+            <priv_dTimReceived>2015-06-10T07:47:37.309Z</priv_dTimReceived>
+        </commonData>
+    </log>
+</logs>
