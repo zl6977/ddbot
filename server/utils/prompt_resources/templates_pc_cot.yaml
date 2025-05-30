@@ -1,0 +1,399 @@
+Interpret_mnemonic:
+  placeholders: [<user_query>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Split the provided mnemonic used in the drilling domain into meaningful components, interpret the meaning of each component.
+      Do it step by step strictly:
+      1. Split the mnemonic by special symbol like '_', '#'.
+      2. Consider to split the mnemonic if there is a number suffix. It often means the index of the series data channel, such as 'SPM2' means 'the 2nd SPM data'. But the number can also be part of a name, such as 'C3' can mean 'Propane'.
+      3. Split the mnemonic if it includes a combination of a number and a time unit as a suffix. This often represents a data filter, e.g., RPM30s means "the average RPM over 30 seconds".
+      4. Split the mnemonic if it includes strings as prefix and keyword from the complementary knowledge.
+      5. Consider to split the mnemonic if some parts of the mnemonic can be considered as shorthand for drilling terms. For example, 'THKD' can be splitted into 'T' and 'HKD', as 'HKD' can be a drilling term 'Hookload'.
+      6. Interpret the mnemonic component by component using both the unit and the text description, including all components. If a component is not understandable, use 'uncertain'. For example, according to 'Total Hookload, kkgf', 'THKD' can be interpreted as '{T:Total, HKD: Hookload}'. According to 'MudPit Volume Average 9, m3', 'GS_TV09' can be interpreted as '{GS:GeoService, TV: tank volume, 09: index 9}'.
+      7. Provide some short remarks, e.g., if the unit is 'm', the physical quantity can be 'Length' or 'Depth'; if the unit is 'm/s', it can be a 'Velocity'.
+
+      Input:
+      User query: {<user_query>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: A brief analysis process.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required. Minor format adjustments are allowed if the orignal format is not perfect.
+      Input: analysis: {<last_answer>}.
+
+      Output:
+      The extracted result in the format: {"mnemonic component 1": meaning, "mnemonic component 2": meaning, ..., Remark: Remarks}, without any explanation or additional information. For example, 'THKD' can be interpreted as '{T:Total, HKD: Hookload, Remark:ForceQuantity}'.
+Preselect_quantity:
+  placeholders: [<user_query>, <interpretation>, <selection_range>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, preselect the relevant quantities from a provided candidate list. Do it step by step strictly:
+      1. Unit Matching (Find relevant and strong matches):
+        For each candidate in the candidate list, compare the candidate's QuantityHasUnit with the Unit from the user query.
+        If the 2 units are semantically similar, include the candidate in a relevant list.
+        Note that the 2 units from the candidate and user query do not have to be identical, as long as they are semantically similar. For example, "m/s" and "meterPerSecond" are semantically similar.
+        If the user query's unit does not explicitly appear in any candidate but you understand it and reasonably believe it applies to a candidate, still include that candidate.
+        If a candidate aligns with `Interpretation`, include it in the relevant list and mark it as a strong match.
+      2. Semantic Exclusion:
+        If only <num_quantity_candidates> or fewer candidates are in the relevant list, skip this step and retain all.
+        If more than <num_quantity_candidates> candidates are in the relevant list:
+        - Use the Description, Interpretation, and Complementary knowledge, along with your own drilling knowledge, to exclude clearly irrelevant candidates from the relevant list.
+        - Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed. If the quantity in the LLM's interpretation can not be found in candidate list, ignore the interpretation.
+        - If uncertain about a candidate, keep it.
+      3. Select up to <num_quantity_candidates> matches from the relevant list based on relevance, and especially ensure the best match and strong matches are included.
+      - Use "UncertainQuantity" if it seems that the amount of information provided is not enough to select a quantity.
+      - Use "OutOfSetQuantity" if you could generally see what the quantity is, but it is not in the candidate list.
+      4. Name recheck (Priority 0): Ensure the selected candidates are from the provided candidate list, using the exact name as given.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output:
+      Up to <num_quantity_candidates> selected quantities or "UncertainQuantity" as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, extract the result, and format it strictly as `item1,item2,...,item<num_quantity_candidates>`.
+      2. Ensure the extracted result uses the exact name in the provided candidate list.
+      3. Use "UncertainQuantity" as a placeholder if no match exists.
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+
+      Output:
+      Up to <num_quantity_candidates> extracted results only, strictly formatted as `item1,item2,...,item<num_quantity_candidates>`, without any explanation or additional information.
+Preselect_unit:
+  placeholders: [<user_query>, <interpretation>, <selection_range>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, preselect the relevant units from a provided candidate list. Do it step by step strictly:
+      1. Direct Matching (Find relevant and strong matches):
+        For each candidate in the list, compare the candidate with the Unit from the user query.
+        If they are semantically similar or explained explicitly in `complementary knowledge`, include it in a relevant list and mark it as a strong match.
+        If a candidate is potentially relevant, for example, for the same physical quantity as the user query, also include it in the relevant list.
+        Note that the 2 units from the candidate and user query do not have to be identical, as long as they are semantically similar. For example, "m/s" and "meterPerSecond" are semantically similar.
+      2. Semantic Exclusion:
+        If only <num_unit_candidates> or fewer candidates are in the relevant list, skip this step and retain all.
+        If more than <num_unit_candidates> candidates are in the relevant list:
+        - Use the Description, Interpretation, and Complementary knowledge, along with your own drilling knowledge, to exclude clearly irrelevant candidates from the relevant list.
+        - Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed.
+        - If uncertain about a candidate, keep it.
+      3. Select up to <num_unit_candidates> matches from the relevant list based on relevance, and especially ensure the best match and strong matches are included.
+      - Use "UncertainUnit" if it seems that the amount of information provided is not enough to select a unit.
+      - Use "OutOfSetUnit" if you could generally see what the unit is, but it is not in the candidate list.
+      4. Name recheck (Priority 0): Ensure the selected candidates are from the provided candidate list, using the exact name as given.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: Up to <num_unit_candidates> selected units or "UncertainUnit" as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, extract the result, and format it strictly as `item1,item2,...,item<num_unit_candidates>`.
+      2. Ensure the extracted result uses the exact name in the provided candidate list.
+      3. Use "UncertainUnit" as a placeholder if no match exists.
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+      Up to <num_unit_candidates> extracted results only, strictly formatted as `item1,item2,...,item<num_unit_candidates>`, without any explanation or additional information.
+Preselect_prototypeData:
+  placeholders: [<user_query>, <interpretation>, <selection_range>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, preselect the relevant prototypeData from a provided candidate list. Do it step by step strictly:
+      1. Direct Matching (Find relevant and strong matches):
+        For each candidate in the candidate list, compare the candidate with the mnemonic from the user query.
+        If a candidate can explain the mnemonic or part of the mnemonic according to `complementary knowledge`, include it in a relevant list and mark it as a strong match.
+        If a candidate is potentially relevant, for example, having similar units, also include it in the relevant list.
+      2. Semantic Exclusion:
+        If only <num_prototypedata_candidates> or fewer candidates are in the relevant list, skip this step and retain all.
+        If more than <num_prototypedata_candidates> candidates are in the relevant list:
+        - Use the Description, Interpretation, and Complementary knowledge, along with your own drilling knowledge, to exclude clearly irrelevant candidates from the relevant list.
+        - Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed.
+        - If uncertain about a candidate, keep it.
+      3. Select up to <num_prototypedata_candidates> matches from the relevant list based on relevance, and especially ensure the best match and strong matches are included.
+      - Use "UncertainPrototypeData" if it seems that the amount of information provided is not enough to select a prototypeData.
+      - Use "OutOfSetPrototypeData" if you could generally see what the prototypeData is, but it is not in the candidate list.
+      4. Name recheck (Priority 0): Ensure the selected candidates are from the provided candidate list.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: Up to <num_prototypedata_candidates> selected prototypeData or "UncertainPrototypeData" as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, extract the result, and format it strictly as `item1,item2,...,item<num_prototypedata_candidates>`.
+      2. Ensure the extracted result uses the exact name in the provided candidate list.
+      3. Use "UncertainPrototypeData" as a placeholder if no match exists.
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+
+      Output:
+      Up to <num_prototypedata_candidates> extracted results only, strictly formatted as `item1,item2,...,item<num_prototypedata_candidates>`, without any explanation or additional information.
+Recognize_quantity:
+  placeholders: [<user_query>, <interpretation>, <selection_range>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, select the best matching quantity from a provided candidate list. Do it step by step strictly:
+      1. Unit Matching (Find relevant matches):
+        For each candidate in the list, compare the candidate's QuantityHasUnit with the Unit from the user query. 
+        If the 2 units are semantically similar, include the candidate in the matching list.
+        Note that the 2 units from the candidate and user query do not have to be identical, as long as they are semantically similar. For example, "m/s" and "meterPerSecond" are semantically similar.
+        If the user query's unit does not explicitly appear in any candidate but you understand it and reasonably believe it applies to a candidate, still include that candidate.
+      2. Semantic Matching (Find strong matches):
+        For each candidate in the candidate list, use the Description, Interpretation, and Complementary knowledge, and your own drilling knowledge, to check if the candidate aligns with the meaning of mnemonic in user query. If yes, include this candidate in a matching list and mark it as a strong match.
+        Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed.
+      3. Select the best match from the matching list, especially considering the strong matches.
+      4. Relevance recheck: Double check if the selected is relevant.
+      - Use 'UncertainQuantity' if it seems that the amount of information provided is not enough to select a quantity.
+      - Use 'OutOfSetQuantity' if you could generally see what the quantity is, but it is not in the candidate list.
+      5. Name recheck (Priority 0): Ensure the selected candidate is from the provided candidate list, using the exact name as given. The name is the value of 'ddhub:Quantity' field. For example, `ForceQuantity`, not `ddhub:ForceQuantity`.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: The selected quantity name, or `UncertainQuantity` as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, and extract the result.
+      2. Ensure the extracted result is the exact name in the provided candidate list. The name is the value of 'ddhub:Quantity' field if the candidate list contains extra information, without the key name. For example, `ForceQuantity`, not `ddhub:ForceQuantity`.
+      3. Return 'UncertainQuantity' as a placeholder if no matches found in the given analysis.
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+
+      Output: Only the extracted quantity name or `UncertainQuantity` as placeholder, without any explanation or additional information.
+Recognize_unit:
+  placeholders: [<user_query>, <interpretation>, <selection_range>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, select the best matching unit from a provided candidate list. Do it step by step strictly:
+      1. Semantic Matching (Find relevant matches):
+        Use the Description, Interpretation, and Complementary knowledge, along with your own drilling knowledge, to check if a candidate unit is relevant with the user query. If yes, include this candidate in a matching list.
+        Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed.
+      2. Direct Matching (Find strong matches):
+        For each candidate in the candidate list, compare the `ddhub:Unit` field of a candidate and the `Unit` field in user query.
+        If they are semantically similar, include this candidate in a matching list and mark it as a strong match.
+        Note that the 2 units from the candidate and user query do not have to be identical, as long as they are semantically similar. For example, "m/s" and "meterPerSecond" are semantically similar.
+      3. Select the best match from the matching list, especially considering the strong matches.
+      4. Relevance recheck: Double check if the selected is relevant.
+      - Use 'UncertainUnit' if it seems that the amount of information provided is not enough to select a unit.
+      - Use 'OutOfSetUnit' if you could generally see what the unit is, but it is not in the candidate list.
+      5. Name recheck (Priority 0): Ensure the selected candidate is from the provided candidate list, using the exact name as given. The name is the value of 'ddhub:Unit' field, without the key name. For example, `newton`, not `ddhub:newton` nor `ddhub:Unit newton`.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: The selected unit name, or `UncertainUnit` as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, and extract the result.
+      2. Ensure the extracted result is the exact name in the provided candidate list. The name is the value of 'ddhub:Unit' field if the candidate list contains extra information, without the key name. For example, `newton`, not `ddhub:newton` nor `ddhub:Unit newton`.
+      3. Return 'UncertainUnit' as a placeholder if no matches found in the given analysis.
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+
+      Output: Only the extracted unit name or `UncertainUnit` as placeholder, without any explanation or additional information.
+Recognize_prototypeData:
+  placeholders: [<user_query>, <interpretation>, <selection_range>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, select the best matching prototypeData from a provided candidate list. Do it step by step strictly:
+      1. Unit Matching (Find relevant matches):
+        For each candidate in the candidate list, check if the unit of the user query is a possible unit of 'ddhub:IsOfBaseQuantity' of each candidate. If not, rule out this PrototypeData. If yes or unsure, include it in a matching list.
+      2. Semantic Matching (Find strong matches):
+        For each candidate in the matching list, if it can explain the mnemonic or part of the mnemonic according to `complementary knowledge`, mark it as a strong match.
+      3. Semantic Exclusion:
+        For each candidate in the matching list, use the Description, Interpretation, and Complementary knowledge, and your own drilling knowledge, to check if the candidate aligns with the meaning of mnemonic in user query. If the candidate is impossible and unsure, exclude it from the matching list.
+        Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed.
+      4. Select the best match from the matching list, especially considering the strong matches.
+      5. Relevance recheck: Double check if the selected is relevant.
+      - Use 'UncertainPrototypeData' if it seems that the amount of information provided is not enough to select a prototypeData.
+      - Use 'OutOfSetPrototypeData' if you could generally see what the prototypeData is, but it is not in the candidate list.
+      6. Name recheck (Priority 0): Ensure the selected candidate is from the provided candidate list, using the exact name as given. The name is the value of 'ddhub:PrototypeData' field, without the key name. For example, `WOB`, not `ddhub:WOB`.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: The selected PrototypeData name, or `UncertainPrototypeData` as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, and extract the result.
+      2. Ensure the extracted result is the exact name in the provided candidate list. The name is the value of 'ddhub:PrototypeData' field if the candidate list contains extra information, without the key name. For example, `WOB`, not `ddhub:WOB`.
+      3. Return 'UncertainPrototypeData' as a placeholder if no matches found in the given analysis.
+
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+
+      Output: Only the extracted PrototypeData name or `UncertainPrototypeData` as placeholder, without any explanation or additional information.
+
+Rank_quantity:
+  placeholders: [<user_query>, <interpretation>, <candidates>, <recognized_class>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Analyze the provided drilling metadata and rank the quantity candidates based on relevance and semantic similarity. Consider unit matching, semantic alignment, and drilling domain knowledge.
+      
+      Do it step by step strictly:
+      1. Unit Analysis: For each candidate, compare its QuantityHasUnit with the Unit from the user query. Note semantic similarities (e.g., "m/s" and "meterPerSecond").
+      2. Semantic Analysis: Use the Description, Interpretation, and Complementary knowledge to assess how well each candidate aligns with the mnemonic meaning.
+      3. Context Analysis: Consider any previously recognized classes ({<recognized_class>}) for consistency.
+      4. Ranking Rationale: Provide reasoning for why certain candidates are more relevant than others.
+      5. Letter Assignment: Each candidate is assigned a letter. Analyze which letters correspond to the most relevant candidates.
+
+      Input:
+      ```
+      User query:
+      <user_query>
+      Interpretation:
+      <interpretation>
+      Complementary knowledge:
+      <complementary_knowledge>
+      Previously recognized:
+      <recognized_class>
+      ```
+      Candidates:
+      ```
+      <candidates>
+      ```
+
+      Output: Detailed analysis of candidate relevance with reasoning for ranking.
+    extraction: |-
+      Task Objective: Based on the analysis, rank the candidates and respond with only their corresponding letters.
+      
+      Do it step by step strictly:
+      1. Review the analysis and identify the top-ranked candidate.
+      2. Find the letter assigned to that candidate.
+      3. Return Rank order from best to worst.
+
+      Analysis:
+      <last_answer>
+
+      Candidates:
+      ```
+      <candidates>
+      ```
+
+      Output: (Rank order from best to worst)
+
+Rank_unit:
+  placeholders: [<user_query>, <interpretation>, <candidates>, <recognized_class>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Analyze the provided drilling metadata and rank the unit candidates based on direct matching, semantic relevance, and consistency with recognized quantity classes.
+      
+      Do it step by step strictly:
+      1. Direct Matching: Compare each candidate's ddhub:Unit field with the Unit field in user query for exact or semantic matches.
+      2. Quantity Consistency: Check consistency with previously recognized quantity classes ({<recognized_class>}).
+      3. Semantic Analysis: Use Description, Interpretation, and drilling domain knowledge to assess relevance.
+      4. Physical Quantity Alignment: Ensure the unit makes sense for the type of measurement indicated by the mnemonic.
+      5. Letter Assignment: Each candidate is assigned a letter. Analyze which letters correspond to the most relevant candidates.
+
+      Input:
+      ```
+      User query:
+      <user_query>
+      Interpretation:
+      <interpretation>
+      Complementary knowledge:
+      <complementary_knowledge>
+      Previously recognized:
+      <recognized_class>
+      ```
+      Candidates:
+      ```
+      <candidates>
+      ```
+
+      Output: Detailed analysis of unit candidate relevance with reasoning for ranking.
+    extraction: |-
+      Task Objective: Based on the analysis, rank the candidates and respond with only their corresponding letters.
+      
+      Do it step by step strictly:
+      1. Review the analysis and identify the top-ranked candidate.
+      2. Find the letter assigned to that candidate.
+      3. Return Rank order from best to worst.
+
+      Analysis:
+      <last_answer>
+
+      Candidates:
+      ```
+      <candidates>
+      ```
+
+      Output: (Rank order from best to worst)
+
+Rank_prototypeData:
+  placeholders: [<user_query>, <interpretation>, <candidates>, <recognized_class>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Analyze the provided drilling metadata and rank the prototypeData candidates based on mnemonic explanation capability, unit consistency, and semantic alignment with drilling operations.
+      
+      Do it step by step strictly:
+      1. Mnemonic Explanation: Assess how well each candidate can explain the mnemonic or parts of it according to complementary knowledge.
+      2. Unit Consistency: Check if the user query's unit is compatible with the candidate's ddhub:IsOfBaseQuantity.
+      3. Quantity Alignment: Ensure consistency with previously recognized quantity classes ({<recognized_class>}).
+      4. Drilling Context: Consider drilling domain knowledge and operational context.
+      5. Semantic Exclusion: Rule out candidates that are clearly incompatible or irrelevant.
+      6. Letter Assignment: Each candidate is assigned a letter. Analyze which letters correspond to the most relevant candidates.
+
+      Input:
+      ```
+      User query:
+      <user_query>
+      Interpretation:
+      <interpretation>
+      Complementary knowledge:
+      <complementary_knowledge>
+      Previously recognized:
+      <recognized_class>
+      ```  
+      Candidates:
+      ```
+      <candidates>
+      ```
+
+      Output: Detailed analysis of prototypeData candidate relevance with reasoning for ranking.
+    extraction: |-
+      Task Objective: Based on the analysis, rank the candidates and respond with only their corresponding letters.
+
+      Do it step by step strictly:
+      1. Review the analysis and identify the top-ranked candidate.
+      2. Find the letter assigned to that candidate.
+      3. Return only that single letter.
+
+      Analysis:
+      <last_answer>
+
+      Candidates:
+      ```
+      <candidates>
+      ```
+
+      Output: (Rank order from best to worst)

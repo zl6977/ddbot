@@ -1,0 +1,22 @@
+basic: |-
+  SPP: Stand Pipe Pressure.
+  SPM: Strokes Per Minutes, SPM is PumpRate, which is FrequencyQuantity.
+  RPM: Revolutions Per Minute. RPM means SurfaceRPM not DownholeRPM unless specified. It is FrequencyQuantity not AngularVelocityQuantity.
+  DRPM: Downhole RPM.
+  ROP: Rate of Penetration.
+  GS: GeoService.
+  SRV: Survey.
+  HKLD: Hookload.
+  HKD: Hookload.
+  POS: Position.
+  WOB: Weight of Bit.
+  SWOB: Surface Weight of Bit.
+  TV: Tank volume.
+  TQ: Torque. TQ is SurfaceTorque not DownholeTorque unless specified.
+  WT: Weight.
+  MPD: Managed pressure drilling.
+  MD: Measured depth.
+  TVD: True vertical depth. When a depth is not specified to be TVD, it is usually measured depth.
+  A: Sometimes means 'Average' in a mnemonic.
+  kkgf: kilo kilogram force, or thousand kilogram force, or ton force.
+  tonf: Ton force. In context of hookload and WOB, people often use ton as unit. But this actually means ton force.

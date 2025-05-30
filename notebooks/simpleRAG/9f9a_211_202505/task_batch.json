@@ -1,0 +1,2582 @@
+{
+    "TOFB": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TOFB",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "TopOfStringPosition",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "s",
+        "Unit_class": "Second",
+        "Unit_class_candidates": [
+            "Second",
+            "Minute",
+            "Hour",
+            "Day",
+            "Week"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TOF\": \"undefined\", \"B\": \"undefined\", Remark: \"TimeQuantity\"}"
+    },
+    "AVG_CONF": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "AVG_CONF",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"AVG\": \"A:Average\", \"CONF\": \"undefined\", Remark: \"unitless quantity\"}"
+    },
+    "MIN_CONF": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "MIN_CONF",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"MIN\": \"undefined\", \"CONF\": \"undefined\", Remark: \"unitless quantity\"}"
+    },
+    "RPM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "RPM",
+        "PrototypeData_class": "SurfaceRPM",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "DownholeRPM",
+            "ROP",
+            "HookVelocity"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "AngularVelocityQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "RadianPerMinute",
+            "ReciprocalSecond",
+            "RotationPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"RPM\": \"Revolutions Per Minute\", Remark: \"FrequencyQuantity\"}"
+    },
+    "STUCK_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "STUCK_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STUCK\": \"undefined\", \"RT\": \"undefined\", Remark: \"unitless\"}"
+    },
+    "CWOB": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "CWOB",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "OverburdenPressure",
+            "HookLoad"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Decanewton",
+            "Kilodecanewton",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"C\": \"undefined\", \"WOB\": \"Weight of Bit\", Remark: \"ForceQuantity\"}"
+    },
+    "CTH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "CTH",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "HookLoad",
+            "HoleDepth",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "TensionQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "KilopoundForce",
+            "ThousandKilogramForce",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"C\": \"undefined\", \"T\": \"Total\", \"H\": \"Hookload\", Remark: \"ForceQuantity\"}"
+    },
+    "TRPM_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TRPM_RT",
+        "PrototypeData_class": "DownholeRPM",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "DownholeRPM",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "AngularVelocityQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "RadianPerMinute",
+            "ReciprocalSecond",
+            "RotationPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TRPM\": \"Turbine Revolutions Per Minute\", \"RT\": \"undefined\", Remark: \"FrequencyQuantity\"}"
+    },
+    "GRR": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GRR",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/s",
+        "Unit_class": "ReciprocalSecond",
+        "Unit_class_candidates": [
+            "ReciprocalSecond",
+            "Hertz",
+            "Kilohertz",
+            "Megahertz",
+            "Gigahertz"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GRR\": \"Gamma Ray Raw\", \"Remark\": \"FrequencyQuantity\"}"
+    },
+    "INCL_CONT_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "INCL_CONT_RT",
+        "PrototypeData_class": "Inclination",
+        "PrototypeData_class_candidates": [
+            "Inclination",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "PlaneAngleDrillingQuantity",
+        "Quantity_class": "AngleGradientPerLengthQuantity",
+        "Quantity_class_candidates": [
+            "AngleGradientPerLengthQuantity",
+            "PlaneAngleQuantity",
+            "AngularVelocityQuantity"
+        ],
+        "Unit_name": "dega",
+        "Unit_class": "Degree",
+        "Unit_class_candidates": [
+            "Degree",
+            "DegreePerMetre",
+            "DegreePerCentimetre",
+            "DegreePerDecimetre",
+            "DegreePerMillimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"INCL\": \"Inclination\", \"CONT\": \"Continuous\", \"RT\": \"Rate\", Remark: \"AngleQuantity\"}"
+    },
+    "SPM2": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SPM2",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "SurfaceRPM",
+            "MPDPumpFlowRate",
+            "MPDPumpRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "StrokePerSecond",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"2\": \"index 2\", Remark: \"FrequencyQuantity\"}"
+    },
+    "ROP": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "ROP",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ShearRate",
+            "CollapsePressureGradient"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity",
+            "LengthQuantity",
+            "VolumetricFlowRateQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "MetrePerHour",
+        "Unit_class_candidates": [
+            "MetrePerHour",
+            "CentimetrePerHour",
+            "DecimetrePerHour",
+            "FootPerHour",
+            "KilometrePerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ROP\": \"Rate of Penetration\", Remark: \"Velocity\"}"
+    },
+    "BDTI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "BDTI",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "WOB",
+            "BitDepth",
+            "MechanicalSpecificEnergy"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "h",
+        "Unit_class": "Hour",
+        "Unit_class_candidates": [
+            "Hour",
+            "Minute",
+            "Second",
+            "Day",
+            "Week"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"B\": \"undefined\", \"DTI\": \"Drill Time Index\", Remark: \"TimeQuantity\"}"
+    },
+    "CHK": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "CHK",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Kilodecanewton",
+            "Decanewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"C\": \"undefined\", \"HK\": \"Hookload\", Remark: \"ForceQuantity\"}"
+    },
+    "GTF_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GTF_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "AngleGradientPerLengthQuantity",
+        "Quantity_class_candidates": [
+            "AngleGradientPerLengthQuantity",
+            "PlaneAngleQuantity",
+            "AngularVelocityQuantity"
+        ],
+        "Unit_name": "dega",
+        "Unit_class": "Degree",
+        "Unit_class_candidates": [
+            "Degree",
+            "DegreePerCentimetre",
+            "DegreePerDecimetre",
+            "DegreePerFoot",
+            "DegreePerInch"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GTF\": \"Gravity Toolface\", \"RT\": \"undefined\", Remark: \"AngleQuantity\"}"
+    },
+    "GS_MDOA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_MDOA",
+        "PrototypeData_class": "DensityOut",
+        "PrototypeData_class_candidates": [
+            "DensityOut",
+            "DownholeECD",
+            "FlowRateOut",
+            "DensityIn"
+        ],
+        "MeasurableQuantity_class": "MassDensityDrillingQuantity",
+        "Quantity_class": "MassDensityQuantity",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity"
+        ],
+        "Unit_name": "g/cm3",
+        "Unit_class": "GramPerCubicCentimetre",
+        "Unit_class_candidates": [
+            "GramPerCubicCentimetre",
+            "KilogramPerCubicMetre",
+            "PoundPerCubicFoot"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"MDOA\": \"Mud Density Out\", \"Remark\": \"DensityQuantity\"}"
+    },
+    "GR_CONF": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GR_CONF",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "BitDepth",
+            "ROP",
+            "MechanicalSpecificEnergy"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [],
+        "Unit_name": "%",
+        "Unit_class": "None",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GR\": \"undefined\", \"CONF\": \"Confidence\", Remark: \"Percentage\"}"
+    },
+    "PMPT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "PMPT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "h",
+        "Unit_class": "Hour",
+        "Unit_class_candidates": [
+            "Hour",
+            "Minute",
+            "Second",
+            "Day",
+            "Week"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"PM\": \"undefined\", \"PT\": \"Pump Time\", Remark: \"TimeQuantity\"}"
+    },
+    "SHKRATE_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SHKRATE_RT",
+        "PrototypeData_class": "ShearRate",
+        "PrototypeData_class_candidates": [
+            "ShearRate",
+            "GasFlowRate",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient",
+            "OverburdenPressureGradient"
+        ],
+        "MeasurableQuantity_class": "FluidShearRateQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/s",
+        "Unit_class": "ShockPerSecond",
+        "Unit_class_candidates": [
+            "ReciprocalSecond",
+            "ShockPerSecond",
+            "Spm"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": \"Shock\", \"RATE\": \"Rate\", \"RT\": \"Real Time\", Remark: \"FrequencyQuantity\"}"
+    },
+    "TSPM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TSPM",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "SurfaceRPM",
+            "HoleDepth",
+            "HookLoad",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "ShockPerMinute",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Total\", \"SPM\": \"Strokes Per Minute\", \"Remark\": \"FrequencyQuantity\"}"
+    },
+    "HKLO": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "HKLO",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "ForceGradientPerLengthQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "Kilodecanewton",
+            "ThousandKilogramForce",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"HKL\": \"undefined\", \"O\": \"undefined\", \"Remark\": \"ForceQuantity\"}"
+    },
+    "HKLD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "HKLD",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "StressQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "Kilodecanewton",
+            "ThousandKilogramForce",
+            "Kilonewton",
+            "KilopoundForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"HKLD\": \"Hookload\", Remark: \"ForceQuantity\"}"
+    },
+    "THKD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "THKD",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "HoleDepth",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "TensionQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "KilopoundForce",
+            "ThousandKilogramForce",
+            "Kilonewton",
+            "Kilodecanewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Total\", \"HKD\": \"Hookload\", \"Remark\": \"ForceQuantity\"}"
+    },
+    "DRET": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "DRET",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"DRET\": \"undefined\", \"Remark\": \"undefined\"}"
+    },
+    "TVDE": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TVDE",
+        "PrototypeData_class": "TrueVerticalDepth",
+        "PrototypeData_class_candidates": [
+            "TrueVerticalDepth",
+            "HoleDepth",
+            "MeasuredDepth",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decametre",
+            "Decimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TV\": \"Tank volume\", \"DE\": \"undefined\", \"Remark\": \"Length\"}"
+    },
+    "GRM1": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GRM1",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [],
+        "Unit_name": "gAPI",
+        "Unit_class": "None",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GRM\": \"Gamma Ray Measurement\", \"1\": \"index 1\", Remark: \"gAPI is a unit of measurement for Gamma Ray, indicating a radiation measurement.\"}"
+    },
+    "STK1": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "STK1",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STK\": \"Strokes\", \"1\": \"index 1\", Remark: \"Unitless quantity representing the first pump strokes.\"}"
+    },
+    "ROPIH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "ROPIH",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "HookVelocity",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity",
+            "VelocityQuantity",
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "s/m",
+        "Unit_class": "MetrePerSecond",
+        "Unit_class_candidates": [
+            "MetrePerSecond",
+            "CentimetrePerSecond",
+            "DecimetrePerSecond",
+            "KilometrePerSecond",
+            "FootPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"RO\": \"undefined\", \"PIH\": \"undefined\", Remark: \"TimeQuantity/Velocity\"}"
+    },
+    "EDRT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "EDRT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"E\": undefined, \"D\": undefined, \"R\": undefined, \"T\": undefined, Remark: unitless quantity, meaning is undefined}"
+    },
+    "SPM1": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SPM1",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "SurfaceRPM",
+            "MPDPumpFlowRate",
+            "MPDPumpRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "Hertz",
+            "ReciprocalSecond",
+            "StrokePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"1\": \"index 1\", Remark: \"FrequencyQuantity\"}"
+    },
+    "GS_ROP": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_ROP",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ShearRate",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "MetrePerHour",
+        "Unit_class_candidates": [
+            "MetrePerHour",
+            "CentimetrePerHour",
+            "DecimetrePerHour",
+            "FootPerHour",
+            "KilometrePerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"ROP\": \"Rate of Penetration\", Remark: \"Velocity\"}"
+    },
+    "GS_G_IC4": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_G_IC4",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"IC\": \"undefined\", \"4\": \"index 4\", Remark: \"ConcentrationQuantity, Unit: ppm\"}"
+    },
+    "GS_BDDI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_BDDI",
+        "PrototypeData_class": "BitDepth",
+        "PrototypeData_class_candidates": [
+            "BitDepth",
+            "MeasuredDepth",
+            "TrueVerticalDepth",
+            "MechanicalSpecificEnergy",
+            "WOB",
+            "MPDPumpRate",
+            "PorePressure"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Centimetre",
+            "Decametre",
+            "Decimetre",
+            "Kilometre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"BDDI\": \"Bit Drilling Run\", Remark: \"Length\"}"
+    },
+    "SHKTOT_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SHKTOT_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "HoleDepth",
+            "HookLoad",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": \"undefined\", \"TOT\": \"Total\", \"RT\": \"undefined\", Remark: \"unitless\"}"
+    },
+    "TREV": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TREV",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "MechanicalSpecificEnergy",
+            "HoleDepth",
+            "WOB",
+            "BitDepth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Total\", \"REV\": \"Revolutions\", \"Remark\": \"unitless\"}"
+    },
+    "GS_G_NC4": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_G_NC4",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"NC4\": \"Nor-butane\", \"Remark\": \"ConcentrationQuantity\"}"
+    },
+    "GS_DRTV": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_DRTV",
+        "PrototypeData_class": "TrueVerticalDepth",
+        "PrototypeData_class_candidates": [
+            "TrueVerticalDepth",
+            "HoleDepth",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Centimetre",
+            "Decametre",
+            "Decimetre",
+            "Kilometre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"DR\": \"undefined\", \"TV\": \"True vertical depth\", \"Remark\": \"Length\"}"
+    },
+    "STK2": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "STK2",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STK\": \"undefined\", \"2\": \"index 2\", Remark: \"Unitless quantity, possibly related to Pump Strokes.\"}"
+    },
+    "GS_DXC": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_DXC",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "MechanicalSpecificEnergy",
+            "MPDPumpRate",
+            "PorePressure",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"DXC\": \"undefined\", \"Remark\": \"unitless\"}"
+    },
+    "GS_DVER": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_DVER",
+        "PrototypeData_class": "TrueVerticalDepth",
+        "PrototypeData_class_candidates": [
+            "TrueVerticalDepth",
+            "HoleDepth",
+            "MeasuredDepth",
+            "Inclination",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"DVER\": \"undefined\", \"Remark\": \"Length\"}"
+    },
+    "GS_G_C2": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_G_C2",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "GasFlowRate",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"C2\": \"Ethane (C2)\", Remark: \"ConcentrationQuantity\"}"
+    },
+    "GS_TDH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_TDH",
+        "PrototypeData_class": "TemperatureIn",
+        "PrototypeData_class_candidates": [
+            "DownholeTemperature",
+            "TemperatureIn",
+            "TemperatureOut",
+            "BitDepth",
+            "DownholeECD",
+            "MinimumHorizontalStress",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "TemperatureDrillingQuantity",
+        "Quantity_class": "TemperatureQuantity",
+        "Quantity_class_candidates": [
+            "TemperatureQuantity",
+            "RelativeTemperatureQuantity"
+        ],
+        "Unit_name": "degC",
+        "Unit_class": "Celsius",
+        "Unit_class_candidates": [
+            "Celsius",
+            "RelativeCelsius"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TDH\": \"undefined\", \"Remark\": \"undefined\"}"
+    },
+    "GS_MWTI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_MWTI",
+        "PrototypeData_class": "DensityIn",
+        "PrototypeData_class_candidates": [
+            "DensityIn",
+            "DownholeECD",
+            "BitDepth",
+            "MinimumHorizontalStress"
+        ],
+        "MeasurableQuantity_class": "MassDensityDrillingQuantity",
+        "Quantity_class": "MassDensityQuantity",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity"
+        ],
+        "Unit_name": "g/cm3",
+        "Unit_class": "GramPerCubicCentimetre",
+        "Unit_class_candidates": [
+            "GramPerCubicCentimetre",
+            "KilogramPerCubicMetre",
+            "SpecificGravity"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"MWTI\": \"Mud Density In\", \"Remark\": \"DensityQuantity\"}"
+    },
+    "GS_G_NC5": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_G_NC5",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"NC5\": \"n-Penthane, 5: index 5\", Remark: \"ConcentrationQuantity\"}"
+    },
+    "MWTI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "MWTI",
+        "PrototypeData_class": "DensityIn",
+        "PrototypeData_class_candidates": [
+            "DensityIn",
+            "DownholeECD",
+            "BitDepth",
+            "MinimumHorizontalStress"
+        ],
+        "MeasurableQuantity_class": "MassDensityDrillingQuantity",
+        "Quantity_class": "MassDensityQuantity",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity",
+            "MassDensityGradientPerLengthQuantity",
+            "MassDensityGradientPerTemperatureQuantity"
+        ],
+        "Unit_name": "g/cm3",
+        "Unit_class": "GramPerCubicCentimetre",
+        "Unit_class_candidates": [
+            "GramPerCubicCentimetre",
+            "KilogramPerCubicMetre",
+            "SpecificGravity"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"MW\": \"Mud Weight\", \"TI\": \"undefined\", Remark: \"DensityQuantity\"}"
+    },
+    "SWOB": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SWOB",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "HookLoad",
+            "BitDepth"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Decanewton",
+            "Kilodecanewton",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SW\": \"Surface\", \"OB\": \"Weight on Bit\", Remark: \"ForceQuantity\"}"
+    },
+    "GS_TREV": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_TREV",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "MechanicalSpecificEnergy",
+            "WOB",
+            "BitDepth",
+            "ROP"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TREV\": \"undefined\", Remark: \"unitless quantity\"}"
+    },
+    "GS_SWOB": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_SWOB",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "StressQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "Kilodecanewton",
+            "ThousandKilogramForce",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"SWOB\": \"Surface Weight of Bit\", \"Remark\": \"ForceQuantity\"}"
+    },
+    "DVER": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "DVER",
+        "PrototypeData_class": "TrueVerticalDepth",
+        "PrototypeData_class_candidates": [
+            "HoleDepth",
+            "TrueVerticalDepth",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"DVER\": \"Depth Vertical\", Remark: \"Length\"}"
+    },
+    "SHKRSK_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SHKRSK_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHKRSK\": \"undefined\", \"RT\": \"Risk Type\", Remark: \"unitless\"}"
+    },
+    "BITRUN": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "BITRUN",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "BitDepth",
+            "ROP",
+            "MechanicalSpecificEnergy"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"BIT\": \"undefined\", \"RUN\": \"undefined\", Remark: \"unitless, undefined quantity\"}"
+    },
+    "RHX_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "RHX_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"RHX\": undefined, \"RT\": undefined, Remark: unitless\"}"
+    },
+    "STK3": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "STK3",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STK\": \"undefined\", \"3\": \"index 3\", Remark: \"unitless quantity, possibly related to Pump Strokes\"}"
+    },
+    "TSTK": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TSTK",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "HoleDepth",
+            "HookLoad",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Total\", \"STK\": \"Strokes\", \"Remark\": \"unitless\"}"
+    },
+    "ROPI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "ROPI",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity",
+            "VelocityQuantity"
+        ],
+        "Unit_name": "s/m",
+        "Unit_class": "None",
+        "Unit_class_candidates": [
+            "MetrePerSecond",
+            "CentimetrePerSecond",
+            "DecimetrePerSecond",
+            "MillimetrePerSecond",
+            "FootPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"R\": \"undefined\", \"O\": \"undefined\", \"P\": \"Rate of Penetration\", \"I\": \"Inverse\", Remark: \"TimeQuantity per LengthQuantity\"}"
+    },
+    "PASS_NAME": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "PASS_NAME",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"PASS\": \"undefined\", \"NAME\": \"Pass Name\", Remark: \"unitless\"}"
+    },
+    "DEPTH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "DEPTH",
+        "PrototypeData_class": "MeasuredDepth",
+        "PrototypeData_class_candidates": [
+            "MeasuredDepth",
+            "TrueVerticalDepth",
+            "HoleDepth",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient",
+            "OverburdenPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"DEPTH\": \"Measured Depth\", \"Remark\": \"Length\"}"
+    },
+    "SPM4": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SPM4",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "SurfaceRPM",
+            "MPDPumpFlowRate",
+            "MPDPumpRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "VolumetricFlowRateQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "ShockPerMinute",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"4\": \"index 4\", Remark: \"FrequencyQuantity\"}"
+    },
+    "GS_G_IC5": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_G_IC5",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"IC5\": \"Iso-pentane (IC5)\", Remark: \"ConcentrationQuantity\"}"
+    },
+    "ACTC": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "ACTC",
+        "PrototypeData_class": "BOPOpening",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "ProportionStandardQuantity",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"A\": \"undefined\", \"C\": \"undefined\", \"T\": \"undefined\", \"C\": \"undefined\", \"Remark\": \"Unitless quantity, possibly representing a state or mode.\"}"
+    },
+    "SHKPK_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SHKPK_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "SPP",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "AccelerationQuantity",
+        "Quantity_class_candidates": [
+            "AccelerationQuantity"
+        ],
+        "Unit_name": "m/s2",
+        "Unit_class": "MetrePerSecondSquared",
+        "Unit_class_candidates": [
+            "MetrePerSecondSquared"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": \"undefined\", \"PK\": \"undefined\", \"RT\": \"undefined\", Remark: \"AccelerationQuantity\"}"
+    },
+    "GS_TFLO": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_TFLO",
+        "PrototypeData_class": "FlowRateIn",
+        "PrototypeData_class_candidates": [
+            "FlowRateIn",
+            "FlowRateOut",
+            "MPDPumpRate",
+            "GasFlowRate",
+            "MPDPumpFlowRate"
+        ],
+        "MeasurableQuantity_class": "VolumetricFlowrateDrillingQuantity",
+        "Quantity_class": "VolumetricFlowRateQuantity",
+        "Quantity_class_candidates": [
+            "VolumetricFlowRateQuantity",
+            "FrequencyQuantity",
+            "VolumetricFlowRateOfChangeQuantity"
+        ],
+        "Unit_name": "L/min",
+        "Unit_class": "LitrePerMinute",
+        "Unit_class_candidates": [
+            "LitrePerMinute",
+            "CubicMetrePerMinute",
+            "BarrelPerMinute",
+            "UsGallonPerMinute",
+            "UkGallonPerMinute"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TFLO\": \"Flow Pumps\", Remark: \"FlowRateQuantity\"}"
+    },
+    "SMOD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SMOD",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SMOD\": \"undefined\", \"Remark\": \"unitless\"}"
+    },
+    "SPPA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SPPA",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "MPDChokePressure",
+            "OverburdenPressure",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Bar",
+            "Megapascal",
+            "Pascal",
+            "Millibar"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPP\": \"Stand Pipe Pressure\", \"A\": \"Average\", \"Remark\": \"PressureQuantity\"}"
+    },
+    "DEPT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "DEPT",
+        "PrototypeData_class": "BitDepth",
+        "PrototypeData_class_candidates": [
+            "BitDepth",
+            "MeasuredDepth",
+            "TrueVerticalDepth",
+            "HoleDepth",
+            "WOB",
+            "CollapsePressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"DEPT\": \"Bit Depth\", Remark: \"Length\"}"
+    },
+    "ROP5": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "ROP5",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ShearRate",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity",
+            "LengthQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "MetrePerHour",
+        "Unit_class_candidates": [
+            "FootPerHour",
+            "MetrePerHour",
+            "CentimetrePerHour",
+            "DecimetrePerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ROP\": \"Rate of Penetration\", \"5\": \"index 5\", Remark: \"VelocityQuantity\"}"
+    },
+    "GS_GASA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_GASA",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "GasFlowRate",
+            "PorePressure",
+            "FracturingPressure",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ProportionQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity",
+            "ProportionQuantity"
+        ],
+        "Unit_name": "%",
+        "Unit_class": "Percent",
+        "Unit_class_candidates": [
+            "Percent",
+            "Proportion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"GASA\": \"Gas Average\", Remark: \"Percentage\"}"
+    },
+    "GS_G_C3": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_G_C3",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "GasFlowRate",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"C3\": \"Propane\", Remark: \"ConcentrationQuantity\"}"
+    },
+    "STWT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "STWT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "HookLoad",
+            "SurfaceTorque",
+            "TopOfStringPosition"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "TensionQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Kilonewton",
+            "KilopoundForce",
+            "Decanewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"S\": \"undefined\", \"T\": \"undefined\", \"W\": \"undefined\", \"T\": \"undefined\", \"Remark\": \"ForceQuantity\"}"
+    },
+    "TOBO": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TOBO",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "s",
+        "Unit_class": "Second",
+        "Unit_class_candidates": [
+            "Second",
+            "Minute",
+            "Hour",
+            "Millisecond",
+            "Microsecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TOBO\": \"undefined\", Remark: \"undefined\"}"
+    },
+    "AJAM_MWD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "AJAM_MWD",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"AJAM\": \"undefined\", \"MWD\": \"Measurement While Drilling\", Remark: \"unitless\"}"
+    },
+    "GS_TVA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_TVA",
+        "PrototypeData_class": "ActiveVolume",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "MechanicalSpecificEnergy",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "VolumeDrillingQuantity",
+        "Quantity_class": "VolumeQuantity",
+        "Quantity_class_candidates": [
+            "VolumeQuantity"
+        ],
+        "Unit_name": "m3",
+        "Unit_class": "CubicMetre",
+        "Unit_class_candidates": [
+            "CubicMetre",
+            "MillionCubicMetre",
+            "Litre",
+            "Millilitre",
+            "Decilitre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TV\": \"Tank volume\", \"A\": \"undefined\", Remark: \"VolumeQuantity\"}"
+    },
+    "ROPH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "ROPH",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "FootPerHour",
+        "Unit_class_candidates": [
+            "FootPerHour",
+            "MetrePerHour",
+            "CentimetrePerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ROP\": \"Rate of Penetration\", \"Remark\": \"Velocity\"}"
+    },
+    "GS_HKLD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_HKLD",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "HookPosition"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "TensionQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "KilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "KilopoundForce",
+            "ThousandKilogramForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"HKLD\": \"Hookload\", \"Remark\": \"ForceQuantity\"}"
+    },
+    "DMEA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "DMEA",
+        "PrototypeData_class": "MeasuredDepth",
+        "PrototypeData_class_candidates": [
+            "HoleDepth",
+            "MeasuredDepth",
+            "TrueVerticalDepth",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient",
+            "OverburdenPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decametre",
+            "Decimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"D\": \"undefined\", \"MEA\": \"Measured Depth Average\", Remark: \"Length\"}"
+    },
+    "TFLO": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TFLO",
+        "PrototypeData_class": "FlowRateIn",
+        "PrototypeData_class_candidates": [
+            "FlowRateIn",
+            "MPDPumpFlowRate",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "VolumetricFlowrateDrillingQuantity",
+        "Quantity_class": "VolumetricFlowRateQuantity",
+        "Quantity_class_candidates": [
+            "VolumetricFlowRateQuantity"
+        ],
+        "Unit_name": "L/min",
+        "Unit_class": "LitrePerMinute",
+        "Unit_class_candidates": [
+            "LitrePerMinute",
+            "BarrelPerMinute",
+            "CubicMetrePerMinute"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TFLO\": \"Mud Flow In\", Remark: \"FlowRateQuantity\"}"
+    },
+    "BHFG": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "BHFG",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"BHFG\": \"undefined\", Remark: \"unitless\"}"
+    },
+    "GS_MTOA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_MTOA",
+        "PrototypeData_class": "TemperatureOut",
+        "PrototypeData_class_candidates": [
+            "TemperatureOut",
+            "TemperatureIn",
+            "DownholeTemperature",
+            "FlowRateOut"
+        ],
+        "MeasurableQuantity_class": "TemperatureDrillingQuantity",
+        "Quantity_class": "TemperatureQuantity",
+        "Quantity_class_candidates": [
+            "TemperatureQuantity",
+            "RelativeTemperatureQuantity"
+        ],
+        "Unit_name": "degC",
+        "Unit_class": "Celsius",
+        "Unit_class_candidates": [
+            "Celsius",
+            "Kelvin",
+            "Fahrenheit",
+            "Rankine",
+            "R\u00e9aumur"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"MTOA\": \"undefined\", Remark: \"Temperature Quantity\"}"
+    },
+    "GS_TQA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_TQA",
+        "PrototypeData_class": "SurfaceTorque",
+        "PrototypeData_class_candidates": [
+            "SurfaceTorque",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "TorqueDrillingQuantity",
+        "Quantity_class": "TorqueQuantity",
+        "Quantity_class_candidates": [
+            "TorqueQuantity"
+        ],
+        "Unit_name": "kN.m",
+        "Unit_class": "KilonewtonMetre",
+        "Unit_class_candidates": [
+            "KilonewtonMetre",
+            "DecanewtonMetre",
+            "NewtonMetre",
+            "KilogramForceMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TQA\": \"Torque Average\", Remark: \"TorqueQuantity\"}"
+    },
+    "AZIM_CONT_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "AZIM_CONT_RT",
+        "PrototypeData_class": "Azimuth",
+        "PrototypeData_class_candidates": [
+            "Azimuth",
+            "ActiveVolume",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "PlaneAngleDrillingQuantity",
+        "Quantity_class": "AngleGradientPerLengthQuantity",
+        "Quantity_class_candidates": [
+            "AngleGradientPerLengthQuantity",
+            "PlaneAngleQuantity",
+            "AngularVelocityQuantity"
+        ],
+        "Unit_name": "dega",
+        "Unit_class": "Degree",
+        "Unit_class_candidates": [
+            "Degree",
+            "Radian",
+            "DegreePerMetre",
+            "DegreePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"AZIM\": \"Azimuth\", \"CONT\": \"Continuous\", \"RT\": \"Real-Time\", Remark: \"AngleQuantity\"}"
+    },
+    "RGX_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "RGX_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"RGX\": \"undefined\", \"RT\": \"undefined\", Remark: \"unitless\"}"
+    },
+    "TEMP_DNI_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TEMP_DNI_RT",
+        "PrototypeData_class": "DownholeTemperature",
+        "PrototypeData_class_candidates": [
+            "DownholeTemperature",
+            "TemperatureIn",
+            "TemperatureOut",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "TemperatureDrillingQuantity",
+        "Quantity_class": "TemperatureQuantity",
+        "Quantity_class_candidates": [
+            "TemperatureQuantity",
+            "RelativeTemperatureQuantity"
+        ],
+        "Unit_name": "degC",
+        "Unit_class": "Celsius",
+        "Unit_class_candidates": [
+            "Celsius",
+            "RelativeCelsius"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TEMP\": \"Temperature\", \"DNI\": \"DNI\", \"RT\": \"Real Time\", Remark: \"TemperatureQuantity\"}"
+    },
+    "GS_BDTI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_BDTI",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "WOB",
+            "MPDPumpRate",
+            "PorePressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "h",
+        "Unit_class": "Hour",
+        "Unit_class_candidates": [
+            "Hour",
+            "Minute",
+            "Second",
+            "Week",
+            "Day"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"BDTI\": \"Bit Drilling Time\", Remark: \"TimeQuantity\"}"
+    },
+    "HKLI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "HKLI",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"HKL\": \"undefined\", \"I\": \"undefined\", Remark: \"ForceQuantity\"}"
+    },
+    "TQA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "TQA",
+        "PrototypeData_class": "SurfaceTorque",
+        "PrototypeData_class_candidates": [
+            "SurfaceTorque",
+            "DownholeTorque",
+            "SurfaceRPM",
+            "TrueVerticalDepth"
+        ],
+        "MeasurableQuantity_class": "TorqueDrillingQuantity",
+        "Quantity_class": "TorqueQuantity",
+        "Quantity_class_candidates": [
+            "TorqueQuantity"
+        ],
+        "Unit_name": "kN.m",
+        "Unit_class": "KilonewtonMetre",
+        "Unit_class_candidates": [
+            "KilonewtonMetre",
+            "DecanewtonMetre",
+            "NewtonMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"undefined\", \"QA\": \"undefined\", \"Remark\": \"TorqueQuantity\"}"
+    },
+    "GS_G_C1": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_G_C1",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"C1\": \"Methane (C1)\", Remark: \"ConcentrationQuantity\"}"
+    },
+    "MTF_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "MTF_RT",
+        "PrototypeData_class": "Azimuth",
+        "PrototypeData_class_candidates": [
+            "Azimuth",
+            "ActiveVolume",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "PlaneAngleDrillingQuantity",
+        "Quantity_class": "AngleMagneticFluxDensityQuantity",
+        "Quantity_class_candidates": [
+            "AngleMagneticFluxDensityQuantity",
+            "PlaneAngleQuantity",
+            "AngularVelocityQuantity"
+        ],
+        "Unit_name": "dega",
+        "Unit_class": "Degree",
+        "Unit_class_candidates": [
+            "Degree",
+            "Radian",
+            "DegreePerSecond",
+            "RadianPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"MTF\": \"MWD Toolface\", \"RT\": \"undefined\", Remark: \"AngleQuantity\"}"
+    },
+    "DRPM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "DRPM",
+        "PrototypeData_class": "DownholeRPM",
+        "PrototypeData_class_candidates": [
+            "DownholeRPM",
+            "DownholePressure",
+            "DownholeTemperature",
+            "DownholeTorque"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "ReciprocalSecond",
+            "RotationPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"D\": \"Downhole\", \"RPM\": \"Revolutions Per Minute\", \"Remark\": \"FrequencyQuantity\"}"
+    },
+    "SHK3TM_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SHK3TM_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "min",
+        "Unit_class": "Minute",
+        "Unit_class_candidates": [
+            "Minute",
+            "Hour",
+            "Second",
+            "Day",
+            "Week"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": \"undefined\", \"3\": \"index 3\", \"TM\": \"undefined\", \"RT\": \"undefined\", Remark: \"TimeQuantity\"}"
+    },
+    "ETSL": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "ETSL",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BitDepth",
+            "DownholeECD",
+            "MinimumHorizontalStress",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "s",
+        "Unit_class": "Second",
+        "Unit_class_candidates": [
+            "Second",
+            "Minute",
+            "Hour",
+            "Day",
+            "Week"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"E\": \"Elapsed\", \"T\": \"Time\", \"S\": \"In-slips\", \"L\": \"undefined\", Remark: \"TimeQuantity\"}"
+    },
+    "GS_SPPA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_SPPA",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "MPDChokePressure",
+            "OverburdenPressure",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Bar",
+            "Megapascal",
+            "Millibar",
+            "Torr"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"SPP\": \"Stand Pipe Pressure\", Remark: \"PressureQuantity\"}"
+    },
+    "SPM3": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "SPM3",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "SurfaceRPM",
+            "MPDPumpFlowRate",
+            "MPDPumpRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "ShockPerMinute",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"3\": \"index 3\", Remark: \"FrequencyQuantity\"}"
+    },
+    "GS_RPM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "GS_RPM",
+        "PrototypeData_class": "SurfaceRPM",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "DownholeRPM",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "ReciprocalSecond",
+            "RotationPerSecond",
+            "ShockPerMinute"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"RPM\": \"Revolutions Per Minute\", Remark: \"FrequencyQuantity\"}"
+    },
+    "STK4": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "STK4",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STK\": \"undefined\", \"4\": \"index 4\", Remark: \"unitless\"}"
+    },
+    "RPI5": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "RPI5",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity",
+            "TimeQuantity",
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "s/m",
+        "Unit_class": "MetrePerSecond",
+        "Unit_class_candidates": [
+            "FootPerSecond",
+            "MetrePerSecond",
+            "CentimetrePerSecond",
+            "InchPerSecond",
+            "MilePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"R\": \"undefined\", \"PI\": \"Rate of Penetration Inverse\", \"5\": \"index 5\", Remark: \"Velocity\"}"
+    },
+    "S1AC": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "S1AC",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Bar",
+            "Megapascal",
+            "Millibar",
+            "Torr"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"S\": \"undefined\", \"1\": \"index 1\", \"A\": \"undefined\", \"C\": \"undefined\", Remark: \"PressureQuantity\"}"
+    },
+    "S2AC": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "S2AC",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Bar",
+            "Megapascal",
+            "Millibar",
+            "Torr"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"S\": \"undefined\", \"2\": \"index 2\", \"A\": \"undefined\", \"C\": \"undefined\", Remark: \"PressureQuantity\"}"
+    },
+    "IMWT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "IMWT",
+        "PrototypeData_class": "DensityIn",
+        "PrototypeData_class_candidates": [
+            "DensityIn",
+            "DensityOut",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "MassDensityDrillingQuantity",
+        "Quantity_class": "MassDensityQuantity",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity",
+            "MassDensityGradientPerLengthQuantity",
+            "MassDensityGradientPerTemperatureQuantity"
+        ],
+        "Unit_name": "g/cm3",
+        "Unit_class": "GramPerCubicCentimetre",
+        "Unit_class_candidates": [
+            "GramPerCubicCentimetre",
+            "KilogramPerCubicMetre",
+            "SpecificGravity"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"I\": undefined, \"MWT\": undefined, Remark: DensityQuantity\"}"
+    },
+    "OSTM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+1+1+00001",
+        "DrillingDataPoint_name": "OSTM",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "s",
+        "Unit_class": "Second",
+        "Unit_class_candidates": [
+            "Second",
+            "Minute",
+            "Hour",
+            "Millisecond",
+            "Microsecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"OSTM\": \"undefined\", \"Remark\": \"undefined\"}"
+    }
+}

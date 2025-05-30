@@ -1,0 +1,2945 @@
+{
+  "DVER": {
+    "Raw_content": "{'Mnemonic': 'DVER', 'Description in data log': 'Hole Depth (TVD)', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.4638265764764968,
+      "HydraulicConductivityQuantity": 0.30655997574272836,
+      "PressureQuantity": 0.09104575378546077,
+      "VelocityQuantity": 0.07869418054441259,
+      "LengthQuantity": 0.059873513450901326
+    },
+    "Unit_class": "WattPerMetreKelvinPerKelvin",
+    "Unit_class_candidates": {
+      "WattPerMetreKelvinPerKelvin": 0.27012800731761144,
+      "WattPerMetreKelvin": 0.25272593448806757,
+      "MetrePerSecond": 0.17455784244700268,
+      "NewtonMillimetrePerDecimetre": 0.15983032972695269,
+      "NewtonDecimetrePerDecimetre": 0.14275788602036557
+    },
+    "PrototypeData_class": "TrueVerticalDepth",
+    "PrototypeData_class_candidates": {
+      "TrueVerticalDepth": 0.7009850968401318,
+      "HoleDepth": 0.18634180749424809,
+      "BitDepth": 0.07564764061548587,
+      "MPDPumpFlowRate": 0.021400398337028295,
+      "MPDChokeOpening": 0.015625056713105972
+    }
+  },
+  "BDTI": {
+    "Raw_content": "{'Mnemonic': 'BDTI', 'Description in data log': 'Bit Drill Time', 'Unit': 'h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7506233096041983,
+      "HydraulicConductivityQuantity": 0.10633038486233665,
+      "PowerQuantity": 0.050152463947970974,
+      "VelocityQuantity": 0.04922313355678753,
+      "LengthQuantity": 0.04367070802870656
+    },
+    "Unit_class": "PascalSecond",
+    "Unit_class_candidates": {
+      "PascalSecond": 0.26133070527279484,
+      "MetrePerHour": 0.23404609483743088,
+      "StrokePerSecond": 0.19152531217543517,
+      "NewtonMillimetrePerDecimetre": 0.17686314687166502,
+      "PascalPerHour": 0.13623474084267417
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.7099178176699348,
+      "BitDepth": 0.1664557964874482,
+      "TopOfStringPosition": 0.08834728469549294,
+      "MPDChokeOpening": 0.017961348146335036,
+      "HoleDepth": 0.01731775300078903
+    }
+  },
+  "S2AC": {
+    "Raw_content": "{'Mnemonic': 'S2AC', 'Description in data log': 'zzz:undefined', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.29161629449198057,
+      "MassQuantity": 0.2014986722847391,
+      "FrequencyQuantity": 0.18045015584379,
+      "StressQuantity": 0.1641066163883786,
+      "PowerQuantity": 0.16232826099111172
+    },
+    "Unit_class": "PressureLossConstantSi",
+    "Unit_class_candidates": {
+      "PressureLossConstantSi": 0.3612312316931738,
+      "InversePascal": 0.2997234987154467,
+      "Kilopascal": 0.11907899387133786,
+      "Megapascal": 0.11144492958225265,
+      "JoulePerKilogramKelvin": 0.10852134613778905
+    },
+    "PrototypeData_class": "FracturingPressureGradient",
+    "PrototypeData_class_candidates": {
+      "FracturingPressureGradient": 0.3226230253457164,
+      "MinimumHorizontalStressGradient": 0.19633509629569246,
+      "CollapsePressureGradient": 0.18648675617182572,
+      "OverburdenPressureGradient": 0.15288864775491973,
+      "PorePressureGradient": 0.1416664744318458
+    }
+  },
+  "PMPT": {
+    "Raw_content": "{'Mnemonic': 'PMPT', 'Description in data log': 'Pump Time', 'Unit': 'h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7830475328698272,
+      "PressureQuantity": 0.10019270843829838,
+      "HydraulicConductivityQuantity": 0.0837413698533142,
+      "VolumetricFlowRateQuantity": 0.01667962143754595,
+      "VelocityQuantity": 0.0163387674010143
+    },
+    "Unit_class": "MetrePerHour",
+    "Unit_class_candidates": {
+      "MetrePerHour": 0.3969918805960184,
+      "MetrePerSecond": 0.17673714397069087,
+      "MetrePerDay": 0.14972432366853197,
+      "PascalPerMetre": 0.13860217038800104,
+      "FootPerHour": 0.1379444813767576
+    },
+    "PrototypeData_class": "MPDPumpFlowRate",
+    "PrototypeData_class_candidates": {
+      "MPDPumpFlowRate": 0.6355214352864815,
+      "ROP": 0.18971002664357486,
+      "MPDPumpRate": 0.09036849865941131,
+      "PumpRate": 0.06397235655685914,
+      "SPP": 0.020427682853673204
+    }
+  },
+  "GR_CONF": {
+    "Raw_content": "{'Mnemonic': 'GR_CONF', 'Description in data log': 'MWD GR Bit Confidence Flag', 'Unit': '%', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6963535362724825,
+      "PowerQuantity": 0.09223522581875716,
+      "PressureQuantity": 0.08340975248293844,
+      "MassDensityRateOfChangeQuantity": 0.06663371629015376,
+      "WaveNumberQuantity": 0.061367769135668084
+    },
+    "Unit_class": "Grad",
+    "Unit_class_candidates": {
+      "Grad": 0.5241259689606464,
+      "Gon": 0.25223149581930304,
+      "DegreeMicrotesla": 0.08901914865443024,
+      "WattPerMetreKelvin": 0.0685356468890581,
+      "DotPerMetre": 0.06608773967656213
+    },
+    "PrototypeData_class": "BitDepth",
+    "PrototypeData_class_candidates": {
+      "BitDepth": 0.3590708605765345,
+      "TopOfStringPosition": 0.20665120641021148,
+      "DownholeTemperature": 0.16801633559525223,
+      "MinimumHorizontalStressGradient": 0.13386241807143012,
+      "MPDChokeOpening": 0.1323991793465717
+    }
+  },
+  "GS_HKLD": {
+    "Raw_content": "{'Mnemonic': 'GS_HKLD', 'Description in data log': 'Weight On Hook', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "GravitationalLoadQuantity",
+    "Quantity_class_candidates": {
+      "GravitationalLoadQuantity": 0.39107137299240335,
+      "MassQuantity": 0.1829136728656828,
+      "LengthQuantity": 0.16280396896691027,
+      "MassDensityRateOfChangeQuantity": 0.14318970346408977,
+      "FrequencyQuantity": 0.12002128171091385
+    },
+    "Unit_class": "Kilogram",
+    "Unit_class_candidates": {
+      "Kilogram": 0.4445705335754936,
+      "PressureLossConstantSi": 0.18617113524011736,
+      "JoulePerKilogramKelvin": 0.16105270608473984,
+      "KilonewtonPerDecimetre": 0.10891137453130051,
+      "KilogramPerMetre": 0.0992942505683487
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.9478948896314026,
+      "HookPosition": 0.020960127747065287,
+      "TopOfStringPosition": 0.01664177692698696,
+      "MinimumHorizontalStressGradient": 0.00792278686862865,
+      "HookVelocity": 0.006580418825916718
+    }
+  },
+  "A40H_COND_RT": {
+    "Raw_content": "{'Mnemonic': 'A40H_COND_RT', 'Description in data log': 'IMP/ARC Attenuation Conductivity 40-in. at 2 MHz', 'Unit': 'mS/m', 'DataType': 'double', 'dataSource': 'IMP_ARC'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6603471725059742,
+      "ElectricCurrentQuantity": 0.10973778016985401,
+      "ElectricResistivityQuantity": 0.10100396773755262,
+      "AngularAccelerationQuantity": 0.07807483073366442,
+      "VelocityQuantity": 0.05083624885295476
+    },
+    "Unit_class": "MetrePerHour",
+    "Unit_class_candidates": {
+      "MetrePerHour": 0.2261012155130838,
+      "HertzPerDay": 0.213516606654114,
+      "MetrePerDay": 0.1921335204711732,
+      "OhmMetre": 0.18811299537187684,
+      "MegaHertzPerHour": 0.18013566198975223
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.5261026140169069,
+      "TopOfStringPosition": 0.23515607612312814,
+      "MinimumHorizontalStressGradient": 0.12593421446261943,
+      "MinimumHorizontalStress": 0.06125053688320837,
+      "DownholeTemperature": 0.051556558514137
+    }
+  },
+  "DRET": {
+    "Raw_content": "{'Mnemonic': 'DRET', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.7795564426155381,
+      "RandomWalkQuantity": 0.0683302243899885,
+      "FrequencyQuantity": 0.05345630026945451,
+      "LengthQuantity": 0.049761597975427535,
+      "PowerQuantity": 0.048895434749591425
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.36936227751402645,
+      "DotPerMetre": 0.22275406072618745,
+      "InversePascal": 0.1987659609951355,
+      "PascalPerMinute": 0.11391136830536834,
+      "NewtonPerMinute": 0.09520633245928235
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.3380283162693541,
+      "HoleDepth": 0.22411150569169547,
+      "MinimumHorizontalStressGradient": 0.21784760358583188,
+      "OverburdenPressureGradient": 0.12660646067544784,
+      "FracturingPressureGradient": 0.09340611377767082
+    }
+  },
+  "RPI5": {
+    "Raw_content": "{'Mnemonic': 'RPI5', 'Description in data log': 'Inverse ROP (5ft avg)', 'Unit': 's/m', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.4619387071562442,
+      "PressureGradientPerLengthQuantity": 0.2734454292762162,
+      "VelocityQuantity": 0.1077578724366982,
+      "PressureQuantity": 0.09436957948804446,
+      "WaveNumberQuantity": 0.06248841164279687
+    },
+    "Unit_class": "ReciprocalSurveyorsChain",
+    "Unit_class_candidates": {
+      "ReciprocalSurveyorsChain": 0.321418511968467,
+      "InversePascal": 0.2318850387916449,
+      "DegreePerMicrometer": 0.16517144734796094,
+      "InverseAtmosphere": 0.14241527446341384,
+      "Degree": 0.13910972742851335
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.9894965215001794,
+      "TopOfStringPosition": 0.0029773578403723936,
+      "DownholeRPM": 0.0028145916123575435,
+      "SurfaceRPM": 0.002413631740440233,
+      "HoleDepth": 0.002297897306650604
+    }
+  },
+  "STUCK_RT": {
+    "Raw_content": "{'Mnemonic': 'STUCK_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.44463523588637405,
+      "FrequencyQuantity": 0.19893160968371473,
+      "HydraulicConductivityQuantity": 0.12449801523080828,
+      "LengthQuantity": 0.1205949068554363,
+      "VelocityQuantity": 0.11134023234366662
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.38400407286329363,
+      "DotPerMetre": 0.21173718427318,
+      "OhmMetre": 0.14758494700222438,
+      "PascalPerMinute": 0.13681240153693988,
+      "PascalPerHour": 0.11986139432436205
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.3488362134075234,
+      "DownholeTorque": 0.20256640400031947,
+      "MinimumHorizontalStressGradient": 0.1611181962971397,
+      "ROP": 0.14967866083068515,
+      "HoleDepth": 0.13780052546433236
+    }
+  },
+  "APRS_RT": {
+    "Raw_content": "{'Mnemonic': 'APRS_RT', 'Description in data log': 'ARC Annular Pressure', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'ARC'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.32399641321509437,
+      "PressureGradientPerLengthQuantity": 0.2905671664572244,
+      "FrequencyQuantity": 0.21060442240310567,
+      "PowerQuantity": 0.08884404242858605,
+      "AngularVelocityQuantity": 0.08598795549598935
+    },
+    "Unit_class": "PressureLossConstantSi",
+    "Unit_class_candidates": {
+      "PressureLossConstantSi": 0.6413050264630917,
+      "JoulePerKilogramKelvin": 0.12585496224563333,
+      "PressureLossConstantMetric": 0.0879799450492659,
+      "JoulePerGramDegreeSquaredCelsius": 0.07662119987113818,
+      "PascalPerMetre": 0.06823886637087087
+    },
+    "PrototypeData_class": "FracturingPressureGradient",
+    "PrototypeData_class_candidates": {
+      "FracturingPressureGradient": 0.3961786204141178,
+      "MinimumHorizontalStressGradient": 0.24812211545557736,
+      "SPP": 0.14759418978457275,
+      "ROP": 0.11135146486051267,
+      "OverburdenPressureGradient": 0.09675360948521933
+    }
+  },
+  "RGX_RT": {
+    "Raw_content": "{'Mnemonic': 'RGX_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.6819018585080092,
+      "FrequencyQuantity": 0.10896271912462874,
+      "RandomWalkQuantity": 0.10717846162174634,
+      "VelocityQuantity": 0.05319613602257318,
+      "MassQuantity": 0.048760824723042565
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.4392774410204254,
+      "RadianPerSquareRootSecond": 0.18633155630209564,
+      "DotPerMetre": 0.17257027569578626,
+      "InversePascal": 0.10322562675093601,
+      "RadianPerSecondSquared": 0.0985951002307567
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.40385508243744445,
+      "HoleDepth": 0.2017023559499336,
+      "MinimumHorizontalStressGradient": 0.18518288542090075,
+      "ROP": 0.12083711960495024,
+      "OverburdenPressureGradient": 0.08842255658677095
+    }
+  },
+  "GS_G_C2": {
+    "Raw_content": "{'Mnemonic': 'GS_G_C2', 'Description in data log': 'Ethane (C2)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.45239650669123643,
+      "FrequencyQuantity": 0.3590022886525419,
+      "HydraulicConductivityQuantity": 0.07406816730408435,
+      "VelocityQuantity": 0.05828051911851505,
+      "PowerQuantity": 0.056252518233622255
+    },
+    "Unit_class": "GramPerCubicCentimetrePerCelsius",
+    "Unit_class_candidates": {
+      "GramPerCubicCentimetrePerCelsius": 0.2388245754827295,
+      "GramPerCubicCentimetrePerMetre": 0.2384746497609251,
+      "PressureLossConstantSi": 0.19651966361097434,
+      "Candela": 0.17092350226287698,
+      "Pascal": 0.15525760888249399
+    },
+    "PrototypeData_class": "DownholeTemperature",
+    "PrototypeData_class_candidates": {
+      "DownholeTemperature": 0.2861837434409016,
+      "MinimumHorizontalStressGradient": 0.2388997269475792,
+      "DensityIn": 0.20350842752579673,
+      "HoleDepth": 0.14127557480193703,
+      "FracturingPressureGradient": 0.13013252728378547
+    }
+  },
+  "RPM": {
+    "Raw_content": "{'Mnemonic': 'RPM', 'Description in data log': 'Average Rotary Speed', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9347542446995556,
+      "HydraulicConductivityQuantity": 0.025441259731800114,
+      "VelocityQuantity": 0.02067941634439712,
+      "PressureQuantity": 0.010257135674803335,
+      "PowerQuantity": 0.008867943549443601
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.5866853651399284,
+      "RotationPerSecond": 0.23698230377297164,
+      "RotationPerHour": 0.07347410379530622,
+      "StrokePerSecond": 0.05681151150957101,
+      "NewtonMillimetrePerDecimetre": 0.0460467157822227
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.5438931955160807,
+      "SurfaceRPM": 0.33068339276445546,
+      "ROP": 0.1183841626659114,
+      "PumpRate": 0.004515935390888175,
+      "MPDPumpFlowRate": 0.002523313662664174
+    }
+  },
+  "AJAM_MWD": {
+    "Raw_content": "{'Mnemonic': 'AJAM_MWD', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.4947644790779323,
+      "TimeQuantity": 0.14214768871727065,
+      "FrequencyQuantity": 0.1409261262729091,
+      "PowerQuantity": 0.1324918556490452,
+      "LengthQuantity": 0.08966985028284283
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.3353112528946342,
+      "DotPerMetre": 0.28904203360042274,
+      "InversePascal": 0.14914764534204525,
+      "NewtonPerHour": 0.11381587099358297,
+      "NewtonPerMinute": 0.11268319716931485
+    },
+    "PrototypeData_class": "HoleDepth",
+    "PrototypeData_class_candidates": {
+      "HoleDepth": 0.3005305010117154,
+      "TopOfStringPosition": 0.28503398084772075,
+      "MinimumHorizontalStressGradient": 0.1703066152310087,
+      "MPDChokeOpening": 0.13486952799748705,
+      "FracturingPressureGradient": 0.1092593749120681
+    }
+  },
+  "CRPM_RT": {
+    "Raw_content": "{'Mnemonic': 'CRPM_RT', 'Description in data log': 'MWD Collar RPM', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6857938403533168,
+      "VelocityQuantity": 0.14643800749779756,
+      "MassDensityRateOfChangeQuantity": 0.10374709978795385,
+      "PowerQuantity": 0.03456558300387354,
+      "MassRateQuantity": 0.029455469357058405
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.6138973661275887,
+      "KilonewtonMetrePerDecimetre": 0.1262698349977528,
+      "WattPerMetreKelvin": 0.09506491788938914,
+      "RotationPerSecond": 0.08811646891190521,
+      "RotationPerHour": 0.07665141207336405
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.47660897927232526,
+      "SurfaceRPM": 0.2234991189429456,
+      "ROP": 0.14614063417473375,
+      "MinimumHorizontalStressGradient": 0.08957357012404478,
+      "MPDPumpFlowRate": 0.06417769748595076
+    }
+  },
+  "P28H_UNC_RT": {
+    "Raw_content": "{'Mnemonic': 'P28H_UNC_RT', 'Description in data log': 'IMP/ARC Non-BHcorr Phase-Shift Resistivity 28-in. at 2 MHz', 'Unit': 'ohm.m', 'DataType': 'double', 'dataSource': 'IMP_ARC'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8385097009768159,
+      "ElectricResistivityQuantity": 0.059147249049385384,
+      "ElectricCurrentQuantity": 0.05492743955625083,
+      "AngularAccelerationQuantity": 0.025002042987237332,
+      "PowerQuantity": 0.0224135674303105
+    },
+    "Unit_class": "OhmMetre",
+    "Unit_class_candidates": {
+      "OhmMetre": 0.2731628436936691,
+      "WattPerMetreKelvinPerKelvin": 0.264255387114418,
+      "WattPerMetreKelvin": 0.2129310454365066,
+      "Farad": 0.14368357561724057,
+      "HertzPerSecond": 0.1059671481381657
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.28598338068175655,
+      "ROP": 0.28457206174967836,
+      "TopOfStringPosition": 0.1607852115582334,
+      "FracturingPressureGradient": 0.1372700540391463,
+      "DownholeRPM": 0.1313892919711854
+    }
+  },
+  "HKLD": {
+    "Raw_content": "{'Mnemonic': 'HKLD', 'Description in data log': 'Average Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6005629946696597,
+      "PressureQuantity": 0.20676608463741183,
+      "LengthQuantity": 0.08397714792578814,
+      "VelocityQuantity": 0.06409057094197139,
+      "HydraulicConductivityQuantity": 0.044603201825168935
+    },
+    "Unit_class": "KilonewtonPerDecimetre",
+    "Unit_class_candidates": {
+      "KilonewtonPerDecimetre": 0.2752935649443781,
+      "KilonewtonMetrePerDecimetre": 0.25178464055438365,
+      "JoulePerKilogramKelvin": 0.16379017922783,
+      "Kilopascal": 0.15547049819901596,
+      "KilonewtonPerMillimetre": 0.15366111707439215
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.6024424967291081,
+      "ROP": 0.2594376304374156,
+      "DensityIn": 0.05828104581398202,
+      "MPDChokeOpening": 0.04792068236129592,
+      "TopOfStringPosition": 0.03191814465819835
+    }
+  },
+  "GS_DRTV": {
+    "Raw_content": "{'Mnemonic': 'GS_DRTV', 'Description in data log': 'Lag Depth (TVD)', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "VelocityQuantity",
+    "Quantity_class_candidates": {
+      "VelocityQuantity": 0.49373666236198543,
+      "HydraulicConductivityQuantity": 0.2659430660020904,
+      "FrequencyQuantity": 0.11148487144561449,
+      "TimeQuantity": 0.06962470729572094,
+      "WaveNumberQuantity": 0.059210692894588766
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.4471660451362697,
+      "RadianPerSquareRootSecond": 0.17238742813976565,
+      "PascalSecond": 0.1342146907574327,
+      "MetrePerSecondSquared": 0.13106979400459404,
+      "MetrePerSecond": 0.11516204196193792
+    },
+    "PrototypeData_class": "TrueVerticalDepth",
+    "PrototypeData_class_candidates": {
+      "TrueVerticalDepth": 0.6314065981234451,
+      "MinimumHorizontalStressGradient": 0.1629504870881861,
+      "HoleDepth": 0.1290317434549244,
+      "OverburdenPressureGradient": 0.04113818345401473,
+      "FracturingPressureGradient": 0.03547298787942955
+    }
+  },
+  "GS_SPPA": {
+    "Raw_content": "{'Mnemonic': 'GS_SPPA', 'Description in data log': 'Stand Pipe Pressure', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.9208747667441342,
+      "PressureGradientPerLengthQuantity": 0.027556971776697418,
+      "FrequencyQuantity": 0.0249627166538429,
+      "HydraulicConductivityQuantity": 0.020335724412242275,
+      "PressureLossConstantQuantity": 0.006269820413083456
+    },
+    "Unit_class": "PressureLossConstantSi",
+    "Unit_class_candidates": {
+      "PressureLossConstantSi": 0.4496560212762826,
+      "Megapascal": 0.3097271049029188,
+      "Gigapascal": 0.11763434494116703,
+      "Kilopascal": 0.07040762758179134,
+      "PascalPerMetre": 0.05257490129784032
+    },
+    "PrototypeData_class": "SPP",
+    "PrototypeData_class_candidates": {
+      "SPP": 0.9985832864464848,
+      "DownholePressure": 0.0005803500478640068,
+      "MPDChokeOpening": 0.00045960283506119774,
+      "MPDPumpFlowRate": 0.00019851310829401315,
+      "MPDChokePressure": 0.00017824756229586227
+    }
+  },
+  "GS_G_C1": {
+    "Raw_content": "{'Mnemonic': 'GS_G_C1', 'Description in data log': 'Methane (C1)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.447082659689482,
+      "PressureQuantity": 0.34070528745099177,
+      "VelocityQuantity": 0.09785090523552195,
+      "MassDensityRateOfChangeQuantity": 0.06746891233131942,
+      "MassDensityQuantity": 0.04689223529268466
+    },
+    "Unit_class": "GramPerCubicCentimetrePerCelsius",
+    "Unit_class_candidates": {
+      "GramPerCubicCentimetrePerCelsius": 0.28994845440320693,
+      "GramPerCubicCentimetrePerMetre": 0.27081393642559165,
+      "GramPerCubicMetre": 0.15760668905559258,
+      "GramPerCubicCentimetrePerMinute": 0.14707773136684468,
+      "PressureLossConstantSi": 0.13455318874876415
+    },
+    "PrototypeData_class": "DownholeTemperature",
+    "PrototypeData_class_candidates": {
+      "DownholeTemperature": 0.287394778278495,
+      "GasFlowRate": 0.2537059219609751,
+      "MinimumHorizontalStressGradient": 0.19810646970659362,
+      "OverburdenPressureGradient": 0.15447967099900903,
+      "DensityIn": 0.10631315905492722
+    }
+  },
+  "GS_TFLO": {
+    "Raw_content": "{'Mnemonic': 'GS_TFLO', 'Description in data log': 'Flow Pumps', 'Unit': 'L/min', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.4384404278777016,
+      "HydraulicConductivityQuantity": 0.2639977914791426,
+      "VolumetricFlowRateQuantity": 0.2034695014343194,
+      "PressureQuantity": 0.07372498377774014,
+      "VelocityQuantity": 0.020367295431096312
+    },
+    "Unit_class": "CubicMetrePerSecondSquared",
+    "Unit_class_candidates": {
+      "CubicMetrePerSecondSquared": 0.21625797443478198,
+      "LitrePerMinuteSquared": 0.198904112656719,
+      "LitrePerMinutePerSecond": 0.19836896033949017,
+      "LitrePerSecond": 0.19444266436628926,
+      "LitrePerSecondSquared": 0.19202628820271964
+    },
+    "PrototypeData_class": "MPDPumpFlowRate",
+    "PrototypeData_class_candidates": {
+      "MPDPumpFlowRate": 0.6462249384108723,
+      "MinimumHorizontalStressGradient": 0.12152638853304353,
+      "GasFlowRate": 0.07884039950495679,
+      "PumpRate": 0.07783743396759576,
+      "MPDPumpRate": 0.07557083958353172
+    }
+  },
+  "P40H_COND_RT": {
+    "Raw_content": "{'Mnemonic': 'P40H_COND_RT', 'Description in data log': 'IMP/ARC Phase-Shift Conductivity 40-in. at 2 MHz', 'Unit': 'mS/m', 'DataType': 'double', 'dataSource': 'IMP_ARC'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7797388252163335,
+      "ElectricCurrentQuantity": 0.07480785717057448,
+      "AngularAccelerationQuantity": 0.0675411281902122,
+      "ThermalConductivityGradientPerTemperatureQuantity": 0.041392366631418674,
+      "VelocityQuantity": 0.03651982279146116
+    },
+    "Unit_class": "HertzPerSecond",
+    "Unit_class_candidates": {
+      "HertzPerSecond": 0.2866427693639091,
+      "OhmMetre": 0.20630387959084667,
+      "WattPerMetreKelvin": 0.19158302329287294,
+      "WattPerMetreKelvinPerKelvin": 0.17523098613548585,
+      "Hertz": 0.14023934161688548
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.5346779849784504,
+      "MinimumHorizontalStressGradient": 0.1739384045927044,
+      "TopOfStringPosition": 0.11788779108865109,
+      "FracturingPressureGradient": 0.09062532636770006,
+      "PorePressureGradient": 0.08287049297249399
+    }
+  },
+  "GS_TDH": {
+    "Raw_content": "{'Mnemonic': 'GS_TDH', 'Description in data log': 'TMP In', 'Unit': 'degC', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6850000969204678,
+      "VelocityQuantity": 0.1173635598928643,
+      "HydraulicConductivityQuantity": 0.07329170639643535,
+      "PressureQuantity": 0.06755513404879297,
+      "TimeQuantity": 0.05678950274143957
+    },
+    "Unit_class": "Gigapascal",
+    "Unit_class_candidates": {
+      "Gigapascal": 0.23959955795602983,
+      "PressureLossConstantSi": 0.22043305518863882,
+      "Second": 0.20773012035653227,
+      "DotPerMetre": 0.17561563095973828,
+      "InversePascal": 0.15662163553906078
+    },
+    "PrototypeData_class": "HoleDepth",
+    "PrototypeData_class_candidates": {
+      "HoleDepth": 0.2858147236755817,
+      "TopOfStringPosition": 0.25837737164598557,
+      "DensityIn": 0.1801455999338298,
+      "DownholeTemperature": 0.1550230210094478,
+      "MeasuredDepth": 0.12063928373515517
+    }
+  },
+  "TREV": {
+    "Raw_content": "{'Mnemonic': 'TREV', 'Description in data log': 'Total Bit Revolutions', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8468467325618105,
+      "PowerQuantity": 0.04463438947696358,
+      "VelocityQuantity": 0.039486446117487216,
+      "HydraulicConductivityQuantity": 0.035110930234584545,
+      "PressureQuantity": 0.033921501609154074
+    },
+    "Unit_class": "RotationPerSecond",
+    "Unit_class_candidates": {
+      "RotationPerSecond": 0.34892202033103825,
+      "Rpm": 0.19203115084577996,
+      "StrokePerSecond": 0.15864743036145032,
+      "WattPerMetreKelvin": 0.15173322627300787,
+      "WattPerMetreKelvinPerKelvin": 0.14866617218872355
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.8907088456242302,
+      "BitDepth": 0.03956375140705415,
+      "DownholeRPM": 0.0318472941881671,
+      "TopOfStringPosition": 0.025129334816572018,
+      "SurfaceRPM": 0.012750773963976496
+    }
+  },
+  "AVG_CONF": {
+    "Raw_content": "{'Mnemonic': 'AVG_CONF', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.6438710320492343,
+      "FrequencyQuantity": 0.15905230071868104,
+      "PressureQuantity": 0.07511268252529374,
+      "TimeQuantity": 0.07328098602206809,
+      "PowerQuantity": 0.04868299868472278
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.33762373366948656,
+      "PascalPerMinute": 0.19386380369237502,
+      "InversePascal": 0.18430193579800724,
+      "PascalPerHour": 0.14736535318124755,
+      "DotPerMetre": 0.13684517365888366
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.28187448170719553,
+      "DensityIn": 0.20670716750495705,
+      "MinimumHorizontalStressGradient": 0.1844955166994974,
+      "DownholeTemperature": 0.16718262281396162,
+      "OverburdenPressureGradient": 0.1597402112743883
+    }
+  },
+  "GS_G_IC4": {
+    "Raw_content": "{'Mnemonic': 'GS_G_IC4', 'Description in data log': 'Iso-butane (IC4)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.48018995999862296,
+      "FrequencyQuantity": 0.3382556030602872,
+      "EnergyDensityQuantity": 0.0795566961337218,
+      "MassDensityRateOfChangeQuantity": 0.053508299793929036,
+      "VelocityQuantity": 0.048489441013439015
+    },
+    "Unit_class": "JoulePerKilogramKelvin",
+    "Unit_class_candidates": {
+      "JoulePerKilogramKelvin": 0.25705799721605915,
+      "PressureLossConstantSi": 0.22529990221929788,
+      "GramPerCubicCentimetrePerCelsius": 0.1822571664079148,
+      "PressureLossConstantMetric": 0.1724928732501918,
+      "Candela": 0.16289206090653635
+    },
+    "PrototypeData_class": "GasFlowRate",
+    "PrototypeData_class_candidates": {
+      "GasFlowRate": 0.31955019205091856,
+      "DownholeTemperature": 0.2580948293506466,
+      "DensityIn": 0.17605498900581615,
+      "FracturingPressureGradient": 0.12364472914295624,
+      "SPP": 0.12265526044966257
+    }
+  },
+  "GS_G_C3": {
+    "Raw_content": "{'Mnemonic': 'GS_G_C3', 'Description in data log': 'Propane (C3)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.45881186310459854,
+      "PressureQuantity": 0.22478063252370412,
+      "HydraulicConductivityQuantity": 0.1248917053285951,
+      "MassDensityRateOfChangeQuantity": 0.10457792124180904,
+      "VelocityQuantity": 0.0869378778012931
+    },
+    "Unit_class": "PressureLossConstantSi",
+    "Unit_class_candidates": {
+      "PressureLossConstantSi": 0.31707728401300095,
+      "GramPerCubicCentimetrePerCelsius": 0.19734997436138807,
+      "GramPerCubicCentimetrePerMetre": 0.19153927965974668,
+      "Weber": 0.15112282469417215,
+      "DecanewtonMetrePerDecimetre": 0.14291063727169198
+    },
+    "PrototypeData_class": "DownholeTemperature",
+    "PrototypeData_class_candidates": {
+      "DownholeTemperature": 0.3565419508691,
+      "GasFlowRate": 0.3019394419215543,
+      "FracturingPressureGradient": 0.14695564982228476,
+      "DensityIn": 0.11350557930977616,
+      "SPP": 0.08105737807728473
+    }
+  },
+  "HKLO": {
+    "Raw_content": "{'Mnemonic': 'HKLO', 'Description in data log': 'zzz:undefined', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.24218053830735647,
+      "LengthQuantity": 0.1988042305245741,
+      "FrequencyQuantity": 0.19687504820201435,
+      "MassDensityRateOfChangeQuantity": 0.18618551034497735,
+      "VelocityQuantity": 0.17595467262107767
+    },
+    "Unit_class": "JoulePerKilogramKelvin",
+    "Unit_class_candidates": {
+      "JoulePerKilogramKelvin": 0.31350449027386446,
+      "InversePascal": 0.18316409461364042,
+      "KilonewtonPerDecimetre": 0.18028510749984608,
+      "PressureLossConstantSi": 0.1623771077791043,
+      "JoulePerKilogramSquaredKelvin": 0.16066919983354477
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.41005685893634086,
+      "MinimumHorizontalStressGradient": 0.18235345111246706,
+      "HoleDepth": 0.16348988673751572,
+      "FracturingPressureGradient": 0.12665771390952027,
+      "OverburdenPressureGradient": 0.11744208930415628
+    }
+  },
+  "DMEA": {
+    "Raw_content": "{'Mnemonic': 'DMEA', 'Description in data log': 'Hole depth (MD)', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.40185802131085036,
+      "PressureQuantity": 0.33426443924609595,
+      "HydraulicConductivityQuantity": 0.12345089088885493,
+      "LengthQuantity": 0.08605588518087988,
+      "VelocityQuantity": 0.05437076337331886
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.33154570064424255,
+      "SquareMetre": 0.25105555005958,
+      "Megapascal": 0.1771187062709896,
+      "Gigapascal": 0.13408080381059884,
+      "Metre": 0.10619923921458908
+    },
+    "PrototypeData_class": "HoleDepth",
+    "PrototypeData_class_candidates": {
+      "HoleDepth": 0.775030583827783,
+      "BitDepth": 0.0905763848566544,
+      "DensityIn": 0.08274580185933478,
+      "DensityOut": 0.030884983145700033,
+      "ROP": 0.020762246310527827
+    }
+  },
+  "SHKRSK_RT": {
+    "Raw_content": "{'Mnemonic': 'SHKRSK_RT', 'Description in data log': 'MWD Shock Risk', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7103222022072958,
+      "StressQuantity": 0.09613642381435758,
+      "PowerQuantity": 0.07540992828944648,
+      "TimeQuantity": 0.06286201705545698,
+      "HydraulicConductivityQuantity": 0.055269428633443245
+    },
+    "Unit_class": "ShockPerSecond",
+    "Unit_class_candidates": {
+      "ShockPerSecond": 0.4981707299831124,
+      "ShockPerMinute": 0.23978075581359454,
+      "ShockPerHour": 0.13079473651785653,
+      "PressureLossConstantSi": 0.07830971149273958,
+      "WattPerMetreKelvinPerKelvin": 0.05294406619269692
+    },
+    "PrototypeData_class": "MPDChokeOpening",
+    "PrototypeData_class_candidates": {
+      "MPDChokeOpening": 0.440593612357281,
+      "MinimumHorizontalStressGradient": 0.2813999026305555,
+      "MinimumHorizontalStress": 0.15605792574234162,
+      "FracturingPressureGradient": 0.06933159741494004,
+      "MPDChokePressure": 0.052616961854881815
+    }
+  },
+  "GTF_RT": {
+    "Raw_content": "{'Mnemonic': 'GTF_RT', 'Description in data log': 'MWD Gravity Toolface', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.39214433088756007,
+      "FrequencyQuantity": 0.22636452985633618,
+      "MassDensityRateOfChangeQuantity": 0.15515430051414325,
+      "VelocityQuantity": 0.14830391234096915,
+      "VolumetricFlowRateQuantity": 0.0780329264009912
+    },
+    "Unit_class": "NewtonPerHour",
+    "Unit_class_candidates": {
+      "NewtonPerHour": 0.24165204484639305,
+      "NewtonMetrePerHour": 0.22683763342732807,
+      "DotPerMetre": 0.18563973962391803,
+      "Megapascal": 0.18185696426958578,
+      "NewtonMetrePerMetre": 0.16401361783277507
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.31399040104840314,
+      "DownholeTorque": 0.2411044863067703,
+      "MinimumHorizontalStressGradient": 0.225298040200221,
+      "DownholeTemperature": 0.11093312898446929,
+      "SurfaceTorque": 0.10867394346013615
+    }
+  },
+  "GS_G_NC4": {
+    "Raw_content": "{'Mnemonic': 'GS_G_NC4', 'Description in data log': 'Nor-butane (NC4)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.5774638487920079,
+      "FrequencyQuantity": 0.27664060608968705,
+      "VelocityQuantity": 0.0633400311942696,
+      "PowerQuantity": 0.042831960570803164,
+      "HydraulicConductivityQuantity": 0.03972355335323238
+    },
+    "Unit_class": "PressureLossConstantMetric",
+    "Unit_class_candidates": {
+      "PressureLossConstantMetric": 0.320597093161395,
+      "PressureLossConstantSi": 0.297660492068048,
+      "PascalPerMetre": 0.13694824085462146,
+      "Candela": 0.12766842364264472,
+      "Pascal": 0.11712575027329082
+    },
+    "PrototypeData_class": "DensityIn",
+    "PrototypeData_class_candidates": {
+      "DensityIn": 0.2642282323908948,
+      "FracturingPressureGradient": 0.2159123870304642,
+      "SPP": 0.17526379095782535,
+      "MinimumHorizontalStressGradient": 0.17271269186222032,
+      "GasFlowRate": 0.17188289775859547
+    }
+  },
+  "DEPTH": {
+    "Raw_content": "{'Mnemonic': 'DEPTH', 'Description in data log': 'Measured Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': \"['none']\"}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.2979713450166098,
+      "LengthQuantity": 0.2924708232906089,
+      "PressureQuantity": 0.2409875287374776,
+      "FrequencyQuantity": 0.08503970405314279,
+      "WaveNumberQuantity": 0.08353059890216097
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.24875200142534618,
+      "Metre": 0.24048282359232204,
+      "Dimensionless": 0.231269519906111,
+      "InversePascal": 0.1418917034190652,
+      "SquareMetre": 0.13760395165715572
+    },
+    "PrototypeData_class": "HoleDepth",
+    "PrototypeData_class_candidates": {
+      "HoleDepth": 0.7902081600520069,
+      "MeasuredDepth": 0.08216672497910019,
+      "MinimumHorizontalStressGradient": 0.06428627597308195,
+      "BitDepth": 0.0503034195441076,
+      "DownholePressure": 0.013035419451703613
+    }
+  },
+  "MWTI": {
+    "Raw_content": "{'Mnemonic': 'MWTI', 'Description in data log': 'Mud Density In', 'Unit': 'g/cm3', 'DataType': 'double', 'dataSource': 'Hydraulics'}",
+    "Quantity_class": "HydraulicConductivityQuantity",
+    "Quantity_class_candidates": {
+      "HydraulicConductivityQuantity": 0.6686446634568802,
+      "MassDensityQuantity": 0.19144114658024236,
+      "FrequencyQuantity": 0.09188824167953466,
+      "MassDensityGradientPerLengthQuantity": 0.024760435768419596,
+      "MassDensityRateOfChangeQuantity": 0.023265512514923276
+    },
+    "Unit_class": "MetrePerSecond",
+    "Unit_class_candidates": {
+      "MetrePerSecond": 0.3010608039973529,
+      "CubicMetre": 0.18366806633440233,
+      "MetrePerDay": 0.18179038642450482,
+      "MetrePerHour": 0.16769346345104924,
+      "MetrePerMinute": 0.16578727979269056
+    },
+    "PrototypeData_class": "DensityIn",
+    "PrototypeData_class_candidates": {
+      "DensityIn": 0.6213315737670206,
+      "DensityOut": 0.16837227443526476,
+      "MPDPumpFlowRate": 0.10566227670033145,
+      "MPDPumpRate": 0.08385800638635126,
+      "FlowRateIn": 0.020775868711032017
+    }
+  },
+  "OSTM": {
+    "Raw_content": "{'Mnemonic': 'OSTM', 'Description in data log': 'zzz:undefined', 'Unit': 's', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.26747866866184355,
+      "TimeQuantity": 0.25058160971071275,
+      "DimensionlessQuantity": 0.19544305316018323,
+      "MassQuantity": 0.15166334155347058,
+      "VelocityQuantity": 0.13483332691378996
+    },
+    "Unit_class": "DotPerMetre",
+    "Unit_class_candidates": {
+      "DotPerMetre": 0.27131151343388,
+      "Second": 0.24455696965834753,
+      "OhmMetre": 0.18883683540754242,
+      "InversePascal": 0.16470013230673544,
+      "PascalPerMinute": 0.1305945491934947
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.4232458119881306,
+      "OverburdenPressureGradient": 0.1946976136586969,
+      "MinimumHorizontalStressGradient": 0.18297100451497142,
+      "HoleDepth": 0.11326034632933993,
+      "CollapsePressureGradient": 0.08582522350886122
+    }
+  },
+  "GS_G_NC5": {
+    "Raw_content": "{'Mnemonic': 'GS_G_NC5', 'Description in data log': 'n-Penthane', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.4772830686179661,
+      "FrequencyQuantity": 0.31268705763326604,
+      "PressureGradientPerLengthQuantity": 0.08741482007493652,
+      "MassDensityRateOfChangeQuantity": 0.06947123420842305,
+      "VelocityQuantity": 0.05314381946540828
+    },
+    "Unit_class": "GramPerCubicCentimetrePerMetre",
+    "Unit_class_candidates": {
+      "GramPerCubicCentimetrePerMetre": 0.26931617864130003,
+      "GramPerCubicCentimetrePerMinute": 0.2170218525106952,
+      "GramPerCubicCentimetrePer10Metre": 0.18137671189376198,
+      "PressureLossConstantSi": 0.17984375536103117,
+      "PascalPerMetre": 0.15244150159321163
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.30302629013764876,
+      "PorePressureGradient": 0.23504117933027702,
+      "FracturingPressureGradient": 0.19032109201556296,
+      "HoleDepth": 0.14963989442515588,
+      "OverburdenPressureGradient": 0.12197154409135542
+    }
+  },
+  "GRM1": {
+    "Raw_content": "{'Mnemonic': 'GRM1', 'Description in data log': 'MWD Gamma Ray (API BH corrected)', 'Unit': 'gAPI', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.3350909518549617,
+      "MassDensityRateOfChangeQuantity": 0.24458680078472667,
+      "PowerQuantity": 0.21935348037929026,
+      "WaveNumberQuantity": 0.12588088440752204,
+      "PressureQuantity": 0.0750878825734994
+    },
+    "Unit_class": "Hectogram",
+    "Unit_class_candidates": {
+      "Hectogram": 0.2493407288482426,
+      "Gon": 0.21296044834517108,
+      "Grad": 0.21042178269376713,
+      "Gigapascal": 0.1995264207260777,
+      "Biot": 0.12775061938674145
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.4468663588840341,
+      "FracturingPressureGradient": 0.203156420856525,
+      "MPDChokeOpening": 0.14352267982941963,
+      "CollapsePressureGradient": 0.13481081571071438,
+      "HoleDepth": 0.07164372471930684
+    }
+  },
+  "GS_TVA": {
+    "Raw_content": "{'Mnemonic': 'GS_TVA', 'Description in data log': 'Tank volume (active)', 'Unit': 'm3', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "VolumeQuantity",
+    "Quantity_class_candidates": {
+      "VolumeQuantity": 0.4767968211419321,
+      "PressureQuantity": 0.1852512661197394,
+      "FrequencyQuantity": 0.14362264579276568,
+      "VolumetricFlowRateQuantity": 0.13895587692621247,
+      "HydraulicConductivityQuantity": 0.05537339001935026
+    },
+    "Unit_class": "Gigapascal",
+    "Unit_class_candidates": {
+      "Gigapascal": 0.2853705088822052,
+      "MillionUsGallonPerDay": 0.19420401979217286,
+      "UsGallonPerMinute": 0.17669480379910535,
+      "CubicMetre": 0.1766695292124939,
+      "UsGallonPerMinuteSquared": 0.16706113831402264
+    },
+    "PrototypeData_class": "ActiveVolume",
+    "PrototypeData_class_candidates": {
+      "ActiveVolume": 0.941560845476028,
+      "GasFlowRate": 0.03483640701252081,
+      "HoleDepth": 0.010888215215305034,
+      "DensityIn": 0.006435547598379374,
+      "MPDPumpFlowRate": 0.006278984697766904
+    }
+  },
+  "ACTC": {
+    "Raw_content": "{'Mnemonic': 'ACTC', 'Description in data log': 'Rig Mode', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8091630303262806,
+      "HydraulicConductivityQuantity": 0.0830692993800835,
+      "PowerQuantity": 0.06277801213041317,
+      "PressureQuantity": 0.023407410222082755,
+      "DimensionlessQuantity": 0.021582247941140085
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.3059914680791651,
+      "InversePascal": 0.21134835482272932,
+      "WattPerMetreKelvinPerKelvin": 0.19721976615371123,
+      "WattPerMetreKelvin": 0.18634927456974784,
+      "PascalSecond": 0.09909113637464655
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.2959529827189682,
+      "BitDepth": 0.2707863339200864,
+      "TopOfStringPosition": 0.18217126580417395,
+      "MPDChokeOpening": 0.1702750725096404,
+      "HoleDepth": 0.08081434504713103
+    }
+  },
+  "GS_DXC": {
+    "Raw_content": "{'Mnemonic': 'GS_DXC', 'Description in data log': 'Corr. Drilling Exponent', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6753905874626088,
+      "HydraulicConductivityQuantity": 0.1868285195511115,
+      "PressureQuantity": 0.06008999004924399,
+      "VelocityQuantity": 0.05308726862127997,
+      "PowerQuantity": 0.024603634315755754
+    },
+    "Unit_class": "InversePascal",
+    "Unit_class_candidates": {
+      "InversePascal": 0.25642812657369995,
+      "Dimensionless": 0.2536583925967079,
+      "PressureLossConstantSi": 0.17484927850937865,
+      "Second": 0.16419477209201305,
+      "Gigapascal": 0.15086943022820054
+    },
+    "PrototypeData_class": "BitDepth",
+    "PrototypeData_class_candidates": {
+      "BitDepth": 0.2524323299485427,
+      "TopOfStringPosition": 0.19347792934800523,
+      "ROP": 0.185881453632194,
+      "SurfaceTorque": 0.18432800205167751,
+      "HoleDepth": 0.18388028501958054
+    }
+  },
+  "GS_RPM": {
+    "Raw_content": "{'Mnemonic': 'GS_RPM', 'Description in data log': 'Averaged RPM', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8785199932889836,
+      "VelocityQuantity": 0.052819387278172904,
+      "HydraulicConductivityQuantity": 0.0279474103476394,
+      "PowerQuantity": 0.025987271894739733,
+      "PressureQuantity": 0.01472593719046423
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.8447031430190942,
+      "RotationPerSecond": 0.057316386635420685,
+      "StrokePerSecond": 0.039309100387399126,
+      "InversePascal": 0.02938621782414344,
+      "Second": 0.029285152133942418
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.43384674578411864,
+      "SurfaceRPM": 0.23867887393705725,
+      "ROP": 0.16270789310465483,
+      "OverburdenPressureGradient": 0.08321504114046215,
+      "MPDPumpRate": 0.08155144603370704
+    }
+  },
+  "CWOB": {
+    "Raw_content": "{'Mnemonic': 'CWOB', 'Description in data log': 'Corrected Surface Weight on Bit', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.4691927071477266,
+      "FrequencyQuantity": 0.3648484174050194,
+      "MassDensityRateOfChangeQuantity": 0.09459942001331421,
+      "StressQuantity": 0.0410256253967041,
+      "PressureGradientPerLengthQuantity": 0.030333830037235682
+    },
+    "Unit_class": "KilonewtonMetrePerDecimetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetrePerDecimetre": 0.2969327368071578,
+      "KilonewtonPerDecimetre": 0.22103994611346156,
+      "KilonewtonPerMillimetre": 0.17206508364981196,
+      "KilonewtonMetrePerMillimetre": 0.16495500010254172,
+      "KilonewtonMetrePerMetre": 0.14500723332702692
+    },
+    "PrototypeData_class": "BitDepth",
+    "PrototypeData_class_candidates": {
+      "BitDepth": 0.28708247495028094,
+      "ROP": 0.253369812035124,
+      "SurfaceTorque": 0.20178366312439305,
+      "TopOfStringPosition": 0.1946832263398332,
+      "SPP": 0.06308082355036881
+    }
+  },
+  "TQA": {
+    "Raw_content": "{'Mnemonic': 'TQA', 'Description in data log': 'Average Surface Torque', 'Unit': 'kN.m', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "TorqueQuantity",
+    "Quantity_class_candidates": {
+      "TorqueQuantity": 0.5149473554574893,
+      "FrequencyQuantity": 0.35536483592908613,
+      "TorqueRateOfChangeQuantity": 0.05150384446257315,
+      "PressureQuantity": 0.04518443792164331,
+      "HydraulicConductivityQuantity": 0.03299952622920801
+    },
+    "Unit_class": "KilonewtonMetrePerDecimetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetrePerDecimetre": 0.36792728302989247,
+      "KilonewtonMetrePerMetre": 0.25998002882708565,
+      "KilonewtonMetrePerMillimetre": 0.13963219924609882,
+      "NewtonMetre": 0.12133694601052492,
+      "KilonewtonMetrePerInch": 0.11112354288639821
+    },
+    "PrototypeData_class": "SurfaceTorque",
+    "PrototypeData_class_candidates": {
+      "SurfaceTorque": 0.8580397986003951,
+      "SurfaceRPM": 0.0700346715063976,
+      "DownholeTorque": 0.032767869218900895,
+      "DownholeRPM": 0.02027266485946929,
+      "ROP": 0.018884995814837015
+    }
+  },
+  "TEMP_DNI_RT": {
+    "Raw_content": "{'Mnemonic': 'TEMP_DNI_RT', 'Description in data log': 'MWD DNI Temperature', 'Unit': 'degC', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "TemperatureQuantity",
+    "Quantity_class_candidates": {
+      "TemperatureQuantity": 0.3479164192164014,
+      "FrequencyQuantity": 0.20987057825557712,
+      "TemperatureGradientPerLengthQuantity": 0.2050824571472408,
+      "PowerQuantity": 0.17146371952644884,
+      "VelocityQuantity": 0.06566682585433198
+    },
+    "Unit_class": "WattPerMetreKelvin",
+    "Unit_class_candidates": {
+      "WattPerMetreKelvin": 0.4253233409437546,
+      "WattPerMetreKelvinPerKelvin": 0.25098278180851813,
+      "Celsius": 0.1784468500781082,
+      "KelvinPerMetre": 0.07610933124700929,
+      "Hectogram": 0.06913769592260971
+    },
+    "PrototypeData_class": "DownholeTemperature",
+    "PrototypeData_class_candidates": {
+      "DownholeTemperature": 0.8336207161317564,
+      "TemperatureIn": 0.08862213154337815,
+      "TemperatureOut": 0.06934186942826343,
+      "MinimumHorizontalStressGradient": 0.004250751595733026,
+      "MPDChokeOpening": 0.00416453130086901
+    }
+  },
+  "TOFB": {
+    "Raw_content": "{'Mnemonic': 'TOFB', 'Description in data log': 'zzz:undefined', 'Unit': 's', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.29435404281963334,
+      "LengthQuantity": 0.23135301383547002,
+      "FrequencyQuantity": 0.17265954358583074,
+      "PressureQuantity": 0.1590885046286166,
+      "TimeQuantity": 0.14254489513044913
+    },
+    "Unit_class": "DotPerMetre",
+    "Unit_class_candidates": {
+      "DotPerMetre": 0.2866925401814382,
+      "Second": 0.25487231776088637,
+      "InversePascal": 0.16732167381418198,
+      "PascalPerHour": 0.15609159404201095,
+      "PascalPerMinute": 0.1350218742014826
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.7384425916867712,
+      "HoleDepth": 0.1066891690064899,
+      "OverburdenPressureGradient": 0.07123886821150094,
+      "MinimumHorizontalStressGradient": 0.04493527592496998,
+      "FracturingPressureGradient": 0.03869409517026785
+    }
+  },
+  "IMWT": {
+    "Raw_content": "{'Mnemonic': 'IMWT', 'Description in data log': 'zzz:undefined', 'Unit': 'g/cm3', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "MassDensityRateOfChangeQuantity",
+    "Quantity_class_candidates": {
+      "MassDensityRateOfChangeQuantity": 0.40209519486191225,
+      "PowerQuantity": 0.1730769226816595,
+      "VelocityQuantity": 0.16684734272116478,
+      "VolumeQuantity": 0.1424116288159604,
+      "WaveNumberQuantity": 0.11556891091930303
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.28485798043897426,
+      "DotPerMetre": 0.23237061872906586,
+      "InversePascal": 0.17294209265062538,
+      "NewtonPerHour": 0.1574361365378481,
+      "NewtonPerMinute": 0.15239317164348637
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.27057410766250234,
+      "TopOfStringPosition": 0.24206169432078,
+      "MinimumHorizontalStress": 0.2234614594790445,
+      "DensityIn": 0.13735311792338634,
+      "GasFlowRate": 0.12654962061428673
+    }
+  },
+  "BITRUN": {
+    "Raw_content": "{'Mnemonic': 'BITRUN', 'Description in data log': 'Bit run number', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8245399960757157,
+      "PressureQuantity": 0.08114814981448257,
+      "PowerQuantity": 0.03763733330466761,
+      "LengthQuantity": 0.03332697825188595,
+      "HydraulicConductivityQuantity": 0.023347542553248068
+    },
+    "Unit_class": "PascalSecond",
+    "Unit_class_candidates": {
+      "PascalSecond": 0.2595169401186065,
+      "InversePascal": 0.20763245609376677,
+      "StrokePerSecond": 0.18553800711334972,
+      "WattPerMetreKelvinPerKelvin": 0.17493562442838279,
+      "WattPerMetreKelvin": 0.1723769722458943
+    },
+    "PrototypeData_class": "BitDepth",
+    "PrototypeData_class_candidates": {
+      "BitDepth": 0.41329768517607696,
+      "ROP": 0.40701487267037034,
+      "TopOfStringPosition": 0.07541662315204527,
+      "MPDChokeOpening": 0.05958042673358831,
+      "HoleDepth": 0.04469039226791903
+    }
+  },
+  "TVDE": {
+    "Raw_content": "{'Mnemonic': 'TVDE', 'Description in data log': 'Extrapolated Hole TVD', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.30788569720601733,
+      "LengthQuantity": 0.26103630516173165,
+      "PressureQuantity": 0.20545512491011036,
+      "HydraulicConductivityQuantity": 0.15432944675903104,
+      "VelocityQuantity": 0.07129342596310943
+    },
+    "Unit_class": "NewtonDecimetrePerDecimetre",
+    "Unit_class_candidates": {
+      "NewtonDecimetrePerDecimetre": 0.22985896893239607,
+      "NewtonMillimetrePerDecimetre": 0.22579606679361486,
+      "NewtonPerDecimetre": 0.2157160918976011,
+      "MetrePerSecond": 0.16632502424315532,
+      "NewtonMetrePerDecimetre": 0.16230384813323248
+    },
+    "PrototypeData_class": "HoleDepth",
+    "PrototypeData_class_candidates": {
+      "HoleDepth": 0.3163093289180518,
+      "MPDChokeOpening": 0.20767191763682774,
+      "TrueVerticalDepth": 0.2053724926676714,
+      "ROP": 0.17766762959605906,
+      "BitDepth": 0.09297863118138999
+    }
+  },
+  "GRR": {
+    "Raw_content": "{'Mnemonic': 'GRR', 'Description in data log': 'MWD Raw Gamma Ray', 'Unit': '1/s', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "PowerQuantity",
+    "Quantity_class_candidates": {
+      "PowerQuantity": 0.3702161361004683,
+      "MassDensityRateOfChangeQuantity": 0.2863807152927133,
+      "MassRateQuantity": 0.15071161145360115,
+      "FrequencyQuantity": 0.12564728031024142,
+      "WaveNumberQuantity": 0.06704425684297581
+    },
+    "Unit_class": "Grad",
+    "Unit_class_candidates": {
+      "Grad": 0.30055780991064995,
+      "WattPerMetreKelvin": 0.23238290591562963,
+      "Gon": 0.161693751803142,
+      "WattPerMetreKelvinPerKelvin": 0.15738628871146224,
+      "Second": 0.14797924365911608
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.45299113840239935,
+      "FracturingPressureGradient": 0.19412632195932786,
+      "ROP": 0.1545303001827354,
+      "CollapsePressureGradient": 0.10630237232151817,
+      "OverburdenPressureGradient": 0.09204986713401911
+    }
+  },
+  "BHFG": {
+    "Raw_content": "{'Mnemonic': 'BHFG', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.8044947210628942,
+      "FrequencyQuantity": 0.06006823502318852,
+      "LengthQuantity": 0.05216920298638443,
+      "TimeQuantity": 0.047937660527846496,
+      "VolumeQuantity": 0.035330180399686474
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.43016984528421365,
+      "DotPerMetre": 0.17172989820819695,
+      "InversePascal": 0.1526076004261368,
+      "PascalPerHour": 0.13313972346316655,
+      "NewtonPerHour": 0.1123529326182859
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.41760806011909024,
+      "HoleDepth": 0.27322329652629207,
+      "MinimumHorizontalStressGradient": 0.12952016566937696,
+      "OverburdenPressureGradient": 0.09787418595615967,
+      "DensityIn": 0.08177429172908099
+    }
+  },
+  "DRPM": {
+    "Raw_content": "{'Mnemonic': 'DRPM', 'Description in data log': 'Total Downhole RPM', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9248823407179507,
+      "PressureQuantity": 0.035343699194581406,
+      "HydraulicConductivityQuantity": 0.01817118200270169,
+      "VelocityQuantity": 0.01673414750823263,
+      "PressureGradientPerLengthQuantity": 0.004868630576533643
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.4537561648783271,
+      "RotationPerSecond": 0.14413390519241923,
+      "MetrePerHour": 0.14034608521106842,
+      "MetrePerDay": 0.13692197589534383,
+      "MetrePerSecond": 0.12484186882284146
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.7087895029912191,
+      "ROP": 0.17987646146575836,
+      "DownholePressure": 0.04244633117403107,
+      "SurfaceRPM": 0.0367768094847071,
+      "DownholeTorque": 0.032110894884284084
+    }
+  },
+  "HKLI": {
+    "Raw_content": "{'Mnemonic': 'HKLI', 'Description in data log': 'zzz:undefined', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.20569035967349322,
+      "DimensionlessQuantity": 0.20389599732842484,
+      "MassDensityRateOfChangeQuantity": 0.2019149978288957,
+      "FrequencyQuantity": 0.20110306383134535,
+      "VelocityQuantity": 0.18739558133784104
+    },
+    "Unit_class": "JoulePerKilogramKelvin",
+    "Unit_class_candidates": {
+      "JoulePerKilogramKelvin": 0.32781327914970987,
+      "PressureLossConstantSi": 0.20417564740927305,
+      "JoulePerKilogramSquaredKelvin": 0.16534986849125874,
+      "InversePascal": 0.1586212375625513,
+      "KilonewtonPerDecimetre": 0.14403996738720698
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.29154782768518706,
+      "MinimumHorizontalStressGradient": 0.24340945959577304,
+      "FracturingPressureGradient": 0.17467896938711283,
+      "HoleDepth": 0.1562326264504797,
+      "OverburdenPressureGradient": 0.13413111688144738
+    }
+  },
+  "SHKPK_RT": {
+    "Raw_content": "{'Mnemonic': 'SHKPK_RT', 'Description in data log': 'MWD Shock Peak', 'Unit': 'm/s2', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6707552970921198,
+      "PressureQuantity": 0.1278973985655171,
+      "StressQuantity": 0.07983089625852513,
+      "PowerQuantity": 0.06916300173032656,
+      "MassDensityRateOfChangeQuantity": 0.0523534063535113
+    },
+    "Unit_class": "ShockPerSecond",
+    "Unit_class_candidates": {
+      "ShockPerSecond": 0.4625121366530879,
+      "ShockPerMinute": 0.300778750548728,
+      "ShockPerHour": 0.12732828600339446,
+      "Megapascal": 0.06502979307499891,
+      "PressureLossConstantSi": 0.04435103371979076
+    },
+    "PrototypeData_class": "MPDChokeOpening",
+    "PrototypeData_class_candidates": {
+      "MPDChokeOpening": 0.38097879883636276,
+      "MinimumHorizontalStressGradient": 0.2625686891772115,
+      "MPDChokePressure": 0.1557228787691092,
+      "MPDPumpFlowRate": 0.1063047808720598,
+      "FracturingPressureGradient": 0.09442485234525688
+    }
+  },
+  "AZIM_CONT_RT": {
+    "Raw_content": "{'Mnemonic': 'AZIM_CONT_RT', 'Description in data log': 'MWD Continuous Azimuth', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.4979085104578755,
+      "AngularAccelerationQuantity": 0.19363843260645022,
+      "VelocityQuantity": 0.11329194830108753,
+      "CurvatureQuantity": 0.11037779148362373,
+      "WaveNumberQuantity": 0.08478331715096298
+    },
+    "Unit_class": "DegreeMicrotesla",
+    "Unit_class_candidates": {
+      "DegreeMicrotesla": 0.23286925190883273,
+      "DegreePerMinute": 0.21670184406866488,
+      "Degree": 0.21097173559811133,
+      "RadianMicrotesla": 0.1966384665052905,
+      "DegreePerDay": 0.14281870191910062
+    },
+    "PrototypeData_class": "Azimuth",
+    "PrototypeData_class_candidates": {
+      "Azimuth": 0.5619457266803017,
+      "TopOfStringPosition": 0.15142871851222378,
+      "MinimumHorizontalStressGradient": 0.10843233553567538,
+      "DownholeTemperature": 0.10335610614363623,
+      "DownholeTorque": 0.07483711312816292
+    }
+  },
+  "TRPM_RT": {
+    "Raw_content": "{'Mnemonic': 'TRPM_RT', 'Description in data log': 'MWD Turbine RPM', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7913936921532556,
+      "VelocityQuantity": 0.100704461633747,
+      "PowerQuantity": 0.07190718414050092,
+      "VolumetricFlowRateQuantity": 0.01979372112075619,
+      "HydraulicConductivityQuantity": 0.01620094095174019
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.4228281960149684,
+      "WattPerMetreKelvin": 0.18399287249419388,
+      "KilonewtonMetrePerDecimetre": 0.16707931271240517,
+      "DecanewtonMetrePerDecimetre": 0.12263688173481718,
+      "StrokePerSecond": 0.10346273704361551
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.42745885233847125,
+      "SurfaceRPM": 0.32149934732873847,
+      "ROP": 0.09869524467855272,
+      "MPDPumpFlowRate": 0.09144328815677205,
+      "DownholeTorque": 0.060903267497465566
+    }
+  },
+  "ROP5": {
+    "Raw_content": "{'Mnemonic': 'ROP5', 'Description in data log': 'Rate of Penetration (5ft avg)', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.5686483153765304,
+      "VelocityQuantity": 0.13867514672656747,
+      "PressureQuantity": 0.12594693932140344,
+      "HydraulicConductivityQuantity": 0.08466506261618625,
+      "PressureGradientPerLengthQuantity": 0.0820645359593126
+    },
+    "Unit_class": "FootPerHour",
+    "Unit_class_candidates": {
+      "FootPerHour": 0.3133901427510328,
+      "MetrePerHour": 0.2504839927043788,
+      "FootPerSecond": 0.15297307859559928,
+      "FootPerMinute": 0.14981665467009264,
+      "MillionCubicMetrePerDay": 0.1333361312788964
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.9995169476627271,
+      "MPDPumpFlowRate": 0.00018904480349860804,
+      "DensityIn": 0.00015048526102888143,
+      "MPDPumpRate": 8.000711082656412e-05,
+      "PumpRate": 6.351516191863444e-05
+    }
+  },
+  "GS_MWTI": {
+    "Raw_content": "{'Mnemonic': 'GS_MWTI', 'Description in data log': 'Mud Density In', 'Unit': 'g/cm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassDensityQuantity",
+    "Quantity_class_candidates": {
+      "MassDensityQuantity": 0.6143575613218283,
+      "MassDensityRateOfChangeQuantity": 0.1346990256754011,
+      "MassDensityGradientPerLengthQuantity": 0.12609513559740093,
+      "FrequencyQuantity": 0.08156969787103557,
+      "MassDensityGradientPerTemperatureQuantity": 0.04327857953433404
+    },
+    "Unit_class": "GramPerCubicCentimetrePerMetre",
+    "Unit_class_candidates": {
+      "GramPerCubicCentimetrePerMetre": 0.28868446455890223,
+      "GramPerCubicMetre": 0.18065541388581582,
+      "PressureLossConstantSi": 0.1797231736493048,
+      "Gigapascal": 0.1768835102656975,
+      "GramPerCubicCentimetrePer30Metre": 0.1740534376402797
+    },
+    "PrototypeData_class": "DensityIn",
+    "PrototypeData_class_candidates": {
+      "DensityIn": 0.7069101808925916,
+      "DensityOut": 0.2048291149004714,
+      "MPDPumpFlowRate": 0.03285013397102884,
+      "MPDPumpRate": 0.028374287606767704,
+      "HoleDepth": 0.02703628262914046
+    }
+  },
+  "DEPT": {
+    "Raw_content": "{'Mnemonic': 'DEPT', 'Description in data log': 'Bit Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.5015232135401628,
+      "PressureQuantity": 0.19048077181240924,
+      "HydraulicConductivityQuantity": 0.13003083093673792,
+      "LengthQuantity": 0.11075712284799565,
+      "PowerQuantity": 0.06720806086269443
+    },
+    "Unit_class": "CubicMetre",
+    "Unit_class_candidates": {
+      "CubicMetre": 0.3336531449323365,
+      "Pascal": 0.1896433684297558,
+      "MillionStandardCubicFoot": 0.17908370380268712,
+      "Second": 0.15698135661104173,
+      "MetrePerSecond": 0.14063842622417888
+    },
+    "PrototypeData_class": "BitDepth",
+    "PrototypeData_class_candidates": {
+      "BitDepth": 0.5021655666931646,
+      "HoleDepth": 0.32377504174269706,
+      "ROP": 0.08032070617761732,
+      "DensityIn": 0.04840612648328081,
+      "TopOfStringPosition": 0.04533255890324013
+    }
+  },
+  "SPM2": {
+    "Raw_content": "{'Mnemonic': 'SPM2', 'Description in data log': 'Pump 2 Stroke Rate', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.950232468319673,
+      "HydraulicConductivityQuantity": 0.030695342356953287,
+      "VolumetricFlowRateQuantity": 0.010703289757710812,
+      "PressureQuantity": 0.005940187534418182,
+      "PressureGradientPerLengthQuantity": 0.0024287120312445096
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.5050021903188111,
+      "Spm": 0.14188369527974756,
+      "MetrePerDay": 0.11851474820275278,
+      "MetrePerMinute": 0.1178792825149505,
+      "MetrePerHour": 0.11672008368373796
+    },
+    "PrototypeData_class": "PumpRate",
+    "PrototypeData_class_candidates": {
+      "PumpRate": 0.7305027693341466,
+      "MPDPumpFlowRate": 0.14533006013831176,
+      "MPDPumpRate": 0.10590374447166623,
+      "ROP": 0.012802053117927403,
+      "DownholeRPM": 0.005461372937947982
+    }
+  },
+  "ETSL": {
+    "Raw_content": "{'Mnemonic': 'ETSL', 'Description in data log': 'Elapsed time in-slips', 'Unit': 's', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "HydraulicConductivityQuantity",
+    "Quantity_class_candidates": {
+      "HydraulicConductivityQuantity": 0.5062754254577392,
+      "FrequencyQuantity": 0.2039979627880575,
+      "VelocityQuantity": 0.16929905013905353,
+      "PressureQuantity": 0.07649278084900568,
+      "PressureGradientPerLengthQuantity": 0.04393478076614418
+    },
+    "Unit_class": "Second",
+    "Unit_class_candidates": {
+      "Second": 0.46777712732370097,
+      "FootPerHour": 0.16159578960566148,
+      "FootPerSecond": 0.1600467533091403,
+      "PascalSecond": 0.11198741230120657,
+      "FootPerDay": 0.09859291746029067
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.7023888132444231,
+      "TopOfStringPosition": 0.127636490759625,
+      "TemperatureOut": 0.07225663889555677,
+      "BitDepth": 0.05326602875916053,
+      "DownholeRPM": 0.04445202834123467
+    }
+  },
+  "GS_BDDI": {
+    "Raw_content": "{'Mnemonic': 'GS_BDDI', 'Description in data log': 'Bit Drilling Run', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7903829179500418,
+      "PressureQuantity": 0.08198136711034817,
+      "HydraulicConductivityQuantity": 0.05604565764855713,
+      "LengthQuantity": 0.0395777179977569,
+      "PowerQuantity": 0.032012339293296124
+    },
+    "Unit_class": "NewtonMillimetrePerDecimetre",
+    "Unit_class_candidates": {
+      "NewtonMillimetrePerDecimetre": 0.2584323512093176,
+      "Megapascal": 0.21433643425751034,
+      "PressureLossConstantSi": 0.1790021514173999,
+      "Gigapascal": 0.17562449776624295,
+      "NewtonDecimetrePerMillimetre": 0.17260456534952925
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.6137638147975486,
+      "MPDPumpRate": 0.1350718936810786,
+      "MPDChokeOpening": 0.12388240437641819,
+      "BitDepth": 0.07190922915447188,
+      "TopOfStringPosition": 0.055372657990482736
+    }
+  },
+  "GS_TREV": {
+    "Raw_content": "{'Mnemonic': 'GS_TREV', 'Description in data log': 'Bit Revolutions  (cum)', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7190326906445508,
+      "VelocityQuantity": 0.12892344935129907,
+      "HydraulicConductivityQuantity": 0.09010458537478942,
+      "PowerQuantity": 0.033993214526122584,
+      "PressureQuantity": 0.02794606010323808
+    },
+    "Unit_class": "RotationPerSecond",
+    "Unit_class_candidates": {
+      "RotationPerSecond": 0.3291129743017132,
+      "Rpm": 0.24827639822755748,
+      "Second": 0.1668625448480703,
+      "GramPerCubicCentimetrePerCelsius": 0.1313411498307341,
+      "GramPerCubicCentimetrePerSecond": 0.12440693279192497
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.4113573763554243,
+      "DownholeRPM": 0.2695254387453904,
+      "SurfaceRPM": 0.1492892025023143,
+      "MinimumHorizontalStressGradient": 0.08809957610022023,
+      "OverburdenPressureGradient": 0.08172840629665076
+    }
+  },
+  "STK2": {
+    "Raw_content": "{'Mnemonic': 'STK2', 'Description in data log': 'Pump 2 Strokes', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8080903718639452,
+      "HydraulicConductivityQuantity": 0.11781294625172554,
+      "PressureQuantity": 0.04345688978253945,
+      "VolumetricFlowRateQuantity": 0.022810674824877007,
+      "PowerQuantity": 0.007829117276912776
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.5517456629930152,
+      "CubicMetrePerSecondSquared": 0.1483366362793954,
+      "StrokePerHour": 0.11360659441198195,
+      "PressureLossConstantSi": 0.09680889161282279,
+      "CubicMetrePerSecond": 0.08950221470278474
+    },
+    "PrototypeData_class": "PumpRate",
+    "PrototypeData_class_candidates": {
+      "PumpRate": 0.44492673976227026,
+      "MPDPumpFlowRate": 0.23995829169542385,
+      "MPDPumpRate": 0.20819992182724462,
+      "MPDChokeOpening": 0.05698981782501411,
+      "ROP": 0.04992522889004711
+    }
+  },
+  "ROPI": {
+    "Raw_content": "{'Mnemonic': 'ROPI', 'Description in data log': 'Inverse ROP', 'Unit': 's/m', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6200225801489614,
+      "VelocityQuantity": 0.2566900727956878,
+      "HydraulicConductivityQuantity": 0.055929977855854345,
+      "PressureQuantity": 0.0374366926143772,
+      "WaveNumberQuantity": 0.029920676585119186
+    },
+    "Unit_class": "InversePascal",
+    "Unit_class_candidates": {
+      "InversePascal": 0.5755085828264186,
+      "DotPerMetre": 0.11591887063157144,
+      "RotationPerSecond": 0.1055256060821075,
+      "MetrePerSecond": 0.10233190286453825,
+      "PressureLossConstantSi": 0.10071503759536427
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.9926079019921685,
+      "TopOfStringPosition": 0.003432186852530122,
+      "DownholeRPM": 0.0014568108911621293,
+      "SPP": 0.0013454936492981262,
+      "SurfaceRPM": 0.0011576066148410976
+    }
+  },
+  "GS_MDOA": {
+    "Raw_content": "{'Mnemonic': 'GS_MDOA', 'Description in data log': 'Mud Density Out', 'Unit': 'g/cm3', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "MassDensityQuantity",
+    "Quantity_class_candidates": {
+      "MassDensityQuantity": 0.6416058562995991,
+      "MassDensityRateOfChangeQuantity": 0.13219895814208585,
+      "FrequencyQuantity": 0.10547793775031859,
+      "MassDensityGradientPerLengthQuantity": 0.06555441668084347,
+      "HydraulicConductivityQuantity": 0.055162831127153034
+    },
+    "Unit_class": "Gigapascal",
+    "Unit_class_candidates": {
+      "Gigapascal": 0.27509087712633984,
+      "CubicMetre": 0.21515089819525796,
+      "Megapascal": 0.2150970441664226,
+      "PressureLossConstantSi": 0.1667636367924439,
+      "GramPerCubicCentimetrePerHour": 0.12789754371953568
+    },
+    "PrototypeData_class": "DensityOut",
+    "PrototypeData_class_candidates": {
+      "DensityOut": 0.7510107744487293,
+      "DensityIn": 0.2195328754108466,
+      "OverburdenPressureGradient": 0.010737888143350785,
+      "HoleDepth": 0.009663210061355258,
+      "FlowRateOut": 0.009055251935718234
+    }
+  },
+  "STK1": {
+    "Raw_content": "{'Mnemonic': 'STK1', 'Description in data log': 'Pump 1 Strokes', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7986913486551149,
+      "HydraulicConductivityQuantity": 0.1146287880619731,
+      "PressureQuantity": 0.050732045721667576,
+      "VolumetricFlowRateQuantity": 0.028832916395752035,
+      "PowerQuantity": 0.007114901165492402
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.5706122889632376,
+      "StrokePerHour": 0.1537531179388849,
+      "CubicMetrePerSecondSquared": 0.11227704661015053,
+      "MetrePerSecond": 0.08678154079712637,
+      "PressureLossConstantSi": 0.07657600569060051
+    },
+    "PrototypeData_class": "PumpRate",
+    "PrototypeData_class_candidates": {
+      "PumpRate": 0.48576228089467066,
+      "MPDPumpFlowRate": 0.25738174055173396,
+      "MPDPumpRate": 0.1576303203135554,
+      "ROP": 0.059618011766487414,
+      "MPDChokeOpening": 0.0396076464735527
+    }
+  },
+  "SHKRATE_RT": {
+    "Raw_content": "{'Mnemonic': 'SHKRATE_RT', 'Description in data log': 'PowerUP Shock Rate', 'Unit': '1/s', 'DataType': 'double', 'dataSource': 'PowerUp'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.5087985687932872,
+      "PowerQuantity": 0.4375247337758188,
+      "HydraulicConductivityQuantity": 0.03323296470665479,
+      "ElectricCurrentQuantity": 0.010745502263916943,
+      "MassRateQuantity": 0.009698230460322156
+    },
+    "Unit_class": "ShockPerSecond",
+    "Unit_class_candidates": {
+      "ShockPerSecond": 0.7265243630905087,
+      "ShockPerMinute": 0.13840910807717954,
+      "ShockPerHour": 0.056018254093267245,
+      "Femtowatt": 0.0413930298589541,
+      "MicropascalSecond": 0.03765524488009035
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.5424340563042848,
+      "FracturingPressureGradient": 0.22278184479779975,
+      "MinimumHorizontalStressGradient": 0.10793140701850569,
+      "TopOfStringPosition": 0.06705845740372365,
+      "SPP": 0.059794234475686124
+    }
+  },
+  "SPM4": {
+    "Raw_content": "{'Mnemonic': 'SPM4', 'Description in data log': 'Pump 4 Stroke Rate', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8926121201184612,
+      "HydraulicConductivityQuantity": 0.050171067842788825,
+      "PressureQuantity": 0.03996384927588031,
+      "VolumetricFlowRateQuantity": 0.014806013576532804,
+      "PowerQuantity": 0.002446949186336542
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.529333549801462,
+      "MetrePerDay": 0.14889181975467447,
+      "Spm": 0.1098933657500549,
+      "MetrePerMinute": 0.10721989875491865,
+      "MetrePerHour": 0.10466136593888996
+    },
+    "PrototypeData_class": "PumpRate",
+    "PrototypeData_class_candidates": {
+      "PumpRate": 0.7783511718095893,
+      "MPDPumpFlowRate": 0.10354698702112416,
+      "MPDPumpRate": 0.10238582668805302,
+      "ROP": 0.009986266061308188,
+      "DownholeRPM": 0.0057297484199252844
+    }
+  },
+  "INCL_CONT_RT": {
+    "Raw_content": "{'Mnemonic': 'INCL_CONT_RT', 'Description in data log': 'MWD Continuous Inclination', 'Unit': 'dega', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.4451364618479163,
+      "AngularAccelerationQuantity": 0.2202597791518963,
+      "VelocityQuantity": 0.17677301789574934,
+      "HydraulicConductivityQuantity": 0.0812641860474581,
+      "CurvatureQuantity": 0.07656655505698
+    },
+    "Unit_class": "DegreeMicrotesla",
+    "Unit_class_candidates": {
+      "DegreeMicrotesla": 0.43174759069280494,
+      "DegreePerDay": 0.16805839878510892,
+      "Degree": 0.1608241258776729,
+      "DegreePerMinute": 0.12646901977857405,
+      "DegreePerSecondPerDay": 0.11290086486583932
+    },
+    "PrototypeData_class": "Inclination",
+    "PrototypeData_class_candidates": {
+      "Inclination": 0.630604491107822,
+      "MinimumHorizontalStressGradient": 0.10438612789166202,
+      "DownholeTorque": 0.09468539375726041,
+      "DownholeRPM": 0.08670088456507852,
+      "MinimumHorizontalStress": 0.08362310267817716
+    }
+  },
+  "GS_BDTI": {
+    "Raw_content": "{'Mnemonic': 'GS_BDTI', 'Description in data log': 'Bit Drilling Time', 'Unit': 'h', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7602960228414075,
+      "HydraulicConductivityQuantity": 0.1227911842947855,
+      "VelocityQuantity": 0.055905801045245035,
+      "LengthQuantity": 0.03358435583124085,
+      "PowerQuantity": 0.027422635987320868
+    },
+    "Unit_class": "MetrePerHour",
+    "Unit_class_candidates": {
+      "MetrePerHour": 0.2515367861588853,
+      "Second": 0.24013873822114354,
+      "PascalSecond": 0.1832257562646373,
+      "StrokePerSecond": 0.16436010221247147,
+      "FootPerHour": 0.1607386171428625
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.7569955665243796,
+      "BitDepth": 0.11991404218513048,
+      "TopOfStringPosition": 0.05141103167029245,
+      "HoleDepth": 0.03840025865333395,
+      "MPDPumpRate": 0.03327910096686358
+    }
+  },
+  "ATMP_RT": {
+    "Raw_content": "{'Mnemonic': 'ATMP_RT', 'Description in data log': 'Annular Temperature', 'Unit': 'degC', 'DataType': 'double', 'dataSource': 'IMP_ARC'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.3330822786544489,
+      "TemperatureGradientPerLengthQuantity": 0.2815182159757796,
+      "TemperatureQuantity": 0.15804856028334496,
+      "AngularAccelerationQuantity": 0.1390569377451519,
+      "PowerQuantity": 0.08829400734127471
+    },
+    "Unit_class": "Celsius",
+    "Unit_class_candidates": {
+      "Celsius": 0.25850110297110257,
+      "WattPerMetreKelvin": 0.23525382023148447,
+      "DegreePerDay": 0.1787533306195666,
+      "DegreePerSecondPerDay": 0.1662657099207059,
+      "WattPerMetreKelvinPerKelvin": 0.16122603625714055
+    },
+    "PrototypeData_class": "DownholeTemperature",
+    "PrototypeData_class_candidates": {
+      "DownholeTemperature": 0.9317834577833098,
+      "TemperatureIn": 0.027845876439836437,
+      "TemperatureOut": 0.024812854003714725,
+      "MinimumHorizontalStressGradient": 0.008292402187222013,
+      "ROP": 0.007265409585917086
+    }
+  },
+  "TSPM": {
+    "Raw_content": "{'Mnemonic': 'TSPM', 'Description in data log': 'Total SPM', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8773559709852897,
+      "HydraulicConductivityQuantity": 0.06204548938018366,
+      "VelocityQuantity": 0.027594108081410253,
+      "PressureQuantity": 0.01813281562994497,
+      "PressureGradientPerLengthQuantity": 0.014871615923171492
+    },
+    "Unit_class": "Spm",
+    "Unit_class_candidates": {
+      "Spm": 0.6136756817396208,
+      "MetrePerMinute": 0.1499988094691707,
+      "MetrePerHour": 0.12213153517093261,
+      "Minute": 0.05965009963094456,
+      "MetrePerDay": 0.05454387398933128
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.6500752443138665,
+      "SurfaceRPM": 0.1073926133441359,
+      "DownholeRPM": 0.10585466608055906,
+      "SPP": 0.06851063129029804,
+      "TopOfStringPosition": 0.06816684497114045
+    }
+  },
+  "CHK": {
+    "Raw_content": "{'Mnemonic': 'CHK', 'Description in data log': 'Corrected Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7327477630993798,
+      "PressureQuantity": 0.10777131390593743,
+      "LengthQuantity": 0.06486132117937511,
+      "HydraulicConductivityQuantity": 0.057162016091388095,
+      "VelocityQuantity": 0.03745758572391962
+    },
+    "Unit_class": "KilonewtonMetrePerDecimetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetrePerDecimetre": 0.2725485957695735,
+      "PressureLossConstantSi": 0.26949227682349636,
+      "WattPerMetreKelvinPerKelvin": 0.16493516076993417,
+      "KilonewtonPerDecimetre": 0.1595036079274837,
+      "KilonewtonMetrePerMillimetre": 0.13352035870951218
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.46685859938817387,
+      "TopOfStringPosition": 0.2172965632683338,
+      "ROP": 0.21402390812016037,
+      "BitDepth": 0.054791631384619156,
+      "MPDChokeOpening": 0.04702929783871284
+    }
+  },
+  "SMOD": {
+    "Raw_content": "{'Mnemonic': 'SMOD', 'Description in data log': 'SPN Sp_RigMode 2hz', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9704087221803773,
+      "HydraulicConductivityQuantity": 0.014406941731551071,
+      "VelocityQuantity": 0.005962713422205776,
+      "PowerQuantity": 0.005794397939543151,
+      "PressureQuantity": 0.003427224726322774
+    },
+    "Unit_class": "Spm",
+    "Unit_class_candidates": {
+      "Spm": 0.5657941358259293,
+      "Rpm": 0.1275514084189242,
+      "RotationPerSecond": 0.11016196204379626,
+      "MetrePerHour": 0.1097019802973124,
+      "StrokePerSecond": 0.08679051341403785
+    },
+    "PrototypeData_class": "SPP",
+    "PrototypeData_class_candidates": {
+      "SPP": 0.24932527325560236,
+      "ROP": 0.24283671613525834,
+      "MPDPumpRate": 0.20955515635962957,
+      "TopOfStringPosition": 0.1524397907546279,
+      "DownholeRPM": 0.14584306349488182
+    }
+  },
+  "GS_DVER": {
+    "Raw_content": "{'Mnemonic': 'GS_DVER', 'Description in data log': 'Total Vertical Depth', 'Unit': 'm', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "HydraulicConductivityQuantity",
+    "Quantity_class_candidates": {
+      "HydraulicConductivityQuantity": 0.380342522345389,
+      "PressureGradientPerLengthQuantity": 0.21660137176098557,
+      "FrequencyQuantity": 0.17179534056100487,
+      "PressureQuantity": 0.15926891582524358,
+      "VelocityQuantity": 0.07199184950737685
+    },
+    "Unit_class": "MillionStandardCubicFoot",
+    "Unit_class_candidates": {
+      "MillionStandardCubicFoot": 0.3060064307472327,
+      "Gigapascal": 0.22086613398049992,
+      "SpecificGravityPerMinute": 0.19404604978919257,
+      "CubicMetre": 0.15617724416238235,
+      "SpecificGravityPerHour": 0.12290414132069237
+    },
+    "PrototypeData_class": "HoleDepth",
+    "PrototypeData_class_candidates": {
+      "HoleDepth": 0.7043440483402998,
+      "MinimumHorizontalStressGradient": 0.12104955754134988,
+      "MeasuredDepth": 0.06507321497949185,
+      "OverburdenPressureGradient": 0.06428982373819524,
+      "Inclination": 0.04524335540066311
+    }
+  },
+  "S1AC": {
+    "Raw_content": "{'Mnemonic': 'S1AC', 'Description in data log': 'zzz:undefined', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.3342556380730969,
+      "FrequencyQuantity": 0.18477041409891568,
+      "MassQuantity": 0.1810852073963334,
+      "StressQuantity": 0.15064594949844914,
+      "PowerQuantity": 0.1492427909332049
+    },
+    "Unit_class": "Kilopascal",
+    "Unit_class_candidates": {
+      "Kilopascal": 0.3292376771388132,
+      "PressureLossConstantSi": 0.22958358761983297,
+      "InversePascal": 0.1993146958819362,
+      "Megapascal": 0.1311968378212081,
+      "Gigapascal": 0.11066720153820964
+    },
+    "PrototypeData_class": "FracturingPressureGradient",
+    "PrototypeData_class_candidates": {
+      "FracturingPressureGradient": 0.25001946961791,
+      "MinimumHorizontalStressGradient": 0.24975434895855309,
+      "HoleDepth": 0.18026079454961566,
+      "OverburdenPressureGradient": 0.1642689233806141,
+      "CollapsePressureGradient": 0.15569646349330704
+    }
+  },
+  "P40H_UNC_RT": {
+    "Raw_content": "{'Mnemonic': 'P40H_UNC_RT', 'Description in data log': 'IMP/ARC Non-BHcorr Phase-Shift Resistivity 40-in. at 2 MHz', 'Unit': 'ohm.m', 'DataType': 'double', 'dataSource': 'IMP_ARC'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8112951569868267,
+      "ElectricResistivityQuantity": 0.070822877024076,
+      "ElectricCurrentQuantity": 0.060667050709396333,
+      "AngularAccelerationQuantity": 0.03250790040284033,
+      "PowerQuantity": 0.02470701487686059
+    },
+    "Unit_class": "OhmMetre",
+    "Unit_class_candidates": {
+      "OhmMetre": 0.38810219382657746,
+      "WattPerMetreKelvinPerKelvin": 0.2101141162968329,
+      "WattPerMetreKelvin": 0.1984500881530294,
+      "HertzPerSecond": 0.11643420997022881,
+      "Hertz": 0.08689939175333143
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.32880471426340796,
+      "ROP": 0.29598873834825795,
+      "FracturingPressureGradient": 0.15491058387163054,
+      "TopOfStringPosition": 0.13546990907325823,
+      "DownholeTemperature": 0.0848260544434452
+    }
+  },
+  "CTH": {
+    "Raw_content": "{'Mnemonic': 'CTH', 'Description in data log': 'Corrected Total Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6170012343925219,
+      "LengthQuantity": 0.15625986213204893,
+      "PressureQuantity": 0.14002709462978877,
+      "PowerQuantity": 0.04574491309585617,
+      "VelocityQuantity": 0.04096689574978433
+    },
+    "Unit_class": "KilonewtonMetrePerDecimetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetrePerDecimetre": 0.3166368208671707,
+      "KilonewtonPerDecimetre": 0.20240679953808133,
+      "PressureLossConstantSi": 0.18985340504899212,
+      "Kilodecanewton": 0.16702607190712632,
+      "KilonewtonMetrePerMetre": 0.1240769026386296
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.7188039608136024,
+      "TopOfStringPosition": 0.113719046260234,
+      "ROP": 0.08028765977872512,
+      "BitDepth": 0.0460918933436367,
+      "MPDChokeOpening": 0.041097439803801816
+    }
+  },
+  "TFLO": {
+    "Raw_content": "{'Mnemonic': 'TFLO', 'Description in data log': 'Mud Flow In', 'Unit': 'L/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.415862686177609,
+      "HydraulicConductivityQuantity": 0.37552456689148866,
+      "VolumetricFlowRateQuantity": 0.09353016202110771,
+      "VelocityQuantity": 0.07353455186851054,
+      "PressureQuantity": 0.04154803304128422
+    },
+    "Unit_class": "LitrePerSecond",
+    "Unit_class_candidates": {
+      "LitrePerSecond": 0.22016250340899088,
+      "LitrePerMinutePerSecond": 0.21100455791728792,
+      "LitrePerSecondSquared": 0.20958065369219153,
+      "StrokePerSecond": 0.18286880490351246,
+      "CubicMetrePerSecondSquared": 0.17638348007801727
+    },
+    "PrototypeData_class": "MPDPumpRate",
+    "PrototypeData_class_candidates": {
+      "MPDPumpRate": 0.3546080453869822,
+      "ROP": 0.26768164107629105,
+      "DensityIn": 0.1546218781546924,
+      "MPDPumpFlowRate": 0.14984222599786,
+      "DensityOut": 0.07324620938417438
+    }
+  },
+  "SPM1": {
+    "Raw_content": "{'Mnemonic': 'SPM1', 'Description in data log': 'Pump 1 Stroke Rate', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9533053236084416,
+      "HydraulicConductivityQuantity": 0.025473881759014928,
+      "VolumetricFlowRateQuantity": 0.012283827567713512,
+      "PressureQuantity": 0.00713116509323486,
+      "PressureGradientPerLengthQuantity": 0.0018058019715950985
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.44608484762528683,
+      "Spm": 0.17565869344064255,
+      "MetrePerMinute": 0.16550440823594306,
+      "StrokePerHour": 0.10708741942734168,
+      "MetrePerHour": 0.10566463127078593
+    },
+    "PrototypeData_class": "PumpRate",
+    "PrototypeData_class_candidates": {
+      "PumpRate": 0.8294240504171732,
+      "MPDPumpFlowRate": 0.09057737108997589,
+      "MPDPumpRate": 0.067072435556834,
+      "ROP": 0.00896736504587486,
+      "DownholeRPM": 0.003958777890142183
+    }
+  },
+  "GS_GASA": {
+    "Raw_content": "{'Mnemonic': 'GS_GASA', 'Description in data log': 'Gas (avg)', 'Unit': '%', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.4717880076652539,
+      "FrequencyQuantity": 0.27658874720539284,
+      "PressureGradientPerLengthQuantity": 0.08546183433734372,
+      "MassDensityRateOfChangeQuantity": 0.08427009355423686,
+      "VelocityQuantity": 0.0818913172377727
+    },
+    "Unit_class": "Gigapascal",
+    "Unit_class_candidates": {
+      "Gigapascal": 0.3651468855844335,
+      "Megapascal": 0.342937401937296,
+      "Gigajoule": 0.1407194840090459,
+      "PressureLossConstantSi": 0.08098445465551721,
+      "PressureLossConstantMetric": 0.0702117738137073
+    },
+    "PrototypeData_class": "GasFlowRate",
+    "PrototypeData_class_candidates": {
+      "GasFlowRate": 0.7186009242647751,
+      "FracturingPressureGradient": 0.09069039242491453,
+      "DensityIn": 0.08221732293081511,
+      "MinimumHorizontalStressGradient": 0.05738364189208143,
+      "OverburdenPressureGradient": 0.05110771848741402
+    }
+  },
+  "SHK3TM_RT": {
+    "Raw_content": "{'Mnemonic': 'SHK3TM_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'min', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "StressQuantity",
+    "Quantity_class_candidates": {
+      "StressQuantity": 0.26561079326377607,
+      "LengthQuantity": 0.20228439235893883,
+      "MassQuantity": 0.18868973433349615,
+      "MassDensityRateOfChangeQuantity": 0.18786602351816095,
+      "TimeQuantity": 0.15554905652562803
+    },
+    "Unit_class": "DotPerMetre",
+    "Unit_class_candidates": {
+      "DotPerMetre": 0.3900657877776028,
+      "MicrometrePerKilometre": 0.17446917430156808,
+      "PressureLossConstantSi": 0.14836258903028443,
+      "Micromole": 0.14360170672965814,
+      "Second": 0.14350074216088665
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.5070964325054774,
+      "MinimumHorizontalStress": 0.3001444204034912,
+      "TopOfStringPosition": 0.12377522427817583,
+      "DownholeTemperature": 0.03774963460451269,
+      "OverburdenPressureGradient": 0.031234288208342755
+    }
+  },
+  "ARC_GR_RT": {
+    "Raw_content": "{'Mnemonic': 'ARC_GR_RT', 'Description in data log': 'ARC Gamma Ray (BH corrected)', 'Unit': 'gAPI', 'DataType': 'double', 'dataSource': 'ARC'}",
+    "Quantity_class": "PowerQuantity",
+    "Quantity_class_candidates": {
+      "PowerQuantity": 0.32132908616505906,
+      "FrequencyQuantity": 0.2061839667661437,
+      "MassDensityRateOfChangeQuantity": 0.17946164640869153,
+      "EnergyDensityQuantity": 0.16724921143060842,
+      "AngularAccelerationQuantity": 0.12577608922949732
+    },
+    "Unit_class": "Grad",
+    "Unit_class_candidates": {
+      "Grad": 0.2772414802847783,
+      "Gon": 0.2528116507765638,
+      "Hectogram": 0.18962573943149752,
+      "JoulePerGramDegreeSquaredCelsius": 0.15590008421164153,
+      "JoulePerGramDegreeCelsius": 0.1244210452955189
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.5503375883934246,
+      "FracturingPressureGradient": 0.22493925908659068,
+      "ROP": 0.07946274380556209,
+      "TopOfStringPosition": 0.072680421880565,
+      "CollapsePressureGradient": 0.07257998683385775
+    }
+  },
+  "THKD": {
+    "Raw_content": "{'Mnemonic': 'THKD', 'Description in data log': 'Total Hookload', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6543701661167604,
+      "PressureQuantity": 0.14051148565272362,
+      "LengthQuantity": 0.11754217021061583,
+      "HydraulicConductivityQuantity": 0.04546313522310705,
+      "VelocityQuantity": 0.04211304279679315
+    },
+    "Unit_class": "KilonewtonMetrePerDecimetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetrePerDecimetre": 0.24968827697312643,
+      "WattPerMetreKelvinPerKelvin": 0.23501911460361818,
+      "KilonewtonPerDecimetre": 0.2148085749511279,
+      "JoulePerKilogramKelvin": 0.15286022933210486,
+      "PressureLossConstantSi": 0.14762380414002257
+    },
+    "PrototypeData_class": "HookLoad",
+    "PrototypeData_class_candidates": {
+      "HookLoad": 0.6773174439922771,
+      "ROP": 0.17236553358453915,
+      "TopOfStringPosition": 0.07463972237122206,
+      "HoleDepth": 0.046066674421357624,
+      "MPDChokeOpening": 0.029610625630603963
+    }
+  },
+  "A40H_UNC_RT": {
+    "Raw_content": "{'Mnemonic': 'A40H_UNC_RT', 'Description in data log': 'IMP/ARC Non-BHcorr Attenuation Resistivity 40-in. at 2 MHz', 'Unit': 'ohm.m', 'DataType': 'double', 'dataSource': 'IMP_ARC'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.5487561445649707,
+      "ElectricResistivityQuantity": 0.29993001556266446,
+      "ElectricCurrentQuantity": 0.0774063931676783,
+      "AngularAccelerationQuantity": 0.03838404646140515,
+      "HydraulicConductivityQuantity": 0.03552340024328144
+    },
+    "Unit_class": "OhmMetre",
+    "Unit_class_candidates": {
+      "OhmMetre": 0.34698616359691564,
+      "ReciprocalAangstroem": 0.17030746926712348,
+      "WattPerMetreKelvinPerKelvin": 0.16552765289334415,
+      "WattPerMetreKelvin": 0.16077845465765464,
+      "MetrePerHour": 0.156400259584962
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.32931271585299415,
+      "TopOfStringPosition": 0.2414864372583685,
+      "MinimumHorizontalStressGradient": 0.2337149667434272,
+      "MinimumHorizontalStress": 0.12489119131346546,
+      "BitDepth": 0.07059468883174468
+    }
+  },
+  "Stick_RT": {
+    "Raw_content": "{'Mnemonic': 'Stick_RT', 'Description in data log': 'MWD Stick-Slip PKtoPK RPM', 'Unit': 'rpm', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.4551129964906868,
+      "VelocityQuantity": 0.36385018813179953,
+      "HydraulicConductivityQuantity": 0.06925710495709428,
+      "AngularVelocityQuantity": 0.05784253147847238,
+      "MassDensityRateOfChangeQuantity": 0.05393717894194696
+    },
+    "Unit_class": "Rpm",
+    "Unit_class_candidates": {
+      "Rpm": 0.40563275496878415,
+      "WattPerMetreKelvinPerKelvin": 0.1783759755798847,
+      "WattPerMetreKelvin": 0.16690858829114738,
+      "HertzPerSecond": 0.12619959491876928,
+      "RotationPerSecond": 0.1228830862414145
+    },
+    "PrototypeData_class": "DownholeRPM",
+    "PrototypeData_class_candidates": {
+      "DownholeRPM": 0.49263183770106556,
+      "SurfaceRPM": 0.26574683247892494,
+      "MPDChokeOpening": 0.12510051649932338,
+      "MPDPumpFlowRate": 0.06009679867964262,
+      "ROP": 0.0564240146410436
+    }
+  },
+  "TSTK": {
+    "Raw_content": "{'Mnemonic': 'TSTK', 'Description in data log': 'Total Strokes', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6780493505796702,
+      "HydraulicConductivityQuantity": 0.12860570375976405,
+      "PressureQuantity": 0.08826326445212951,
+      "VolumetricFlowRateQuantity": 0.05451912552291745,
+      "PowerQuantity": 0.05056255568551889
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.6411354064462201,
+      "StrokePerHour": 0.18815545350900656,
+      "CubicMetrePerSecondSquared": 0.07428351366373631,
+      "CubicMetrePerSecond": 0.05049455541479673,
+      "DotPerMetre": 0.04593107096624028
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.30802884861406676,
+      "PumpRate": 0.2666598948647513,
+      "MPDPumpRate": 0.15655673437926823,
+      "TopOfStringPosition": 0.15314186985528155,
+      "MPDPumpFlowRate": 0.11561265228663219
+    }
+  },
+  "ROP": {
+    "Raw_content": "{'Mnemonic': 'ROP', 'Description in data log': 'Rate of Penetration', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6679423035443844,
+      "VelocityQuantity": 0.22477630969132978,
+      "HydraulicConductivityQuantity": 0.05980111508161326,
+      "PressureQuantity": 0.03319794728082844,
+      "PressureGradientPerLengthQuantity": 0.014282324401844118
+    },
+    "Unit_class": "MetrePerHour",
+    "Unit_class_candidates": {
+      "MetrePerHour": 0.4189211213948929,
+      "FootPerHour": 0.18090075578689485,
+      "MetrePerDay": 0.16669984159978454,
+      "MetrePerMinute": 0.11817384818014577,
+      "StrokePerSecond": 0.11530443303828192
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.9998829373345113,
+      "MPDPumpFlowRate": 4.6479826764990684e-05,
+      "MPDPumpRate": 3.218831292814699e-05,
+      "DensityIn": 2.2697632209527256e-05,
+      "PumpRate": 1.5696893586006334e-05
+    }
+  },
+  "RHX_RT": {
+    "Raw_content": "{'Mnemonic': 'RHX_RT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.6039924779009547,
+      "FrequencyQuantity": 0.16580040453380826,
+      "TimeQuantity": 0.09486398540560075,
+      "PowerQuantity": 0.06825560812056561,
+      "VelocityQuantity": 0.06708752403907069
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.41889164839562576,
+      "RadianPerSquareRootSecond": 0.17851024279389976,
+      "DotPerMetre": 0.17746632722179656,
+      "PascalPerMinute": 0.11840524622692136,
+      "PascalPerHour": 0.10672653536175646
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.3981074388259606,
+      "HoleDepth": 0.2104780495472686,
+      "MinimumHorizontalStressGradient": 0.16720756010931906,
+      "MinimumHorizontalStress": 0.12249860839331424,
+      "ROP": 0.10170834312413748
+    }
+  },
+  "EDRT": {
+    "Raw_content": "{'Mnemonic': 'EDRT', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.7494416859755404,
+      "TimeQuantity": 0.06793644449514363,
+      "PowerQuantity": 0.06346447383412168,
+      "FrequencyQuantity": 0.06073836254456887,
+      "RandomWalkQuantity": 0.058419033150625285
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.41349489304871434,
+      "InversePascal": 0.15429889957439788,
+      "Second": 0.15052719704199696,
+      "DotPerMetre": 0.14673919582493614,
+      "PascalPerMinute": 0.1349398145099545
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.34885167472529643,
+      "MinimumHorizontalStressGradient": 0.22273147703939494,
+      "HoleDepth": 0.18297600532637634,
+      "OverburdenPressureGradient": 0.13359294775868286,
+      "FracturingPressureGradient": 0.11184789515024947
+    }
+  },
+  "TOBO": {
+    "Raw_content": "{'Mnemonic': 'TOBO', 'Description in data log': 'zzz:undefined', 'Unit': 's', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.269837537011292,
+      "TimeQuantity": 0.194012050908584,
+      "LengthQuantity": 0.18919515265129777,
+      "MassQuantity": 0.18514118721458644,
+      "PressureQuantity": 0.1618140722142397
+    },
+    "Unit_class": "DotPerMetre",
+    "Unit_class_candidates": {
+      "DotPerMetre": 0.3033836958239999,
+      "Second": 0.26534185320349696,
+      "InversePascal": 0.1738338938445513,
+      "PressureLossConstantSi": 0.13008436714480714,
+      "PascalPerMinute": 0.1273561899831447
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.6514852271942237,
+      "HoleDepth": 0.1153962202130183,
+      "OverburdenPressureGradient": 0.10024898629501901,
+      "MinimumHorizontalStressGradient": 0.07590586833863633,
+      "DownholeTemperature": 0.05696369795910275
+    }
+  },
+  "A28H_UNC_RT": {
+    "Raw_content": "{'Mnemonic': 'A28H_UNC_RT', 'Description in data log': 'IMP/ARC Non-BHcorr Attenuation Resistivity 28-in. at 2 MHz', 'Unit': 'ohm.m', 'DataType': 'double', 'dataSource': 'IMP_ARC'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.599671216619499,
+      "ElectricResistivityQuantity": 0.2517665179621829,
+      "ElectricCurrentQuantity": 0.08489749193866347,
+      "HydraulicConductivityQuantity": 0.04140440995925624,
+      "AngularAccelerationQuantity": 0.02226036352039823
+    },
+    "Unit_class": "Aangstroem",
+    "Unit_class_candidates": {
+      "Aangstroem": 0.25447591725033963,
+      "OhmMetre": 0.23186686595769432,
+      "ReciprocalAangstroem": 0.19556576662978728,
+      "WattPerMetreKelvinPerKelvin": 0.17459501395617646,
+      "WattPerMetreKelvin": 0.14349643620600228
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.2923949231621132,
+      "ROP": 0.2455702274472654,
+      "MinimumHorizontalStressGradient": 0.21208082668448844,
+      "BitDepth": 0.12625450643472066,
+      "MinimumHorizontalStress": 0.12369951627141226
+    }
+  },
+  "GS_MTOA": {
+    "Raw_content": "{'Mnemonic': 'GS_MTOA', 'Description in data log': 'Temperature Out', 'Unit': 'degC', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "TemperatureQuantity",
+    "Quantity_class_candidates": {
+      "TemperatureQuantity": 0.45450518965168357,
+      "TemperatureGradientPerLengthQuantity": 0.2418644906867674,
+      "FrequencyQuantity": 0.16790235844960022,
+      "PressureQuantity": 0.06880195833236316,
+      "VelocityQuantity": 0.06692600287958574
+    },
+    "Unit_class": "WattPerMetreKelvinPerKelvin",
+    "Unit_class_candidates": {
+      "WattPerMetreKelvinPerKelvin": 0.25118315984720363,
+      "WattPerMetreKelvin": 0.21135843183076258,
+      "PressureLossConstantSi": 0.18492192864170987,
+      "Megapascal": 0.18483156863748357,
+      "KelvinPerMetre": 0.1677049110428404
+    },
+    "PrototypeData_class": "DownholeTemperature",
+    "PrototypeData_class_candidates": {
+      "DownholeTemperature": 0.4876886417999601,
+      "TemperatureOut": 0.4571202698924058,
+      "TemperatureIn": 0.049522170364031545,
+      "MinimumHorizontalStressGradient": 0.0030082896654328286,
+      "DensityOut": 0.0026606282781697623
+    }
+  },
+  "STK3": {
+    "Raw_content": "{'Mnemonic': 'STK3', 'Description in data log': 'Pump 3 Strokes', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.783828021983962,
+      "HydraulicConductivityQuantity": 0.10443607137109762,
+      "PressureQuantity": 0.05524001370480252,
+      "VolumetricFlowRateQuantity": 0.03487153391278849,
+      "PowerQuantity": 0.02162435902734937
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.4563128171947575,
+      "CubicMetrePerSecondSquared": 0.18053004121391197,
+      "CubicMetre": 0.13196434042580343,
+      "CubicMetrePerSecond": 0.11869894838924658,
+      "StrokePerHour": 0.11249385277628056
+    },
+    "PrototypeData_class": "PumpRate",
+    "PrototypeData_class_candidates": {
+      "PumpRate": 0.4177496191174689,
+      "MPDPumpFlowRate": 0.3389769845873438,
+      "MPDPumpRate": 0.15202713215105645,
+      "ROP": 0.05785358358167065,
+      "MPDChokeOpening": 0.03339268056245997
+    }
+  },
+  "ROPH": {
+    "Raw_content": "{'Mnemonic': 'ROPH', 'Description in data log': '1/2ft ROP', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "VelocityQuantity",
+    "Quantity_class_candidates": {
+      "VelocityQuantity": 0.45455920128836164,
+      "FrequencyQuantity": 0.3616528390870638,
+      "LengthQuantity": 0.06571637759554229,
+      "HydraulicConductivityQuantity": 0.06483397940534574,
+      "PressureGradientPerLengthQuantity": 0.05323760262368658
+    },
+    "Unit_class": "FootPerHour",
+    "Unit_class_candidates": {
+      "FootPerHour": 0.341257871311041,
+      "FootPerSecond": 0.21933460615152844,
+      "MillionStandardCubicFoot": 0.1602113512275503,
+      "FootPerMinute": 0.1425822640150396,
+      "FootPerDay": 0.13661390729484063
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.9900816333536757,
+      "TopOfStringPosition": 0.003966691513081253,
+      "HoleDepth": 0.002982138627862558,
+      "MeasuredDepth": 0.0016486879661218854,
+      "BitDepth": 0.001320848539258801
+    }
+  },
+  "P28H_COND_RT": {
+    "Raw_content": "{'Mnemonic': 'P28H_COND_RT', 'Description in data log': 'IMP/ARC Phase-Shift Conductivity 28-in. at 2 MHz', 'Unit': 'mS/m', 'DataType': 'double', 'dataSource': 'IMP_ARC'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.8526331069921105,
+      "ElectricCurrentQuantity": 0.060918465721007786,
+      "AngularAccelerationQuantity": 0.03958081065249303,
+      "FrequencyRateOfChangeQuantity": 0.02403247067766859,
+      "PowerQuantity": 0.022835145956720135
+    },
+    "Unit_class": "HertzPerSecond",
+    "Unit_class_candidates": {
+      "HertzPerSecond": 0.24955261372236223,
+      "WattPerMetreKelvinPerKelvin": 0.24026663710686036,
+      "WattPerMetreKelvin": 0.20614202181360566,
+      "Farad": 0.15901318598855085,
+      "OhmMetre": 0.1450255413686208
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.5043647442281719,
+      "MinimumHorizontalStressGradient": 0.14480054699448255,
+      "DownholeRPM": 0.12799758616200863,
+      "TopOfStringPosition": 0.12576812783864585,
+      "PorePressureGradient": 0.09706899477669106
+    }
+  },
+  "GS_G_IC5": {
+    "Raw_content": "{'Mnemonic': 'GS_G_IC5', 'Description in data log': 'Iso-pentane (IC5)', 'Unit': 'ppm', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.38980724738378986,
+      "PressureQuantity": 0.2719689781147834,
+      "MassDensityRateOfChangeQuantity": 0.13533179980133914,
+      "VelocityQuantity": 0.1118649901748762,
+      "HydraulicConductivityQuantity": 0.0910269845252114
+    },
+    "Unit_class": "GramPerCubicCentimetrePerMetre",
+    "Unit_class_candidates": {
+      "GramPerCubicCentimetrePerMetre": 0.2687911901234584,
+      "GramPerCubicCentimetrePerCelsius": 0.21080607129312656,
+      "JoulePerKilogramKelvin": 0.18345627369783132,
+      "PressureLossConstantSi": 0.17131679649803583,
+      "PascalPerMetre": 0.1656296683875479
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.24315490683717017,
+      "DownholeTemperature": 0.2119515465294784,
+      "FracturingPressureGradient": 0.1960525818797925,
+      "GasFlowRate": 0.17818542679539254,
+      "DensityIn": 0.17065553795816651
+    }
+  },
+  "SPPA": {
+    "Raw_content": "{'Mnemonic': 'SPPA', 'Description in data log': 'Average Standpipe Pressure', 'Unit': 'kPa', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "PressureQuantity",
+    "Quantity_class_candidates": {
+      "PressureQuantity": 0.908626069517019,
+      "FrequencyQuantity": 0.05943185793921651,
+      "PressureGradientPerLengthQuantity": 0.01887965202703358,
+      "HydraulicConductivityQuantity": 0.0070163442123520195,
+      "PressureRateOfChangeQuantity": 0.0060460763043788295
+    },
+    "Unit_class": "PressureLossConstantSi",
+    "Unit_class_candidates": {
+      "PressureLossConstantSi": 0.3236579412114904,
+      "Megapascal": 0.3206777036392692,
+      "PascalPerMetre": 0.13992707509116803,
+      "Gigapascal": 0.12818400927790938,
+      "Kilopascal": 0.08755327078016312
+    },
+    "PrototypeData_class": "SPP",
+    "PrototypeData_class_candidates": {
+      "SPP": 0.9990853326152188,
+      "MPDChokeOpening": 0.00029005938552479737,
+      "MPDPumpFlowRate": 0.000288156958624789,
+      "ROP": 0.00017040226537884054,
+      "MPDChokePressure": 0.00016604877525282346
+    }
+  },
+  "GS_SWOB": {
+    "Raw_content": "{'Mnemonic': 'GS_SWOB', 'Description in data log': 'Averaged WOB', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.5187910224334688,
+      "PressureQuantity": 0.19390741034072428,
+      "MassDensityRateOfChangeQuantity": 0.11492622678604196,
+      "MassDensityGradientPerLengthQuantity": 0.08739020729469917,
+      "VelocityQuantity": 0.08498513314506585
+    },
+    "Unit_class": "JoulePerKilogramKelvin",
+    "Unit_class_candidates": {
+      "JoulePerKilogramKelvin": 0.2422678315849045,
+      "Kilopascal": 0.22399862344873206,
+      "Second": 0.21596195529354348,
+      "PressureLossConstantSi": 0.15997486588645105,
+      "InversePascal": 0.15779672378636883
+    },
+    "PrototypeData_class": "OverburdenPressureGradient",
+    "PrototypeData_class_candidates": {
+      "OverburdenPressureGradient": 0.32762482517878244,
+      "ROP": 0.19833830368797548,
+      "TopOfStringPosition": 0.17222171624339913,
+      "HoleDepth": 0.16829254026402618,
+      "MinimumHorizontalStressGradient": 0.13352261462581683
+    }
+  },
+  "STK4": {
+    "Raw_content": "{'Mnemonic': 'STK4', 'Description in data log': 'Pump 4 Strokes', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.6427213533492934,
+      "PressureQuantity": 0.22357156129471442,
+      "HydraulicConductivityQuantity": 0.10621192889695759,
+      "VolumetricFlowRateQuantity": 0.020524102537950173,
+      "PowerQuantity": 0.006971053921084438
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.5449410999617657,
+      "CubicMetrePerSecondSquared": 0.16202634686305814,
+      "StrokePerHour": 0.10645909086486254,
+      "CubicMetrePerSecond": 0.10540716935090103,
+      "WattPerMetreKelvinPerKelvin": 0.08116629295941262
+    },
+    "PrototypeData_class": "PumpRate",
+    "PrototypeData_class_candidates": {
+      "PumpRate": 0.5749656970643865,
+      "MPDPumpRate": 0.20898682196297017,
+      "MPDPumpFlowRate": 0.16317779868007762,
+      "ROP": 0.0320607837556166,
+      "MPDChokeOpening": 0.0208088985369493
+    }
+  },
+  "SPM3": {
+    "Raw_content": "{'Mnemonic': 'SPM3', 'Description in data log': 'Pump 3 Stroke Rate', 'Unit': '1/min', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.9292655601400845,
+      "HydraulicConductivityQuantity": 0.03716702230466306,
+      "VolumetricFlowRateQuantity": 0.01927377914190801,
+      "PressureQuantity": 0.007867721931789425,
+      "PowerQuantity": 0.00642591648155509
+    },
+    "Unit_class": "StrokePerSecond",
+    "Unit_class_candidates": {
+      "StrokePerSecond": 0.4217354111993473,
+      "MetrePerMinute": 0.20351407949490852,
+      "Spm": 0.14918261328828522,
+      "MetrePerHour": 0.12946151028266645,
+      "StrokePerHour": 0.09610638573479256
+    },
+    "PrototypeData_class": "PumpRate",
+    "PrototypeData_class_candidates": {
+      "PumpRate": 0.6986318262235688,
+      "MPDPumpFlowRate": 0.20255113341260678,
+      "MPDPumpRate": 0.07751345962544129,
+      "ROP": 0.016395184407367796,
+      "DownholeRPM": 0.004908396331015283
+    }
+  },
+  "SHKTOT_RT": {
+    "Raw_content": "{'Mnemonic': 'SHKTOT_RT', 'Description in data log': 'MWD Total Shocks', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'MWD'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.5881648381654139,
+      "PowerQuantity": 0.22781421589994988,
+      "TimeQuantity": 0.07834658618740778,
+      "WaveNumberQuantity": 0.05903694208521992,
+      "VelocityQuantity": 0.046637417662008594
+    },
+    "Unit_class": "ShockPerMinute",
+    "Unit_class_candidates": {
+      "ShockPerMinute": 0.38472582360782687,
+      "ShockPerSecond": 0.3597181242891272,
+      "ShockPerHour": 0.17395138778664218,
+      "WattPerMetreKelvinPerKelvin": 0.043166996512041506,
+      "WattPerMetreKelvin": 0.038437667804362294
+    },
+    "PrototypeData_class": "MinimumHorizontalStressGradient",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStressGradient": 0.3920553771868324,
+      "MinimumHorizontalStress": 0.22714023524633273,
+      "MPDChokeOpening": 0.2191919582168379,
+      "FracturingPressureGradient": 0.10281396551122417,
+      "TopOfStringPosition": 0.05879846383877277
+    }
+  },
+  "MIN_CONF": {
+    "Raw_content": "{'Mnemonic': 'MIN_CONF', 'Description in data log': 'zzz:undefined', 'Unit': 'unitless', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "DimensionlessQuantity",
+    "Quantity_class_candidates": {
+      "DimensionlessQuantity": 0.8259756469645704,
+      "FrequencyQuantity": 0.05622365433620574,
+      "TimeQuantity": 0.04787625205949461,
+      "LengthQuantity": 0.03658795929966894,
+      "StressQuantity": 0.03333648734006028
+    },
+    "Unit_class": "Dimensionless",
+    "Unit_class_candidates": {
+      "Dimensionless": 0.39774385213296526,
+      "PascalPerMinute": 0.2057652202588921,
+      "NewtonPerMinute": 0.13371023328481793,
+      "DotPerMetre": 0.1319620412265904,
+      "InversePascal": 0.13081865309673438
+    },
+    "PrototypeData_class": "MinimumHorizontalStress",
+    "PrototypeData_class_candidates": {
+      "MinimumHorizontalStress": 0.4462344569628951,
+      "MinimumHorizontalStressGradient": 0.2821966005546416,
+      "TopOfStringPosition": 0.1696112071660706,
+      "DownholeTemperature": 0.0549341188935978,
+      "HoleDepth": 0.04702361642279475
+    }
+  },
+  "STWT": {
+    "Raw_content": "{'Mnemonic': 'STWT', 'Description in data log': 'String weight (rot,avg)', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.528891865280863,
+      "PressureQuantity": 0.2068091248247655,
+      "MassDensityRateOfChangeQuantity": 0.11475039876873072,
+      "VelocityQuantity": 0.08022964113573293,
+      "LengthQuantity": 0.06931896998990797
+    },
+    "Unit_class": "KilonewtonMetrePerDecimetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetrePerDecimetre": 0.29711300444261085,
+      "JoulePerKilogramKelvin": 0.22857219579342647,
+      "KilonewtonMetrePerMetre": 0.17300484687568307,
+      "NewtonMetrePerMetre": 0.16813930424335094,
+      "PressureLossConstantSi": 0.13317064864492872
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.5110383651209693,
+      "ROP": 0.2875449089571761,
+      "SurfaceTorque": 0.09654815014415696,
+      "DownholeRPM": 0.06202792271496069,
+      "DensityIn": 0.0428406530627369
+    }
+  },
+  "GS_TQA": {
+    "Raw_content": "{'Mnemonic': 'GS_TQA', 'Description in data log': 'Averaged TRQ', 'Unit': 'kN.m', 'DataType': 'double', 'dataSource': 'MudLog'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.7034484483912395,
+      "VelocityQuantity": 0.14295416032212996,
+      "PressureQuantity": 0.07859124301009092,
+      "HydraulicConductivityQuantity": 0.04132960863953603,
+      "MassDensityRateOfChangeQuantity": 0.0336765396370035
+    },
+    "Unit_class": "Gigapascal",
+    "Unit_class_candidates": {
+      "Gigapascal": 0.21531203931401965,
+      "Second": 0.206232894155302,
+      "JoulePerKilogramKelvin": 0.2022787093589287,
+      "MetrePerDay": 0.1959044186917889,
+      "Megapascal": 0.1802719384799607
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.5441589859601556,
+      "HoleDepth": 0.12884794089407162,
+      "MinimumHorizontalStressGradient": 0.1168878730055113,
+      "DownholeTemperature": 0.10752986492285567,
+      "TopOfStringPosition": 0.10257533521740578
+    }
+  },
+  "SWOB": {
+    "Raw_content": "{'Mnemonic': 'SWOB', 'Description in data log': 'Weight on Bit', 'Unit': 'kkgf', 'DataType': 'double', 'dataSource': 'Drilling'}",
+    "Quantity_class": "FrequencyQuantity",
+    "Quantity_class_candidates": {
+      "FrequencyQuantity": 0.43147381705120613,
+      "PressureQuantity": 0.23335287944612354,
+      "PowerQuantity": 0.12791671201105972,
+      "LengthQuantity": 0.12519518617960523,
+      "MassQuantity": 0.08206140531200526
+    },
+    "Unit_class": "KilonewtonMetrePerDecimetre",
+    "Unit_class_candidates": {
+      "KilonewtonMetrePerDecimetre": 0.23149656380320452,
+      "KilonewtonPerDecimetre": 0.22633913560252092,
+      "JoulePerKilogramKelvin": 0.2008269747562968,
+      "WattPerMetreKelvinPerKelvin": 0.17855193546312684,
+      "KilonewtonMetrePerMetre": 0.1627853903748509
+    },
+    "PrototypeData_class": "TopOfStringPosition",
+    "PrototypeData_class_candidates": {
+      "TopOfStringPosition": 0.3981381058329735,
+      "ROP": 0.3251886296462679,
+      "BitDepth": 0.1607296144047633,
+      "DensityIn": 0.06658747856029637,
+      "HoleDepth": 0.049356171555698804
+    }
+  },
+  "ROPIH": {
+    "Raw_content": "{'Mnemonic': 'ROPIH', 'Description in data log': 'zzz:undefined', 'Unit': 's/m', 'DataType': 'double', 'dataSource': 'General'}",
+    "Quantity_class": "VelocityQuantity",
+    "Quantity_class_candidates": {
+      "VelocityQuantity": 0.46977402567974497,
+      "FrequencyQuantity": 0.27598976302514927,
+      "TimeQuantity": 0.10507487189857924,
+      "LengthQuantity": 0.08336199943799949,
+      "MassQuantity": 0.06579933995852699
+    },
+    "Unit_class": "DotPerMetre",
+    "Unit_class_candidates": {
+      "DotPerMetre": 0.3989204509926822,
+      "PascalPerMinute": 0.16467973701424166,
+      "InversePascal": 0.15811402807819167,
+      "PascalPerHour": 0.1494791582060335,
+      "Second": 0.12880662570885099
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.7298091007556515,
+      "TopOfStringPosition": 0.11653038191114864,
+      "MinimumHorizontalStressGradient": 0.08739728774116907,
+      "OverburdenPressureGradient": 0.035084595724130946,
+      "HoleDepth": 0.03117863386789979
+    }
+  },
+  "GS_ROP": {
+    "Raw_content": "{'Mnemonic': 'GS_ROP', 'Description in data log': 'Rate of penetration', 'Unit': 'm/h', 'DataType': 'double', 'dataSource': 'GeoService'}",
+    "Quantity_class": "VelocityQuantity",
+    "Quantity_class_candidates": {
+      "VelocityQuantity": 0.5449446913723333,
+      "FrequencyQuantity": 0.3239760336740283,
+      "MassDensityRateOfChangeQuantity": 0.06182182544187943,
+      "HydraulicConductivityQuantity": 0.036359417943393306,
+      "PressureQuantity": 0.03289803156836564
+    },
+    "Unit_class": "MetrePerHour",
+    "Unit_class_candidates": {
+      "MetrePerHour": 0.3842966014225093,
+      "FootPerHour": 0.19710945547503528,
+      "MetrePerDay": 0.15839715321596645,
+      "RadianPerHourPerMinute": 0.13390940108495222,
+      "SpecificGravityPerHour": 0.12628738880153675
+    },
+    "PrototypeData_class": "ROP",
+    "PrototypeData_class_candidates": {
+      "ROP": 0.9986984456806115,
+      "MinimumHorizontalStressGradient": 0.0006836655298105329,
+      "OverburdenPressureGradient": 0.0002509915718838893,
+      "MPDPumpFlowRate": 0.00020904308714725137,
+      "PorePressureGradient": 0.0001578541305468368
+    }
+  }
+}

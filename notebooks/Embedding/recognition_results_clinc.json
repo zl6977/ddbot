@@ -1,0 +1,4002 @@
+{
+  "does mcdonald's have good reviews": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.8337486386299133,
+      "restaurant_reservation": 0.730642557144165,
+      "improve_credit_score": 0.727543830871582,
+      "nutrition_info": 0.7236663103103638,
+      "accept_reservations": 0.7233275175094604
+    }
+  },
+  "are the review for mcdonald's good or bad": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.8271022439002991,
+      "improve_credit_score": 0.7374653816223145,
+      "nutrition_info": 0.7318475842475891,
+      "account_blocked": 0.7317595481872559,
+      "restaurant_reservation": 0.7315036654472351
+    }
+  },
+  "how are the reviews for mcdonald's": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.855008602142334,
+      "restaurant_reservation": 0.7531260251998901,
+      "nutrition_info": 0.746055543422699,
+      "account_blocked": 0.7427806854248047,
+      "repeat": 0.7424023151397705
+    }
+  },
+  "what are the review for mcdonald's": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.8560628890991211,
+      "nutrition_info": 0.7617589235305786,
+      "restaurant_reservation": 0.7579705715179443,
+      "repeat": 0.7448153495788574,
+      "account_blocked": 0.742464542388916
+    }
+  },
+  "how are those mcdonald's reviews looking": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.8474783897399902,
+      "restaurant_reservation": 0.7531555891036987,
+      "nutrition_info": 0.7523961067199707,
+      "account_blocked": 0.7417956590652466,
+      "improve_credit_score": 0.7384699583053589
+    }
+  },
+  "what are the ratings for yardhouse": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.7782387137413025,
+      "user_name": 0.7421735525131226,
+      "restaurant_reservation": 0.733623743057251,
+      "what_are_your_hobbies": 0.7333236932754517,
+      "nutrition_info": 0.7306501865386963
+    }
+  },
+  "do you know how the ratings are for yardhouse": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.7776514291763306,
+      "user_name": 0.7392106652259827,
+      "what_are_your_hobbies": 0.7336502075195312,
+      "nutrition_info": 0.7283098697662354,
+      "restaurant_reservation": 0.7245879769325256
+    }
+  },
+  "are the ratings for yardhouse good": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.7812296748161316,
+      "improve_credit_score": 0.7355194687843323,
+      "user_name": 0.7280136346817017,
+      "what_are_your_hobbies": 0.7251478433609009,
+      "bill_balance": 0.7239295244216919
+    }
+  },
+  "can you tell me the ratings for yardhouse": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.7766703367233276,
+      "user_name": 0.7445178031921387,
+      "what_are_your_hobbies": 0.7380978465080261,
+      "bill_balance": 0.7297335863113403,
+      "restaurant_reservation": 0.7279161214828491
+    }
+  },
+  "how good are the review for yardhouse": {
+    "true_label": "restaurant_reviews",
+    "candidates": {
+      "restaurant_reviews": 0.8079053163528442,
+      "user_name": 0.7300036549568176,
+      "what_are_your_hobbies": 0.724160373210907,
+      "bill_balance": 0.7198799848556519,
+      "improve_credit_score": 0.7185153365135193
+    }
+  },
+  "how healthy is shepard's pie": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.784330427646637,
+      "restaurant_reviews": 0.7395676970481873,
+      "meaning_of_life": 0.7349916696548462,
+      "user_name": 0.7278989553451538,
+      "what_are_your_hobbies": 0.7224750518798828
+    }
+  },
+  "how healthy is pecan pie": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.7787335515022278,
+      "meaning_of_life": 0.7360949516296387,
+      "restaurant_reviews": 0.7310431599617004,
+      "bill_balance": 0.7291336059570312,
+      "improve_credit_score": 0.7285968065261841
+    }
+  },
+  "how healthy is hummus": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.7878972291946411,
+      "meaning_of_life": 0.753003716468811,
+      "what_are_your_hobbies": 0.7523709535598755,
+      "restaurant_reviews": 0.7394500374794006,
+      "user_name": 0.7317490577697754
+    }
+  },
+  "how healthy is salad": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.8073992729187012,
+      "meaning_of_life": 0.768876314163208,
+      "what_are_your_hobbies": 0.7608532309532166,
+      "restaurant_reviews": 0.759431779384613,
+      "user_name": 0.743117094039917
+    }
+  },
+  "how healthy is pumpkin pie": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.7912739515304565,
+      "bill_balance": 0.7381494045257568,
+      "meaning_of_life": 0.7381466031074524,
+      "restaurant_reviews": 0.7333839535713196,
+      "user_name": 0.7310318350791931
+    }
+  },
+  "is chocolate good for you": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.7926995754241943,
+      "meaning_of_life": 0.7676303386688232,
+      "what_are_your_hobbies": 0.7647608518600464,
+      "improve_credit_score": 0.751570999622345,
+      "user_name": 0.7487691640853882
+    }
+  },
+  "tell me how health chocolate is": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.8030544519424438,
+      "meaning_of_life": 0.7638569474220276,
+      "what_are_your_hobbies": 0.761878490447998,
+      "user_name": 0.7473864555358887,
+      "improve_credit_score": 0.7470107078552246
+    }
+  },
+  "what is the nutritional info for kraft mac 'n' cheese": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.8507585525512695,
+      "meaning_of_life": 0.7324225902557373,
+      "user_name": 0.727971076965332,
+      "improve_credit_score": 0.7203468680381775,
+      "restaurant_reviews": 0.720212459564209
+    }
+  },
+  "is chocolate bad for you or good for you": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.7860228419303894,
+      "meaning_of_life": 0.7707995772361755,
+      "what_are_your_hobbies": 0.7535514831542969,
+      "account_blocked": 0.7437145113945007,
+      "user_name": 0.7403564453125
+    }
+  },
+  "can you tell me the nutrional info of a big mac": {
+    "true_label": "nutrition_info",
+    "candidates": {
+      "nutrition_info": 0.8430650234222412,
+      "meaning_of_life": 0.7729943990707397,
+      "user_name": 0.7674229145050049,
+      "restaurant_reviews": 0.7543083429336548,
+      "oil_change_how": 0.7542524933815002
+    }
+  },
+  "my account looks to be blocked and i have no idea why": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "account_blocked": 0.8709533214569092,
+      "freeze_account": 0.8108946084976196,
+      "report_lost_card": 0.7700108289718628,
+      "what_are_your_hobbies": 0.7651354074478149,
+      "user_name": 0.7635766863822937
+    }
+  },
+  "it seems that my account is blocked and i'm not sure why": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "account_blocked": 0.8739829659461975,
+      "freeze_account": 0.8022919297218323,
+      "user_name": 0.7619985938072205,
+      "report_lost_card": 0.7597861289978027,
+      "what_are_your_hobbies": 0.7594873905181885
+    }
+  },
+  "my account appears to be blocked and i don't know why": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "account_blocked": 0.8720385432243347,
+      "freeze_account": 0.803280770778656,
+      "report_lost_card": 0.7672341465950012,
+      "user_name": 0.7663329839706421,
+      "what_are_your_hobbies": 0.7631356716156006
+    }
+  },
+  "it looks like my account is blocked but i have no clue why": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "account_blocked": 0.8722678422927856,
+      "freeze_account": 0.8098640441894531,
+      "report_lost_card": 0.768887996673584,
+      "what_are_your_hobbies": 0.7663940191268921,
+      "user_name": 0.7632797956466675
+    }
+  },
+  "my account appears to be blocked but i have no idea why that could be": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "account_blocked": 0.8659638166427612,
+      "freeze_account": 0.8021736145019531,
+      "user_name": 0.7622183561325073,
+      "what_are_your_hobbies": 0.7617032527923584,
+      "report_lost_card": 0.7607150673866272
+    }
+  },
+  "why did you freeze my bank account": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "freeze_account": 0.8845698833465576,
+      "account_blocked": 0.8206175565719604,
+      "improve_credit_score": 0.7808884978294373,
+      "interest_rate": 0.7761270403862,
+      "report_lost_card": 0.7652163505554199
+    }
+  },
+  "how did my bank account is frozen": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "freeze_account": 0.8805692791938782,
+      "account_blocked": 0.8254889249801636,
+      "improve_credit_score": 0.7758474946022034,
+      "report_lost_card": 0.7695054411888123,
+      "interest_rate": 0.7656324505805969
+    }
+  },
+  "can anyone let me know the reason behind my frozen bank account": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "freeze_account": 0.8758960366249084,
+      "account_blocked": 0.8343263864517212,
+      "improve_credit_score": 0.8073037266731262,
+      "interest_rate": 0.7968028783798218,
+      "report_lost_card": 0.787182629108429
+    }
+  },
+  "what are the possible reasons behind frozen bank account": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "freeze_account": 0.8721826076507568,
+      "account_blocked": 0.8189589977264404,
+      "improve_credit_score": 0.7863637804985046,
+      "interest_rate": 0.7706668376922607,
+      "report_lost_card": 0.7666081190109253
+    }
+  },
+  "need help with frozen bank account": {
+    "true_label": "account_blocked",
+    "candidates": {
+      "freeze_account": 0.8852640390396118,
+      "account_blocked": 0.8340924978256226,
+      "improve_credit_score": 0.7942702770233154,
+      "report_lost_card": 0.7799195051193237,
+      "interest_rate": 0.7700283527374268
+    }
+  },
+  "procedure to change oil in car": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.8976434469223022,
+      "change_language": 0.7708722352981567,
+      "nutrition_info": 0.7593603134155273,
+      "make_call": 0.7561707496643066,
+      "repeat": 0.7533373832702637
+    }
+  },
+  "way to change car oil": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.9169766306877136,
+      "change_language": 0.7788266539573669,
+      "nutrition_info": 0.7588847875595093,
+      "what_are_your_hobbies": 0.7552720308303833,
+      "repeat": 0.7542304396629333
+    }
+  },
+  "how to change oil of a car": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.9075972437858582,
+      "change_language": 0.7738839387893677,
+      "nutrition_info": 0.7621070742607117,
+      "meaning_of_life": 0.7541477084159851,
+      "what_are_your_hobbies": 0.7528156638145447
+    }
+  },
+  "how can i change car oil": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.9150831699371338,
+      "change_language": 0.7848162651062012,
+      "what_are_your_hobbies": 0.777129054069519,
+      "nutrition_info": 0.7714318633079529,
+      "make_call": 0.7601346969604492
+    }
+  },
+  "i want to know how to change oil, tell me the steps one at a time while i work through it": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.893213152885437,
+      "change_language": 0.7818838357925415,
+      "what_are_your_hobbies": 0.776446521282196,
+      "nutrition_info": 0.7709128260612488,
+      "repeat": 0.7706379294395447
+    }
+  },
+  "find step by step instructions on how to change my oil": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.8865035772323608,
+      "nutrition_info": 0.7805948257446289,
+      "what_are_your_hobbies": 0.7643963694572449,
+      "change_language": 0.762374222278595,
+      "improve_credit_score": 0.755641520023346
+    }
+  },
+  "how do i change oil on a car": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.9112187623977661,
+      "change_language": 0.7759267687797546,
+      "what_are_your_hobbies": 0.7682551741600037,
+      "nutrition_info": 0.7611672878265381,
+      "make_call": 0.756567120552063
+    }
+  },
+  "where can i find a page showing my how to change my oil": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.8799282312393188,
+      "nutrition_info": 0.7752323150634766,
+      "what_are_your_hobbies": 0.7625874280929565,
+      "change_language": 0.7601414322853088,
+      "report_lost_card": 0.7519302368164062
+    }
+  },
+  "what weight oil do i need and how do i change the oil for my chevy truck": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.8510510921478271,
+      "nutrition_info": 0.7744481563568115,
+      "what_are_your_hobbies": 0.745311975479126,
+      "oos": 0.7436793446540833,
+      "gas_type": 0.7402012944221497
+    }
+  },
+  "what kind of oil do i need for my ford truck and how can i change it": {
+    "true_label": "oil_change_how",
+    "candidates": {
+      "oil_change_how": 0.8464949131011963,
+      "nutrition_info": 0.7570040225982666,
+      "gas_type": 0.7383887767791748,
+      "change_language": 0.7382848262786865,
+      "oos": 0.7311205267906189
+    }
+  },
+  "what time is it in france": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.7892919182777405,
+      "meeting_schedule": 0.7551451325416565,
+      "what_are_your_hobbies": 0.7456141710281372,
+      "schedule_meeting": 0.7442619800567627,
+      "meaning_of_life": 0.7436139583587646
+    }
+  },
+  "what's the time in london right now": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.7697272896766663,
+      "meeting_schedule": 0.7435638904571533,
+      "what_are_your_hobbies": 0.7425619959831238,
+      "account_blocked": 0.7391798496246338,
+      "schedule_meeting": 0.7373256683349609
+    }
+  },
+  "what hour is it in london": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.7650680541992188,
+      "traffic": 0.7475454807281494,
+      "meeting_schedule": 0.7474979162216187,
+      "account_blocked": 0.745811939239502,
+      "meaning_of_life": 0.7457687258720398
+    }
+  },
+  "what's the time": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.8496987223625183,
+      "schedule_meeting": 0.8064959049224854,
+      "meeting_schedule": 0.7985609173774719,
+      "meaning_of_life": 0.7921687364578247,
+      "what_are_your_hobbies": 0.788184404373169
+    }
+  },
+  "what is the time in london": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.8044919967651367,
+      "meeting_schedule": 0.7687088847160339,
+      "schedule_meeting": 0.7649732828140259,
+      "meaning_of_life": 0.7528036236763,
+      "what_are_your_hobbies": 0.7486177086830139
+    }
+  },
+  "i need to know what time it is": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.8034108877182007,
+      "schedule_meeting": 0.7939890027046204,
+      "meeting_schedule": 0.7904462218284607,
+      "meaning_of_life": 0.7830021381378174,
+      "nutrition_info": 0.7781386971473694
+    }
+  },
+  "what time of day is it in london": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.7676122784614563,
+      "meeting_schedule": 0.7464340329170227,
+      "meaning_of_life": 0.7389857769012451,
+      "what_are_your_hobbies": 0.7370066046714783,
+      "schedule_meeting": 0.7366749048233032
+    }
+  },
+  "tell me what time it is": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.8026029467582703,
+      "make_call": 0.7946767210960388,
+      "schedule_meeting": 0.7893563508987427,
+      "meeting_schedule": 0.7865389585494995,
+      "repeat": 0.7787702679634094
+    }
+  },
+  "what time of day is it": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.8109382390975952,
+      "meeting_schedule": 0.7944801449775696,
+      "schedule_meeting": 0.786885142326355,
+      "meaning_of_life": 0.7857077121734619,
+      "what_are_your_hobbies": 0.7836108207702637
+    }
+  },
+  "what time is it in the pacific timezone": {
+    "true_label": "time",
+    "candidates": {
+      "time": 0.7746720314025879,
+      "meeting_schedule": 0.7624989748001099,
+      "nutrition_info": 0.7531164288520813,
+      "meaning_of_life": 0.7504497170448303,
+      "schedule_meeting": 0.7480284571647644
+    }
+  },
+  "what's is the current weather forecast": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.8374197483062744,
+      "meeting_schedule": 0.7657105922698975,
+      "what_are_your_hobbies": 0.7611731886863708,
+      "schedule_meeting": 0.7553567290306091,
+      "bill_balance": 0.754954993724823
+    }
+  },
+  "tell me the forecast": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.8429275155067444,
+      "repeat": 0.7937581539154053,
+      "make_call": 0.7873124480247498,
+      "schedule_meeting": 0.7869852185249329,
+      "meeting_schedule": 0.783591091632843
+    }
+  },
+  "what's the weather like": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.8599611520767212,
+      "what_are_your_hobbies": 0.7851216197013855,
+      "repeat": 0.7762290239334106,
+      "traffic": 0.7733302116394043,
+      "nutrition_info": 0.7724725008010864
+    }
+  },
+  "what's the forecast for the day": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.8213104605674744,
+      "meeting_schedule": 0.7798620462417603,
+      "user_name": 0.7756289839744568,
+      "schedule_meeting": 0.7740741968154907,
+      "nutrition_info": 0.7706447839736938
+    }
+  },
+  "i need to know the weather": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.8518596291542053,
+      "nutrition_info": 0.7806553840637207,
+      "meaning_of_life": 0.7798111438751221,
+      "schedule_meeting": 0.7727192044258118,
+      "what_are_your_hobbies": 0.7720737457275391
+    }
+  },
+  "weather forecast please": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.858161985874176,
+      "schedule_meeting": 0.8023913502693176,
+      "meeting_schedule": 0.7991373538970947,
+      "nutrition_info": 0.7784977555274963,
+      "traffic": 0.7747421264648438
+    }
+  },
+  "what's today's weather": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.8300738334655762,
+      "meeting_schedule": 0.778677225112915,
+      "user_name": 0.7757928371429443,
+      "nutrition_info": 0.7694166898727417,
+      "traffic": 0.7669425010681152
+    }
+  },
+  "i need to know today's forecast": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.8150366544723511,
+      "user_name": 0.7790875434875488,
+      "meeting_schedule": 0.7785496711730957,
+      "schedule_meeting": 0.7750270366668701,
+      "nutrition_info": 0.7721381187438965
+    }
+  },
+  "is it going to rain tomorrow": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.7764552235603333,
+      "meeting_schedule": 0.7503408789634705,
+      "what_are_your_hobbies": 0.7491235136985779,
+      "meaning_of_life": 0.7445730566978455,
+      "schedule_meeting": 0.7387783527374268
+    }
+  },
+  "what is the weather outside": {
+    "true_label": "weather",
+    "candidates": {
+      "weather": 0.888147234916687,
+      "meaning_of_life": 0.7816091775894165,
+      "what_are_your_hobbies": 0.7806543111801147,
+      "nutrition_info": 0.7750006318092346,
+      "traffic": 0.7670299410820007
+    }
+  },
+  "cash in my credit card rewards": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "redeem_rewards": 0.795616626739502,
+      "improve_credit_score": 0.7892731428146362,
+      "report_lost_card": 0.7628273963928223,
+      "freeze_account": 0.7624210119247437,
+      "what_are_your_hobbies": 0.7544741034507751
+    }
+  },
+  "convert my credit card points to cash": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "improve_credit_score": 0.8226796388626099,
+      "freeze_account": 0.7835168242454529,
+      "report_lost_card": 0.7812567353248596,
+      "redeem_rewards": 0.7785286903381348,
+      "interest_rate": 0.7647968530654907
+    }
+  },
+  "cash in my credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "improve_credit_score": 0.8086161613464355,
+      "redeem_rewards": 0.7784067392349243,
+      "freeze_account": 0.777832567691803,
+      "report_lost_card": 0.7661741375923157,
+      "interest_rate": 0.7597470283508301
+    }
+  },
+  "where i can use credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "improve_credit_score": 0.8159635066986084,
+      "redeem_rewards": 0.7848339080810547,
+      "report_lost_card": 0.7758963108062744,
+      "restaurant_reservation": 0.764743447303772,
+      "freeze_account": 0.762715756893158
+    }
+  },
+  "redeem credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "redeem_rewards": 0.8880432844161987,
+      "improve_credit_score": 0.8311605453491211,
+      "report_lost_card": 0.7904555797576904,
+      "freeze_account": 0.7700549364089966,
+      "repeat": 0.7619667649269104
+    }
+  },
+  "how to use credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "improve_credit_score": 0.8356882333755493,
+      "redeem_rewards": 0.7957165241241455,
+      "report_lost_card": 0.7931617498397827,
+      "freeze_account": 0.777516782283783,
+      "accept_reservations": 0.772781252861023
+    }
+  },
+  "what can i buy with credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "improve_credit_score": 0.8017815947532654,
+      "redeem_rewards": 0.7681845426559448,
+      "what_are_your_hobbies": 0.7572048902511597,
+      "report_lost_card": 0.7526746988296509,
+      "freeze_account": 0.7522280216217041
+    }
+  },
+  "please redeem my credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "redeem_rewards": 0.8662527799606323,
+      "improve_credit_score": 0.8222742080688477,
+      "report_lost_card": 0.7919415235519409,
+      "account_blocked": 0.773597240447998,
+      "accept_reservations": 0.7708871364593506
+    }
+  },
+  "redeem my credit card rewards into my account": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "redeem_rewards": 0.8771538138389587,
+      "improve_credit_score": 0.8192757368087769,
+      "freeze_account": 0.7937051057815552,
+      "report_lost_card": 0.7881272435188293,
+      "account_blocked": 0.7699682116508484
+    }
+  },
+  "help with credit card points": {
+    "true_label": "redeem_rewards",
+    "candidates": {
+      "improve_credit_score": 0.8557775616645813,
+      "report_lost_card": 0.814622163772583,
+      "redeem_rewards": 0.8011248111724854,
+      "freeze_account": 0.7905349731445312,
+      "account_blocked": 0.7824297547340393
+    }
+  },
+  "what kind of interest can i expect with my chase account": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.7984198331832886,
+      "freeze_account": 0.7734668254852295,
+      "improve_credit_score": 0.7719430923461914,
+      "account_blocked": 0.7529459595680237,
+      "what_are_your_hobbies": 0.7492057085037231
+    }
+  },
+  "how much interest am i getting in my citibank savings": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.811700701713562,
+      "freeze_account": 0.7656955718994141,
+      "improve_credit_score": 0.759997546672821,
+      "what_are_your_hobbies": 0.7540022134780884,
+      "account_blocked": 0.7476770877838135
+    }
+  },
+  "how much interest do i get on my citizen's savings account": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.8249456882476807,
+      "freeze_account": 0.7842080593109131,
+      "improve_credit_score": 0.7813238501548767,
+      "what_are_your_hobbies": 0.7635707259178162,
+      "account_blocked": 0.7560290694236755
+    }
+  },
+  "what kind of interest am i getting from my bank of america checking": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.7962587475776672,
+      "improve_credit_score": 0.763996422290802,
+      "freeze_account": 0.7623428702354431,
+      "account_blocked": 0.7481972575187683,
+      "what_are_your_hobbies": 0.7472957372665405
+    }
+  },
+  "what's my interest rate with my capital one account": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.8267285823822021,
+      "improve_credit_score": 0.7922203540802002,
+      "freeze_account": 0.7789312601089478,
+      "account_blocked": 0.7542815804481506,
+      "what_are_your_hobbies": 0.7498388290405273
+    }
+  },
+  "what is walker bank paying me in interest on my account": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.7972066402435303,
+      "freeze_account": 0.7741713523864746,
+      "improve_credit_score": 0.7542586326599121,
+      "account_blocked": 0.7490473985671997,
+      "bill_balance": 0.7439758777618408
+    }
+  },
+  "where do i go to get private client account's interest rate": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.8094744682312012,
+      "freeze_account": 0.7912659645080566,
+      "improve_credit_score": 0.7782351970672607,
+      "account_blocked": 0.7666544914245605,
+      "report_lost_card": 0.7525760531425476
+    }
+  },
+  "what interest rate am i getting currently from oak bank": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.8256522417068481,
+      "freeze_account": 0.7520657181739807,
+      "improve_credit_score": 0.7495294809341431,
+      "account_blocked": 0.7356996536254883,
+      "bill_balance": 0.7312527298927307
+    }
+  },
+  "how much interest am i getting percentage wise from chase": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.8161438703536987,
+      "improve_credit_score": 0.772624135017395,
+      "freeze_account": 0.7575868368148804,
+      "bill_balance": 0.7465927600860596,
+      "what_are_your_hobbies": 0.7432587146759033
+    }
+  },
+  "what is my interest rate for my scotiabank account": {
+    "true_label": "interest_rate",
+    "candidates": {
+      "interest_rate": 0.8162451982498169,
+      "freeze_account": 0.7752642631530762,
+      "improve_credit_score": 0.7681639194488525,
+      "what_are_your_hobbies": 0.7456860542297363,
+      "account_blocked": 0.7448456287384033
+    }
+  },
+  "what is the best type of gas for this car": {
+    "true_label": "gas_type",
+    "candidates": {
+      "gas_type": 0.817894458770752,
+      "oil_change_how": 0.7784711718559265,
+      "nutrition_info": 0.7621327638626099,
+      "account_blocked": 0.7470047473907471,
+      "restaurant_reviews": 0.7469720840454102
+    }
+  },
+  "for this car, what kind of gas should i use": {
+    "true_label": "gas_type",
+    "candidates": {
+      "gas_type": 0.8188072443008423,
+      "oil_change_how": 0.7948427200317383,
+      "nutrition_info": 0.7604202032089233,
+      "account_blocked": 0.7465202808380127,
+      "change_language": 0.7453500032424927
+    }
+  },
+  "what kind of gas is required for this car": {
+    "true_label": "gas_type",
+    "candidates": {
+      "gas_type": 0.8145371079444885,
+      "oil_change_how": 0.7854520082473755,
+      "nutrition_info": 0.7590612173080444,
+      "account_blocked": 0.7517330050468445,
+      "jump_start": 0.7360022664070129
+    }
+  },
+  "gas type needed for this car": {
+    "true_label": "gas_type",
+    "candidates": {
+      "gas_type": 0.8427008390426636,
+      "oil_change_how": 0.8008533120155334,
+      "nutrition_info": 0.7657325267791748,
+      "account_blocked": 0.7571802735328674,
+      "change_language": 0.7458603382110596
+    }
+  },
+  "please tell me what kind of gas this car needs": {
+    "true_label": "gas_type",
+    "candidates": {
+      "gas_type": 0.8243950605392456,
+      "oil_change_how": 0.79569411277771,
+      "nutrition_info": 0.7776136994361877,
+      "account_blocked": 0.7663007974624634,
+      "traffic": 0.7591155767440796
+    }
+  },
+  "what gas does this car take": {
+    "true_label": "gas_type",
+    "candidates": {
+      "gas_type": 0.7969650030136108,
+      "oil_change_how": 0.7776554822921753,
+      "nutrition_info": 0.7662826776504517,
+      "jump_start": 0.7452569603919983,
+      "account_blocked": 0.7449520826339722
+    }
+  },
+  "can you tell me what kind of gas this car uses": {
+    "true_label": "gas_type",
+    "candidates": {
+      "gas_type": 0.8221287131309509,
+      "oil_change_how": 0.7901616096496582,
+      "nutrition_info": 0.7597730159759521,
+      "account_blocked": 0.7578520178794861,
+      "jump_start": 0.746384859085083
+    }
+  },
+  "what kind of fuel should i put in my car": {
+    "true_label": "gas_type",
+    "candidates": {
+      "oil_change_how": 0.8022942543029785,
+      "gas_type": 0.7885646820068359,
+      "nutrition_info": 0.7817680239677429,
+      "what_are_your_hobbies": 0.7595939040184021,
+      "meaning_of_life": 0.7560874223709106
+    }
+  },
+  "what kind of fuel does my car use": {
+    "true_label": "gas_type",
+    "candidates": {
+      "oil_change_how": 0.8084280490875244,
+      "gas_type": 0.7980990409851074,
+      "nutrition_info": 0.7835831642150879,
+      "what_are_your_hobbies": 0.7672236561775208,
+      "meaning_of_life": 0.7585148215293884
+    }
+  },
+  "my car takes what kind of fuel": {
+    "true_label": "gas_type",
+    "candidates": {
+      "oil_change_how": 0.8066888451576233,
+      "gas_type": 0.7972662448883057,
+      "nutrition_info": 0.7806866765022278,
+      "what_are_your_hobbies": 0.766595721244812,
+      "meaning_of_life": 0.7555860280990601
+    }
+  },
+  "does spago in beverly hills allow customers to make reservations": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.8051705956459045,
+      "accept_reservations": 0.7937160730361938,
+      "restaurant_reviews": 0.7302424907684326,
+      "account_blocked": 0.7137565016746521,
+      "schedule_meeting": 0.7109181880950928
+    }
+  },
+  "what is the reservation policy for spago in beverly hills": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.8060551881790161,
+      "accept_reservations": 0.8031141757965088,
+      "schedule_meeting": 0.7314251065254211,
+      "restaurant_reviews": 0.7299731969833374,
+      "nutrition_info": 0.7264648675918579
+    }
+  },
+  "are reservations taken at spago in beverly hills": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.8039093017578125,
+      "accept_reservations": 0.7902628779411316,
+      "restaurant_reviews": 0.7415233850479126,
+      "schedule_meeting": 0.7163529396057129,
+      "meeting_schedule": 0.7136797308921814
+    }
+  },
+  "am i able to make reservations at spago in beverly hills": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.7949821949005127,
+      "accept_reservations": 0.784866452217102,
+      "restaurant_reviews": 0.72844398021698,
+      "schedule_meeting": 0.7112681865692139,
+      "account_blocked": 0.7104527950286865
+    }
+  },
+  "can i make reservations at spago in beverly hills": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.7956342697143555,
+      "accept_reservations": 0.7899377942085266,
+      "restaurant_reviews": 0.7294425964355469,
+      "schedule_meeting": 0.713022768497467,
+      "meeting_schedule": 0.7059453725814819
+    }
+  },
+  "let me know if grub burger takes reservations": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.8331916928291321,
+      "accept_reservations": 0.8297984004020691,
+      "restaurant_reviews": 0.7853896021842957,
+      "what_are_your_hobbies": 0.7567325830459595,
+      "nutrition_info": 0.7526004910469055
+    }
+  },
+  "give me information on grub burger reservations": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.8485060930252075,
+      "accept_reservations": 0.8206601142883301,
+      "restaurant_reviews": 0.7911111116409302,
+      "nutrition_info": 0.7738631963729858,
+      "schedule_meeting": 0.7619572281837463
+    }
+  },
+  "is grub burger taking reservations": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.8418807983398438,
+      "accept_reservations": 0.8144751191139221,
+      "restaurant_reviews": 0.771500825881958,
+      "schedule_meeting": 0.7355920672416687,
+      "what_are_your_hobbies": 0.7285561561584473
+    }
+  },
+  "find out of grub burger takes reservations": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.8418534398078918,
+      "accept_reservations": 0.8236311674118042,
+      "restaurant_reviews": 0.7904927134513855,
+      "schedule_meeting": 0.7498835325241089,
+      "nutrition_info": 0.7496668696403503
+    }
+  },
+  "can i make reservations at grub burger": {
+    "true_label": "accept_reservations",
+    "candidates": {
+      "restaurant_reservation": 0.8348388671875,
+      "accept_reservations": 0.8164070248603821,
+      "restaurant_reviews": 0.7565892338752747,
+      "schedule_meeting": 0.7282536029815674,
+      "nutrition_info": 0.7264803647994995
+    }
+  },
+  "could you tell me the temperature of the ac": {
+    "true_label": "smart_home",
+    "candidates": {
+      "oil_change_how": 0.7642379999160767,
+      "weather": 0.7614704370498657,
+      "user_name": 0.7539823055267334,
+      "what_are_your_hobbies": 0.7533278465270996,
+      "account_blocked": 0.7521790266036987
+    }
+  },
+  "the temperature of the ac, what is it at": {
+    "true_label": "smart_home",
+    "candidates": {
+      "weather": 0.7661850452423096,
+      "oil_change_how": 0.7596651911735535,
+      "nutrition_info": 0.7565035223960876,
+      "smart_home": 0.7462292909622192,
+      "account_blocked": 0.7459332346916199
+    }
+  },
+  "the ac, could you tell me the temperature": {
+    "true_label": "smart_home",
+    "candidates": {
+      "weather": 0.7863495349884033,
+      "oil_change_how": 0.7784121036529541,
+      "user_name": 0.7707933187484741,
+      "what_are_your_hobbies": 0.7671504020690918,
+      "account_blocked": 0.7668224573135376
+    }
+  },
+  "do you know the temperature of the ac": {
+    "true_label": "smart_home",
+    "candidates": {
+      "oil_change_how": 0.7571635246276855,
+      "nutrition_info": 0.754159688949585,
+      "weather": 0.7541441321372986,
+      "what_are_your_hobbies": 0.7518616914749146,
+      "smart_home": 0.7491703033447266
+    }
+  },
+  "what is it at, the ac temperature": {
+    "true_label": "smart_home",
+    "candidates": {
+      "weather": 0.7694879770278931,
+      "nutrition_info": 0.769471287727356,
+      "oil_change_how": 0.759835958480835,
+      "smart_home": 0.7571914196014404,
+      "account_blocked": 0.7541954517364502
+    }
+  },
+  "i want you to turn the tv on": {
+    "true_label": "smart_home",
+    "candidates": {
+      "make_call": 0.7714838981628418,
+      "what_are_your_hobbies": 0.7664716243743896,
+      "smart_home": 0.7637616395950317,
+      "change_language": 0.7607780694961548,
+      "user_name": 0.7575187683105469
+    }
+  },
+  "i need you to turn the tv on now": {
+    "true_label": "smart_home",
+    "candidates": {
+      "make_call": 0.7740585207939148,
+      "change_language": 0.7614400386810303,
+      "smart_home": 0.7610793113708496,
+      "user_name": 0.755468487739563,
+      "what_are_your_hobbies": 0.7539253234863281
+    }
+  },
+  "will you please turn the tv on": {
+    "true_label": "smart_home",
+    "candidates": {
+      "make_call": 0.7774761915206909,
+      "change_language": 0.7625522017478943,
+      "smart_home": 0.7613661289215088,
+      "what_are_your_hobbies": 0.7605917453765869,
+      "accept_reservations": 0.7603235244750977
+    }
+  },
+  "turn on the tv please": {
+    "true_label": "smart_home",
+    "candidates": {
+      "make_call": 0.7898275852203369,
+      "change_language": 0.7873129844665527,
+      "accept_reservations": 0.7781742811203003,
+      "account_blocked": 0.7713442444801331,
+      "smart_home": 0.7689110636711121
+    }
+  },
+  "please turn the tv on": {
+    "true_label": "smart_home",
+    "candidates": {
+      "make_call": 0.7872459888458252,
+      "change_language": 0.783015787601471,
+      "accept_reservations": 0.775713324546814,
+      "account_blocked": 0.769379734992981,
+      "smart_home": 0.7657650709152222
+    }
+  },
+  "do you know who i am": {
+    "true_label": "user_name",
+    "candidates": {
+      "what_are_your_hobbies": 0.7686479687690735,
+      "user_name": 0.7623821496963501,
+      "account_blocked": 0.7601954936981201,
+      "repeat": 0.7548055648803711,
+      "what_song": 0.7499043941497803
+    }
+  },
+  "do you have my name programmed": {
+    "true_label": "user_name",
+    "candidates": {
+      "user_name": 0.7877721190452576,
+      "report_lost_card": 0.7660560607910156,
+      "what_are_your_hobbies": 0.7658268809318542,
+      "account_blocked": 0.761850893497467,
+      "schedule_meeting": 0.7615343928337097
+    }
+  },
+  "do you think my name is jeff": {
+    "true_label": "user_name",
+    "candidates": {
+      "user_name": 0.7736703753471375,
+      "what_are_your_hobbies": 0.7628525495529175,
+      "meaning_of_life": 0.7494131922721863,
+      "what_song": 0.7401458024978638,
+      "repeat": 0.738985002040863
+    }
+  },
+  "is joey my name": {
+    "true_label": "user_name",
+    "candidates": {
+      "user_name": 0.7764460444450378,
+      "what_are_your_hobbies": 0.7594534158706665,
+      "account_blocked": 0.7449336051940918,
+      "meaning_of_life": 0.7402099370956421,
+      "what_song": 0.7335330247879028
+    }
+  },
+  "tell me my name": {
+    "true_label": "user_name",
+    "candidates": {
+      "make_call": 0.7948871850967407,
+      "user_name": 0.7930987477302551,
+      "repeat": 0.7782877087593079,
+      "what_song": 0.7654206156730652,
+      "change_language": 0.7653107643127441
+    }
+  },
+  "say my name in a sentence": {
+    "true_label": "user_name",
+    "candidates": {
+      "user_name": 0.7902355194091797,
+      "repeat": 0.7896617650985718,
+      "change_language": 0.7769790291786194,
+      "what_are_your_hobbies": 0.7708486318588257,
+      "make_call": 0.7696324586868286
+    }
+  },
+  "what is my name": {
+    "true_label": "user_name",
+    "candidates": {
+      "user_name": 0.8162133693695068,
+      "what_are_your_hobbies": 0.8085107207298279,
+      "meaning_of_life": 0.7905202507972717,
+      "account_blocked": 0.7763523459434509,
+      "what_song": 0.7741537094116211
+    }
+  },
+  "tell me my name the way its saved": {
+    "true_label": "user_name",
+    "candidates": {
+      "user_name": 0.7798489332199097,
+      "whisper_mode": 0.7791851758956909,
+      "repeat": 0.7777512669563293,
+      "make_call": 0.7753211259841919,
+      "change_language": 0.7696462869644165
+    }
+  },
+  "tell me what my name is": {
+    "true_label": "user_name",
+    "candidates": {
+      "user_name": 0.795757532119751,
+      "make_call": 0.7872592806816101,
+      "what_are_your_hobbies": 0.7789450883865356,
+      "repeat": 0.7726135849952698,
+      "account_blocked": 0.7694636583328247
+    }
+  },
+  "how is my name saved": {
+    "true_label": "user_name",
+    "candidates": {
+      "freeze_account": 0.7844377756118774,
+      "user_name": 0.7826346755027771,
+      "account_blocked": 0.772130012512207,
+      "oil_change_how": 0.7716635465621948,
+      "what_are_your_hobbies": 0.76838618516922
+    }
+  },
+  "i want to report a stolen card": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.892224133014679,
+      "improve_credit_score": 0.7803257703781128,
+      "freeze_account": 0.7738841772079468,
+      "account_blocked": 0.7672492265701294,
+      "redeem_rewards": 0.7451388835906982
+    }
+  },
+  "my card is lost, i would like to report it": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.925971508026123,
+      "improve_credit_score": 0.785078763961792,
+      "account_blocked": 0.7700909376144409,
+      "freeze_account": 0.766298770904541,
+      "user_name": 0.752743661403656
+    }
+  },
+  "my card was stolen, how do i report this": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.8961552977561951,
+      "improve_credit_score": 0.7972472906112671,
+      "freeze_account": 0.7899428606033325,
+      "account_blocked": 0.7827721834182739,
+      "oil_change_how": 0.7617005109786987
+    }
+  },
+  "i need to report a stolen card": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.8943800926208496,
+      "improve_credit_score": 0.782795786857605,
+      "freeze_account": 0.779506266117096,
+      "account_blocked": 0.7731685042381287,
+      "user_name": 0.7496470212936401
+    }
+  },
+  "if i lost my card how do i report it": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.9254308938980103,
+      "improve_credit_score": 0.7905522584915161,
+      "freeze_account": 0.7751944661140442,
+      "account_blocked": 0.7667189836502075,
+      "oil_change_how": 0.7658262252807617
+    }
+  },
+  "how do i report a stolen card": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.8984750509262085,
+      "improve_credit_score": 0.7846094369888306,
+      "freeze_account": 0.7820858359336853,
+      "account_blocked": 0.7682983875274658,
+      "oil_change_how": 0.7509119510650635
+    }
+  },
+  "what is the process of reporting a lost card": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.9027086496353149,
+      "improve_credit_score": 0.7750608921051025,
+      "freeze_account": 0.7626737356185913,
+      "account_blocked": 0.7549262046813965,
+      "oil_change_how": 0.751986026763916
+    }
+  },
+  "if my card was stolen, where do i report it": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.8821818828582764,
+      "improve_credit_score": 0.7798283100128174,
+      "freeze_account": 0.773719310760498,
+      "account_blocked": 0.7608733773231506,
+      "what_are_your_hobbies": 0.7504597306251526
+    }
+  },
+  "i lost my card, how do i report it": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.92753005027771,
+      "improve_credit_score": 0.7932271957397461,
+      "freeze_account": 0.777840256690979,
+      "account_blocked": 0.7746155261993408,
+      "what_are_your_hobbies": 0.7683863639831543
+    }
+  },
+  "report a card lost for me": {
+    "true_label": "report_lost_card",
+    "candidates": {
+      "report_lost_card": 0.9383732080459595,
+      "improve_credit_score": 0.7848019003868103,
+      "account_blocked": 0.7718132734298706,
+      "freeze_account": 0.7668464183807373,
+      "what_are_your_hobbies": 0.7613599300384521
+    }
+  },
+  "i want to hear that again": {
+    "true_label": "repeat",
+    "candidates": {
+      "repeat": 0.8177720308303833,
+      "what_song": 0.7655705809593201,
+      "whisper_mode": 0.754542350769043,
+      "make_call": 0.753555178642273,
+      "user_name": 0.7512859106063843
+    }
+  },
+  "repeat that for me": {
+    "true_label": "repeat",
+    "candidates": {
+      "repeat": 0.8913911581039429,
+      "make_call": 0.7908846139907837,
+      "schedule_meeting": 0.7730764150619507,
+      "text": 0.7715151309967041,
+      "nutrition_info": 0.769182562828064
+    }
+  },
+  "could that be repeated": {
+    "true_label": "repeat",
+    "candidates": {
+      "repeat": 0.8833716511726379,
+      "account_blocked": 0.7689710259437561,
+      "redeem_rewards": 0.7606253623962402,
+      "schedule_meeting": 0.7572027444839478,
+      "change_language": 0.7550490498542786
+    }
+  },
+  "can you repeat what you said": {
+    "true_label": "repeat",
+    "candidates": {
+      "repeat": 0.8569154739379883,
+      "whisper_mode": 0.7886863946914673,
+      "change_language": 0.7845587730407715,
+      "make_call": 0.7790477275848389,
+      "schedule_meeting": 0.7781494855880737
+    }
+  },
+  "i did not hear what you said": {
+    "true_label": "repeat",
+    "candidates": {
+      "whisper_mode": 0.7733899354934692,
+      "make_call": 0.7647143006324768,
+      "account_blocked": 0.7630782127380371,
+      "user_name": 0.7501586675643921,
+      "repeat": 0.7488070130348206
+    }
+  },
+  "what did you just ask": {
+    "true_label": "repeat",
+    "candidates": {
+      "user_name": 0.7853758335113525,
+      "meaning_of_life": 0.7793211936950684,
+      "what_are_your_hobbies": 0.77555251121521,
+      "account_blocked": 0.7751415967941284,
+      "make_call": 0.7747191190719604
+    }
+  },
+  "can you ask me that again": {
+    "true_label": "repeat",
+    "candidates": {
+      "repeat": 0.8135696649551392,
+      "what_are_your_hobbies": 0.7630350589752197,
+      "user_name": 0.7614449858665466,
+      "schedule_meeting": 0.7611871957778931,
+      "whisper_mode": 0.7589205503463745
+    }
+  },
+  "what question did you just ask me": {
+    "true_label": "repeat",
+    "candidates": {
+      "user_name": 0.7752940058708191,
+      "what_are_your_hobbies": 0.7739455699920654,
+      "meaning_of_life": 0.7647712230682373,
+      "what_song": 0.7616334557533264,
+      "account_blocked": 0.7545430064201355
+    }
+  },
+  "can you repeat that question": {
+    "true_label": "repeat",
+    "candidates": {
+      "repeat": 0.8535736203193665,
+      "whisper_mode": 0.774755597114563,
+      "schedule_meeting": 0.7669072151184082,
+      "make_call": 0.7654070258140564,
+      "change_language": 0.7621226906776428
+    }
+  },
+  "what was said": {
+    "true_label": "repeat",
+    "candidates": {
+      "what_song": 0.7874870896339417,
+      "repeat": 0.7874075770378113,
+      "restaurant_reviews": 0.7860802412033081,
+      "text": 0.7835235595703125,
+      "account_blocked": 0.7827367782592773
+    }
+  },
+  "set up whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.9012188911437988,
+      "change_language": 0.7635077834129333,
+      "repeat": 0.7616668939590454,
+      "make_call": 0.7582948207855225,
+      "oil_change_how": 0.7569320797920227
+    }
+  },
+  "how do i go to whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.8953257203102112,
+      "oil_change_how": 0.7720800638198853,
+      "change_language": 0.7565786242485046,
+      "what_are_your_hobbies": 0.7560884356498718,
+      "make_call": 0.7544904947280884
+    }
+  },
+  "change over to whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.9008352756500244,
+      "change_language": 0.8044800758361816,
+      "make_call": 0.7720987200737,
+      "oil_change_how": 0.7696942687034607,
+      "repeat": 0.7643179297447205
+    }
+  },
+  "i need to be out of whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.858687162399292,
+      "change_language": 0.7824388742446899,
+      "what_are_your_hobbies": 0.7713574171066284,
+      "account_blocked": 0.7603386640548706,
+      "smart_home": 0.7599413990974426
+    }
+  },
+  "i'd like to be out of whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.8529993295669556,
+      "change_language": 0.7803261280059814,
+      "what_are_your_hobbies": 0.7660605907440186,
+      "smart_home": 0.7593287229537964,
+      "account_blocked": 0.7518495917320251
+    }
+  },
+  "take me out of whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.8779213428497314,
+      "change_language": 0.795126736164093,
+      "what_are_your_hobbies": 0.7731149196624756,
+      "smart_home": 0.769127607345581,
+      "make_call": 0.7664697170257568
+    }
+  },
+  "i want to be out of whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.8612828254699707,
+      "change_language": 0.7843011021614075,
+      "what_are_your_hobbies": 0.7700979113578796,
+      "smart_home": 0.7658572196960449,
+      "account_blocked": 0.7575570344924927
+    }
+  },
+  "please use your whispering voice; i need quiet": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.8313415050506592,
+      "account_blocked": 0.7755071520805359,
+      "change_language": 0.7745692133903503,
+      "what_are_your_hobbies": 0.7725582122802734,
+      "make_call": 0.7699209451675415
+    }
+  },
+  "let's try whisper mode": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.8949366807937622,
+      "repeat": 0.7736939191818237,
+      "change_language": 0.7692354917526245,
+      "make_call": 0.7678337097167969,
+      "what_are_your_hobbies": 0.7574579119682312
+    }
+  },
+  "use your whisper voice": {
+    "true_label": "whisper_mode",
+    "candidates": {
+      "whisper_mode": 0.8394883871078491,
+      "make_call": 0.7834628820419312,
+      "change_language": 0.7831171751022339,
+      "repeat": 0.7697983384132385,
+      "what_are_your_hobbies": 0.763404905796051
+    }
+  },
+  "do you have hobbies": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.9063878059387207,
+      "meaning_of_life": 0.7757330536842346,
+      "user_name": 0.7730029225349426,
+      "repeat": 0.7718151807785034,
+      "improve_credit_score": 0.7628217935562134
+    }
+  },
+  "tell me about your hobbies": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.900216281414032,
+      "meaning_of_life": 0.7753874659538269,
+      "user_name": 0.7724385261535645,
+      "repeat": 0.7699028253555298,
+      "account_blocked": 0.7621459364891052
+    }
+  },
+  "are you involved in hobbies": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.8862539529800415,
+      "improve_credit_score": 0.7651684880256653,
+      "meaning_of_life": 0.763320803642273,
+      "user_name": 0.7626561522483826,
+      "account_blocked": 0.7623785734176636
+    }
+  },
+  "what recreational activities do you enjoy": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.8689932823181152,
+      "repeat": 0.7715379595756531,
+      "meaning_of_life": 0.7636675834655762,
+      "user_name": 0.7599325180053711,
+      "restaurant_reviews": 0.759464681148529
+    }
+  },
+  "what do you do as a hobby": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.8942103981971741,
+      "repeat": 0.7738125324249268,
+      "meaning_of_life": 0.7720760107040405,
+      "user_name": 0.7709182500839233,
+      "improve_credit_score": 0.761807382106781
+    }
+  },
+  "what do you like to do in your free time": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.8509395718574524,
+      "meaning_of_life": 0.7779497504234314,
+      "repeat": 0.7718259692192078,
+      "change_language": 0.7646740078926086,
+      "meeting_schedule": 0.7638240456581116
+    }
+  },
+  "what are your hobbies": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.9251906871795654,
+      "meaning_of_life": 0.7839834690093994,
+      "user_name": 0.7798298597335815,
+      "repeat": 0.7724655866622925,
+      "account_blocked": 0.7713802456855774
+    }
+  },
+  "what hobbies do you have": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.9133246541023254,
+      "meaning_of_life": 0.7741280198097229,
+      "user_name": 0.7695819139480591,
+      "repeat": 0.7642982006072998,
+      "improve_credit_score": 0.7602196931838989
+    }
+  },
+  "when you have free time, what do you do": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.8258241415023804,
+      "meaning_of_life": 0.7755495309829712,
+      "repeat": 0.7709301710128784,
+      "make_call": 0.7640001773834229,
+      "change_language": 0.7572411298751831
+    }
+  },
+  "what do you do in your spare time siri": {
+    "true_label": "what_are_your_hobbies",
+    "candidates": {
+      "what_are_your_hobbies": 0.8298989534378052,
+      "make_call": 0.7731257677078247,
+      "whisper_mode": 0.7691745758056641,
+      "repeat": 0.7677638530731201,
+      "change_language": 0.7622270584106445
+    }
+  },
+  "order more bread please": {
+    "true_label": "order",
+    "candidates": {
+      "repeat": 0.7980101704597473,
+      "restaurant_reservation": 0.7969856858253479,
+      "accept_reservations": 0.7927365303039551,
+      "make_call": 0.7814027070999146,
+      "restaurant_reviews": 0.7776848077774048
+    }
+  },
+  "i ran out of bread, order more": {
+    "true_label": "order",
+    "candidates": {
+      "repeat": 0.7817482948303223,
+      "restaurant_reservation": 0.7776078581809998,
+      "accept_reservations": 0.7716207504272461,
+      "restaurant_reviews": 0.7663081884384155,
+      "report_lost_card": 0.7637978792190552
+    }
+  },
+  "since i ran out , order more bread": {
+    "true_label": "order",
+    "candidates": {
+      "repeat": 0.7890974283218384,
+      "restaurant_reservation": 0.767167866230011,
+      "accept_reservations": 0.7642117738723755,
+      "improve_credit_score": 0.760238528251648,
+      "nutrition_info": 0.7579398155212402
+    }
+  },
+  "place an order for bread": {
+    "true_label": "order",
+    "candidates": {
+      "restaurant_reservation": 0.8065316081047058,
+      "make_call": 0.7950061559677124,
+      "accept_reservations": 0.791782021522522,
+      "order": 0.7879926562309265,
+      "restaurant_reviews": 0.7737628817558289
+    }
+  },
+  "make an order of bread because i am out": {
+    "true_label": "order",
+    "candidates": {
+      "restaurant_reservation": 0.7815766334533691,
+      "make_call": 0.775517463684082,
+      "report_lost_card": 0.7706722021102905,
+      "accept_reservations": 0.7679238319396973,
+      "account_blocked": 0.7646052837371826
+    }
+  },
+  "order an amazon gift card from amazon in the amount of twenty dollars": {
+    "true_label": "order",
+    "candidates": {
+      "oos": 0.756698489189148,
+      "redeem_rewards": 0.7553260326385498,
+      "report_lost_card": 0.7551206350326538,
+      "restaurant_reservation": 0.7448126077651978,
+      "accept_reservations": 0.7440232038497925
+    }
+  },
+  "order a case of coke from amazon": {
+    "true_label": "order",
+    "candidates": {
+      "oos": 0.7588293552398682,
+      "oil_change_how": 0.7536245584487915,
+      "accept_reservations": 0.7482424974441528,
+      "restaurant_reservation": 0.7468814253807068,
+      "make_call": 0.7430572509765625
+    }
+  },
+  "order dog food from walmart": {
+    "true_label": "order",
+    "candidates": {
+      "nutrition_info": 0.7703461647033691,
+      "restaurant_reservation": 0.7520355582237244,
+      "restaurant_reviews": 0.7506542205810547,
+      "accept_reservations": 0.7432308793067932,
+      "oos": 0.7420414686203003
+    }
+  },
+  "order more paper towels from amazon": {
+    "true_label": "order",
+    "candidates": {
+      "repeat": 0.7642322778701782,
+      "restaurant_reservation": 0.7463321685791016,
+      "accept_reservations": 0.7440473437309265,
+      "oos": 0.7395248413085938,
+      "redeem_rewards": 0.7359386682510376
+    }
+  },
+  "order a disney gift card in the amount of five hundred dollars from costco": {
+    "true_label": "order",
+    "candidates": {
+      "report_lost_card": 0.7627146244049072,
+      "freeze_account": 0.7606788277626038,
+      "improve_credit_score": 0.7596100568771362,
+      "oos": 0.7576560974121094,
+      "redeem_rewards": 0.7550574541091919
+    }
+  },
+  "how can i jump start my car if my battery is dead": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.8160718679428101,
+      "oil_change_how": 0.7751471400260925,
+      "what_are_your_hobbies": 0.7412790656089783,
+      "freeze_account": 0.7380239963531494,
+      "make_call": 0.7367681264877319
+    }
+  },
+  "will a jump start work if my batter is dead": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.8321459293365479,
+      "freeze_account": 0.7494584918022156,
+      "improve_credit_score": 0.7458406686782837,
+      "nutrition_info": 0.744719386100769,
+      "report_lost_card": 0.7434221506118774
+    }
+  },
+  "how to jump start a car": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.86500483751297,
+      "oil_change_how": 0.7927775382995605,
+      "repeat": 0.7491827607154846,
+      "make_call": 0.7486367225646973,
+      "what_are_your_hobbies": 0.7466927170753479
+    }
+  },
+  "what do i need to jump start a battery": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.845039427280426,
+      "oil_change_how": 0.7724906802177429,
+      "freeze_account": 0.751147985458374,
+      "what_are_your_hobbies": 0.7464815378189087,
+      "repeat": 0.7442264556884766
+    }
+  },
+  "how do i jump start a bad battery": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.831003725528717,
+      "oil_change_how": 0.7688738107681274,
+      "improve_credit_score": 0.7473303079605103,
+      "make_call": 0.7467669248580933,
+      "freeze_account": 0.7446883916854858
+    }
+  },
+  "what steps do i need to take to jump start my car": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.8351171016693115,
+      "oil_change_how": 0.793403148651123,
+      "what_are_your_hobbies": 0.747430682182312,
+      "freeze_account": 0.7414453625679016,
+      "improve_credit_score": 0.7408996820449829
+    }
+  },
+  "i'm not sure how to jump start a car; can you help me": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.8318678140640259,
+      "oil_change_how": 0.790032148361206,
+      "what_are_your_hobbies": 0.7633637189865112,
+      "make_call": 0.7594259977340698,
+      "account_blocked": 0.7546455264091492
+    }
+  },
+  "how do i do a jump start on my car": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.8615073561668396,
+      "oil_change_how": 0.7968159914016724,
+      "what_are_your_hobbies": 0.7431508302688599,
+      "repeat": 0.741510272026062,
+      "make_call": 0.7384737133979797
+    }
+  },
+  "how might i go about jump starting a car": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.8443982005119324,
+      "oil_change_how": 0.787808358669281,
+      "make_call": 0.7444207668304443,
+      "what_are_your_hobbies": 0.7418546080589294,
+      "improve_credit_score": 0.7353802919387817
+    }
+  },
+  "how can i jump start a car": {
+    "true_label": "jump_start",
+    "candidates": {
+      "jump_start": 0.8604146242141724,
+      "oil_change_how": 0.7916908264160156,
+      "what_are_your_hobbies": 0.7517819404602051,
+      "make_call": 0.7464704513549805,
+      "repeat": 0.7424685955047607
+    }
+  },
+  "how do i set up a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.8629872798919678,
+      "meeting_schedule": 0.8436003923416138,
+      "make_call": 0.7854161262512207,
+      "accept_reservations": 0.7836580872535706,
+      "what_are_your_hobbies": 0.7782673239707947
+    }
+  },
+  "what is the process to set up a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.8489444255828857,
+      "meeting_schedule": 0.8277382850646973,
+      "restaurant_reservation": 0.7780247926712036,
+      "make_call": 0.7732126712799072,
+      "accept_reservations": 0.7647886276245117
+    }
+  },
+  "how can i set up a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.8608750104904175,
+      "meeting_schedule": 0.8411314487457275,
+      "make_call": 0.7835605144500732,
+      "accept_reservations": 0.7812503576278687,
+      "what_are_your_hobbies": 0.7775075435638428
+    }
+  },
+  "what is the process to schedule a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.8930518627166748,
+      "meeting_schedule": 0.8577397465705872,
+      "restaurant_reservation": 0.7941709756851196,
+      "accept_reservations": 0.7797971963882446,
+      "make_call": 0.766668438911438
+    }
+  },
+  "what do i do to schedule a meeting": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.892221212387085,
+      "meeting_schedule": 0.8594601154327393,
+      "accept_reservations": 0.8081042170524597,
+      "restaurant_reservation": 0.7875688672065735,
+      "make_call": 0.7852832674980164
+    }
+  },
+  "i want you to set a meeting with john at 5 pm": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.8333689570426941,
+      "meeting_schedule": 0.8123058080673218,
+      "make_call": 0.7649073600769043,
+      "accept_reservations": 0.7587065696716309,
+      "change_language": 0.7508430480957031
+    }
+  },
+  "schedule a monday meeting with sam at 1 pm": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.8204096555709839,
+      "meeting_schedule": 0.8057787418365479,
+      "accept_reservations": 0.7643314003944397,
+      "restaurant_reservation": 0.7477700710296631,
+      "change_language": 0.7450393438339233
+    }
+  },
+  "please schedule a meeting with kim at 10 am": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.835222601890564,
+      "meeting_schedule": 0.8253095149993896,
+      "accept_reservations": 0.758500337600708,
+      "restaurant_reservation": 0.7561190128326416,
+      "make_call": 0.74733567237854
+    }
+  },
+  "please set a meeting with nancy at 4 pm": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.8237826824188232,
+      "meeting_schedule": 0.8161606788635254,
+      "accept_reservations": 0.7699137926101685,
+      "make_call": 0.7602350115776062,
+      "restaurant_reservation": 0.7561739087104797
+    }
+  },
+  "schedule my meeting with jim at 3pm": {
+    "true_label": "schedule_meeting",
+    "candidates": {
+      "schedule_meeting": 0.8373790979385376,
+      "meeting_schedule": 0.8190202116966248,
+      "make_call": 0.7589861154556274,
+      "restaurant_reservation": 0.7574115991592407,
+      "accept_reservations": 0.7573575973510742
+    }
+  },
+  "what if any meetings do i have today": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "meeting_schedule": 0.8444384336471558,
+      "schedule_meeting": 0.8354372382164001,
+      "what_are_your_hobbies": 0.7761797904968262,
+      "accept_reservations": 0.7598080039024353,
+      "nutrition_info": 0.7583458423614502
+    }
+  },
+  "do i have meetings with anyone today": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "meeting_schedule": 0.8233204483985901,
+      "schedule_meeting": 0.8230605721473694,
+      "what_are_your_hobbies": 0.7652536034584045,
+      "meaning_of_life": 0.7478842735290527,
+      "nutrition_info": 0.7462129592895508
+    }
+  },
+  "do i have any meetings on my calendar today": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "meeting_schedule": 0.839388370513916,
+      "schedule_meeting": 0.8392699956893921,
+      "what_are_your_hobbies": 0.7735773324966431,
+      "report_lost_card": 0.7449073791503906,
+      "nutrition_info": 0.7448195815086365
+    }
+  },
+  "do i have any meetings on my schedule today": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "schedule_meeting": 0.8475624322891235,
+      "meeting_schedule": 0.8401936292648315,
+      "what_are_your_hobbies": 0.7695221900939941,
+      "restaurant_reservation": 0.7455445528030396,
+      "accept_reservations": 0.7448973655700684
+    }
+  },
+  "do i have any meetings today between 9:30 and 10:30": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "meeting_schedule": 0.8246752023696899,
+      "schedule_meeting": 0.8076980710029602,
+      "what_are_your_hobbies": 0.7525078058242798,
+      "restaurant_reservation": 0.741146445274353,
+      "report_lost_card": 0.7395264506340027
+    }
+  },
+  "do i have any meetings today between 9 and 10:30": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "meeting_schedule": 0.8238348364830017,
+      "schedule_meeting": 0.8070719242095947,
+      "what_are_your_hobbies": 0.7524656057357788,
+      "user_name": 0.7409375905990601,
+      "restaurant_reservation": 0.7401600480079651
+    }
+  },
+  "do i have any meetings today between 9:20 and 10:30": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "meeting_schedule": 0.8235155344009399,
+      "schedule_meeting": 0.8088788390159607,
+      "what_are_your_hobbies": 0.7540115714073181,
+      "restaurant_reservation": 0.7421122193336487,
+      "report_lost_card": 0.7387310266494751
+    }
+  },
+  "do i have any meetings today between 9 and 10:15": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "meeting_schedule": 0.8183848857879639,
+      "schedule_meeting": 0.8096504807472229,
+      "what_are_your_hobbies": 0.7519308924674988,
+      "report_lost_card": 0.7400090098381042,
+      "restaurant_reservation": 0.7400021553039551
+    }
+  },
+  "do i have any meetings today between 9 and 10": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "meeting_schedule": 0.8212040662765503,
+      "schedule_meeting": 0.8115582466125488,
+      "what_are_your_hobbies": 0.7571040987968445,
+      "restaurant_reservation": 0.7392892837524414,
+      "user_name": 0.7391928434371948
+    }
+  },
+  "what time am i meeting with john": {
+    "true_label": "meeting_schedule",
+    "candidates": {
+      "schedule_meeting": 0.8342000246047974,
+      "meeting_schedule": 0.8338192105293274,
+      "accept_reservations": 0.7553393840789795,
+      "time": 0.7527427673339844,
+      "make_call": 0.7514126896858215
+    }
+  },
+  "may you stop a paymet on my account": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "freeze_account": 0.8106878995895386,
+      "account_blocked": 0.8024560213088989,
+      "improve_credit_score": 0.7681604623794556,
+      "bill_balance": 0.7612313032150269,
+      "interest_rate": 0.7604178786277771
+    }
+  },
+  "how we stop my account": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "freeze_account": 0.8438614010810852,
+      "account_blocked": 0.8344955444335938,
+      "oil_change_how": 0.773987889289856,
+      "user_name": 0.7677201628684998,
+      "what_are_your_hobbies": 0.7669686079025269
+    }
+  },
+  "can you place a stop on my account": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "freeze_account": 0.8170454502105713,
+      "account_blocked": 0.8121237754821777,
+      "make_call": 0.7692863345146179,
+      "accept_reservations": 0.7686681151390076,
+      "improve_credit_score": 0.7619187831878662
+    }
+  },
+  "can we stop my bank account": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "freeze_account": 0.8374371528625488,
+      "account_blocked": 0.8118074536323547,
+      "improve_credit_score": 0.7769128084182739,
+      "interest_rate": 0.7702611684799194,
+      "bill_balance": 0.7618101835250854
+    }
+  },
+  "please put a block on my capital one account immediately": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "account_blocked": 0.8514904379844666,
+      "freeze_account": 0.8404996395111084,
+      "improve_credit_score": 0.7848682999610901,
+      "report_lost_card": 0.7621679902076721,
+      "user_name": 0.7545798420906067
+    }
+  },
+  "please put a block on my discover account immediately": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "account_blocked": 0.8478416204452515,
+      "freeze_account": 0.8305070400238037,
+      "report_lost_card": 0.7734140753746033,
+      "improve_credit_score": 0.7666482329368591,
+      "user_name": 0.7631421685218811
+    }
+  },
+  "please put a block on my regions account immediately": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "account_blocked": 0.8600119352340698,
+      "freeze_account": 0.8328685760498047,
+      "user_name": 0.774814248085022,
+      "report_lost_card": 0.7654650807380676,
+      "nutrition_info": 0.7569869160652161
+    }
+  },
+  "please put a block on my wells fargo account immediately": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "account_blocked": 0.8415683507919312,
+      "freeze_account": 0.8301867246627808,
+      "improve_credit_score": 0.7671817541122437,
+      "report_lost_card": 0.760535717010498,
+      "user_name": 0.7514327168464661
+    }
+  },
+  "please put a block on my us bank account immediately": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "account_blocked": 0.8526281118392944,
+      "freeze_account": 0.8433238863945007,
+      "improve_credit_score": 0.7767854332923889,
+      "report_lost_card": 0.7705086469650269,
+      "user_name": 0.7666125297546387
+    }
+  },
+  "i need you to act swiftly and freeze all activity on my capital one checking": {
+    "true_label": "freeze_account",
+    "candidates": {
+      "freeze_account": 0.8560693264007568,
+      "account_blocked": 0.8073402047157288,
+      "improve_credit_score": 0.793247401714325,
+      "accept_reservations": 0.7624238729476929,
+      "report_lost_card": 0.7591560482978821
+    }
+  },
+  "whats this song": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.8379085063934326,
+      "meaning_of_life": 0.773310661315918,
+      "account_blocked": 0.7694344520568848,
+      "what_are_your_hobbies": 0.7631275653839111,
+      "user_name": 0.7627750635147095
+    }
+  },
+  "nice song what is it": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.8114714026451111,
+      "meaning_of_life": 0.7519492506980896,
+      "what_are_your_hobbies": 0.7498122453689575,
+      "smart_home": 0.7390802502632141,
+      "user_name": 0.7380715608596802
+    }
+  },
+  "cool song, what is it": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.8165333867073059,
+      "meaning_of_life": 0.7536423206329346,
+      "what_are_your_hobbies": 0.7487192153930664,
+      "change_language": 0.7486864328384399,
+      "user_name": 0.7425336837768555
+    }
+  },
+  "what music is this": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.8173341751098633,
+      "what_are_your_hobbies": 0.7701320052146912,
+      "whisper_mode": 0.7690451741218567,
+      "nutrition_info": 0.7623515129089355,
+      "meaning_of_life": 0.7602055072784424
+    }
+  },
+  "is this a song that i dont know": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.7996433973312378,
+      "meaning_of_life": 0.7440083026885986,
+      "account_blocked": 0.7345618009567261,
+      "what_are_your_hobbies": 0.7314561009407043,
+      "nutrition_info": 0.7288550138473511
+    }
+  },
+  "what’s the name of this song": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.8084894418716431,
+      "meaning_of_life": 0.7636969685554504,
+      "account_blocked": 0.7566832304000854,
+      "user_name": 0.7562399506568909,
+      "whisper_mode": 0.7538163661956787
+    }
+  },
+  "what is the current tune": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.7729262113571167,
+      "what_are_your_hobbies": 0.7617931365966797,
+      "nutrition_info": 0.7610838413238525,
+      "whisper_mode": 0.7595235109329224,
+      "bill_balance": 0.7578883171081543
+    }
+  },
+  "what am i listening to right now": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.7947288155555725,
+      "what_are_your_hobbies": 0.780540943145752,
+      "meaning_of_life": 0.7737739086151123,
+      "restaurant_reviews": 0.7654959559440613,
+      "whisper_mode": 0.7648201584815979
+    }
+  },
+  "what is the name of the song playing right now": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.8079336285591125,
+      "what_are_your_hobbies": 0.7524468898773193,
+      "user_name": 0.749264657497406,
+      "meaning_of_life": 0.7490272521972656,
+      "whisper_mode": 0.7476411461830139
+    }
+  },
+  "what is that song called": {
+    "true_label": "what_song",
+    "candidates": {
+      "what_song": 0.8327452540397644,
+      "user_name": 0.7556188106536865,
+      "meaning_of_life": 0.7555598616600037,
+      "repeat": 0.7468084692955017,
+      "whisper_mode": 0.7466344237327576
+    }
+  },
+  "i want to know what the purpose of life is": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8513554334640503,
+      "what_are_your_hobbies": 0.8016698360443115,
+      "nutrition_info": 0.7772076725959778,
+      "interest_rate": 0.7672010064125061,
+      "user_name": 0.7657108306884766
+    }
+  },
+  "i want to hear what you think life's purpose is about": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8365459442138672,
+      "what_are_your_hobbies": 0.7738684415817261,
+      "user_name": 0.7555352449417114,
+      "nutrition_info": 0.7519279718399048,
+      "interest_rate": 0.7514867782592773
+    }
+  },
+  "what do you think the purpose of life is": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8535698652267456,
+      "what_are_your_hobbies": 0.8009719848632812,
+      "nutrition_info": 0.7689313292503357,
+      "user_name": 0.7680275440216064,
+      "interest_rate": 0.761387825012207
+    }
+  },
+  "what is the purpose of existence": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8465850353240967,
+      "what_are_your_hobbies": 0.790340781211853,
+      "nutrition_info": 0.7759479284286499,
+      "interest_rate": 0.7627733945846558,
+      "user_name": 0.7593903541564941
+    }
+  },
+  "what do you think our purpose is in life": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8351854085922241,
+      "what_are_your_hobbies": 0.7961428165435791,
+      "user_name": 0.764970064163208,
+      "improve_credit_score": 0.76242995262146,
+      "nutrition_info": 0.7586116790771484
+    }
+  },
+  "i'd like to know the meaning of life": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8614742159843445,
+      "what_are_your_hobbies": 0.7903077602386475,
+      "nutrition_info": 0.7743456959724426,
+      "user_name": 0.7684249877929688,
+      "change_language": 0.7644014954566956
+    }
+  },
+  "what's your opinion on the meaning of life": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8657893538475037,
+      "what_are_your_hobbies": 0.7842333912849426,
+      "user_name": 0.7719600796699524,
+      "nutrition_info": 0.7640209794044495,
+      "time": 0.756308376789093
+    }
+  },
+  "what is life's purpose": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8515625,
+      "what_are_your_hobbies": 0.7876326441764832,
+      "nutrition_info": 0.7745327353477478,
+      "interest_rate": 0.768659770488739,
+      "user_name": 0.7622954249382019
+    }
+  },
+  "tell me all about the meaning of life": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8619359731674194,
+      "nutrition_info": 0.7955543994903564,
+      "what_are_your_hobbies": 0.794069766998291,
+      "change_language": 0.7707127332687378,
+      "user_name": 0.7691730260848999
+    }
+  },
+  "tell me your thoughts about the meaning of life": {
+    "true_label": "meaning_of_life",
+    "candidates": {
+      "meaning_of_life": 0.8630275726318359,
+      "what_are_your_hobbies": 0.7870576977729797,
+      "user_name": 0.7729552984237671,
+      "nutrition_info": 0.7722778916358948,
+      "repeat": 0.7619432806968689
+    }
+  },
+  "please reserve a table for 2 at lucky's under the name melissa at 7 pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "restaurant_reservation": 0.8040590882301331,
+      "accept_reservations": 0.7852180600166321,
+      "restaurant_reviews": 0.7591822147369385,
+      "schedule_meeting": 0.7543901205062866,
+      "nutrition_info": 0.7527824640274048
+    }
+  },
+  "i would like to reserve a table for 2 at sam's steakhouse under the name jessie at 6:30 pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "restaurant_reservation": 0.8108034729957581,
+      "accept_reservations": 0.8046332001686096,
+      "account_blocked": 0.7656402587890625,
+      "restaurant_reviews": 0.7636070847511292,
+      "make_call": 0.7614784836769104
+    }
+  },
+  "help me reserve a table for 3 at lucky's under the name crystal at 8 pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "restaurant_reservation": 0.8029769659042358,
+      "accept_reservations": 0.7945518493652344,
+      "account_blocked": 0.7642641663551331,
+      "restaurant_reviews": 0.761185348033905,
+      "nutrition_info": 0.7608577013015747
+    }
+  },
+  "would you please schedule a reservation for 2 at lucky's under the name sam at 7:30pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "restaurant_reservation": 0.8142310380935669,
+      "accept_reservations": 0.8113288879394531,
+      "schedule_meeting": 0.7653889060020447,
+      "repeat": 0.7559762597084045,
+      "make_call": 0.7545698881149292
+    }
+  },
+  "could you please reserve a table for 6 at lucille's under the name tom at 5pm": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "restaurant_reservation": 0.8041030764579773,
+      "accept_reservations": 0.7928311228752136,
+      "schedule_meeting": 0.7693358659744263,
+      "user_name": 0.7656360864639282,
+      "meeting_schedule": 0.7647032737731934
+    }
+  },
+  "is there a reservation available at ruth chris today": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "restaurant_reservation": 0.8125473260879517,
+      "accept_reservations": 0.7995420694351196,
+      "schedule_meeting": 0.7435423135757446,
+      "meeting_schedule": 0.7407081723213196,
+      "nutrition_info": 0.7315425872802734
+    }
+  },
+  "are there 8pm tables available at texas roadhouse": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "restaurant_reservation": 0.7783263325691223,
+      "accept_reservations": 0.7534439563751221,
+      "restaurant_reviews": 0.7476629018783569,
+      "meeting_schedule": 0.7278281450271606,
+      "schedule_meeting": 0.7171280384063721
+    }
+  },
+  "book a reservation for 3 at xenophobe under the name zebee": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "restaurant_reservation": 0.7849708199501038,
+      "accept_reservations": 0.7843378782272339,
+      "restaurant_reviews": 0.7423702478408813,
+      "account_blocked": 0.7411572337150574,
+      "user_name": 0.7297555208206177
+    }
+  },
+  "i need to book a reservation for 3 at xenophobe under the name zebee": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "accept_reservations": 0.7998231649398804,
+      "restaurant_reservation": 0.7993704676628113,
+      "account_blocked": 0.7563363313674927,
+      "user_name": 0.7548290491104126,
+      "restaurant_reviews": 0.7443362474441528
+    }
+  },
+  "book 3 under the name zebee at xenophobe": {
+    "true_label": "restaurant_reservation",
+    "candidates": {
+      "account_blocked": 0.7428889870643616,
+      "user_name": 0.7283750176429749,
+      "repeat": 0.7219996452331543,
+      "change_language": 0.7194377183914185,
+      "what_song": 0.7167572975158691
+    }
+  },
+  "is there much traffic between here and work right now": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.8364882469177246,
+      "what_are_your_hobbies": 0.7595431804656982,
+      "account_blocked": 0.7493710517883301,
+      "oil_change_how": 0.7440776228904724,
+      "meeting_schedule": 0.7435197234153748
+    }
+  },
+  "what's the traffic like right now for my route to work": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.8408472537994385,
+      "what_are_your_hobbies": 0.7634089589118958,
+      "account_blocked": 0.7626398205757141,
+      "meeting_schedule": 0.7565452456474304,
+      "oil_change_how": 0.755135178565979
+    }
+  },
+  "is the traffic bad going downtown right now": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.8241395950317383,
+      "what_are_your_hobbies": 0.7445364594459534,
+      "account_blocked": 0.7418239116668701,
+      "improve_credit_score": 0.7382956147193909,
+      "restaurant_reviews": 0.7365251183509827
+    }
+  },
+  "how's the traffic this morning": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.8515763282775879,
+      "meeting_schedule": 0.7618863582611084,
+      "jump_start": 0.761017382144928,
+      "account_blocked": 0.7578743696212769,
+      "schedule_meeting": 0.7550666332244873
+    }
+  },
+  "how bad is the traffic on the way to downtown": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.8233077526092529,
+      "restaurant_reviews": 0.7412691116333008,
+      "what_are_your_hobbies": 0.7380778789520264,
+      "accept_reservations": 0.7363200187683105,
+      "improve_credit_score": 0.735405445098877
+    }
+  },
+  "what's the traffic like going to central park": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.8081803321838379,
+      "what_are_your_hobbies": 0.723031759262085,
+      "accept_reservations": 0.719506025314331,
+      "what_song": 0.7151143550872803,
+      "restaurant_reviews": 0.7147189378738403
+    }
+  },
+  "is there heavy traffic on the way to the city": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.8390634655952454,
+      "account_blocked": 0.741571307182312,
+      "what_are_your_hobbies": 0.7364552021026611,
+      "accept_reservations": 0.7323639392852783,
+      "user_name": 0.7311577796936035
+    }
+  },
+  "how bad is traffic on the way into oakville right now": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.7959153056144714,
+      "oil_change_how": 0.7328962087631226,
+      "account_blocked": 0.7254688143730164,
+      "oos": 0.7220251560211182,
+      "what_are_your_hobbies": 0.7163957357406616
+    }
+  },
+  "how does the traffic look on my way to work right now": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.8499405980110168,
+      "oil_change_how": 0.7693583965301514,
+      "what_are_your_hobbies": 0.7627483010292053,
+      "meeting_schedule": 0.7589597105979919,
+      "account_blocked": 0.7550809383392334
+    }
+  },
+  "what does my commute look like": {
+    "true_label": "traffic",
+    "candidates": {
+      "traffic": 0.7984121441841125,
+      "what_are_your_hobbies": 0.7845648527145386,
+      "oil_change_how": 0.7669705152511597,
+      "schedule_meeting": 0.7647258639335632,
+      "meeting_schedule": 0.7635903358459473
+    }
+  },
+  "call alex": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.8370087146759033,
+      "change_language": 0.777807354927063,
+      "repeat": 0.7719535827636719,
+      "report_lost_card": 0.7676796913146973,
+      "accept_reservations": 0.7647920846939087
+    }
+  },
+  "please call mark": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.8400155305862427,
+      "report_lost_card": 0.7886672019958496,
+      "accept_reservations": 0.7860755324363708,
+      "change_language": 0.7814214825630188,
+      "schedule_meeting": 0.7774920463562012
+    }
+  },
+  "i want to call mark": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.8130273222923279,
+      "report_lost_card": 0.7683941125869751,
+      "user_name": 0.7659650444984436,
+      "restaurant_reservation": 0.7635900974273682,
+      "schedule_meeting": 0.76127028465271
+    }
+  },
+  "let me call mark": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.8258500695228577,
+      "change_language": 0.7720470428466797,
+      "repeat": 0.7697751522064209,
+      "report_lost_card": 0.7683606743812561,
+      "user_name": 0.7681281566619873
+    }
+  },
+  "can we call mark": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.7936092019081116,
+      "user_name": 0.7614143490791321,
+      "report_lost_card": 0.7613083720207214,
+      "accept_reservations": 0.7572764158248901,
+      "restaurant_reservation": 0.7537595629692078
+    }
+  },
+  "call back my mom please": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.8178521394729614,
+      "repeat": 0.7751420736312866,
+      "report_lost_card": 0.7732763290405273,
+      "change_language": 0.7711058855056763,
+      "schedule_meeting": 0.7640846967697144
+    }
+  },
+  "start a call to cynthia": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.807559072971344,
+      "change_language": 0.7458946704864502,
+      "schedule_meeting": 0.7450680136680603,
+      "report_lost_card": 0.7425612211227417,
+      "account_blocked": 0.7395098209381104
+    }
+  },
+  "i want to call up jan": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.7926006317138672,
+      "schedule_meeting": 0.7683795094490051,
+      "report_lost_card": 0.7666002511978149,
+      "change_language": 0.759475588798523,
+      "account_blocked": 0.7575371265411377
+    }
+  },
+  "can you get a call started to martha": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.7771328687667847,
+      "account_blocked": 0.7443243265151978,
+      "restaurant_reservation": 0.7364547848701477,
+      "jump_start": 0.7297221422195435,
+      "bill_balance": 0.7291055917739868
+    }
+  },
+  "please call felicity": {
+    "true_label": "make_call",
+    "candidates": {
+      "make_call": 0.7974579334259033,
+      "account_blocked": 0.7709754705429077,
+      "change_language": 0.7701749205589294,
+      "report_lost_card": 0.7665925025939941,
+      "accept_reservations": 0.7573037147521973
+    }
+  },
+  "send a text to joe": {
+    "true_label": "text",
+    "candidates": {
+      "text": 0.8023732900619507,
+      "make_call": 0.7839255928993225,
+      "schedule_meeting": 0.7670782208442688,
+      "change_language": 0.7647538185119629,
+      "whisper_mode": 0.7560997009277344
+    }
+  },
+  "i need to text joe": {
+    "true_label": "text",
+    "candidates": {
+      "text": 0.7972618341445923,
+      "make_call": 0.7862809896469116,
+      "schedule_meeting": 0.7782299518585205,
+      "whisper_mode": 0.7666893005371094,
+      "restaurant_reservation": 0.7663934230804443
+    }
+  },
+  "text joe": {
+    "true_label": "text",
+    "candidates": {
+      "text": 0.8405559062957764,
+      "whisper_mode": 0.7718715071678162,
+      "make_call": 0.7690135836601257,
+      "bill_balance": 0.761817991733551,
+      "schedule_meeting": 0.7602758407592773
+    }
+  },
+  "send joe a text": {
+    "true_label": "text",
+    "candidates": {
+      "text": 0.811004102230072,
+      "make_call": 0.7904826402664185,
+      "schedule_meeting": 0.7697991132736206,
+      "change_language": 0.7695555686950684,
+      "accept_reservations": 0.7619071006774902
+    }
+  },
+  "text john with the message 'where are you": {
+    "true_label": "text",
+    "candidates": {
+      "text": 0.7678653597831726,
+      "make_call": 0.7624766826629639,
+      "whisper_mode": 0.7466405630111694,
+      "schedule_meeting": 0.7442408800125122,
+      "change_language": 0.7402068376541138
+    }
+  },
+  "please send a text to danny saying that i'm running late": {
+    "true_label": "text",
+    "candidates": {
+      "schedule_meeting": 0.779242992401123,
+      "make_call": 0.7785720825195312,
+      "text": 0.7713437080383301,
+      "report_lost_card": 0.7602239847183228,
+      "traffic": 0.7592577934265137
+    }
+  },
+  "text mom saying happy birthday": {
+    "true_label": "text",
+    "candidates": {
+      "text": 0.7724215984344482,
+      "make_call": 0.7626779675483704,
+      "restaurant_reservation": 0.7539676427841187,
+      "meaning_of_life": 0.7507162094116211,
+      "nutrition_info": 0.7502796649932861
+    }
+  },
+  "text mollie saying 'i am on my way": {
+    "true_label": "text",
+    "candidates": {
+      "text": 0.7704761028289795,
+      "make_call": 0.7621703147888184,
+      "whisper_mode": 0.7617095708847046,
+      "schedule_meeting": 0.7527841925621033,
+      "account_blocked": 0.7525210976600647
+    }
+  },
+  "i need you to text mickey saying 'can we reschedule": {
+    "true_label": "text",
+    "candidates": {
+      "schedule_meeting": 0.7925887107849121,
+      "accept_reservations": 0.7764573097229004,
+      "restaurant_reservation": 0.7694863080978394,
+      "make_call": 0.7601388692855835,
+      "change_language": 0.7579120397567749
+    }
+  },
+  "send message to carl, you suck": {
+    "true_label": "text",
+    "candidates": {
+      "account_blocked": 0.7776570320129395,
+      "report_lost_card": 0.7741291522979736,
+      "make_call": 0.7727128267288208,
+      "freeze_account": 0.7660336494445801,
+      "change_language": 0.7607563734054565
+    }
+  },
+  "how much is my kill bill bill for": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.8081605434417725,
+      "freeze_account": 0.7579373121261597,
+      "interest_rate": 0.7579321265220642,
+      "improve_credit_score": 0.7451090812683105,
+      "what_are_your_hobbies": 0.7392897009849548
+    }
+  },
+  "what is the amount i owe on my phone": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.8069524765014648,
+      "interest_rate": 0.7946361303329468,
+      "improve_credit_score": 0.7873132824897766,
+      "freeze_account": 0.7831759452819824,
+      "report_lost_card": 0.7764463424682617
+    }
+  },
+  "what is the total of my repair bill": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.8006904125213623,
+      "improve_credit_score": 0.78190016746521,
+      "oil_change_how": 0.7750223875045776,
+      "report_lost_card": 0.7739914655685425,
+      "nutrition_info": 0.7729765176773071
+    }
+  },
+  "how much is due on the gas bill": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.8214791417121887,
+      "interest_rate": 0.7882829308509827,
+      "gas_type": 0.7795735597610474,
+      "oil_change_how": 0.7780625224113464,
+      "nutrition_info": 0.7692368030548096
+    }
+  },
+  "what do i owe on telephone and cable bill": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.8211365342140198,
+      "improve_credit_score": 0.7858120203018188,
+      "interest_rate": 0.77274090051651,
+      "make_call": 0.770995020866394,
+      "freeze_account": 0.7685607075691223
+    }
+  },
+  "how much do i have left to pay on my server and domain": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.7792660593986511,
+      "interest_rate": 0.7749812602996826,
+      "freeze_account": 0.7745137214660645,
+      "restaurant_reservation": 0.7645418643951416,
+      "improve_credit_score": 0.7601603269577026
+    }
+  },
+  "what's the amount due on my vet and vehicle registration bills": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.8033177852630615,
+      "interest_rate": 0.783674418926239,
+      "improve_credit_score": 0.7696962356567383,
+      "nutrition_info": 0.7640588879585266,
+      "freeze_account": 0.7627469301223755
+    }
+  },
+  "what do my bills look like for amazon and netflix": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.7930748462677002,
+      "interest_rate": 0.7554483413696289,
+      "what_are_your_hobbies": 0.754146933555603,
+      "improve_credit_score": 0.7537369728088379,
+      "restaurant_reservation": 0.7524674534797668
+    }
+  },
+  "how much do i have to pay on taxes and cable": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.7768023014068604,
+      "interest_rate": 0.7726904153823853,
+      "nutrition_info": 0.7662150263786316,
+      "improve_credit_score": 0.7617825865745544,
+      "what_are_your_hobbies": 0.7591328024864197
+    }
+  },
+  "how much do i owe on all of my bills": {
+    "true_label": "bill_balance",
+    "candidates": {
+      "bill_balance": 0.8468873500823975,
+      "improve_credit_score": 0.8097423911094666,
+      "interest_rate": 0.8067883849143982,
+      "freeze_account": 0.7956951856613159,
+      "what_are_your_hobbies": 0.7807223796844482
+    }
+  },
+  "what are some ways to raise my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8793905973434448,
+      "what_are_your_hobbies": 0.7834557294845581,
+      "freeze_account": 0.7736372351646423,
+      "interest_rate": 0.762468159198761,
+      "redeem_rewards": 0.7612901926040649
+    }
+  },
+  "what will help my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8857187032699585,
+      "what_are_your_hobbies": 0.7906380891799927,
+      "freeze_account": 0.7883039712905884,
+      "interest_rate": 0.7831689119338989,
+      "nutrition_info": 0.7816665172576904
+    }
+  },
+  "are there any videos on how to repair my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8354344964027405,
+      "report_lost_card": 0.771056592464447,
+      "what_are_your_hobbies": 0.7542540431022644,
+      "interest_rate": 0.7530646324157715,
+      "freeze_account": 0.7501396536827087
+    }
+  },
+  "what can i do to get a better credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.902080774307251,
+      "what_are_your_hobbies": 0.7848292589187622,
+      "freeze_account": 0.7810080051422119,
+      "report_lost_card": 0.7789658308029175,
+      "interest_rate": 0.7762988209724426
+    }
+  },
+  "will getting a credit card help my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8615632057189941,
+      "report_lost_card": 0.7734580039978027,
+      "freeze_account": 0.764946460723877,
+      "interest_rate": 0.7598724365234375,
+      "what_are_your_hobbies": 0.7587679028511047
+    }
+  },
+  "what are the top 10 ways to build my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8486974835395813,
+      "what_are_your_hobbies": 0.7825168371200562,
+      "freeze_account": 0.7615121603012085,
+      "redeem_rewards": 0.7461108565330505,
+      "repeat": 0.7441761493682861
+    }
+  },
+  "how can i build up my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8862254023551941,
+      "what_are_your_hobbies": 0.7904399633407593,
+      "freeze_account": 0.781645655632019,
+      "interest_rate": 0.7740297317504883,
+      "make_call": 0.7681283950805664
+    }
+  },
+  "how can i build my credit score": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8835765719413757,
+      "what_are_your_hobbies": 0.7926360964775085,
+      "freeze_account": 0.7843276858329773,
+      "interest_rate": 0.7781217098236084,
+      "make_call": 0.7764195203781128
+    }
+  },
+  "what are some easy ways to make my credit score better": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8831852078437805,
+      "what_are_your_hobbies": 0.7761549949645996,
+      "freeze_account": 0.7723584175109863,
+      "report_lost_card": 0.7646517753601074,
+      "bill_balance": 0.7626529335975647
+    }
+  },
+  "how do i prevent my credit score from dropping": {
+    "true_label": "improve_credit_score",
+    "candidates": {
+      "improve_credit_score": 0.8658618927001953,
+      "freeze_account": 0.7848207950592041,
+      "report_lost_card": 0.7816842794418335,
+      "what_are_your_hobbies": 0.7770471572875977,
+      "interest_rate": 0.7765536308288574
+    }
+  },
+  "i need new language": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.8630164265632629,
+      "what_are_your_hobbies": 0.7742910385131836,
+      "repeat": 0.7703688740730286,
+      "account_blocked": 0.7697662115097046,
+      "meaning_of_life": 0.7641831636428833
+    }
+  },
+  "switch language for me": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.8689277172088623,
+      "what_are_your_hobbies": 0.7756754159927368,
+      "accept_reservations": 0.7607975006103516,
+      "oil_change_how": 0.7606661915779114,
+      "repeat": 0.7588849663734436
+    }
+  },
+  "please change your language setting to russian": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.8395689129829407,
+      "account_blocked": 0.7737603187561035,
+      "whisper_mode": 0.7605569362640381,
+      "accept_reservations": 0.7600428462028503,
+      "user_name": 0.7539563775062561
+    }
+  },
+  "you must change your language setting to russian": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.8284133672714233,
+      "account_blocked": 0.762523889541626,
+      "whisper_mode": 0.7536278963088989,
+      "accept_reservations": 0.749138593673706,
+      "freeze_account": 0.7490558624267578
+    }
+  },
+  "you need to change your language setting to russian please": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.8317064046859741,
+      "account_blocked": 0.7722315788269043,
+      "whisper_mode": 0.7657328248023987,
+      "user_name": 0.7612022757530212,
+      "accept_reservations": 0.756655752658844
+    }
+  },
+  "change language please": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.9150999784469604,
+      "accept_reservations": 0.7927218675613403,
+      "account_blocked": 0.7781966924667358,
+      "oil_change_how": 0.7771303653717041,
+      "schedule_meeting": 0.7740554213523865
+    }
+  },
+  "please change your language setting to spanish now": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.8534025549888611,
+      "accept_reservations": 0.7686111330986023,
+      "account_blocked": 0.7671103477478027,
+      "user_name": 0.7611719369888306,
+      "nutrition_info": 0.7577572464942932
+    }
+  },
+  "change your language setting to spanish": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.8553913831710815,
+      "accept_reservations": 0.7532106041908264,
+      "what_are_your_hobbies": 0.7504253387451172,
+      "account_blocked": 0.7489171624183655,
+      "oil_change_how": 0.7459086179733276
+    }
+  },
+  "i want new language": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.8646270632743835,
+      "what_are_your_hobbies": 0.7660380601882935,
+      "repeat": 0.7650212049484253,
+      "account_blocked": 0.7614898085594177,
+      "meaning_of_life": 0.7606253027915955
+    }
+  },
+  "please change the language": {
+    "true_label": "change_language",
+    "candidates": {
+      "change_language": 0.89935702085495,
+      "accept_reservations": 0.7891635298728943,
+      "account_blocked": 0.7802586555480957,
+      "schedule_meeting": 0.7740433216094971,
+      "make_call": 0.7659270763397217
+    }
+  },
+  "set a warning for when my bank account starts running low": {
+    "true_label": "oos",
+    "candidates": {
+      "freeze_account": 0.8037769794464111,
+      "improve_credit_score": 0.7839570641517639,
+      "account_blocked": 0.7784545421600342,
+      "bill_balance": 0.7760300636291504,
+      "report_lost_card": 0.7754682898521423
+    }
+  },
+  "a show on broadway": {
+    "true_label": "oos",
+    "candidates": {
+      "restaurant_reviews": 0.7511153817176819,
+      "repeat": 0.7440299391746521,
+      "accept_reservations": 0.7435628771781921,
+      "restaurant_reservation": 0.7407193779945374,
+      "what_song": 0.7407153248786926
+    }
+  },
+  "who has the best record in the nfl": {
+    "true_label": "oos",
+    "candidates": {
+      "restaurant_reviews": 0.6990396976470947,
+      "meaning_of_life": 0.6957008242607117,
+      "account_blocked": 0.6955692768096924,
+      "repeat": 0.6944501399993896,
+      "what_are_your_hobbies": 0.6938487887382507
+    }
+  },
+  "how do i find the area of a circle": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.7776938676834106,
+      "nutrition_info": 0.7640034556388855,
+      "what_are_your_hobbies": 0.7613791823387146,
+      "repeat": 0.7606194615364075,
+      "improve_credit_score": 0.7538320422172546
+    }
+  },
+  "how many onions do i have on hand": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7673251628875732,
+      "what_are_your_hobbies": 0.7659143209457397,
+      "restaurant_reservation": 0.7645237445831299,
+      "repeat": 0.7533131837844849,
+      "oil_change_how": 0.7500219345092773
+    }
+  },
+  "what is the name of the 13th president": {
+    "true_label": "oos",
+    "candidates": {
+      "interest_rate": 0.7358181476593018,
+      "account_blocked": 0.7331910729408264,
+      "user_name": 0.7328735589981079,
+      "nutrition_info": 0.7280206680297852,
+      "meeting_schedule": 0.7265037298202515
+    }
+  },
+  "show me recent activity in my backyard": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.791763424873352,
+      "schedule_meeting": 0.7650954723358154,
+      "account_blocked": 0.7637982368469238,
+      "meeting_schedule": 0.7597942352294922,
+      "repeat": 0.7560486793518066
+    }
+  },
+  "how long will it take me to pay off my card if i pay an extra $50 a month over the minimum": {
+    "true_label": "oos",
+    "candidates": {
+      "improve_credit_score": 0.7962629795074463,
+      "interest_rate": 0.788880467414856,
+      "freeze_account": 0.7852509021759033,
+      "report_lost_card": 0.7845656871795654,
+      "bill_balance": 0.7781010866165161
+    }
+  },
+  "does our bank have free notary": {
+    "true_label": "oos",
+    "candidates": {
+      "report_lost_card": 0.7547793984413147,
+      "freeze_account": 0.7421823740005493,
+      "improve_credit_score": 0.741604208946228,
+      "interest_rate": 0.7401353120803833,
+      "restaurant_reservation": 0.7381293773651123
+    }
+  },
+  "what were the top stories this week": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7634184956550598,
+      "meeting_schedule": 0.7568034529685974,
+      "restaurant_reviews": 0.752475917339325,
+      "nutrition_info": 0.7423886060714722,
+      "account_blocked": 0.7423834204673767
+    }
+  },
+  "can i mix antifreeze with water": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.7606093287467957,
+      "nutrition_info": 0.7390421628952026,
+      "freeze_account": 0.7363207340240479,
+      "what_are_your_hobbies": 0.7288667559623718,
+      "bill_balance": 0.7282733917236328
+    }
+  },
+  "are any earning reports due": {
+    "true_label": "oos",
+    "candidates": {
+      "report_lost_card": 0.7628135681152344,
+      "improve_credit_score": 0.7585936188697815,
+      "meeting_schedule": 0.7554829120635986,
+      "schedule_meeting": 0.7501108646392822,
+      "bill_balance": 0.7490348815917969
+    }
+  },
+  "show me the channel guide": {
+    "true_label": "oos",
+    "candidates": {
+      "change_language": 0.776631236076355,
+      "what_are_your_hobbies": 0.7724493741989136,
+      "nutrition_info": 0.76923668384552,
+      "oil_change_how": 0.7672885060310364,
+      "schedule_meeting": 0.7617960572242737
+    }
+  },
+  "is the pnc bank open": {
+    "true_label": "oos",
+    "candidates": {
+      "report_lost_card": 0.7286297082901001,
+      "account_blocked": 0.7285648584365845,
+      "freeze_account": 0.72524094581604,
+      "interest_rate": 0.7224826812744141,
+      "improve_credit_score": 0.7180664539337158
+    }
+  },
+  "where does the power steering fluid go": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.8065714240074158,
+      "nutrition_info": 0.7379175424575806,
+      "gas_type": 0.732218325138092,
+      "what_are_your_hobbies": 0.7289304733276367,
+      "traffic": 0.7282050251960754
+    }
+  },
+  "when was the last time the president visited floridau": {
+    "true_label": "oos",
+    "candidates": {
+      "restaurant_reviews": 0.6958036422729492,
+      "interest_rate": 0.6938228607177734,
+      "account_blocked": 0.6934497356414795,
+      "meeting_schedule": 0.6923741698265076,
+      "schedule_meeting": 0.6910022497177124
+    }
+  },
+  "how can i keep my windshield from fogging up in winter": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.7943280935287476,
+      "what_are_your_hobbies": 0.7621307373046875,
+      "improve_credit_score": 0.7619310021400452,
+      "weather": 0.7529805302619934,
+      "account_blocked": 0.7496262192726135
+    }
+  },
+  "how do i compute the median of a set of numbers": {
+    "true_label": "oos",
+    "candidates": {
+      "restaurant_reservation": 0.7374202609062195,
+      "nutrition_info": 0.7329161763191223,
+      "accept_reservations": 0.7327663898468018,
+      "improve_credit_score": 0.7320006489753723,
+      "schedule_meeting": 0.7306583523750305
+    }
+  },
+  "what is happening with brexit right nowu": {
+    "true_label": "oos",
+    "candidates": {
+      "account_blocked": 0.7597284317016602,
+      "what_song": 0.7519747614860535,
+      "traffic": 0.749930202960968,
+      "interest_rate": 0.7487990260124207,
+      "oil_change_how": 0.7470183372497559
+    }
+  },
+  "are there any new companies to look out for": {
+    "true_label": "oos",
+    "candidates": {
+      "restaurant_reviews": 0.7549417614936829,
+      "improve_credit_score": 0.7502121329307556,
+      "what_are_your_hobbies": 0.74891197681427,
+      "nutrition_info": 0.7442853450775146,
+      "meeting_schedule": 0.7366155385971069
+    }
+  },
+  "can you tell me how to compute price per ounce": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.7752267718315125,
+      "nutrition_info": 0.7736246585845947,
+      "interest_rate": 0.7635509967803955,
+      "accept_reservations": 0.7525221109390259,
+      "bill_balance": 0.7498308420181274
+    }
+  },
+  "how to unclog a drain": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.7882931232452393,
+      "account_blocked": 0.7722362279891968,
+      "freeze_account": 0.7541646957397461,
+      "report_lost_card": 0.7496598958969116,
+      "change_language": 0.7435973286628723
+    }
+  },
+  "am kind of busy now": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.8011400699615479,
+      "make_call": 0.778939425945282,
+      "schedule_meeting": 0.7726912498474121,
+      "change_language": 0.7694350481033325,
+      "repeat": 0.7676553726196289
+    }
+  },
+  "what new reality shows are there for 2019": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7261353731155396,
+      "restaurant_reviews": 0.7250593900680542,
+      "account_blocked": 0.7138910293579102,
+      "smart_home": 0.7117762565612793,
+      "nutrition_info": 0.7115877866744995
+    }
+  },
+  "what is the purpose or benefit of a cash advance": {
+    "true_label": "oos",
+    "candidates": {
+      "improve_credit_score": 0.8008325099945068,
+      "interest_rate": 0.7895675897598267,
+      "redeem_rewards": 0.7724523544311523,
+      "meaning_of_life": 0.7559799551963806,
+      "freeze_account": 0.7491410970687866
+    }
+  },
+  "how can i root an android phone": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.7719724774360657,
+      "account_blocked": 0.755920946598053,
+      "make_call": 0.7558935880661011,
+      "freeze_account": 0.7555825114250183,
+      "improve_credit_score": 0.7458427548408508
+    }
+  },
+  "is android better than iphone": {
+    "true_label": "oos",
+    "candidates": {
+      "smart_home": 0.73102867603302,
+      "what_are_your_hobbies": 0.7302290201187134,
+      "meaning_of_life": 0.7293262481689453,
+      "improve_credit_score": 0.722116231918335,
+      "account_blocked": 0.7195917367935181
+    }
+  },
+  "are androids expensive": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7372938394546509,
+      "oos": 0.7343190908432007,
+      "improve_credit_score": 0.7337951064109802,
+      "smart_home": 0.7328225374221802,
+      "interest_rate": 0.7321419715881348
+    }
+  },
+  "how long does it take to become an architect": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7545223832130432,
+      "what_are_your_hobbies": 0.7542779445648193,
+      "repeat": 0.748378574848175,
+      "oil_change_how": 0.7410925626754761,
+      "change_language": 0.7406280040740967
+    }
+  },
+  "who are some famous living architects": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.721367597579956,
+      "what_are_your_hobbies": 0.7182868719100952,
+      "account_blocked": 0.7088496088981628,
+      "smart_home": 0.7075501680374146,
+      "restaurant_reviews": 0.7073614001274109
+    }
+  },
+  "find out for me as to why people get autism": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7958463430404663,
+      "nutrition_info": 0.788444995880127,
+      "what_are_your_hobbies": 0.7832663059234619,
+      "repeat": 0.7682216167449951,
+      "make_call": 0.7613760232925415
+    }
+  },
+  "is autism a genetic disease": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7545257806777954,
+      "what_are_your_hobbies": 0.7447436451911926,
+      "meaning_of_life": 0.7438316345214844,
+      "account_blocked": 0.7317629456520081,
+      "user_name": 0.7315984964370728
+    }
+  },
+  "is flu contagious": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7764068841934204,
+      "meaning_of_life": 0.771155059337616,
+      "what_are_your_hobbies": 0.7591992616653442,
+      "account_blocked": 0.7577767372131348,
+      "weather": 0.7504231929779053
+    }
+  },
+  "is it true that nicotine is harder to kick than heroin": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7399448752403259,
+      "what_are_your_hobbies": 0.7394996881484985,
+      "meaning_of_life": 0.73633873462677,
+      "oil_change_how": 0.726283073425293,
+      "account_blocked": 0.7220602035522461
+    }
+  },
+  "please inform me on bad habits and overcoming them": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7969685196876526,
+      "improve_credit_score": 0.7953139543533325,
+      "oil_change_how": 0.7669757604598999,
+      "nutrition_info": 0.7664797306060791,
+      "account_blocked": 0.7649648189544678
+    }
+  },
+  "are bad habits closely related with addictions": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7688543796539307,
+      "improve_credit_score": 0.754054069519043,
+      "repeat": 0.7421824932098389,
+      "nutrition_info": 0.7377640008926392,
+      "meaning_of_life": 0.7317004203796387
+    }
+  },
+  "does hypnosis work to break bad habits": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.749485433101654,
+      "improve_credit_score": 0.7409877181053162,
+      "whisper_mode": 0.7350639700889587,
+      "meaning_of_life": 0.7314429879188538,
+      "repeat": 0.7296980023384094
+    }
+  },
+  "king of acid": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7428533434867859,
+      "gas_type": 0.7417531609535217,
+      "what_song": 0.7403486371040344,
+      "restaurant_reviews": 0.7371829748153687,
+      "user_name": 0.735798716545105
+    }
+  },
+  "suo2": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.751660943031311,
+      "gas_type": 0.7507116198539734,
+      "meaning_of_life": 0.7490492463111877,
+      "user_name": 0.7370611429214478,
+      "oil_change_how": 0.730791449546814
+    }
+  },
+  "what university in the united states offers the best biomedical engineering program": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7187957167625427,
+      "meaning_of_life": 0.7133347988128662,
+      "what_are_your_hobbies": 0.7105835676193237,
+      "account_blocked": 0.7088186740875244,
+      "jump_start": 0.707213282585144
+    }
+  },
+  "what's the definition of nuclear engineering": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7574735879898071,
+      "nutrition_info": 0.7475870847702026,
+      "oil_change_how": 0.7408698797225952,
+      "gas_type": 0.7332978248596191,
+      "what_are_your_hobbies": 0.7300162315368652
+    }
+  },
+  "when was electrical engineering created": {
+    "true_label": "oos",
+    "candidates": {
+      "bill_balance": 0.7097483277320862,
+      "smart_home": 0.7083099484443665,
+      "oil_change_how": 0.7078049182891846,
+      "time": 0.706382155418396,
+      "improve_credit_score": 0.703559398651123
+    }
+  },
+  "what is naval engineering": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.7409976124763489,
+      "what_are_your_hobbies": 0.7353012561798096,
+      "meaning_of_life": 0.7310154438018799,
+      "weather": 0.7239112854003906,
+      "gas_type": 0.723867654800415
+    }
+  },
+  "is it possible to survive in a black hole": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7511248588562012,
+      "nutrition_info": 0.7326349020004272,
+      "what_are_your_hobbies": 0.7309122085571289,
+      "account_blocked": 0.7264470458030701,
+      "oil_change_how": 0.723700761795044
+    }
+  },
+  "where do black holes come from": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7579881548881531,
+      "gas_type": 0.7475320100784302,
+      "oil_change_how": 0.7449307441711426,
+      "what_are_your_hobbies": 0.7363706827163696,
+      "time": 0.7290827035903931
+    }
+  },
+  "what are black holes": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7933267951011658,
+      "gas_type": 0.7722681164741516,
+      "what_are_your_hobbies": 0.7677030563354492,
+      "nutrition_info": 0.7634866237640381,
+      "user_name": 0.7532919645309448
+    }
+  },
+  "what was the final vote count in the brexit referendum": {
+    "true_label": "oos",
+    "candidates": {
+      "bill_balance": 0.7093837261199951,
+      "restaurant_reviews": 0.7075664401054382,
+      "meaning_of_life": 0.7037279605865479,
+      "restaurant_reservation": 0.7017532587051392,
+      "oos": 0.7017366886138916
+    }
+  },
+  "can you tell me the latest georgia news": {
+    "true_label": "oos",
+    "candidates": {
+      "meeting_schedule": 0.7437088489532471,
+      "account_blocked": 0.743038535118103,
+      "nutrition_info": 0.7399645447731018,
+      "user_name": 0.7372885942459106,
+      "schedule_meeting": 0.734644889831543
+    }
+  },
+  "is the brexit finalized yet": {
+    "true_label": "oos",
+    "candidates": {
+      "restaurant_reservation": 0.725118100643158,
+      "account_blocked": 0.7198253870010376,
+      "restaurant_reviews": 0.7155035734176636,
+      "what_are_your_hobbies": 0.7116950750350952,
+      "traffic": 0.7110111713409424
+    }
+  },
+  "the birds fly with there wings": {
+    "true_label": "oos",
+    "candidates": {
+      "repeat": 0.7431668043136597,
+      "meaning_of_life": 0.7422902584075928,
+      "accept_reservations": 0.729716420173645,
+      "what_song": 0.7252572774887085,
+      "what_are_your_hobbies": 0.724236011505127
+    }
+  },
+  "how the birds fly": {
+    "true_label": "oos",
+    "candidates": {
+      "repeat": 0.7610815167427063,
+      "meaning_of_life": 0.7568703293800354,
+      "what_are_your_hobbies": 0.7553622722625732,
+      "traffic": 0.7511497139930725,
+      "oil_change_how": 0.7510721683502197
+    }
+  },
+  "where does cannabis originate from": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7461840510368347,
+      "nutrition_info": 0.7349096536636353,
+      "what_are_your_hobbies": 0.7312721610069275,
+      "user_name": 0.7264634370803833,
+      "account_blocked": 0.7256940603256226
+    }
+  },
+  "how are my cannabis stocks doing": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7653360366821289,
+      "restaurant_reviews": 0.7411260604858398,
+      "nutrition_info": 0.7387670874595642,
+      "interest_rate": 0.7309294939041138,
+      "improve_credit_score": 0.7293670773506165
+    }
+  },
+  "is marijuana addictive": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7622956037521362,
+      "nutrition_info": 0.7517456412315369,
+      "repeat": 0.7516468167304993,
+      "meaning_of_life": 0.7429423332214355,
+      "user_name": 0.7333458662033081
+    }
+  },
+  "should i hit or stay at 17 in blackjack": {
+    "true_label": "oos",
+    "candidates": {
+      "improve_credit_score": 0.762509822845459,
+      "freeze_account": 0.7428704500198364,
+      "accept_reservations": 0.7413185834884644,
+      "what_are_your_hobbies": 0.7407162189483643,
+      "interest_rate": 0.7383410930633545
+    }
+  },
+  "what game has the best odds at a casino": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7588224411010742,
+      "improve_credit_score": 0.7392210960388184,
+      "restaurant_reviews": 0.7386913895606995,
+      "jump_start": 0.7357613444328308,
+      "redeem_rewards": 0.732293963432312
+    }
+  },
+  "what's the best opening gambit for a game of chess": {
+    "true_label": "oos",
+    "candidates": {
+      "jump_start": 0.7569912075996399,
+      "what_are_your_hobbies": 0.7397264242172241,
+      "meaning_of_life": 0.73784339427948,
+      "user_name": 0.7318941354751587,
+      "repeat": 0.728268027305603
+    }
+  },
+  "what side in chess has the general advantage": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7361757159233093,
+      "user_name": 0.7327643036842346,
+      "interest_rate": 0.7219158411026001,
+      "repeat": 0.7201439142227173,
+      "meaning_of_life": 0.7198852300643921
+    }
+  },
+  "how do i get better at go": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7825273275375366,
+      "improve_credit_score": 0.7749770283699036,
+      "change_language": 0.7633031606674194,
+      "repeat": 0.7542012929916382,
+      "oil_change_how": 0.7537788152694702
+    }
+  },
+  "how high does my sat score need to be to get into harvard": {
+    "true_label": "oos",
+    "candidates": {
+      "improve_credit_score": 0.7587534785270691,
+      "accept_reservations": 0.7525627613067627,
+      "what_are_your_hobbies": 0.7488088011741638,
+      "nutrition_info": 0.7471877932548523,
+      "meaning_of_life": 0.7425744533538818
+    }
+  },
+  "what'll an education at boulder state college run": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7364487648010254,
+      "what_are_your_hobbies": 0.725608229637146,
+      "meaning_of_life": 0.7232047319412231,
+      "repeat": 0.722072958946228,
+      "user_name": 0.7185755372047424
+    }
+  },
+  "what's the average gpa to get into yale": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.743358850479126,
+      "improve_credit_score": 0.7412766218185425,
+      "nutrition_info": 0.7403311729431152,
+      "interest_rate": 0.7351146340370178,
+      "user_name": 0.7332879304885864
+    }
+  },
+  "what act score is considered good": {
+    "true_label": "oos",
+    "candidates": {
+      "improve_credit_score": 0.805830717086792,
+      "what_are_your_hobbies": 0.7627158164978027,
+      "bill_balance": 0.756232738494873,
+      "oos": 0.7552345991134644,
+      "account_blocked": 0.7528542280197144
+    }
+  },
+  "what cryptocurrency gained the most in 2018": {
+    "true_label": "oos",
+    "candidates": {
+      "smart_home": 0.735011100769043,
+      "what_are_your_hobbies": 0.7196133732795715,
+      "redeem_rewards": 0.7182749509811401,
+      "interest_rate": 0.7148808836936951,
+      "improve_credit_score": 0.7099963426589966
+    }
+  },
+  "what's the best crypto to buy in 2019": {
+    "true_label": "oos",
+    "candidates": {
+      "smart_home": 0.7567218542098999,
+      "what_are_your_hobbies": 0.7482128143310547,
+      "oos": 0.7401713728904724,
+      "freeze_account": 0.7323850393295288,
+      "account_blocked": 0.7312732934951782
+    }
+  },
+  "how is crypto legal": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7579931616783142,
+      "what_are_your_hobbies": 0.7536064982414246,
+      "freeze_account": 0.7507059574127197,
+      "bill_balance": 0.7495781183242798,
+      "interest_rate": 0.7485835552215576
+    }
+  },
+  "are there any cybersecurity jobs available in pittsburgh": {
+    "true_label": "oos",
+    "candidates": {
+      "account_blocked": 0.7121062278747559,
+      "improve_credit_score": 0.7084718346595764,
+      "freeze_account": 0.70579594373703,
+      "user_name": 0.7020770907402039,
+      "smart_home": 0.701322078704834
+    }
+  },
+  "how many firewalls should i have and what type": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7535113096237183,
+      "account_blocked": 0.7484889626502991,
+      "accept_reservations": 0.7453590631484985,
+      "meeting_schedule": 0.7439931631088257,
+      "freeze_account": 0.7424519062042236
+    }
+  },
+  "how can i breach a network": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.7701472043991089,
+      "freeze_account": 0.7492951154708862,
+      "account_blocked": 0.7483124136924744,
+      "improve_credit_score": 0.7473357319831848,
+      "report_lost_card": 0.7424421310424805
+    }
+  },
+  "how does cybersecurity work": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.77239590883255,
+      "improve_credit_score": 0.7656537294387817,
+      "account_blocked": 0.7604717016220093,
+      "smart_home": 0.7578665018081665,
+      "freeze_account": 0.7536574602127075
+    }
+  },
+  "how many countries in the world are democracies": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7371548414230347,
+      "what_are_your_hobbies": 0.7299938201904297,
+      "change_language": 0.7197389602661133,
+      "nutrition_info": 0.7151492834091187,
+      "repeat": 0.7144067883491516
+    }
+  },
+  "is the united states a democracy": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7413104772567749,
+      "what_are_your_hobbies": 0.7360788583755493,
+      "nutrition_info": 0.7241576313972473,
+      "repeat": 0.7232559323310852,
+      "user_name": 0.7198883295059204
+    }
+  },
+  "which nations are not democratic": {
+    "true_label": "oos",
+    "candidates": {
+      "account_blocked": 0.729645311832428,
+      "meaning_of_life": 0.7265844345092773,
+      "what_are_your_hobbies": 0.725629985332489,
+      "nutrition_info": 0.7173548936843872,
+      "change_language": 0.7134371995925903
+    }
+  },
+  "how does a democracy work": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7766910791397095,
+      "what_are_your_hobbies": 0.7676799893379211,
+      "oil_change_how": 0.7620742321014404,
+      "meeting_schedule": 0.7608838081359863,
+      "repeat": 0.7602412700653076
+    }
+  },
+  "please get me my wheelchair": {
+    "true_label": "oos",
+    "candidates": {
+      "accept_reservations": 0.778151273727417,
+      "account_blocked": 0.7725784182548523,
+      "what_are_your_hobbies": 0.7653875350952148,
+      "report_lost_card": 0.7649283409118652,
+      "repeat": 0.7639487981796265
+    }
+  },
+  "what's the best dog food to feed my puppy": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7986633777618408,
+      "restaurant_reviews": 0.7547824382781982,
+      "what_are_your_hobbies": 0.7512831687927246,
+      "meaning_of_life": 0.7420313358306885,
+      "repeat": 0.7390451431274414
+    }
+  },
+  "how do you know when your dog is ill": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7822319269180298,
+      "oil_change_how": 0.7710399627685547,
+      "meaning_of_life": 0.7558170557022095,
+      "what_are_your_hobbies": 0.7519205808639526,
+      "user_name": 0.7378174662590027
+    }
+  },
+  "what dog breed sold the most in 2018": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7294106483459473,
+      "nutrition_info": 0.7208378911018372,
+      "smart_home": 0.7165728211402893,
+      "restaurant_reviews": 0.7116064429283142,
+      "oos": 0.710407018661499
+    }
+  },
+  "how much food should i feed my cat": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.804969072341919,
+      "repeat": 0.7521102428436279,
+      "what_are_your_hobbies": 0.7494690418243408,
+      "meaning_of_life": 0.7488440275192261,
+      "bill_balance": 0.7427933216094971
+    }
+  },
+  "what does it mean if i dream of falling off a building": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7600835561752319,
+      "what_are_your_hobbies": 0.7419323921203613,
+      "user_name": 0.733493447303772,
+      "nutrition_info": 0.7303012013435364,
+      "jump_start": 0.7281286716461182
+    }
+  },
+  "is it bad to not remember your dreams": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7654328346252441,
+      "meaning_of_life": 0.7625078558921814,
+      "nutrition_info": 0.7469568252563477,
+      "account_blocked": 0.7461295127868652,
+      "user_name": 0.7355045676231384
+    }
+  },
+  "why do we dream": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.8010977506637573,
+      "what_are_your_hobbies": 0.7862495183944702,
+      "repeat": 0.7594906091690063,
+      "nutrition_info": 0.7510687112808228,
+      "account_blocked": 0.7480975985527039
+    }
+  },
+  "do ducks eat meat, vegetables, or both": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7635470032691956,
+      "what_are_your_hobbies": 0.728202223777771,
+      "meaning_of_life": 0.721329391002655,
+      "restaurant_reviews": 0.7183822393417358,
+      "accept_reservations": 0.7138068675994873
+    }
+  },
+  "what is the friendliest breed": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.744725227355957,
+      "restaurant_reviews": 0.7303723692893982,
+      "whisper_mode": 0.7248955965042114,
+      "meaning_of_life": 0.7242401838302612,
+      "nutrition_info": 0.7215671539306641
+    }
+  },
+  "what do geese eat": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7669374942779541,
+      "what_are_your_hobbies": 0.7457438707351685,
+      "repeat": 0.7370776534080505,
+      "gas_type": 0.7364646792411804,
+      "meaning_of_life": 0.7355250120162964
+    }
+  },
+  "do ducks sleep": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7340372800827026,
+      "meaning_of_life": 0.7271875143051147,
+      "nutrition_info": 0.7271852493286133,
+      "repeat": 0.7218918800354004,
+      "accept_reservations": 0.7211271524429321
+    }
+  },
+  "are over the ear headphones better than in ear headphones": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7407938838005066,
+      "oos": 0.7355802059173584,
+      "whisper_mode": 0.734726071357727,
+      "meaning_of_life": 0.7264459133148193,
+      "nutrition_info": 0.726142406463623
+    }
+  },
+  "what brand of earphones is the best reviewed of 2019": {
+    "true_label": "oos",
+    "candidates": {
+      "restaurant_reviews": 0.7690120935440063,
+      "what_are_your_hobbies": 0.734683632850647,
+      "oos": 0.7336522340774536,
+      "whisper_mode": 0.7282662987709045,
+      "smart_home": 0.7274545431137085
+    }
+  },
+  "are white and brown eggs any different": {
+    "true_label": "oos",
+    "candidates": {
+      "nutrition_info": 0.7570849657058716,
+      "oil_change_how": 0.7351468801498413,
+      "what_are_your_hobbies": 0.731774628162384,
+      "meaning_of_life": 0.7279990911483765,
+      "restaurant_reviews": 0.7223052382469177
+    }
+  },
+  "where do eggs come from": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.77683025598526,
+      "oil_change_how": 0.7730188965797424,
+      "nutrition_info": 0.7711780071258545,
+      "what_are_your_hobbies": 0.7642072439193726,
+      "user_name": 0.7472544312477112
+    }
+  },
+  "how can i easily replace a string on my guitar": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.8012362122535706,
+      "change_language": 0.7603888511657715,
+      "repeat": 0.7499176859855652,
+      "make_call": 0.7475390434265137,
+      "what_are_your_hobbies": 0.7418033480644226
+    }
+  },
+  "how do you learn how to play electric violin": {
+    "true_label": "oos",
+    "candidates": {
+      "oil_change_how": 0.753902792930603,
+      "what_are_your_hobbies": 0.7483506202697754,
+      "repeat": 0.7469159364700317,
+      "change_language": 0.7261149883270264,
+      "make_call": 0.7250950336456299
+    }
+  },
+  "can you give me the standard tuning notes": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7709566354751587,
+      "oil_change_how": 0.7532252669334412,
+      "schedule_meeting": 0.7531605958938599,
+      "nutrition_info": 0.752981424331665,
+      "repeat": 0.7502297163009644
+    }
+  },
+  "what is the cheapest electric guitar": {
+    "true_label": "oos",
+    "candidates": {
+      "oos": 0.7335016131401062,
+      "what_are_your_hobbies": 0.7291219830513,
+      "what_song": 0.7153462171554565,
+      "oil_change_how": 0.7149021625518799,
+      "interest_rate": 0.7126163244247437
+    }
+  },
+  "you want to know about current time now": {
+    "true_label": "oos",
+    "candidates": {
+      "schedule_meeting": 0.788989782333374,
+      "time": 0.7875129580497742,
+      "meeting_schedule": 0.7820602655410767,
+      "what_are_your_hobbies": 0.7801512479782104,
+      "meaning_of_life": 0.7796592712402344
+    }
+  },
+  "what does it mean to have equality": {
+    "true_label": "oos",
+    "candidates": {
+      "meaning_of_life": 0.7850397825241089,
+      "improve_credit_score": 0.7529032826423645,
+      "user_name": 0.7512515783309937,
+      "order": 0.7497931718826294,
+      "change_language": 0.7488968372344971
+    }
+  },
+  "what site publishes the most fake news": {
+    "true_label": "oos",
+    "candidates": {
+      "restaurant_reviews": 0.758631706237793,
+      "account_blocked": 0.753293514251709,
+      "nutrition_info": 0.7314643263816833,
+      "what_are_your_hobbies": 0.7307912111282349,
+      "freeze_account": 0.7306172847747803
+    }
+  },
+  "can you tell me some fake news": {
+    "true_label": "oos",
+    "candidates": {
+      "what_are_your_hobbies": 0.7756038904190063,
+      "account_blocked": 0.7719780802726746,
+      "change_language": 0.7669206857681274,
+      "meaning_of_life": 0.7601468563079834,
+      "nutrition_info": 0.7562273740768433
+    }
+  },
+  "is cnn really fake news": {
+    "true_label": "oos",
+    "candidates": {
+      "account_blocked": 0.729336142539978,
+      "nutrition_info": 0.7199684381484985,
+      "restaurant_reviews": 0.718947172164917,
+      "meaning_of_life": 0.7157875895500183,
+      "what_are_your_hobbies": 0.7135903835296631
+    }
+  },
+  "why is there fake news": {
+    "true_label": "oos",
+    "candidates": {
+      "account_blocked": 0.7641605138778687,
+      "meaning_of_life": 0.758010983467102,
+      "nutrition_info": 0.7541557550430298,
+      "what_are_your_hobbies": 0.7520462870597839,
+      "change_language": 0.746456503868103
+    }
+  }
+}

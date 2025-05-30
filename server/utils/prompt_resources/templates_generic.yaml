@@ -1,0 +1,196 @@
+Rank:
+  placeholders: [<user_query>, <interpretation>, <candidates>, <recognized_class>, <complementary_knowledge>]
+  ranking: |-
+    Task Objective: Given following user query, its interpretation and a list of candidate classes, select the single most likely candidate and respond with only its corresponding letter.
+
+    Instructions:
+    1. Consider the user query context, including mnemonic, description, unit, and data type
+    2. Use the interpretation to understand the semantic meaning 
+    3. Apply the complementary knowledge to understand drilling-specific terminology
+    4. Consider relationships with other recognized classes for consistency
+    5. Select the candidate that best matches the drilling context and terminology
+
+    Supporting knowledge:
+     - Following candidates were preselected for the adjacent classes: <recognized_class>
+     - Complementary knowledge about drilling terminology: 
+     <complementary_knowledge>
+
+    Input:
+    User query: <user_query>
+    Interpretation: <interpretation>
+    Candidate list:
+    ```
+    <candidates>
+    ```
+    
+    Output: (Only the single letter of the most probable candidate)
+
+Rank_for_validation:
+  placeholders: [<user_query>, <interpretation>, <candidates>, <candidate_explanation>, <recognized_class>, <complementary_knowledge>]
+  ranking: |-
+    Task Objective:
+    Given a user query, its interpretation, and a list of candidate class combinations, evaluate whether the recognized class combination is correct.
+    And select the single most likely candidate based on semantic and domain consistency from candidate list.
+
+    Output only the letter of the best-matching candidate, without any explanation or additional information:
+    <candidates>
+
+    Instructions:
+    1. Consider the user query context, including mnemonic, description, unit, and data type.
+    2. Use the interpretation to understand the semantic meaning.
+    3. Apply the complementary knowledge to understand drilling-specific terminology.
+    4. Evaluate the recognized class combination with respect to consistency. Note that the provided combination can be wrong!
+    5. Select the candidate that best matches the drilling context and terminology
+
+    Input:
+    - User query: <user_query>
+    - Interpretation: <interpretation>
+    - Candidate explanation:
+    <candidate_explanation>
+
+    Supporting knowledge:
+    - Recognized class combination: <recognized_class>
+    - Complementary knowledge about drilling terminology: <complementary_knowledge>
+
+Judgement:
+  placeholders: [<user_query>, <interpretation>, <recognition_result>, <output_options>, <terminologies>, <complementary_knowledge>]
+  judging: |-
+    Task:
+    You are a drilling domain expert.
+    You are given with a recognition result. This is a combination of drilling-specific terminologies, produced by mapping a user query to predefined classes in a recognition task.
+    Given the raw user query and other information, judge whether the recognition result correctly reflects the intended meaning of the query.
+    Output only a letter, without any explanation or additional information:
+    <output_options>
+
+    How to decide:
+    1. Analyze the query using its mnemonic, description, unit, and etc.
+    2. The provided interpretation is only reference. You can have your own interpretation of mnemonic (usually the shorthand of drilling terms).
+    3. Apply drilling-specific domain knowledge.
+    4. Evaluate whether the recognized class combination is semantically and contextually consistent with the query.
+    5. Note: The recognition result may be incorrect — reassess critically.
+
+    Input:
+    - Recognition result to judge: <recognition_result>
+    - User query: <user_query>
+    - Terminology explanation: <terminologies>
+    - Interpretation: <interpretation>
+    - Complementary knowledge about drilling terminology: <complementary_knowledge>
+
+Preprocessing:
+  placeholders: [<free_user_input>]
+  preprocessing: |-
+    Task:
+    You will be given a free-form text describing a drilling signal.
+    Your goal is to extract the following four key fields:
+    - Mnemonic: The short identifier of the signal.
+    - Unit: The measurement unit.
+    - Description: A clear explanation of the signal.
+    - Namespace: The namespace URI.
+
+    Here is the user input:
+    <free_user_input>
+
+    Rules:
+    If the description is missing, set "Description" to "TBD".
+    If the namespace is missing, set "Namespace" to "undefined_namespace".
+    There may be typos or minor inaccuracies — you may slightly refine them for clarity.
+    Return the result as a JSON object with the Mnemonic as the top-level key.
+
+    Output only a JSON, without any explanation or additional information.
+    An example:
+    {
+      "SPP": {
+        "Mnemonic": "SPP",
+        "Description": "SPP is a stand pipe pressure. It has a known accuracy of approx. ±5%.",
+        "Unit": "bar",
+        "Namespace": "http://ddhub.demo/free_text_input"
+      }
+    }
+
+QualityJudge:
+  placeholders: [<user_query>, <interpretation>, <recognized_class>, <complementary_knowledge>, <options>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Analyze the quality of drilling metadata recognition results. Evaluate if the recognized classes are appropriate and confident based on the input metadata, interpretation, and drilling domain knowledge.
+
+      Analysis Steps:
+        - Examine the user query metadata (mnemonic, description, unit, data type)
+        - Consider the interpretation to understand the semantic meaning
+        - Review each recognized class and its alignment with the metadata
+        - Consider if any recognized classes seem uncertain or incorrect, None is perfectly valid
+        - Better to recommend "No" for questionable results than accept uncertain classifications
+
+      Input:
+      ```
+      User query (metadata):
+      <user_query>
+      
+      Interpretation:
+      <interpretation>
+      
+      Complementary knowledge:
+      <complementary_knowledge>
+
+      Recognized classes:
+      <recognized_class>
+      ```
+
+      Output: Provide a short analysis of the recognition, considering all the above factors.
+
+    extraction: |-
+      Task Objective: Based on the analysis, determine if the recognition results are of high quality and reliable. Extract a final judgment.
+      
+      
+      Instructions:
+      1. Review the analysis provided
+      2. Make a preference decision based on the options provided.
+
+      Analysis:
+      <last_answer>
+
+      Options:
+      <options>
+
+      Output: (Answer Using associated letter)
+
+KnowledgeDistillation:
+  placeholders: [<user_query>, <interpretation>, <complementary_knowledge>, <recognized_class>]
+  distillation: |-
+    Task Objective: Analyze the drilling metadata recognition results to determine if new knowledge was gained that should be added to the complementary knowledge base.
+
+    Instructions:
+    1. Compare the user query metadata with the existing complementary knowledge
+    2. Examine the successfully recognized classes to understand what semantic insights were gained
+    3. Consider if the mnemonic meaning or drilling context provides new information not already captured
+    4. Determine if this recognition process revealed knowledge that would help future similar mnemonics
+    5. If new insight was gained, formulate it as a concise drilling terminology definition
+    6. If no new insight was gained, respond with "No new insight"
+
+    Input:
+    ```
+    User query (raw metadata):
+    <user_query>
+    
+    Interpretation:
+    <interpretation>
+    
+    Current complementary knowledge:
+    <complementary_knowledge>
+    
+    Successfully recognized classes:
+    <recognized_class>
+    ```
+
+    Analysis Guidelines:
+    - Focus on drilling-specific terminology and context
+    - Consider abbreviations, common meanings, and industry conventions
+    - Look for patterns that could help recognize similar mnemonics in the future
+    - Avoid redundant information already present in complementary knowledge
+    - Prioritize actionable insights for semantic classification
+    - The resulting mnemonic should be simple, mnemonics with numbers and long abbreviations (INCL_CONT_RT)
+    - Unit mnemonics (such as g/cm3, kkgf) should also be considered if they provide new insights
+
+    Output Format:
+    - If no new knowledge: "No new insight"
+    - If new knowledge found: "MNEMONIC: Few words describing the new knowledge (Max 5 words)"
+      (where MNEMONIC is the actual mnemonic/unit mnemonic from the user query)

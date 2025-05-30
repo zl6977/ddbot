@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Task monitor</title>
+    <style>
+        /* 新增控制栏样式 , New control bar styles */
+        #main-layout {
+            display: flex;
+            flex-direction: row;
+            /* Arrange children horizontally */
+            align-items: flex-start;
+            /* Align items to the top */
+            padding: 20px;
+            /* Add some padding around the main layout */
+            gap: 20px;
+            /* Space between control panel and container */
+        }
+
+        .controls {
+            flex-shrink: 0;
+            /* Prevent control panel from shrinking */
+            width: 350px;
+            /* Fixed width for the control panel */
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            position: sticky;
+            /* Make it sticky so it stays in view when scrolling */
+            top: 20px;
+            /* Position from the top */
+            align-self: flex-start;
+            /* Align to the start of the cross axis */
+        }
+
+        .container {
+            flex-grow: 1;
+            /* Allow container to take up remaining space */
+            margin: 0;
+            /* Remove auto margin to prevent centering */
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .data-section {
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .property-row {
+            margin: 8px 0;
+            display: flex;
+            align-items: baseline;
+        }
+
+        /* 标签宽度调整为300px（原250px*1.2） , Label width adjusted to 300px (original 250px*1.2) */
+        .property-name {
+            width: 300px;
+            font-weight: bold;
+            color: #333;
+            flex-shrink: 0;
+            /* 防止标签被压缩 ; Prevent label compression */
+        }
+
+        textarea {
+            width: 400px;
+            height: 60px;
+            padding: 5px;
+        }
+
+        input {
+            min-width: 300px;
+            max-width: 400px;
+            width: auto;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+            display: block;
+            /* 按钮垂直排列 ; Buttons arranged vertically */
+            width: 220px;
+        }
+
+
+        /* 文件输入样式调整 ; File input style adjustments */
+        #fileInput {
+            margin: 5px;
+            display: block;
+        }
+
+        /* 新增说明样式 ; New instructions style */
+        .instructions {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+            color: #495057;
+            font-size: 0.9em;
+            line-height: 1.6;
+            max-width: 300px;
+        }
+
+        .instructions p {
+            margin: 8px 0;
+        }
+
+        /* 新增 project_info 样式 */
+        .project-info-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+            color: #495057;
+            font-size: 0.9em;
+            line-height: 1.6;
+            max-width: 300px;
+        }
+
+        .project-info-section h4 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .project-info-section p {
+            margin: 5px 0;
+            word-wrap: break-word;
+            /* Ensure long text wraps */
+        }
+
+        /* Task Control Section Styles */
+        .task-control-section {
+            border: 1px dashed #a0a0a0;
+            /* Dotted border for distinction */
+            padding: 10px;
+            margin-top: 15px;
+            border-radius: 5px;
+            background-color: #f0f8ff;
+            /* Light blue background */
+        }
+
+        .task-control-row {
+            margin: 5px 0;
+            /* Reduced margin */
+            display: flex;
+            align-items: baseline;
+        }
+
+        .task-control-prop-name {
+            width: 150px;
+            /* Increased width for nested property names */
+            font-weight: bold;
+            color: #555;
+            flex-shrink: 0;
+        }
+
+        .checkbox-item {
+            display: flex;
+            /* Added display: flex */
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .checkbox-item label {
+            display: inline-block;
+            width: auto;
+            /* Changed width to auto */
+            text-align: left;
+            margin-right: 5px;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            margin-left: 0;
+            /* Removed margin-left */
+            margin-right: 5px;
+            /* Space between checkbox and label */
+            width: auto;
+            /* Override general input width */
+            min-width: unset;
+            /* Override general input min-width */
+            max-width: unset;
+            /* Override general input max-width */
+        }
+
+        .project-info-section input[type="checkbox"] {
+            width: auto;
+            min-width: unset;
+            max-width: unset;
+        }
+
+        /* Status indicator styles */
+        .status-indicator {
+            margin-left: 10px;
+            font-weight: bold;
+            color: gray;
+            /* Default color */
+        }
+
+        /* Class candidate radio button styles */
+        .class-candidate-radio {
+            width: auto !important;
+            min-width: unset !important;
+            max-width: unset !important;
+            margin: 0 !important;
+        }
+
+        /* Compact candidate chips layout */
+        .candidate-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .candidate-chip {
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 4px 8px;
+            background-color: #f7f7f7;
+            font-size: 12px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .candidate-chip input[type="radio"] {
+            margin-right: 6px;
+        }
+
+        .candidate-chip .prob {
+            color: #666;
+            margin-left: 6px;
+            font-size: 11px;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .candidate-chip.selected {
+            border-color: #4caf50;
+            background-color: #e8f5e9;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-layout">
+        <!-- 新增控制栏容器 -->
+        <div class="controls" id="controlPanel">
+            <button id="togglePanelBtn" style="width: auto; margin-bottom: 10px; background-color: #008cba;">Hide
+                Control Panel</button>
+            <div id="panelContent">
+                <input type="file" id="fileInput" accept=".json" />
+                <div style="display: flex; align-items: center; margin-top: 5px">
+                    <button onclick="runAllTasks()" class="run-all-btn">Run All Tasks</button>
+                    <span id="runAllTasks-status" class="status-indicator"></span>
+                </div>
+                <button onclick="downloadJSON()">Download task_batch</button>
+                <div style="display: flex; align-items: center; margin-top: 5px">
+                    <button id="saveTaskBatchBtn">Update server's task_batch</button>
+                    <span id="save-task-batch-status" class="status-indicator"></span>
+                </div>
+                <!-- 新增说明区域 -->
+                <div class="instructions">
+                    <strong>Instructions:</strong>
+                    <p>1. Format your statements as "User: {}".</p>
+                    <p>2. Use strong and clear statements.</p>
+                    <p>3. Delete or modify the LLM interpretation ("LLM: xx") if it is wrong.</p>
+                    <p>Example 1: "User: {This is SPP. The quantity is pressure.}".</p>
+                    <p>Example 2: "User: {Return "None" as we do not have a term for it yet.}".</p>
+                </div>
+
+                <!-- 新增 project_info.json 预览区域 -->
+                <div class="project-info-section" id="projectInfoPreview">
+                    <h4>Project Information:</h4>
+                    <!-- Content will be loaded here by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="content"></div>
+        </div>
+    </div>
+
+    <script id="jsonData-json" type="application/json">
+      {{ jsonData | safe }}
+    </script>
+    <script id="project-info-json" type="application/json">
+      {{ projectInfoData | safe }}
+    </script>
+
+    <script>
+        let jsonData = {};
+        let projectInfoData = {};
+
+        try {
+            jsonData = JSON.parse(document.getElementById("jsonData-json").textContent);
+        } catch (e) {
+            console.error("Failed to parse jsonData:", e);
+            jsonData = {};
+        }
+
+        try {
+            projectInfoData = JSON.parse(document.getElementById("project-info-json").textContent);
+        } catch (e) {
+            console.error("Failed to parse projectInfoData:", e);
+            projectInfoData = {};
+        }
+
+        // Add CSS for foldable panel
+        const style = document.createElement("style");
+        style.innerHTML = `
+            .controls.collapsed #panelContent {
+                display: none;
+            }
+            .controls.collapsed {
+                /* When collapsed, only the button is visible, so width can be auto or a smaller fixed value */
+                /* However, to prevent data-section from moving, we keep the fixed width */
+                width: 350px; /* Maintain fixed width even when collapsed */
+                height: auto;
+                padding: 10px;
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Add event listener for toggle button
+        document.addEventListener("DOMContentLoaded", () => {
+            const toggleBtn = document.getElementById("togglePanelBtn");
+            const controlPanel = document.getElementById("controlPanel");
+            toggleBtn.addEventListener("click", () => {
+                controlPanel.classList.toggle("collapsed");
+                if (controlPanel.classList.contains("collapsed")) {
+                    toggleBtn.textContent = "Show Control Panel";
+                } else {
+                    toggleBtn.textContent = "Hide Control Panel";
+                }
+            });
+        });
+
+        const PrototypeData_class_list = [
+            "ActiveVolume",
+            "Azimuth",
+            "BitDepth",
+            "DensityIn",
+            "DensityOut",
+            "DownholeECD",
+            "DownholePressure",
+            "DownholeRPM",
+            "DownholeTemperature",
+            "DownholeTorque",
+            "FlowRateIn",
+            "FlowRateOut",
+            "HoleDepth",
+            "HookLoad",
+            "HookPosition",
+            "HookVelocity",
+            "Inclination",
+            "MeasuredDepth",
+            "PumpRate",
+            "ROP",
+            "SPP",
+            "SurfaceRPM",
+            "SurfaceTorque",
+            "TemperatureIn",
+            "TemperatureOut",
+            "TopOfStringPosition",
+            "WOB",
+            "PorePressure",
+            "PorePressureGradient",
+            "FracturingPressure",
+            "FracturingPressureGradient",
+            "CollapsePressure",
+            "CollapsePressureGradient",
+            "ShearRate",
+            "ShearStress",
+            "MinimumHorizontalStress",
+            "MinimumHorizontalStressGradient",
+            "OverburdenPressure",
+            "OverburdenPressureGradient",
+            "BOPOpening",
+            "BOPPressure",
+            "MPDChokeOpening",
+            "MPDChokePressure",
+            "MPDPumpRate",
+            "MPDPumpFlowRate",
+            "GasFlowRate",
+            "BackPressurePumpPressure",
+            "MechanicalSpecificEnergy",
+        ];
+        let Quantity_class_list = [
+            "AccelerationQuantity",
+            "AmountSubstanceQuantity",
+            "AngleGradientPerLengthQuantity",
+            "AngleMagneticFluxDensityQuantity",
+            "AngularAccelerationQuantity",
+            "AngularVelocityQuantity",
+            "AreaQuantity",
+            "CompressibilityQuantity",
+            "CurvatureQuantity",
+            "DimensionlessQuantity",
+            "DynamicViscosityQuantity",
+            "ElectricCapacitanceQuantity",
+            "ElectricCurrentQuantity",
+            "ElectricResistivityQuantity",
+            "ElongationGradientPerLengthQuantity",
+            "EnergyDensityQuantity",
+            "EnergyQuantity",
+            "ForceGradientPerLengthQuantity",
+            "ForceQuantity",
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity",
+            "GravitationalLoadQuantity",
+            "HeatTransferCoefficientQuantity",
+            "HydraulicConductivityQuantity",
+            "InterfacialTensionQuantity",
+            "IsobaricSpecificHeatCapacityGradientPerTemperatureQuantity",
+            "IsobaricSpecificHeatCapacityQuantity",
+            "LengthQuantity",
+            "LuminousIntensityQuantity",
+            "MagneticFluxDensityQuantity",
+            "MagneticFluxQuantity",
+            "MassDensityGradientPerLengthQuantity",
+            "MassDensityGradientPerTemperatureQuantity",
+            "MassDensityQuantity",
+            "MassDensityRateOfChangeQuantity",
+            "MassGradientPerLengthQuantity",
+            "MassQuantity",
+            "MassRateQuantity",
+            "MaterialStrengthQuantity",
+            "PlaneAngleQuantity",
+            "PorousMediumPermeabilityQuantity",
+            "PowerQuantity",
+            "PressureGradientPerLengthQuantity",
+            "PressureLossConstantQuantity",
+            "PressureQuantity",
+            "ProportionQuantity",
+            "RandomWalkQuantity",
+            "RelativeTemperatureQuantity",
+            "RotationalFrequencyRateOfChangeQuantity",
+            "SolidAngleQuantity",
+            "StressQuantity",
+            "TemperatureGradientPerLengthQuantity",
+            "TemperatureQuantity",
+            "TensionQuantity",
+            "ThermalConductivityGradientPerTemperatureQuantity",
+            "ThermalConductivityQuantity",
+            "TimeQuantity",
+            "TorqueGradientPerLengthQuantity",
+            "TorqueQuantity",
+            "VelocityQuantity",
+            "VolumeQuantity",
+            "VolumetricFlowRateOfChangeQuantity",
+            "VolumetricFlowRateQuantity",
+            "WaveNumberQuantity",
+        ];
+        let Unit_class_list = [];
+
+        document.getElementById("fileInput").addEventListener("change", function (e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    jsonData = JSON.parse(e.target.result);
+                    displayData();
+                } catch (error) {
+                    alert("Failed to parse JSON: " + error.message);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        function displayData() {
+            const contentDiv = document.getElementById("content");
+            contentDiv.innerHTML = "";
+
+            for (const [key, value] of Object.entries(jsonData)) {
+                const section = document.createElement("div");
+                section.className = "data-section";
+
+                // Add red border if human intervention is needed
+                if (value.human_intervention_needed === true) {
+                    section.style.border = "3px solid red";
+                    section.style.borderRadius = "5px";
+                    section.style.backgroundColor = "#ffebee";
+                }
+
+                let html = `<h3>${key}</h3>`;
+                for (const [prop, val] of Object.entries(value)) {
+                    const propertyNameHtml = `<div class="property-name">${prop}:</div>`;
+
+                    // 根据属性名称决定如何生成对应的值部分的 HTML
+                    let propertyValueHtml;
+                    if (prop === "TaskControl") {
+                        // Special handling for TaskControl object
+                        let taskControlHtml = `<div class="task-control-section">`; // New wrapper div
+                        // taskControlHtml += `<h4>Task Control:</h4>`; // Add a sub-heading
+                        for (const [tcProp, tcVal] of Object.entries(val)) {
+                            taskControlHtml += `<div class="property-row task-control-row">`; // Apply new class for styling
+                            if (tcProp === "Chain_of_Thought") {
+                                taskControlHtml += `<div class="property-name task-control-prop-name">${tcProp}:</div>`; // Apply new class for styling
+                                const checkboxId = `checkbox-${key}-${prop}-${tcProp}`;
+                                taskControlHtml += `
+                                        <span class="checkbox-item">
+                                            <input type="checkbox" id="${checkboxId}" data-key="${key}" data-prop="${prop}" data-subprop="${tcProp}" ${tcVal ? "checked" : ""}>
+                                        </span>
+                                    `;
+                            }
+                            taskControlHtml += `</div>`;
+                        }
+
+
+
+                        taskControlHtml += `</div>`; // close task-control-section
+                        propertyValueHtml = taskControlHtml;
+                    } else if (prop === "ValidationControl" || prop === "confirmation_available") {
+                        // Skip rendering ValidationControl entirely (hidden)
+                        continue; // Do not append to html
+                    } else if (prop === "Interpretation_user") {
+                        // 如果属性是 'Interpretation_user'，使用 <textarea> 显示可编辑内容
+                        propertyValueHtml = `
+                            <div style="display: flex; align-items: center;">
+                                <textarea data-key="${key}" data-prop="${prop}" style="flex-grow: 1; margin-right: 10px; height: 80px;">${val}</textarea>
+                                <button class="send-to-llm-btn" data-key="${key}" style="width: 120px;">Send to LLM</button>
+                                <span id="llm-status-${key}" class="status-indicator"></span>
+                            </div>
+                        `;
+                    } else if (prop === "PrototypeData_class_candidates" || prop === "Quantity_class_candidates" || prop === "Unit_class_candidates") {
+                        // Render candidate dictionary as a table with probabilities and radio buttons, sorted by probability descending
+                        if (val && ((typeof val === "object" && Object.keys(val).length > 0) || (Array.isArray(val) && val.length > 0))) {
+                            // Determine the corresponding class property name
+                            const classProperty = prop.replace('_candidates', '');
+                            const currentClassValue = value[classProperty] || '';
+                            const radioGroupName = `radio-${key}-${classProperty}`;
+                            
+                            let sortedEntries;
+                            if (Array.isArray(val)) {
+                                // Handle array format (without probabilities)
+                                sortedEntries = val.map(candidate => [candidate, 1.0 / val.length]); // Equal probability
+                            } else {
+                                // Handle object format (with probabilities)
+                                sortedEntries = Object.entries(val).sort((a, b) => b[1] - a[1]);
+                            }
+
+                            propertyValueHtml = `<div class='candidate-chips'>`;
+                            for (const [candidate, prob] of sortedEntries) {
+                                const radioId = `${radioGroupName}-${candidate.replace(/[^a-zA-Z0-9]/g, '_')}`;
+                                const isChecked = candidate === currentClassValue ? 'checked' : '';
+                                const isSelectedClass = candidate === currentClassValue ? ' selected' : '';
+                                const probabilityDisplay = Array.isArray(val) ? '—' : `${(prob * 100).toFixed(1)}%`;
+                                propertyValueHtml += `
+                                    <label class="candidate-chip${isSelectedClass}">
+                                        <input type="radio"
+                                               id="${radioId}"
+                                               name="${radioGroupName}"
+                                               value="${candidate}"
+                                               data-key="${key}"
+                                               data-target-prop="${classProperty}"
+                                               class="class-candidate-radio"
+                                               ${isChecked}>
+                                        <span class="name">${candidate}</span>
+                                        <span class="prob">${probabilityDisplay}</span>
+                                    </label>`;
+                            }
+                            propertyValueHtml += `</div>`;
+                        } else {
+                            propertyValueHtml = `<div>No candidates</div>`;
+                        }
+                    } else if (prop === "PrototypeData_class") {
+                        const datalistId = `datalist-${key}-${prop}`;
+                        propertyValueHtml = `
+                                        <input list="${datalistId}" data-key="${key}" data-prop="${prop}" value="${val}">
+                                        <datalist id="${datalistId}">
+                                            ${PrototypeData_class_list.map((option) => `<option value="${option}">`).join("")}
+                                        </datalist>`;
+                    } else if (prop === "Quantity_class") {
+                        const datalistId = `datalist-${key}-${prop}`;
+                        propertyValueHtml = `
+                                        <input list="${datalistId}" data-key="${key}" data-prop="${prop}" value="${val}">
+                                        <datalist id="${datalistId}">
+                                            ${Quantity_class_list.map((option) => `<option value="${option}">`).join("")}
+                                        </datalist>`;
+                    } else if (prop === "Unit_class") {
+                        const datalistId = `datalist-${key}-${prop}`;
+                        propertyValueHtml = `
+                                        <input list="${datalistId}" data-key="${key}" data-prop="${prop}" value="${val}">
+                                        <datalist id="${datalistId}">
+                                            ${Unit_class_list.map((option) => `<option value="${option}">`).join("")}
+                                        </datalist>`;
+                    } else if (prop === "human_intervention_needed") {
+                        // Special handling for human_intervention_needed flag
+                        const flagText = val ? "YES" : "NO";
+                        const flagColor = val ? "red" : "green";
+                        propertyValueHtml = `<div style="color: ${flagColor}; font-weight: bold;">${flagText}</div>`;
+                    } else {
+                        // 对于其他属性，直接显示值，如果是数组则用逗号分隔
+                        const displayValue = Array.isArray(val) ? val.join(", ") : val;
+                        propertyValueHtml = `<div>${displayValue}</div>`;
+                    }
+
+                    html += `
+                        <div class="property-row">
+                            ${propertyNameHtml}
+                            ${propertyValueHtml}
+                        </div>`;
+                }
+
+                // Add the run/confirm buttons with conditional visibility for confirmation
+                // Show Confirm when confirmation_available is set (after a recognition run or any user class change)
+                const canConfirm = !!(value && value.confirmation_available === true);
+                const confirmBtnHtml = canConfirm
+                    ? `<button class="confirm-recognition-btn" data-key="${key}" style="width: 180px; margin-left: 8px; background-color: #6c63ff;">Confirm Recognition</button>`
+                    : "";
+
+                html += `
+                    <div style="display: flex; justify-content: flex-end; margin-top: 10px;">
+                        <button class="run-task-btn" data-key="${key}" style="width: auto;">Run Task</button>
+                        ${confirmBtnHtml}
+                        <span id="run-task-status-${key}" class="status-indicator"></span>
+                    </div>
+                `;
+
+                section.innerHTML = html;
+                contentDiv.appendChild(section);
+            }
+
+            // Add event listeners for input/textarea
+            document.querySelectorAll('input:not([type="checkbox"]):not([type="radio"]), textarea').forEach((element) => {
+                element.addEventListener("input", (event) => {
+                    const key = event.target.dataset.key;
+                    const prop = event.target.dataset.prop;
+                    const subprop = event.target.dataset.subprop;
+                    const index = event.target.dataset.index;
+
+                    if (subprop && index !== undefined) {
+                        // This is for TaskControl.ToRunFlag checkboxes, but handled by change event
+                        // This input listener is primarily for text inputs/textareas
+                    } else if (prop) {
+                        jsonData[key][prop] = event.target.value; // Update jsonData
+                        
+                        // If this is a class field, also update the corresponding radio button
+                        if (prop.endsWith('_class')) {
+                            const radioGroupName = `radio-${key}-${prop}`;
+                            const matchingRadio = document.querySelector(`input[name="${radioGroupName}"][value="${event.target.value}"]`);
+                            if (matchingRadio) {
+                                matchingRadio.checked = true;
+                            }
+
+                            jsonData[key].confirmation_available = true;
+
+                        }
+                    }
+                });
+            });
+
+            // Add event listeners for checkboxes within TaskControl (Chain_of_Thought only)
+            document.querySelectorAll('.task-control-section input[type="checkbox"]').forEach((checkbox) => {
+                checkbox.addEventListener("change", (event) => {
+                    const key = event.target.dataset.key;
+                    const prop = event.target.dataset.prop; // 'TaskControl'
+                    const subprop = event.target.dataset.subprop; // 'Chain_of_Thought'
+
+                    if (subprop === "Chain_of_Thought") {
+                        if (jsonData[key] && jsonData[key][prop]) {
+                            jsonData[key][prop][subprop] = event.target.checked;
+                        }
+                    }
+                });
+            });
+
+            // Add event listeners for class candidate radio buttons
+            document.querySelectorAll('.class-candidate-radio').forEach((radio) => {
+                radio.addEventListener("change", (event) => {
+                    if (event.target.checked) {
+                        const key = event.target.dataset.key;
+                        const targetProp = event.target.dataset.targetProp;
+                        const selectedValue = event.target.value;
+                        
+                        // Update the jsonData
+                        if (jsonData[key]) {
+                            jsonData[key][targetProp] = selectedValue;
+                        }
+                        
+                        // Update the corresponding input field if it exists
+                        const targetInput = document.querySelector(`input[data-key="${key}"][data-prop="${targetProp}"]`);
+                        if (targetInput) {
+                            targetInput.value = selectedValue;
+                        }
+                        // Toggle chip selected styling within this group
+                        const groupName = event.target.name;
+                        document.querySelectorAll(`input[name="${groupName}"]`).forEach((r) => {
+                            const chip = r.closest('.candidate-chip');
+                            if (chip) chip.classList.toggle('selected', r.checked);
+                        });
+
+                        console.log(`Updated ${key}.${targetProp} to: ${selectedValue}`);
+
+                        // Only react for the three main classes
+                        if (targetProp === 'PrototypeData_class' || targetProp === 'Quantity_class' || targetProp === 'Unit_class') {
+                            jsonData[key].confirmation_available = true; // allow confirmation after radio change
+                        }
+                    }
+                });
+            });
+
+            // Add event listeners for "Send to LLM" buttons
+            document.querySelectorAll(".send-to-llm-btn").forEach((button) => {
+                button.addEventListener("click", (event) => {
+                    const key = event.target.dataset.key;
+                    sendToLLM(key);
+                });
+            });
+
+            // Add event listeners for "Confirm Recognition" buttons
+            document.querySelectorAll(".confirm-recognition-btn").forEach((button) => {
+                button.addEventListener("click", (event) => {
+                    const key = event.target.dataset.key;
+                    confirmRecognition(key);
+                });
+            });
+        }
+
+        async function sendToLLM(taskKey) {
+            console.log(`Send To LLM: ${taskKey}`);
+            const projectId = getProjectIdFromUrl();
+            const interpretationTextarea = document.querySelector(`textarea[data-key="${taskKey}"][data-prop="Interpretation_user"]`);
+            const statusIndicator = document.getElementById(`llm-status-${taskKey}`);
+
+            if (!interpretationTextarea) {
+                console.error("Could not find interpretation textarea for key:", taskKey);
+                return;
+            }
+
+            statusIndicator.textContent = "Running...";
+            statusIndicator.style.color = "orange";
+
+            const userInput = interpretationTextarea.value;
+            const userMessage = `User: ${userInput}`;
+
+            try {
+                const response = await fetch("/api/interpretation", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ project_id: projectId, taskKey: taskKey, task_data: jsonData[taskKey] }), // Send the entire jsonData[taskKey] object
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    const llmResponse = result.Interpretation_user || "No interpretation provided.";
+
+                    jsonData[taskKey].Interpretation_user = llmResponse; // Update jsonData
+                    interpretationTextarea.value = llmResponse; // Update textarea
+                    statusIndicator.textContent = "Done";
+                    statusIndicator.style.color = "green";
+                } else {
+                    const error = await response.json();
+                    let currentInterpretation = jsonData[taskKey].Interpretation_user || "";
+                    if (currentInterpretation.trim() !== "") {
+                        currentInterpretation += "\n\n";
+                    }
+                    currentInterpretation += `${userMessage}\nError: ${error.error || "Failed to get interpretation."}`;
+                    jsonData[taskKey].Interpretation_user = currentInterpretation;
+                    interpretationTextarea.value = currentInterpretation;
+                    statusIndicator.textContent = "Error";
+                    statusIndicator.style.color = "red";
+                }
+            } catch (error) {
+                console.error("Error sending to LLM:", error);
+                let currentInterpretation = jsonData[taskKey].Interpretation_user || "";
+                if (currentInterpretation.trim() !== "") {
+                    currentInterpretation += "\n\n";
+                }
+                currentInterpretation += `${userMessage}\nError: ${error.message || "Network error."}`;
+                jsonData[taskKey].Interpretation_user = currentInterpretation;
+                interpretationTextarea.value = currentInterpretation;
+                statusIndicator.textContent = "Error";
+                statusIndicator.style.color = "red";
+            }
+            interpretationTextarea.scrollTop = interpretationTextarea.scrollHeight; // Scroll to bottom
+        }
+
+        function downloadJSON() {
+            if (!Object.keys(jsonData).length) {
+                alert("Upload JSON");
+                return;
+            }
+
+            const blob = new Blob([JSON.stringify(jsonData, null, 2)], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "modified_task_batch.json";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function displayProjectInfo() {
+            const projectInfoDiv = document.getElementById("projectInfoPreview");
+            let html = `<h4>Project Information:</h4>`;
+            if (Object.keys(projectInfoData).length === 0) {
+                html += `<p>No project information available.</p>`;
+            } else {
+                for (const [key, value] of Object.entries(projectInfoData)) {
+                    if (key === "user_interaction_required") {
+                        html += `
+                            <div style="display: flex; align-items: center;">
+                                <strong style="margin-right: 5px;">${key}:</strong> <input type="checkbox" id="userInteractionRequired" data-key="${key}" ${value ? "checked" : ""}>
+                            </div>`;
+                    } else {
+                        // Handle other properties, including nested objects and arrays
+                        let displayValue;
+                        if (typeof value === "object" && value !== null) {
+                            if (Array.isArray(value)) {
+                                displayValue = value
+                                    .map((item) => {
+                                        if (typeof item === "object" && item !== null) {
+                                            return JSON.stringify(item); // Stringify nested objects in arrays
+                                        }
+                                        return item;
+                                    })
+                                    .join(", ");
+                            } else {
+                                // For nested objects, display their properties
+                                displayValue = Object.entries(value)
+                                    .map(([subKey, subVal]) => {
+                                        const subDisplayVal = typeof subVal === "object" && subVal !== null ? JSON.stringify(subVal) : subVal;
+                                        return `${subKey}: ${subDisplayVal}`;
+                                    })
+                                    .join("; ");
+                            }
+                        } else {
+                            displayValue = value;
+                        }
+                        html += `<p><strong>${key}:</strong> ${displayValue}</p>`;
+                    }
+                }
+            }
+            projectInfoDiv.innerHTML = html;
+
+            // Add event listeners for the new editable fields
+            const userInteractionCheckbox = document.getElementById("userInteractionRequired");
+            if (userInteractionCheckbox) {
+                userInteractionCheckbox.addEventListener("change", (event) => {
+                    projectInfoData.user_interaction_required = event.target.checked;
+                });
+            }
+            // No specific input for models as it's an object, not a simple string or array of names
+        }
+
+        // Call displayData and displayProjectInfo on page load to render the initial data
+        document.addEventListener("DOMContentLoaded", () => {
+            displayData();
+            displayProjectInfo();
+        });
+
+        async function runTask(taskKey) {
+            console.log(`Running task: ${taskKey}`);
+            const projectId = getProjectIdFromUrl();
+            const statusIndicator = document.getElementById(`run-task-status-${taskKey}`);
+
+            if (!projectId) {
+                alert("Project ID not found in URL. Cannot run task.");
+                return;
+            }
+
+            statusIndicator.textContent = "Running...";
+            statusIndicator.style.color = "orange";
+
+            try {
+                const response = await fetch(`/api/run_task`, {
+                    // Changed URL
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ project_id: projectId, taskKey: taskKey, task_data: jsonData[taskKey] }), // Sent project_id and full task data in body
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+
+                    // Update jsonData[taskKey] with the first object's data
+                    if (result && result.length > 0 && result[0]) {
+                        const firstResult = result[0];
+                        if (firstResult.MeasurableQuantity_class) {
+                            jsonData[taskKey].MeasurableQuantity_class = firstResult.MeasurableQuantity_class;
+                        }
+                        if (firstResult.PrototypeData_class) {
+                            jsonData[taskKey].PrototypeData_class = firstResult.PrototypeData_class;
+                        }
+                        if (firstResult.Quantity_class) {
+                            jsonData[taskKey].Quantity_class = firstResult.Quantity_class;
+                        }
+                        if (firstResult.Unit_class) {
+                            jsonData[taskKey].Unit_class = firstResult.Unit_class;
+                        }
+                    }
+
+                    // Update _class_list variables with the second object's candidates
+                    if (result && result.length > 1 && result[1]) {
+                        const secondResult = result[1];
+                        if (secondResult.PrototypeData_candidates) {
+                            jsonData[taskKey].PrototypeData_class_candidates = secondResult.PrototypeData_candidates;
+                        }
+                        if (secondResult.Quantity_candidates) {
+                            jsonData[taskKey].Quantity_class_candidates = secondResult.Quantity_candidates;
+                        }
+                        if (secondResult.Unit_candidates) {
+                            jsonData[taskKey].Unit_class_candidates = secondResult.Unit_candidates;
+                        }
+                    }
+
+                    // Update human_intervention_needed flag with the third object
+                    if (result && result.length > 2 && result[2] !== undefined) {
+                        jsonData[taskKey].human_intervention_needed = result[2].human_intervention_needed;
+                        jsonData[taskKey].Interpretation_user = result[2].Interpretation_user;
+                    }
+
+                    // Ensure Interpretation_user exists and mark that user input is required after a run
+                    if (jsonData[taskKey]) {
+                        jsonData[taskKey].confirmation_available = true; // allow confirmation after recognition
+                    }
+
+                    displayData(); // Re-render the UI
+                    statusIndicator.textContent = "Done";
+                    statusIndicator.style.color = "green";
+                } else {
+                    const error = await response.json();
+                    alert(`Failed to run task ${taskKey}: ${error.error}`);
+                    statusIndicator.textContent = "Error";
+                    statusIndicator.style.color = "red";
+                }
+            } catch (error) {
+                console.error("Error running task:", error);
+                alert(`Error running task ${taskKey}: ${error.message}`);
+                statusIndicator.textContent = "Error";
+                statusIndicator.style.color = "red";
+            }
+        }
+
+        async function runAllTasks() {
+            console.log("Running all tasks...");
+            const projectId = getProjectIdFromUrl();
+            if (!projectId) {
+                alert("Project ID not found in URL. Cannot run all tasks.");
+                return;
+            }
+
+            const taskKeys = Object.keys(jsonData);
+            if (taskKeys.length === 0) {
+                alert("No tasks to run.");
+                return;
+            }
+
+            for (const key of taskKeys) {
+                await runTask(key); // Run tasks sequentially
+            }
+            alert("All tasks initiated.");
+        }
+
+        function getProjectIdFromUrl() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get("project_id");
+        }
+
+        async function confirmRecognition(taskKey) {
+            console.log(`Confirming recognition: ${taskKey}`);
+            const projectId = getProjectIdFromUrl();
+            const statusIndicator = document.getElementById(`run-task-status-${taskKey}`);
+
+            if (!projectId) {
+                alert("Project ID not found in URL. Cannot confirm recognition.");
+                return;
+            }
+
+            statusIndicator.textContent = "Confirming...";
+            statusIndicator.style.color = "orange";
+
+            try {
+                const response = await fetch("/api/confirm_recognition", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ project_id: projectId, taskKey: taskKey, task_data: jsonData[taskKey] }),
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    // Flip the human_intervention_needed flag to false on success
+                    if (jsonData[taskKey]) {
+                        jsonData[taskKey].human_intervention_needed = false;
+                        jsonData[taskKey].confirmation_available = false; // hide confirm until next run/change
+                    }
+                    displayData();
+                    statusIndicator.textContent = "Confirmed";
+                    statusIndicator.style.color = "green";
+                } else {
+                    const error = await response.json();
+                    statusIndicator.textContent = "Error";
+                    statusIndicator.style.color = "red";
+                    alert(`Failed to confirm interpretation for ${taskKey}: ${error.error || response.statusText}`);
+                }
+            } catch (error) {
+                console.error("Error confirming interpretation:", error);
+                statusIndicator.textContent = "Error";
+                statusIndicator.style.color = "red";
+                alert(`Error confirming interpretation for ${taskKey}: ${error.message}`);
+            }
+        }
+
+
+        // Add event listeners for run task buttons
+        document.addEventListener("click", async (event) => {
+            if (event.target.classList.contains("run-task-btn")) {
+                const key = event.target.dataset.key;
+                await runTask(key);
+            }
+        });
+
+        // Add event listener for Save task_batch button
+        document.getElementById("saveTaskBatchBtn").addEventListener("click", saveTaskBatch);
+
+        async function saveTaskBatch() {
+            console.log("saveTaskBatch function called.");
+            const projectId = getProjectIdFromUrl();
+            const statusIndicator = document.getElementById("save-task-batch-status");
+
+            if (!projectId) {
+                alert("Project ID not found in URL. Cannot save task batch.");
+                console.error("Project ID is null or empty.");
+                return;
+            }
+
+            statusIndicator.textContent = "Running...";
+            statusIndicator.style.color = "orange";
+            console.log("Project ID:", projectId);
+            console.log("JSON Data being sent:", JSON.stringify(jsonData, null, 2));
+
+            try {
+                const response = await fetch(`/api/task_batch/${projectId}`, {
+                    method: "PUT",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(jsonData),
+                });
+
+                if (response.ok) {
+                    statusIndicator.textContent = "Done";
+                    statusIndicator.style.color = "green";
+                    console.log("Task batch saved successfully!");
+                    // alert("Task batch saved successfully!");
+                } else {
+                    const error = await response.json();
+                    statusIndicator.textContent = "Error";
+                    statusIndicator.style.color = "red";
+                    console.error(`Failed to save task batch: ${error.error || response.statusText}`);
+                    alert(`Failed to save task batch: ${error.error || response.statusText}`);
+                }
+            } catch (error) {
+                console.error("Error saving task batch:", error);
+                statusIndicator.textContent = "Error";
+                statusIndicator.style.color = "red";
+                alert(`Error saving task batch: ${error.message}`);
+            }
+        }
+    </script>
+</body>
+
+</html>

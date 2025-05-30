@@ -1,0 +1,49 @@
+prefix : <http://www.semanticweb.org/owl/owlapi/turtle#>
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xml: <http://www.w3.org/XML/1998/namespace> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix ddhub: <http://ddhub.no/> 
+prefix zzz: <http://ddhub.demo/zzz#> 
+base <http://www.semanticweb.org/owl/owlapi/turtle#> 
+
+DELETE {
+  ?s rdfs:comment ""@en .
+  ?s rdfs:comment ""@EN .
+  ?s rdfs:comment """\n"""@EN .
+  ?s zzz:commonMnemonics ""@en .
+  ?s zzz:commonMnemonics "" .
+  ?s zzz:commonMnemonics "nan"@en .
+}
+WHERE {
+  { ?s rdfs:comment ""@en }
+  UNION
+  { ?s rdfs:comment ""@EN }
+  UNION
+  { ?s rdfs:comment """\n"""@EN }
+  UNION
+  { ?s zzz:commonMnemonics ""@en }
+  UNION
+  { ?s zzz:commonMnemonics "" }
+  UNION
+  { ?s zzz:commonMnemonics "nan"@en }
+};
+
+DELETE {
+  ?s1 ?p1 xsd:datetime .
+  ?s2 ?p2 xsd:bool .
+}
+INSERT {
+  ?s1 ?p1 xsd:dateTime .
+  ?s2 ?p2 xsd:boolean .
+}
+WHERE {
+  {
+    ?s1 ?p1 xsd:datetime .
+  }
+  UNION
+  {
+    ?s2 ?p2 xsd:bool .
+  }
+};

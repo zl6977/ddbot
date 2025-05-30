@@ -1,0 +1,108 @@
+{
+    "DRPM": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "DRPM",
+        "PrototypeData_class": "DownholeRPM",
+        "PrototypeData_class_candidates": [
+            "DownholeRPM",
+            "SurfaceRPM",
+            "DownholePressure",
+            "DownholeTemperature",
+            "DownholeTorque"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "RotationPerSecond",
+            "RotationPerHour",
+            "Hertz",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"D\": \"Downhole\", \"RPM\": \"Revolutions Per Minute\", \"Remark\": \"FrequencyQuantity\"}",
+        "TaskControl": {
+            "Order": [
+                "Interpretation",
+                "Quantity",
+                "Unit",
+                "PrototypeData"
+            ],
+            "ToRunFlag": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "Related": []
+        }
+    },
+    "DCHR": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "DCHR",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ShearRate",
+            "MechanicalSpecificEnergy",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity",
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Decade",
+            "Fortnight",
+            "Hour",
+            "Microsecond",
+            "Millenia",
+            "MillionYear",
+            "Millisecond",
+            "Minute",
+            "MonthCommon",
+            "MonthSideral",
+            "MonthSynodic",
+            "Nanosecond",
+            "Picosecond",
+            "QuarterCommon",
+            "Second",
+            "Shake",
+            "Week",
+            "YearAverageGregorian",
+            "YearCommon",
+            "YearJulian",
+            "YearLeap",
+            "YearTropical",
+            "Dimensionless",
+            "Percent",
+            "Day"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"D\": \"Date\", \"CHR\": \"Chromatograph\", \"Remark\": \"Date/Time related, Instrument/Process related\"}",
+        "TaskControl": {
+            "Order": [
+                "Interpretation",
+                "Quantity",
+                "Unit",
+                "PrototypeData"
+            ],
+            "ToRunFlag": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "Related": []
+        }
+    }
+}

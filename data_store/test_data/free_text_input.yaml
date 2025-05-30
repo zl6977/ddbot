@@ -1,0 +1,35 @@
+# Please describe your signals using natural language, at least include mnemonic, unit and decription.
+# Format:
+# - mnemonic: {mnemonic}:       # This is the short name or code for the signal (e.g. SPP)
+#   description: >-             # Describe what this signal is, how it's measured, and what it means.
+#     {description}             # Write your description here using natural language.
+#   unit: {unit}                # Unit of measurement, e.g. tons, bars, kg.
+#   quantity: {quantity}        # (Optional) Physical quantity, e.g. force, pressure, weight.
+#
+# You can copy and modify this format for each signal you want to describe.
+# A concrete example:
+# - mnemonic: SPP:
+#   description: >-
+#     SPP is a stand pipe pressure. It is in bars. It has a known accuracy of approx. +- 5%.
+#   unit: bar
+#   quantity: pressure
+
+- mnemonic: HKLAVG
+  description: >-
+    Signal HKLAVG is a hookload. It is measured at the deadline and averaged over a 2s window. It is provided in tons.
+  unit: ton
+
+- mnemonic: SPP
+  description: >-
+    SPP is a stand pipe pressure. It is in bars. It has a known accuracy of approx. +- 5%.
+  unit: bar
+
+- mnemonic: SWOB
+  description: >-
+    SWOB is a surface WOB. It is derived from the signal HKLAVG. The taring is performed manually by the driller. It is in kg.
+  unit: kg
+
+- mnemonic: MaxSPP
+  description: >-
+    MaxSPP is the maximum SPP for FDIR functions. It is a 3 dimensional table, where the axes are top of string velocity, topdrive rpm, flowrate. The values for the axes are stored in the signals MaxSPP_BVEL, MaxSPP_ROT, MaxSPP_FR. The values are expressed in Pa.
+  unit: Pa

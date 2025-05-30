@@ -1,0 +1,678 @@
+prefix : <http://www.semanticweb.org/owl/owlapi/turtle#>
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix xml: <http://www.w3.org/XML/1998/namespace> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix ddhub: <http://ddhub.no/> 
+prefix zzz: <http://ddhub.demo/zzz#> 
+base <http://www.semanticweb.org/owl/owlapi/turtle#> 
+
+INSERT DATA {
+ddhub:AccelerationDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AccelerationQuantity
+                          ] .
+    
+ddhub:AngleGradientPerLengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AngleGradientPerLengthQuantity
+                          ] .
+    
+ddhub:AngleMagneticFluxDensitySurveyInstrumentDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AngleMagneticFluxDensityQuantity
+                          ] .
+    
+ddhub:AngularAccelerationDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AngularAccelerationQuantity
+                          ] .
+    
+ddhub:AngularVelocityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AngularVelocityQuantity
+                          ] .
+    
+ddhub:AngularVelocitySurveyInstrumentDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AngularVelocityQuantity
+                          ] .
+    
+ddhub:AreaDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AreaQuantity
+                          ] .
+    
+ddhub:AxialVelocityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VelocityQuantity
+                          ] .
+    
+ddhub:BlockVelocityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VelocityQuantity
+                          ] .
+    
+ddhub:CableDiameterDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:CapillaryPressureDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:PressureQuantity
+                          ] .
+    
+ddhub:CompressibilityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:CompressibilityQuantity
+                          ] .
+    
+ddhub:ConsistencyIndexRheologyQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom zzz:TBD
+                          ] .
+    
+ddhub:CurvatureDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:CurvatureQuantity
+                          ] .
+    
+ddhub:DepthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:DiameterPipeDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:DiameterPoreDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:DiameterSmallQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:DimensionLessStandardQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:DimensionlessQuantity
+                          ] .
+    
+ddhub:DrillStemMaterialStrengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MaterialStrengthQuantity
+                          ] .
+    
+ddhub:DrillStringMagneticFluxDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MagneticFluxQuantity
+                          ] .
+    
+ddhub:DurationDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:TimeQuantity
+                          ] .
+    
+ddhub:DynamicViscosityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:DynamicViscosityQuantity
+                          ] .
+    
+ddhub:EarthMagneticFluxDensityQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MagneticFluxDensityQuantity
+                          ] .
+    
+ddhub:ElasticModulusQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:PressureQuantity
+                          ] .
+    
+ddhub:ElectricTensionQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ElectricCurrentQuantity
+                          ] .
+    
+ddhub:ElongationGradientPerLengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ElongationGradientPerLengthQuantity
+                          ] .
+    
+ddhub:EnergyDensityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:EnergyDensityQuantity
+                          ] .
+    
+ddhub:FluidShearRateQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:FrequencyQuantity
+                          ] .
+    
+ddhub:FluidShearStressQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:StressQuantity
+                          ] .
+    
+ddhub:FluidVelocityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VelocityQuantity
+                          ] .
+    
+ddhub:ForceDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ForceQuantity
+                          ] .
+    
+ddhub:ForceGradientPerLengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ForceGradientPerLengthQuantity
+                          ] .
+    
+ddhub:FormationResistivityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ElectricResistivityQuantity
+                          ] .
+    
+ddhub:FormationStrengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MaterialStrengthQuantity
+                          ] .
+    
+ddhub:GammaRayIndexDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:DimensionlessQuantity
+                          ] .
+    
+ddhub:GasShowDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:DimensionlessQuantity
+                          ] .
+    
+ddhub:GasVolumetricFlowRateDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VolumetricFlowRateQuantity
+                          ] .
+    
+ddhub:HeatTransferCoefficientDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:HeatTransferCoefficientQuantity
+                          ] .
+    
+ddhub:HeightDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:HookLoadDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ForceQuantity
+                          ] .
+    
+ddhub:HydraulicConductivityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:HydraulicConductivityQuantity
+                          ] .
+    
+ddhub:ImageScaleQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom zzz:TBD
+                          ] .
+    
+ddhub:InterfacialTensionDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:InterfacialTensionQuantity
+                          ] .
+    
+ddhub:IsobaricSpecificHeatCapacityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:IsobaricSpecificHeatCapacityQuantity
+                          ] .
+    
+ddhub:IsobaricSpecificHeatCapacityGradientPerTemperatureDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:IsobaricSpecificHeatCapacityGradientPerTemperatureQuantity
+                          ] .
+    
+ddhub:LengthSmallQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:LengthStandardQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:MassDensityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MassDensityQuantity
+                          ] .
+    
+ddhub:MassDensityGradientPerLengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MassDensityGradientPerLengthQuantity
+                          ] .
+    
+ddhub:MassDensityGradientPerTemperatureDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MassDensityGradientPerTemperatureQuantity
+                          ] .
+    
+ddhub:MassDensityRateOfChangeDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MassDensityRateOfChangeQuantity
+                          ] .
+    
+ddhub:MassDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MassQuantity
+                          ] .
+    
+ddhub:MassGradientPerLengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MassGradientPerLengthQuantity
+                          ] .
+    
+ddhub:MassRateDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:MassRateQuantity
+                          ] .
+    
+ddhub:NozzleDiameterDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:PlaneAngleDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:PlaneAngleQuantity
+                          ] .
+    
+ddhub:PorosityQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ProportionQuantity
+                          ] .
+    
+ddhub:PorousMediumPermeabilityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AreaQuantity
+                          ] .
+    
+ddhub:PositionDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:LengthQuantity
+                          ] .
+    
+ddhub:PowerDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:PowerQuantity
+                          ] .
+    
+ddhub:PressureDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:PressureQuantity
+                          ] .
+    
+ddhub:PressureGradientPerLengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:PressureGradientPerLengthQuantity
+                          ] .
+    
+ddhub:PressureLossConstantDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:DimensionlessQuantity
+                          ] .
+    
+ddhub:ProportionSmallQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ProportionQuantity
+                          ] .
+    
+ddhub:ProportionStandardQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:DimensionlessQuantity
+                          ] .
+    
+ddhub:RandomWalkDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:RandomWalkQuantity
+                          ] .
+    
+ddhub:RateOfPenetrationDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VelocityQuantity
+                          ] .
+    
+ddhub:ReciprocalLengthSurveyInstrumentDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom zzz:TBD
+                          ] .
+    
+ddhub:RotationalFrequencyQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:FrequencyQuantity
+                          ] .
+    
+ddhub:RotationalFrequencyRateOfChangeDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:FrequencyRateOfChangeQuantity
+                          ] .
+    
+ddhub:RotationalFrequencySmallQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:FrequencyRateOfChangeQuantity
+                          ] .
+    
+ddhub:ShockRateQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:FrequencyRateOfChangeQuantity
+                          ] .
+    
+ddhub:StickDurationDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:TimeQuantity
+                          ] .
+    
+ddhub:StrokeFrequencyQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:FrequencyQuantity
+                          ] .
+    
+ddhub:SurfacePoreDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:AreaQuantity
+                          ] .
+    
+ddhub:TemperatureDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:TemperatureQuantity
+                          ] .
+    
+ddhub:TemperatureGradientPerLengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:TemperatureGradientPerLengthQuantity
+                          ] .
+    
+ddhub:TensionDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ForceQuantity
+                          ] .
+    
+ddhub:ThermalConductivityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ThermalConductivityQuantity
+                          ] .
+    
+ddhub:ThermalConductivityGradientPerTemperatureDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ThermalConductivityGradientPerTemperatureQuantity
+                          ] .
+    
+ddhub:TorqueDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:TorqueQuantity
+                          ] .
+    
+ddhub:TorqueGradientPerLengthDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:TorqueGradientPerLengthQuantity
+                          ] .
+    
+ddhub:TorqueSmallQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:TorqueQuantity
+                          ] .
+    
+ddhub:VolumeDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VolumeQuantity
+                          ] .
+    
+ddhub:VolumeLargeQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VolumeQuantity
+                          ] .
+    
+ddhub:VolumetricFlowrateDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VolumetricFlowRateQuantity
+                          ] .
+    
+ddhub:VolumetricFlowRateOfChangeDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:VolumetricFlowRateOfChangeQuantity
+                          ] .
+    
+ddhub:WeightOnBitDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ForceQuantity
+                          ] .
+    
+ddhub:ConcentrationGasDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ConcentrationQuantity
+                          ] .
+    
+ddhub:GammaRadiationIntensityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ParticleFluxIntensityQuantity
+                          ] .
+    
+ddhub:SlownessDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:SlownessQuantity
+                          ] .
+    
+ddhub:ElectricalConductivityDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ElectricalConductivityQuantity
+                          ] .
+    
+ddhub:ElectricalConductanceDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:ElectricalConductanceQuantity
+                          ] .
+    
+ddhub:CountDrillingQuantity rdf:type owl:Class ;
+          rdfs:subClassOf ddhub:MeasurableQuantity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty ddhub:IsOfBaseQuantity ;
+                            owl:allValuesFrom ddhub:DimensionlessQuantity
+                          ] .
+    
+
+}
